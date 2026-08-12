@@ -1,0 +1,6 @@
+assets/
+catalog/
+output/
+output_treated/
+__pycache__/
+*.pyc
