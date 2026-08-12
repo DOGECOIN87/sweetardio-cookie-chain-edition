@@ -1,6 +1,5 @@
-assets/
-catalog/
 output/
 output_treated/
+final_444/
 __pycache__/
 *.pyc
