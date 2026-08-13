@@ -79,18 +79,19 @@ CENTER_X = 905
 BOTTOM_Y = 1033
 
 
-FINGER_MIN_X = 700     # right of the casing's controls, left of the spheres
-# The dropped hand covered the casing's left bezel across exactly this run.
-BEZEL_REPAIR = (140, 167, 535, 730)   # x0, x1, y0, y1
-
-
 def luma(image):
     return (np.asarray(image, dtype=np.float32)
             @ np.array([0.2126, 0.7152, 0.0722], dtype=np.float32))
 
 
-def finger_mask(image):
-    """The gripping hand's spheres.
+def hand_mask(image):
+    """The gripping hand: three fingers wrapping the right edge, plus the thumb.
+
+    It is ONE hand, not two. The sphere on the casing's left is the thumb of
+    the same hand coming round the front while the fingers wrap the back, which
+    is why it sits in front of the left bezel. Reading it as a second hand and
+    dropping it costs the grip its thumb and leaves the fingers holding the
+    device against nothing.
 
     Cut on EDGE DENSITY, not on brightness. Brightness looks like the obvious
     key -- the spheres are white -- but the studio backdrop immediately right
@@ -111,35 +112,11 @@ def finger_mask(image):
         raise SystemExit("no subject found in the source")
     sizes = ndimage.sum(solid, labels, range(1, count + 1))
     keep = labels == (int(np.argmax(sizes)) + 1)
-    keep[:, :FINGER_MIN_X] = False
     return Image.fromarray((keep * 255).astype(np.uint8), mode="L")
-
-
-def repair_left_bezel(image):
-    """Rebuild the strip of casing the dropped hand was covering.
-
-    The hand sits in FRONT of the casing's left bezel over y 540-724, so simply
-    masking it away punches a notch out of the device's edge -- there is no
-    casing behind it to reveal, and the notch would show the background plate
-    through the silhouette. The bezel is an unbroken vertical strip of black
-    plastic, so the covered rows are interpolated from the clean rows just
-    above and below, which also keeps the strip's top-to-bottom falloff.
-    """
-    rgb = np.asarray(image, dtype=np.float32).copy()
-    x0, x1, y0, y1 = BEZEL_REPAIR
-    above, below = rgb[y0 - 6, x0:x1], rgb[y1 + 6, x0:x1]
-    for step, y in enumerate(range(y0, y1 + 1)):
-        t = step / (y1 - y0)
-        rgb[y, x0:x1] = above * (1.0 - t) + below * t
-    return Image.fromarray(rgb.clip(0, 255).astype(np.uint8), mode="RGB")
 
 
 def main():
     image = Image.open(SOURCE).convert("RGB")
-    fingers = finger_mask(image)
-    # Rebuild the bezel the dropped hand was covering BEFORE cutting, so the
-    # silhouette comes out solid rather than notched.
-    image = repair_left_bezel(image)
     # The backdrop is a black-to-gray studio gradient and the device itself is
     # black, so colour-keying destroys the casing. The casing is a hard-edged
     # rectangle, so mask it as one: it spans x 140-871 at every finger-free
@@ -147,10 +124,9 @@ def main():
     mask = Image.new("L", image.size, 0)
     draw = ImageDraw.Draw(mask)
     draw.rounded_rectangle((140, 145, 872, 1325), radius=42, fill=255)
-    # One hand only. The device is held in the character's LEFT hand, which is
-    # the viewer's RIGHT, so the fingers that wrap the casing's right edge are
-    # the grip and the source's opposite hand is dropped -- keeping both read
-    # as a two-handed hold dead centre, which is not what this trait is.
+    # Then the whole gripping hand -- three fingers round the right edge and
+    # the thumb on the left. The device is held in the character's LEFT hand,
+    # so it reads on the viewer's right.
     #
     # The fingers are NOT an ellipse and must not be masked with one. An
     # ellipse tapers towards its top and bottom, and the three spheres are
@@ -158,8 +134,8 @@ def main():
     # no width: the old (810,405,1008,1015) ellipse spanned only x 859-961 at
     # y=450 where the finger reaches 973, and was effectively zero-width at the
     # top sphere. Both end spheres came out sliced down the middle into flat
-    # half-domes. finger_mask() cuts their real contour instead.
-    mask.paste(255, (0, 0), fingers)
+    # half-domes. hand_mask() cuts their real contour instead.
+    mask.paste(255, (0, 0), hand_mask(image))
     mask = mask.filter(ImageFilter.GaussianBlur(2.0))
     cut = image.convert("RGBA")
     cut.putalpha(mask)
