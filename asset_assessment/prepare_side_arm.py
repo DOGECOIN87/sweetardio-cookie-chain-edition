@@ -44,15 +44,24 @@ CANVAS = 1393
 # 372 tall lands the art at 707-1077, opaque coverage against the cohort's
 # 0.017-0.092 (median 0.056) -- i.e. the same visual mass as the AK15.
 #
-# CENTER_X is off the face column (~690) on purpose: the device is held in the
-# character's LEFT hand, so it reads on the VIEWER'S RIGHT rather than centred
-# on the chest. 810 keeps the casing's left edge inboard of the face column, so
-# it still overlaps the torso instead of floating off the silhouette, while the
-# right edge lands short of the AK15's 993. The narrowest body (Nutty_Bar) ends
-# at x=887, so a little overhang there is expected -- the AK15 overhangs that
-# same body by ~106px and that is the established look.
+# CENTER_X is off the face column on purpose: the device is held in the
+# character's LEFT hand, so it sits on the RIGHT SIDE of the character rather
+# than centred on the chest.
+#
+# What matters is the casing's LEFT edge, not its centre. The character's
+# centreline is the face column at ~690, so anything reaching left of that
+# straddles the middle and still reads as a two-handed chest hold however far
+# the centre is nudged -- at CENTER_X 810 the left edge was 672, still 18px
+# across the centreline. 845 puts the left edge at ~708, wholly outboard of the
+# centreline, so the device occupies the character's right half.
+#
+# The right edge then lands at ~982, just short of the AK15's 993. The
+# narrowest body (Nutty_Bar) ends at x=887, so some overhang there is expected
+# -- the AK15 overhangs that same body by ~106px and that is the established
+# look. Pushing much past this starts to float the device off the narrow
+# bodies rather than reading as held.
 TARGET_HEIGHT = 372
-CENTER_X = 810
+CENTER_X = 845
 BOTTOM_Y = 1078
 
 
