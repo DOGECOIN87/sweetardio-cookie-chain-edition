@@ -3,7 +3,9 @@
 
 from pathlib import Path
 
+import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
+from scipy import ndimage
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -55,21 +57,93 @@ CANVAS = 1393
 # across the centreline. 845 puts the left edge at ~708, wholly outboard of the
 # centreline, so the device occupies the character's right half.
 #
-# The right edge then lands at ~982, just short of the AK15's 993. The
-# narrowest body (Nutty_Bar) ends at x=887, so some overhang there is expected
-# -- the AK15 overhangs that same body by ~106px and that is the established
-# look. Pushing much past this starts to float the device off the narrow
-# bodies rather than reading as held.
+# The narrowest body (Nutty_Bar) ends at x=887, so some overhang is expected --
+# the AK15 overhangs that same body by ~106px and that is the established look.
+#
+# Both values are then pushed as far up and right as the render allows. Swept
+# together against the whole cast, three things fail at different points and
+# they are what set the limit:
+#
+#   eyes    clean to dy -45; by -55 the casing starts clipping eye pixels,
+#           because the device does overlap the ball horizontally
+#   mouth   needs the rightward shift, not the height: at dx +30 the mouth
+#           still clips, at +60 it is clear at every height tried
+#   lift    bottom must stay above chocolate_frosted_poptart's 1008 threshold
+#           or the ARMED_LIFT set drops from 18 to 17
+#
+# dy -45 / dx +60 is the furthest point where all three hold, giving 661-1032
+# vertically and 768-1042 across. Past dx +60 on-body coverage falls away
+# (56% median at +90) and the device starts to float off the narrow bodies.
 TARGET_HEIGHT = 372
-CENTER_X = 845
-BOTTOM_Y = 1078
+CENTER_X = 905
+BOTTOM_Y = 1033
+
+
+FINGER_MIN_X = 700     # right of the casing's controls, left of the spheres
+# The dropped hand covered the casing's left bezel across exactly this run.
+BEZEL_REPAIR = (140, 167, 535, 730)   # x0, x1, y0, y1
+
+
+def luma(image):
+    return (np.asarray(image, dtype=np.float32)
+            @ np.array([0.2126, 0.7152, 0.0722], dtype=np.float32))
+
+
+def finger_mask(image):
+    """The gripping hand's spheres.
+
+    Cut on EDGE DENSITY, not on brightness. Brightness looks like the obvious
+    key -- the spheres are white -- but the studio backdrop immediately right
+    of the casing is itself a bright grey ramp, so a luma threshold swallows it
+    and lays a grey slab behind the fingers. The spheres do have a hard outline
+    against that ramp, and the backdrop is smooth everywhere else, so gradient
+    magnitude separates them cleanly where luminance cannot.
+    """
+    blurred = ndimage.gaussian_filter(luma(image), 1.2)
+    gy, gx = np.gradient(blurred)
+    magnitude = np.hypot(gx, gy)
+    solid = magnitude > np.percentile(magnitude, 90)
+    solid = ndimage.binary_fill_holes(
+        ndimage.binary_closing(solid, structure=np.ones((13, 13))))
+    solid = ndimage.binary_opening(solid, structure=np.ones((7, 7)))
+    labels, count = ndimage.label(solid)
+    if count == 0:
+        raise SystemExit("no subject found in the source")
+    sizes = ndimage.sum(solid, labels, range(1, count + 1))
+    keep = labels == (int(np.argmax(sizes)) + 1)
+    keep[:, :FINGER_MIN_X] = False
+    return Image.fromarray((keep * 255).astype(np.uint8), mode="L")
+
+
+def repair_left_bezel(image):
+    """Rebuild the strip of casing the dropped hand was covering.
+
+    The hand sits in FRONT of the casing's left bezel over y 540-724, so simply
+    masking it away punches a notch out of the device's edge -- there is no
+    casing behind it to reveal, and the notch would show the background plate
+    through the silhouette. The bezel is an unbroken vertical strip of black
+    plastic, so the covered rows are interpolated from the clean rows just
+    above and below, which also keeps the strip's top-to-bottom falloff.
+    """
+    rgb = np.asarray(image, dtype=np.float32).copy()
+    x0, x1, y0, y1 = BEZEL_REPAIR
+    above, below = rgb[y0 - 6, x0:x1], rgb[y1 + 6, x0:x1]
+    for step, y in enumerate(range(y0, y1 + 1)):
+        t = step / (y1 - y0)
+        rgb[y, x0:x1] = above * (1.0 - t) + below * t
+    return Image.fromarray(rgb.clip(0, 255).astype(np.uint8), mode="RGB")
 
 
 def main():
     image = Image.open(SOURCE).convert("RGB")
+    fingers = finger_mask(image)
+    # Rebuild the bezel the dropped hand was covering BEFORE cutting, so the
+    # silhouette comes out solid rather than notched.
+    image = repair_left_bezel(image)
     # The backdrop is a black-to-gray studio gradient and the device itself is
-    # black, so colour-keying destroys the casing. Use a soft silhouette mask
-    # around the known product and hand geometry instead.
+    # black, so colour-keying destroys the casing. The casing is a hard-edged
+    # rectangle, so mask it as one: it spans x 140-871 at every finger-free
+    # height, and y 148-1322.
     mask = Image.new("L", image.size, 0)
     draw = ImageDraw.Draw(mask)
     draw.rounded_rectangle((140, 145, 872, 1325), radius=42, fill=255)
@@ -77,7 +151,15 @@ def main():
     # the viewer's RIGHT, so the fingers that wrap the casing's right edge are
     # the grip and the source's opposite hand is dropped -- keeping both read
     # as a two-handed hold dead centre, which is not what this trait is.
-    draw.ellipse((810, 405, 1008, 1015), fill=255)  # left hand (viewer right)
+    #
+    # The fingers are NOT an ellipse and must not be masked with one. An
+    # ellipse tapers towards its top and bottom, and the three spheres are
+    # stacked down a column, so the outer two fell where the shape had almost
+    # no width: the old (810,405,1008,1015) ellipse spanned only x 859-961 at
+    # y=450 where the finger reaches 973, and was effectively zero-width at the
+    # top sphere. Both end spheres came out sliced down the middle into flat
+    # half-domes. finger_mask() cuts their real contour instead.
+    mask.paste(255, (0, 0), fingers)
     mask = mask.filter(ImageFilter.GaussianBlur(2.0))
     cut = image.convert("RGBA")
     cut.putalpha(mask)
