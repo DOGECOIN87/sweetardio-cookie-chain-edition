@@ -50,6 +50,22 @@ python3 asset_assessment/prepare_side_backgrounds.py    # assets/catalog_uploads
 python3 asset_assessment/prepare_side_arm.py            # assets/catalog_uploads -> assets/armz
 ```
 
+To eyeball the pipeline without building the whole set:
+
+```bash
+python3 asset_assessment/render_side_sample_sheet.py --count 50 --seed 20260813
+```
+
+This renders N random tokens through the full compositor, plaque included, and
+writes a labelled contact sheet to `side_collection/catalog/sample_sheet.png`
+(the checked-in `catalog/sample_sheet.png` is that command's output). It is a
+**look, not a mint** — tokens come straight from `generate_random_combination()`
+with only a uniqueness check, so there is no scoring, no diversity cap and no
+Rarity attribute, and every armed token shows the Cookboy because
+`assets/armz/` holds just the one held item. The curated 444 rations that to
+22 tokens (~5%), so the real mint is not distributed like the sheet. Reuse
+`--seed` to reproduce a sheet exactly.
+
 To brand an already-rendered image directory separately:
 
 ```bash
@@ -78,7 +94,8 @@ python3 asset_assessment/build_side_collection.py --count 444 --backgrounds path
 - `assets/branding/` — the derived Cookie Chain Edition plaque overlay
   (regenerated automatically from `assets/catalog_uploads/` on every build).
 - `assets/catalog_uploads/` — the uploaded source pack, preserved intact.
-- `catalog/` — the treatment log and labeled background reference sheets
+- `catalog/` — the treatment log, the labeled background reference sheets and
+  `sample_sheet.png`, a 50-token random draw through the full pipeline
   (`backgroundz_reference_sheet.png` for the raw pool,
   `backgroundz_treated_reference_sheet.png` for the graded one).
 
