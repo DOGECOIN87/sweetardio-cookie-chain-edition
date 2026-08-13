@@ -94,10 +94,10 @@ python3 asset_assessment/build_side_collection.py --count 444 --backgrounds path
 - `assets/branding/` — the derived Cookie Chain Edition plaque overlay
   (regenerated automatically from `assets/catalog_uploads/` on every build).
 - `assets/catalog_uploads/` — the uploaded source pack, preserved intact.
-- `catalog/` — the treatment log, the labeled background reference sheets and
-  `sample_sheet.png`, a 50-token random draw through the full pipeline
+- `catalog/` — the treatment log and the labeled background reference sheets
   (`backgroundz_reference_sheet.png` for the raw pool,
-  `backgroundz_treated_reference_sheet.png` for the graded one).
+  `backgroundz_treated_reference_sheet.png` for the graded one), plus
+  `sample_sheet.png`, a 50-token random draw through the full pipeline.
 
 ## Figure trait art (`traits/`)
 
