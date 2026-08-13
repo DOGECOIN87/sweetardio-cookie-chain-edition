@@ -1,5 +1,21 @@
 # ULTIMATE GRADE LOG - Sweetardio background pop
 
+**Superseded 2026-08-13:** the `blur_px` softening this grade applied (up to
+3.42px) made plates look noticeably blurry once composited, and the character
+figure already gets its own blur mask for subject/background separation, so
+this pass was redundant on top of it. `assets/backgroundz_final/` has been
+reset to plain unblurred, ungraded copies of `assets/backgroundz/` (full
+1393×1393 resolution, LANCZOS crop-to-fill, no color grade). The table below
+records the retired grade for reference only — it no longer describes what
+ships in `backgroundz_final`.
+
+**Also on 2026-08-13:** `Short_The_Banks_Gallery.png` (from
+`Legendary_Short_the_Banks (1).png`) was dropped as a duplicate of
+`Short_The_Banks_Vault.png` (from `composite-export (27).png`) — same
+artwork, same watermark placement, just a different color grade. The pool is
+now 22 plates. `prepare_side_backgrounds.py` and `build_side_collection.py`'s
+`CHASE_BACKGROUNDS`/`DISPLAY_NAME_OVERRIDES` were updated to match.
+
 Engine: `background_pop_studies/grade.py` · source `side_collection/assets/backgroundz` -> output `side_collection/assets/backgroundz_final` · 23 plates
 
 Targets derived from Phase 1 measurements: mid-key anchor L* = 130 (midpoint of darkest body 54 / brightest body 206), stage saturation 0.30 (body mean 0.629), split-tone COOL (bodies measure +62.3 warm). Every parameter below is a continuous function of the plate's measured L/S/busyness/temperature.

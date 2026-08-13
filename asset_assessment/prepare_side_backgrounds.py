@@ -20,7 +20,6 @@ CANVAS = 1393
 # 7, 17, 18 and 20 were rejected during art review and are deliberately absent.
 BACKGROUNDS = (
     ("Legendary_Emyr (1).png", "Emyr_Gallery.png"),
-    ("Legendary_Short_the_Banks (1).png", "Short_The_Banks_Gallery.png"),
     ("art_1 (16).png", "Chocolate_Cookie_Emboss.png"),
     ("art_1 (17).png", "Silver_Cookie_Emboss.png"),
     ("art_1 (18).png", "Gold_Cookie_Emboss.png"),

@@ -31,6 +31,14 @@ type DropState = {
 
 const LAMPORTS_PER_COOK = 1_000_000_000
 
+const featuredSweetardios = [
+  { id: '003', name: 'Chocolate Sandwich Cookie', image: '/featured/chocolate-sandwich.png', traits: [['Background', 'Chocolate Cookie Emboss'], ['Eyes', 'Smug'], ['Mouth', 'Sad'], ['Kicks', 'Cookie Monster Slippers']] },
+  { id: '021', name: 'Gold Waffle', image: '/featured/gold-waffle.png', traits: [['Background', 'Oxford Blue Fur'], ['Eyes', 'Clueless'], ['Mouth', 'Smirk'], ['Character', 'Gold Waffle']] },
+  { id: '026', name: 'Zebra Cake', image: '/featured/zebra-cake.png', traits: [['Background', 'Yatrah Arcade'], ['Eyes', 'Side Eye'], ['Mouth', 'Smirk'], ['Arm', 'Cookboy Handheld']] },
+  { id: '034', name: 'OG Gummy Bear', image: '/featured/og-gummy-bear.png', traits: [['Background', 'Digital Future Mural'], ['Eyes', 'Smug'], ['Mouth', 'Smirk'], ['Arm', 'Cookboy Handheld']] },
+  { id: '042', name: 'Cyan Sherbert Ice Cream', image: '/featured/cyan-sherbert.png', traits: [['Background', 'Midnight Bakery'], ['Eyes', 'Cerise'], ['Mouth', 'Smoke'], ['Character', 'Cyan Sherbert']] },
+] as const
+
 function shortAddress(value: string) {
   return value.length > 12 ? `${value.slice(0, 5)}…${value.slice(-5)}` : value
 }
@@ -50,6 +58,7 @@ function App() {
   const [minting, setMinting] = useState(false)
   const [lastSignature, setLastSignature] = useState('')
   const [notice, setNotice] = useState('')
+  const [featuredIndex, setFeaturedIndex] = useState(0)
 
   const candyMachineConfigured = Boolean(config.candyMachine)
   const treasuryConfigured = Boolean(config.treasury)
@@ -126,6 +135,14 @@ function App() {
   const displayedPrice = drop.priceCook ?? config.displayPriceCook
   const treasuryMatches = drop.treasury === config.treasury
   const mintReady = drop.loaded && candyMachineConfigured && treasuryConfigured && treasuryMatches && !soldOut
+  const featured = featuredSweetardios[featuredIndex]
+
+  useEffect(() => {
+    const id = window.setInterval(() => {
+      setFeaturedIndex(current => (current + 1) % featuredSweetardios.length)
+    }, 6500)
+    return () => window.clearInterval(id)
+  }, [])
 
   async function mintSelected() {
     if (!wallet.connected || !wallet.publicKey || !wallet.wallet?.adapter) {
@@ -226,10 +243,30 @@ function App() {
             </ul>
           </div>
 
-          <div className="art-card">
-            <span className="serial">444 UNIQUE DRAWS</span>
-            <img src="/sample_sheet.png" alt="Selection of Sweetardio Cookie Chain Edition collection art" />
-            <div className="art-label"><strong>THE COOKIE CREW</strong><span>ACTUAL COLLECTION SAMPLE</span></div>
+          <div className="showcase-card" aria-label="Featured Sweetardio carousel">
+            <div className="showcase-art">
+              <span className="serial">#{featured.id}</span>
+              <img src={featured.image} alt={`Sweetardio #${featured.id}: ${featured.name}`} />
+            </div>
+            <div className="showcase-meta">
+              <span className="showcase-kicker">CURATED PREVIEW</span>
+              <div>
+                <small>SWEETARDIO #{featured.id}</small>
+                <h2>{featured.name}</h2>
+              </div>
+              <dl>
+                {featured.traits.map(([label, value]) => (
+                  <div key={label}><dt>{label}</dt><dd>{value}</dd></div>
+                ))}
+              </dl>
+              <div className="carousel-controls">
+                <button type="button" aria-label="Previous Sweetardio" onClick={() => setFeaturedIndex(current => (current - 1 + featuredSweetardios.length) % featuredSweetardios.length)}>←</button>
+                <div className="carousel-dots" aria-label={`Slide ${featuredIndex + 1} of ${featuredSweetardios.length}`}>
+                  {featuredSweetardios.map((item, index) => <button type="button" key={item.id} className={index === featuredIndex ? 'active' : ''} aria-label={`Show Sweetardio #${item.id}`} onClick={() => setFeaturedIndex(index)} />)}
+                </div>
+                <button type="button" aria-label="Next Sweetardio" onClick={() => setFeaturedIndex(current => (current + 1) % featuredSweetardios.length)}>→</button>
+              </div>
+            </div>
           </div>
         </section>
 

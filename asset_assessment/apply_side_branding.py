@@ -10,9 +10,10 @@ from PIL import Image, ImageDraw
 
 
 ROOT = Path(__file__).resolve().parent.parent
-SOURCE = (ROOT / "side_collection" / "assets" / "catalog_uploads" /
+SIDE_ROOT = ROOT / "side_collection" if (ROOT / "side_collection").is_dir() else ROOT
+SOURCE = (SIDE_ROOT / "assets" / "catalog_uploads" /
           "file_00000000ff0c82309ed8c5681a61919d.png")
-OVERLAY = ROOT / "side_collection" / "assets" / "branding" / "cookie_chain_edition.png"
+OVERLAY = SIDE_ROOT / "assets" / "branding" / "cookie_chain_edition.png"
 CANVAS = 1393
 BADGE_WIDTH = 390
 MARGIN_X = 30
@@ -58,7 +59,7 @@ def apply_one(path: Path, overlay: Image.Image) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--images", default="side_collection/output/images")
+    parser.add_argument("--images", default="output/images")
     parser.add_argument("--prepare-only", action="store_true")
     parser.add_argument("--start", type=int, default=1,
                         help="first numeric token to brand (for resumable batches)")
@@ -69,7 +70,7 @@ def main() -> None:
     print(f"prepared {OVERLAY.relative_to(ROOT)}")
     if args.prepare_only:
         return
-    image_dir = (ROOT / args.images).resolve()
+    image_dir = (SIDE_ROOT / args.images).resolve()
     paths = [path for path in sorted(image_dir.glob("*.png"))
              if path.stem.isdigit() and int(path.stem) >= args.start]
     if not paths:

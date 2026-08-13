@@ -24,6 +24,7 @@ import numpy as np
 from PIL import Image, ImageChops, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent.parent
+SIDE_ROOT = ROOT / "side_collection" if (ROOT / "side_collection").is_dir() else ROOT
 sys.path.insert(0, str(ROOT))
 import generator as g  # noqa: E402
 from asset_assessment.apply_side_branding import (  # noqa: E402
@@ -39,16 +40,38 @@ RARITY_COUNTS = {
     "Core": 222,
 }
 CHASE_BACKGROUNDS = {
-    "Emyr_Gallery.png", "Short_The_Banks_Gallery.png", "Gold_Cookie_Emboss.png",
+    "Emyr_Gallery.png", "Gold_Cookie_Emboss.png",
     "Short_The_Banks_Vault.png", "Golden_Bubbles.png", "Simplex_Arcade.png",
     "Cookie_Vault.png", "Cookboy_Paisley.png",
 }
 GAME_DEVICE = "Cookboy_Handheld.png"
 GAME_DEVICE_COUNT = 22
 
+# Canonical public metadata labels. Asset filenames remain untouched because
+# generator.py uses several of them as compositor keys.
+DISPLAY_NAME_OVERRIDES = {
+    "AK15": "AK-15", "AK15.png": "AK-15",
+    "AR47": "AR-47", "AR47.png": "AR-47",
+    "Out Of Order": "Out of Order",
+    "Out_Of_Order": "Out of Order",
+    "Short The Banks Vault": "Short the Banks Vault",
+    "Short_The_Banks_Vault": "Short the Banks Vault",
+}
 
-def clean_display(filename):
-    return Path(filename).stem.replace("_", " ")
+
+def clean_display(value):
+    """Return one stable, human-readable metadata value without renaming art."""
+    stem = Path(value).stem
+    if stem in DISPLAY_NAME_OVERRIDES:
+        return DISPLAY_NAME_OVERRIDES[stem]
+    return stem.replace("_", " ")
+
+
+def canonicalize_metadata(metadata):
+    """Normalize all emitted values through the same public naming policy."""
+    return [{"trait_type": item["trait_type"],
+             "value": clean_display(str(item["value"]))}
+            for item in metadata]
 
 
 def parse_args():
@@ -58,9 +81,11 @@ def parse_args():
     ap.add_argument("--workers", type=int, default=4,
                     help="parallel full-quality render processes")
     ap.add_argument("--seed", type=int, default=871003)
-    ap.add_argument("--backgrounds", default="side_collection/assets/backgroundz_final",
+    ap.add_argument("--dry-run", action="store_true",
+                    help="select and validate the full allocation without rendering")
+    ap.add_argument("--backgrounds", default="assets/backgroundz_final",
                     help="side-only background directory (never traits/backgroundz)")
-    ap.add_argument("--out", default="side_collection/output")
+    ap.add_argument("--out", default="output")
     return ap.parse_args()
 
 
@@ -262,6 +287,11 @@ def assign_rarity(chosen, count):
         counts[weights[-1][0]] = count - used
     else:
         counts = RARITY_COUNTS
+    if sum(counts.values()) != count:
+        raise RuntimeError(f"rarity tiers total {sum(counts.values())}, expected {count}")
+    ordered = list(counts.values())
+    if ordered != sorted(ordered):
+        raise RuntimeError("rarity tiers must increase from Mythic Chase through Core")
 
     def chase_key(item):
         bg = os.path.basename(item["layers"][0]["path"])
@@ -286,6 +316,25 @@ def assign_rarity(chosen, count):
     # Mint numbering is shuffled so chase tokens cannot be guessed by number.
     random.shuffle(chosen)
     return counts
+
+
+def validate_selection(chosen, count, rarity_counts):
+    """Fail before expensive rendering if supply or rarity invariants drift."""
+    if len(chosen) != count:
+        raise RuntimeError(f"selected {len(chosen)} tokens, expected {count}")
+    signatures = [item["signature"] for item in chosen]
+    if len(set(signatures)) != count:
+        raise RuntimeError("selected trait combinations are not unique")
+    actual_rarities = Counter(item.get("rarity") for item in chosen)
+    if actual_rarities != Counter(rarity_counts):
+        raise RuntimeError(
+            f"rarity assignment mismatch: {dict(actual_rarities)} != {rarity_counts}")
+    if count == 444:
+        device_count = sum(any(os.path.basename(layer["path"]) == GAME_DEVICE
+                               for layer in item["layers"]) for item in chosen)
+        if device_count != GAME_DEVICE_COUNT:
+            raise RuntimeError(
+                f"Cookboy Handheld count is {device_count}, expected {GAME_DEVICE_COUNT}")
 
 
 def render_job(job):
@@ -328,8 +377,8 @@ def main():
         raise SystemExit("count and candidates-per-sticker must be positive")
     random.seed(args.seed)
 
-    sticker_dir = (ROOT / "side_collection" / "assets" / "stickerz").resolve()
-    arm_dir = (ROOT / "side_collection" / "assets" / "armz").resolve()
+    sticker_dir = (SIDE_ROOT / "assets" / "stickerz").resolve()
+    arm_dir = (SIDE_ROOT / "assets" / "armz").resolve()
     stickers = sorted(path.name for path in sticker_dir.glob("*.png"))
     if not stickers:
         raise SystemExit("no prepared stickers; run prepare_side_stickers.py first")
@@ -340,7 +389,7 @@ def main():
     if not (arm_dir / GAME_DEVICE).exists():
         raise SystemExit("missing side arm; run prepare_side_arm.py first")
     g.ARMZ = str(arm_dir)
-    background_dir = (ROOT / args.backgrounds).resolve()
+    background_dir = (SIDE_ROOT / args.backgrounds).resolve()
     production_backgrounds = (ROOT / "traits" / "backgroundz").resolve()
     if background_dir == production_backgrounds:
         raise SystemExit("the side collection may not use traits/backgroundz")
@@ -348,7 +397,7 @@ def main():
         raise SystemExit("no side backgrounds; run prepare_side_backgrounds.py first")
     g.BACKGROUNDZ = str(background_dir)
 
-    out = (ROOT / args.out).resolve()
+    out = (SIDE_ROOT / args.out).resolve()
     images_dir, metadata_dir = out / "images", out / "metadata"
     images_dir.mkdir(parents=True, exist_ok=True)
     metadata_dir.mkdir(parents=True, exist_ok=True)
@@ -388,6 +437,16 @@ def main():
 
     chosen = choose(candidates, args.count, stickers)
     rarity_counts = assign_rarity(chosen, args.count)
+    validate_selection(chosen, args.count, rarity_counts)
+    if args.dry_run:
+        print(f"validated {len(chosen)} unique allocations (seed {args.seed})")
+        print("rarity: " + ", ".join(
+            f"{tier}={rarity_counts[tier]}" for tier in RARITY_COUNTS))
+        print("stickers: " + ", ".join(
+            f"{clean_display(sticker)}={sum(c['sticker_file'] == sticker for c in chosen)}"
+            for sticker in stickers))
+        print(f"Cookboy Handheld={sum(any(os.path.basename(layer['path']) == GAME_DEVICE for layer in item['layers']) for item in chosen)}")
+        return
     jobs = []
     prepare_overlay()
     branding_path = str(OVERLAY_PATH)
@@ -411,8 +470,8 @@ def main():
 
     manifest = []
     for i, item in enumerate(chosen, 1):
-        attrs = list(item["metadata"])
-        # Replace fallback hashed/raw background names with clean production names.
+        attrs = canonicalize_metadata(item["metadata"])
+        # The layer filename is authoritative for side-collection backgrounds.
         for attr in attrs:
             if attr["trait_type"] == "Background":
                 attr["value"] = clean_display(os.path.basename(item["layers"][0]["path"]))

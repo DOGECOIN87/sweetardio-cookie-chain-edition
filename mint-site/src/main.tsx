@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react'
 import ReactDOM from 'react-dom/client'
+import { Buffer } from 'buffer'
 import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react'
 import { WalletModalProvider } from '@solana/wallet-adapter-react-ui'
 import { NightlyWalletAdapter } from '@solana/wallet-adapter-nightly'
@@ -7,6 +8,8 @@ import '@solana/wallet-adapter-react-ui/styles.css'
 import './styles.css'
 import App from './App'
 import { config } from './config'
+
+globalThis.Buffer = Buffer
 
 function Root() {
   const wallets = useMemo(() => [new NightlyWalletAdapter()], [])
