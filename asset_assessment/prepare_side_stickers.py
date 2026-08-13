@@ -25,16 +25,21 @@ MAX_FOOTPRINT = 200
 # The first five are already transparent corner overlays. The remaining four
 # are flattened sticker art. 30_poptart_cat.png is used for Nyan Cat;
 # photo_2026-05-09_10-53-17.jpg is the same artwork and is intentionally omitted.
+# Target names carry NO ordering prefix. The compositor has no TRAIT_NAMES
+# entry for the side collection's stickers, so each one's metadata value is
+# derived from its filename -- and a leading "01_" came out in the token as
+# "01 Crying Tomato". Here the filename IS the display name, so it has to read
+# as one.
 SOURCES = (
-    ("08_Crying_Tomato.png", "01_Crying_Tomato.png", "canvas"),
-    ("09_Chibi_Monster.png", "02_Chibi_Monster.png", "canvas"),
-    ("14_Shorts_doggo.png", "03_Shorts_Doggo.png", "canvas"),
-    ("19_Emyr.png", "04_Emyr.png", "canvas"),
-    ("27_sweetardio.png", "05_Sweetardio.png", "canvas"),
-    ("30_poptart_cat.png", "06_Poptart_Cat.png", "matte"),
-    ("photo_2026-05-09_10-53-28.jpg", "07_Armed_Hero.png", "matte"),
-    ("photo_2026-05-09_11-07-01.jpg", "08_Anime_Detective.png", "matte"),
-    ("photo_2026-05-09_11-07-20.jpg", "09_Out_Of_Order.png", "matte"),
+    ("08_Crying_Tomato.png", "Crying_Tomato.png", "canvas"),
+    ("09_Chibi_Monster.png", "Chibi_Monster.png", "canvas"),
+    ("14_Shorts_doggo.png", "Shorts_Doggo.png", "canvas"),
+    ("19_Emyr.png", "Emyr.png", "canvas"),
+    ("27_sweetardio.png", "Sweetardio.png", "canvas"),
+    ("30_poptart_cat.png", "Poptart_Cat.png", "matte"),
+    ("photo_2026-05-09_10-53-28.jpg", "Armed_Hero.png", "matte"),
+    ("photo_2026-05-09_11-07-01.jpg", "Anime_Detective.png", "matte"),
+    ("photo_2026-05-09_11-07-20.jpg", "Out_Of_Order.png", "matte"),
 )
 
 

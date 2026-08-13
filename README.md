@@ -86,9 +86,32 @@ python3 asset_assessment/build_side_collection.py --count 444 --backgrounds path
 
 `generator.py` resolves these pools as `traits/<name>/`, so they sit at the
 repo root rather than under `assets/`. All 71 files are 1393×1393 RGBA, the
-collection's canvas size, and the filenames are load-bearing — `char_base_name()`
-maps a character to its art by **exact** base name, so nothing here may be
-renamed.
+collection's canvas size.
+
+**Do not rename anything in `traits/`.** The filenames look untidy —
+`Sweetardio_114 (4).png`, `layer-layer-layer-layer-AK15.png` — but they are
+keys, not labels, and the tables that consume them live in `generator.py`,
+which this repo does not ship. A rename here is silent: nothing errors, the
+lookup just misses and the behaviour it carried disappears.
+
+| what a rename breaks | keyed by |
+|---|---|
+| the display name in the token metadata | `TRAIT_NAMES[<category>]` |
+| Dual Uzis' 0.8 scale | `ARM_SCALE["Sweetardio_115 (11).png"]` |
+| ding_dong's per-arm nudges | `ARM_CHAR_ARM_DY[(char, arm_file)]` |
+| the lollipop's and joint's 3D prop shadow | `MOUTH_PROP_FILES` |
+| every character's scale and placement | `CHAR_SCALE` / `CHAR_Y_ADJUST`, matched by **substring** of `char_base_name()` |
+| footwear base↔overlay pairing | the `_Base` / `_Overlay` filename suffixes, parsed by `wat_base_name()` |
+
+The metadata already comes out clean through `TRAIT_NAMES` — `Sweetardio_114
+(4).png` renders as "Blue Saber" — so a rename buys nothing and costs the
+above. Renaming them properly means editing `generator.py`'s tables and the
+main collection's art in the same change, then rebuilding `char_compat.json`
+and re-running `calibrate_rarity.py`.
+
+The stickers under `assets/stickerz/` are the opposite case and were renamed:
+they are this collection's own art, `TRAIT_NAMES` has no entry for them, so
+each filename **is** its metadata value.
 
 | folder | count | what it is |
 |---|---|---|
