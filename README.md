@@ -88,30 +88,42 @@ python3 asset_assessment/build_side_collection.py --count 444 --backgrounds path
 repo root rather than under `assets/`. All 71 files are 1393×1393 RGBA, the
 collection's canvas size.
 
-**Do not rename anything in `traits/`.** The filenames look untidy —
-`Sweetardio_114 (4).png`, `layer-layer-layer-layer-AK15.png` — but they are
-keys, not labels, and the tables that consume them live in `generator.py`,
-which this repo does not ship. A rename here is silent: nothing errors, the
-lookup just misses and the behaviour it carried disappears.
+The files are named for what they are — `Blue_Saber.png`, `Diamond_Grill.png`,
+`zebra_cake.png` — and **this collection's copies are named independently of
+the main collection's**, which still uses the original authoring names
+(`Sweetardio_114 (4).png`, `layer-layer-layer-layer-AK15.png`).
 
-| what a rename breaks | keyed by |
+These filenames are keys as well as labels, and the tables that read them live
+in `generator.py`, which this repo does not ship. A rename there is silent —
+nothing errors, the lookup just misses — so each name here was chosen to land
+on the same value it had before:
+
+| mechanism | how the new names keep it |
 |---|---|
-| the display name in the token metadata | `TRAIT_NAMES[<category>]` |
-| Dual Uzis' 0.8 scale | `ARM_SCALE["Sweetardio_115 (11).png"]` |
-| ding_dong's per-arm nudges | `ARM_CHAR_ARM_DY[(char, arm_file)]` |
-| the lollipop's and joint's 3D prop shadow | `MOUTH_PROP_FILES` |
-| every character's scale and placement | `CHAR_SCALE` / `CHAR_Y_ADJUST`, matched by **substring** of `char_base_name()` |
-| footwear base↔overlay pairing | the `_Base` / `_Overlay` filename suffixes, parsed by `wat_base_name()` |
+| metadata display name | `TRAIT_NAMES` misses, and `_fallback_display_name()` derives the identical string from the filename |
+| character scale + placement | `CHAR_SCALE` / `CHAR_Y_ADJUST` match on `char_base_name()`, and the files are now named *exactly* that base name, so all 27 are byte-identical in scale, y-adjust, footwear exclusion and gorbhouse eligibility |
+| footwear base↔overlay pairing | the `_Base` / `_Overlay` suffixes `wat_base_name()` parses are preserved, and `Shiba`→`Shiba_Slippers` etc. keeps the display name that `TRAIT_NAMES` used to supply |
+| gorbhouse overlay | still `Gorbhouse_Overlay.png`, one of the two spellings the compositor looks for |
 
-The metadata already comes out clean through `TRAIT_NAMES` — `Sweetardio_114
-(4).png` renders as "Blue Saber" — so a rename buys nothing and costs the
-above. Renaming them properly means editing `generator.py`'s tables and the
-main collection's art in the same change, then rebuilding `char_compat.json`
-and re-running `calibrate_rarity.py`.
+Two lookups could **not** be preserved from inside this repo, because they key
+on the filename with no derivable fallback:
 
-The stickers under `assets/stickerz/` are the opposite case and were renamed:
-they are this collection's own art, `TRAIT_NAMES` has no entry for them, so
-each filename **is** its metadata value.
+- **`MOUTH_PROP_FILES`** — it hardcodes `layer-Mouth_Smoke (1).png` and
+  `layer-Mouth_Lollipop (1).png`, so `Smoke.png` and `Lollipop.png` no longer
+  match and take the lighter `MOUTH_SHADOW` instead of the 3D prop shadow.
+  Measured at up to 39 levels over ~4.6k pixels on the joint: the prop sits
+  flatter against the ball. Fix, if wanted, is additive in `generator.py` —
+  add `"Smoke.png"` and `"Lollipop.png"` to the set, keeping the old entries
+  so the main collection is unaffected.
+- **`ARM_SCALE` / `ARM_CHAR_ARM_DY`** — keyed on `Sweetardio_115 (11).png`
+  (Dual Uzis at 0.8) and `Arms_Cash.png`. This collection never samples
+  `traits/armz` at all — `build_side_collection.py` points `g.ARMZ` at
+  `assets/armz` — so nothing here changes, but a main-collection render
+  pointed at *this* `traits/armz` would lose those values.
+
+The stickers under `assets/stickerz/` were renamed for the same reason: they
+are this collection's own art, `TRAIT_NAMES` has no entry for them, so each
+filename **is** its metadata value.
 
 | folder | count | what it is |
 |---|---|---|
