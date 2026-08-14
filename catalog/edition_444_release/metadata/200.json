@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Pink Sherbert Ice Cream"
+      "value": "Chocolate Sandwich Cookie"
     },
     {
       "trait_type": "Background",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
       "value": "Awkward Smile"
     },
     {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
       "trait_type": "Sticker",
-      "value": "Shorts Doggo"
+      "value": "Out of Order"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 1.727418,
+  "selection_score": 3.012654,
   "seed": 871003
 }

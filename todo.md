@@ -44,3 +44,27 @@
 - [x] Implement the readability refinement without altering wallet or mint behavior.
 - [x] Validate the refined panel on desktop and mobile and confirm the production build.
 - [x] Commit and push the glass-panel readability refinement to `main`.
+
+# CookieScan Live Mint Integration
+
+- [x] Review CookieScan’s public mint flow and the existing Cookie Chain mint configuration for network, wallet, and payment requirements.
+- [ ] Validate the real Candy Machine address, treasury destination, payment mint or native-token guard, and deployment prerequisites.
+- [ ] Replace staged configuration with verified live values and improve wallet/network guidance without weakening safety checks.
+- [x] Test the mint-readiness and safe-failure paths without submitting a transaction, then confirm the production build.
+- [ ] Commit and push the functional mint-page update to `main`.
+
+# Collection Recreation and Live Mint
+
+- [x] Audit the authoritative Cookie Chain asset pool, generator logic, current 444-piece release, and CookieScan integration requirements.
+- [x] Define the final recreation manifest, fixed random seed, rarity targets, public metadata schema, and live deployment inputs.
+- [x] Regenerate all 444 final image and metadata artifacts, then validate counts, traits, placements, and outputs.
+- [ ] Update the mint page to consume the final collection artifacts and verified Cookie Chain live-mint configuration. (Final featured renders are refreshed; verified live addresses are still required.)
+- [ ] Build and test collection integrity and mint safe-failure paths without submitting a transaction.
+- [ ] Commit and push the recreated collection and production-ready mint integration to `main`.
+
+# Developer Deployment Guide
+
+- [x] Audit the existing release artifacts, mint configuration, and official Cookie Chain deployment references.
+- [x] Write a simple developer deployment guide covering setup, collection preparation, Candy Machine deployment, mint configuration, and verification.
+- [x] Test the documented local configuration path and preserve safe failure behavior when live addresses are absent.
+- [x] Commit and push the deployment guide and related configuration improvements to `main`.

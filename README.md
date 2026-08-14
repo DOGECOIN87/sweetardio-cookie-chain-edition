@@ -5,6 +5,11 @@ It uses only the newly supplied sticker artwork; the original `traits/stickerz`
 pool is never sampled, and the side collection never reads the main
 generator's `traits/backgroundz` directory.
 
+> **Deploying the collection?** Start with [`DEPLOYMENT.md`](DEPLOYMENT.md). It
+> covers the deterministic 444-piece recreation, Sugar-compatible asset
+> staging, Cookie Chain Candy Machine v3 deployment, frontend configuration,
+> and post-deploy safety checks.
+
 This repo ships the **source assets** (prepared stickers, the held game-device
 arm, background plates, the branding badge source, and the reviewed catalog
 uploads), the **figure trait art** the compositor draws every token from, and

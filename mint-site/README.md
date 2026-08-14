@@ -2,6 +2,12 @@
 
 Deploy-ready Vite/React mint frontend for the 444-piece Cookie Chain side edition.
 
+For the complete collection-recreation, Candy Machine v3 deployment, guard,
+frontend configuration, and verification process, see the repository-level
+[`DEPLOYMENT.md`](../DEPLOYMENT.md). The frontend expects a Token Metadata Candy
+Machine v3 deployment; do not use a Core Candy Machine unless the frontend is
+migrated to the matching SDK.
+
 ## Network
 
 - Cookie Chain RPC: `https://rpc.cookiescan.io`
@@ -37,24 +43,17 @@ fallback; a treasury mismatch safety-locks the mint.
 
 Do not paste a seed phrase/private key into a website, `.env`, GitHub, or chat.
 
-Use a local Solana keypair and point the CLI to Cookie Chain:
+This frontend reads a **Token Metadata Candy Machine v3** through
+`@metaplex-foundation/mpl-candy-machine`; therefore, use the matching
+**Sugar** deployment workflow documented in [`../DEPLOYMENT.md`](../DEPLOYMENT.md).
+The newer `mplx cm create --wizard` command creates a Core Candy Machine and
+does not match this frontend unless its mint integration is migrated to the
+Core SDK.
 
-```bash
-solana config set --url https://rpc.cookiescan.io
-solana address
-solana balance
-```
-
-The current Metaplex CLI supports a Candy Machine wizard:
-
-```bash
-npm install -g @metaplex-foundation/cli
-mplx cm create --wizard
-```
-
-Run the wizard on the machine that holds your deployment wallet. Configure a 444-item Candy Machine and a native-payment guard. On Cookie Chain, the SVM native unit is COOK, so the standard native/SOL-payment guard path settles in COOK.
-
-After deployment, copy the resulting Candy Machine and treasury addresses into the frontend environment variables and rebuild.
+After deploying the 444-item machine and a native cCOOK payment guard, copy the
+verified Candy Machine address and exact guard destination into the frontend
+environment variables, then rebuild. The UI safety-locks minting whenever those
+values are absent or disagree with the on-chain guard.
 
 ## Important
 

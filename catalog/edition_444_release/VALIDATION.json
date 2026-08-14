@@ -1,54 +1,59 @@
 {
-  "images": 444,
-  "metadata": 444,
-  "manifest": 444,
-  "rarity": {
-    "Core": 222,
-    "Rare": 66,
-    "Uncommon": 134,
-    "Legendary Chase": 18,
-    "Mythic Chase": 4
-  },
   "arms": {
     "Cookboy Handheld": 22
   },
-  "stickers": {
-    "Out of Order": 40,
-    "Shorts Doggo": 40,
-    "Cookiebox": 41,
-    "Poptart Cat": 40,
-    "Chibi Monster": 41,
-    "Anime Detective": 41,
-    "Sweetardio": 40,
-    "Morsel": 40,
-    "Crying Tomato": 40,
-    "Emyr": 40,
-    "Armed Hero": 41
-  },
   "backgrounds": {
-    "Moon Surface": 22,
-    "Fairdevs Night": 24,
-    "Simplex Arcade": 24,
-    "Picnic Stage": 24,
+    "Cookboy": 9,
+    "Cookboy Black Enamel": 24,
+    "Cookboy Chocolate": 6,
+    "Cookboy Paisley": 24,
+    "Cookboy Silver": 24,
+    "Cookie Vault": 13,
+    "Cosmic Fog": 24,
+    "Digital Future Mural": 25,
     "Emyr Gallery": 25,
-    "Gorbhouse Treasures": 14,
-    "Liberty Cookie Dime": 6,
-    "Cookie Vault": 11,
-    "Short the Banks Vault": 24,
+    "Fairdevs Night": 23,
+    "Golden Bubbles": 26,
+    "Gorbhouse Treasures": 13,
+    "Liberty Cookie Dime": 7,
     "Marsel Blue": 24,
     "Midnight Bakery": 24,
-    "Cookboy Black Enamel": 23,
-    "Digital Future Mural": 24,
-    "Cookboy Paisley": 24,
+    "Moon Surface": 23,
     "Oxford Blue Fur": 24,
-    "Yatrah Arcade": 24,
-    "Welders Equipment": 13,
-    "Cosmic Fog": 25,
-    "Cookboy Chocolate": 6,
-    "Cookboy": 10,
-    "Cookboy Silver": 24,
-    "Golden Bubbles": 25
+    "Picnic Stage": 24,
+    "Short the Banks Vault": 20,
+    "Simplex Arcade": 24,
+    "Welders Equipment": 14,
+    "Yatrah Arcade": 24
   },
+  "expected_count": 444,
+  "image_dimensions": {
+    "1393x1393 RGBA": 444
+  },
+  "images": 444,
+  "issues": [],
+  "manifest": 444,
+  "metadata": 444,
   "public_trait_signatures": 444,
-  "issues": []
+  "rarity": {
+    "Core": 222,
+    "Legendary Chase": 18,
+    "Mythic Chase": 4,
+    "Rare": 66,
+    "Uncommon": 134
+  },
+  "release": "/home/ubuntu/cookie-chain-edition-444-recreated",
+  "stickers": {
+    "Anime Detective": 41,
+    "Armed Hero": 41,
+    "Chibi Monster": 41,
+    "Cookiebox": 41,
+    "Crying Tomato": 40,
+    "Emyr": 40,
+    "Morsel": 40,
+    "Out of Order": 40,
+    "Poptart Cat": 40,
+    "Shorts Doggo": 40,
+    "Sweetardio": 40
+  }
 }
