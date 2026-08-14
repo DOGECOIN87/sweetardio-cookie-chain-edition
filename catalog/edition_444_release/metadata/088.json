@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #088",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/088.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Vanilla Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Simplex Arcade"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Out of Order"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 4.488285,
+  "seed": 871003
+}

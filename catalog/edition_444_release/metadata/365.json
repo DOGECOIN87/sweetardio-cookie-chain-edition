@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #365",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/365.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Picnic Stage"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clueless"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Poptart Cat"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.759901,
+  "seed": 871003
+}

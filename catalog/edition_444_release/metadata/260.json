@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #260",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/260.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Rice Crispy Treat"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Emyr Gallery"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Cookiebox"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.767677,
+  "seed": 871003
+}

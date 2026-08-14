@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #185",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/185.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Sandwich Cookie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Paisley"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Beady"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Chibi Monster"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 2.866569,
+  "seed": 871003
+}

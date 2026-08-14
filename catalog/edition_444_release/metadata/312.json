@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #312",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/312.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "OG Pop Tart"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Paisley"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Cookiebox"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.684356,
+  "seed": 871003
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #393",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/393.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Rice Crispy Treat"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Yatrah Arcade"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Pepe Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Poptart Cat"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.983197,
+  "seed": 871003
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #395",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/395.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Nutty Bar"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Marsel Blue"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Emyr"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.28724,
+  "seed": 871003
+}

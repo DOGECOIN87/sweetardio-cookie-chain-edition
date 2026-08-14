@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #242",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/242.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Waffle"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Picnic Stage"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Morsel"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.253504,
+  "seed": 871003
+}

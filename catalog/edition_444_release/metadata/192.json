@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #192",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/192.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Cyan Sherbert Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Simplex Arcade"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clueless"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Chibi Monster"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.634307,
+  "seed": 871003
+}

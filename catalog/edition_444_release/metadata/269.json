@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #269",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/269.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Gold Waffle"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Silver"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Fang"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Gorbhouse Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Out of Order"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.257661,
+  "seed": 871003
+}

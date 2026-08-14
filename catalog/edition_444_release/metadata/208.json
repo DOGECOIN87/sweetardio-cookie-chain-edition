@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #208",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/208.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Churro"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Chocolate"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Sweetardio"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.454504,
+  "seed": 871003
+}

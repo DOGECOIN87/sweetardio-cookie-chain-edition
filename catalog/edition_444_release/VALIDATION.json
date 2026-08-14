@@ -1,0 +1,54 @@
+{
+  "images": 444,
+  "metadata": 444,
+  "manifest": 444,
+  "rarity": {
+    "Core": 222,
+    "Rare": 66,
+    "Uncommon": 134,
+    "Legendary Chase": 18,
+    "Mythic Chase": 4
+  },
+  "arms": {
+    "Cookboy Handheld": 22
+  },
+  "stickers": {
+    "Out of Order": 40,
+    "Shorts Doggo": 40,
+    "Cookiebox": 41,
+    "Poptart Cat": 40,
+    "Chibi Monster": 41,
+    "Anime Detective": 41,
+    "Sweetardio": 40,
+    "Morsel": 40,
+    "Crying Tomato": 40,
+    "Emyr": 40,
+    "Armed Hero": 41
+  },
+  "backgrounds": {
+    "Moon Surface": 22,
+    "Fairdevs Night": 24,
+    "Simplex Arcade": 24,
+    "Picnic Stage": 24,
+    "Emyr Gallery": 25,
+    "Gorbhouse Treasures": 14,
+    "Liberty Cookie Dime": 6,
+    "Cookie Vault": 11,
+    "Short the Banks Vault": 24,
+    "Marsel Blue": 24,
+    "Midnight Bakery": 24,
+    "Cookboy Black Enamel": 23,
+    "Digital Future Mural": 24,
+    "Cookboy Paisley": 24,
+    "Oxford Blue Fur": 24,
+    "Yatrah Arcade": 24,
+    "Welders Equipment": 13,
+    "Cosmic Fog": 25,
+    "Cookboy Chocolate": 6,
+    "Cookboy": 10,
+    "Cookboy Silver": 24,
+    "Golden Bubbles": 25
+  },
+  "public_trait_signatures": 444,
+  "issues": []
+}

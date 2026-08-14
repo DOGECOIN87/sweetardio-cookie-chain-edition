@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #283",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/283.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Waffle"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Paisley"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Alien"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Cookiebox"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.894091,
+  "seed": 871003
+}

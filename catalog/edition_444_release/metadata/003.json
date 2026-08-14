@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #003",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/003.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Marshmallow"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Simplex Arcade"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Smug"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Fang"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Out of Order"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.126151,
+  "seed": 871003
+}

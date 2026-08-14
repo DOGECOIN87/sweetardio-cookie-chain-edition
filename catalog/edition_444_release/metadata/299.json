@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #299",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/299.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Oatmeal Cream Pie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Yatrah Arcade"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Beady"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Pepe Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Poptart Cat"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.572997,
+  "seed": 871003
+}

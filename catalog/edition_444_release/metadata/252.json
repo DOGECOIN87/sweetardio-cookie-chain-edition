@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #252",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/252.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Sugar Cube"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cosmic Fog"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Cookiebox"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 3.750386,
+  "seed": 871003
+}

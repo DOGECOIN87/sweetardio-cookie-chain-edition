@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #371",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/371.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "OG Pop Tart"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Black Enamel"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clueless"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Emyr"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 3.698678,
+  "seed": 871003
+}

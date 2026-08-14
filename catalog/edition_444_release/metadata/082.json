@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #082",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/082.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Nutty Bar"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Midnight Bakery"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Poptart Cat"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.196599,
+  "seed": 871003
+}

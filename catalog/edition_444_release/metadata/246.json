@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #246",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/246.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Frosted Pop Tart"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cosmic Fog"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Chibi Monster"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 4.008807,
+  "seed": 871003
+}

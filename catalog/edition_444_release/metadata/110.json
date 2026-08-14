@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #110",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/110.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "S'mores"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookie Vault"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Shorts Doggo"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.142628,
+  "seed": 871003
+}

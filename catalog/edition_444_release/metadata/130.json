@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #130",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/130.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Rice Crispy Treat"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Oxford Blue Fur"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Chibi Monster"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.791397,
+  "seed": 871003
+}

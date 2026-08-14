@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #417",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/417.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "S'mores"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Oxford Blue Fur"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Smug"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Shorts Doggo"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.389988,
+  "seed": 871003
+}

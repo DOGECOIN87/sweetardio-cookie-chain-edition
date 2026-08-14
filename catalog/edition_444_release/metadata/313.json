@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #313",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/313.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Waffle"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Silver"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cerise"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Gorbhouse Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Cookiebox"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 3.427115,
+  "seed": 871003
+}

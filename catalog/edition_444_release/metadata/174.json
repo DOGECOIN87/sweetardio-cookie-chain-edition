@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #174",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/174.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Vanilla Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Fairdevs Night"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyan"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Morsel"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 3.807473,
+  "seed": 871003
+}

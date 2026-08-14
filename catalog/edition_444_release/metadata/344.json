@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #344",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/344.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Ding Dong"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Paisley"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cerise"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Fang"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Morsel"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.293328,
+  "seed": 871003
+}

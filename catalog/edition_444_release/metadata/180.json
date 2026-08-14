@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #180",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/180.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Cyan Sherbert Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Emyr Gallery"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cerise"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Chibi Monster"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.740474,
+  "seed": 871003
+}

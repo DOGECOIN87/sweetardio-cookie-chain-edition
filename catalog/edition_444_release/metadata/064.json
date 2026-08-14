@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #064",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/064.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Doughnut"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Moon Surface"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Out of Order"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.847662,
+  "seed": 871003
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #090",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/090.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Twinkie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Silver"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Cookiebox"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.532717,
+  "seed": 871003
+}

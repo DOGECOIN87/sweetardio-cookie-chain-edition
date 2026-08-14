@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #391",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/391.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Nutty Bar"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Gorbhouse Treasures"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Alien"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Sweetardio"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.04762,
+  "seed": 871003
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #117",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/117.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Vanilla Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Midnight Bakery"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Beady"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Armed Hero"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.752939,
+  "seed": 871003
+}

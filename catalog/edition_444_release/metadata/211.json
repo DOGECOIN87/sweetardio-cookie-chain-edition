@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #211",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/211.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Brownie Bite"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cerise"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Armed Hero"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 2.985675,
+  "seed": 871003
+}

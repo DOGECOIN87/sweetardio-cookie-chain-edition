@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #279",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/279.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Twinkie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Fairdevs Night"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Shorts Doggo"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.787309,
+  "seed": 871003
+}

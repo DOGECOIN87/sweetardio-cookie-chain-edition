@@ -1,0 +1,49 @@
+{
+  "name": "Cookie Chain Edition #415",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/415.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Waffle"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Simplex Arcade"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cerise"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Armed Hero"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary Chase"
+    }
+  ],
+  "selection_score": 2.495809,
+  "seed": 871003
+}

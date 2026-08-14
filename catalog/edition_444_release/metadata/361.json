@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #361",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/361.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Sandwich Cookie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Fairdevs Night"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyan"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Sweetardio"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 1.870054,
+  "seed": 871003
+}

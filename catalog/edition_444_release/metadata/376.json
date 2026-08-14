@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #376",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/376.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Sugar Doughnut"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Marsel Blue"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cerise"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Out of Order"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.849466,
+  "seed": 871003
+}

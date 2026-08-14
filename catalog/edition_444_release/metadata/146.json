@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #146",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/146.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Glazed Doughnut"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookie Vault"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clueless"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Poptart Cat"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 2.970398,
+  "seed": 871003
+}

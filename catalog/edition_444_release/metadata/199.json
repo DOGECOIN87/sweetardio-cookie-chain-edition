@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #199",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/199.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Sugar Cube"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Paisley"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clueless"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Emyr"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 5.056816,
+  "seed": 871003
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #289",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/289.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Waffle"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Golden Bubbles"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyan"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Anime Detective"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 3.103021,
+  "seed": 871003
+}

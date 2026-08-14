@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #213",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/213.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Rice Crispy Treat"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Chocolate"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Shorts Doggo"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 1.810812,
+  "seed": 871003
+}

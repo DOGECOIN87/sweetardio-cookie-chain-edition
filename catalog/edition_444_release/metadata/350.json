@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #350",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/350.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Churro"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Fairdevs Night"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Shorts Doggo"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.455958,
+  "seed": 871003
+}

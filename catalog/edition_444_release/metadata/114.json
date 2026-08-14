@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #114",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/114.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Nutty Bar"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Emyr Gallery"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Crying Tomato"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.329812,
+  "seed": 871003
+}

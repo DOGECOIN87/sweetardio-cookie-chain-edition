@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #060",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/060.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Sugar Cube"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Yatrah Arcade"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Smug"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Pepe Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Emyr"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.374705,
+  "seed": 871003
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #036",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/036.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Glazed Doughnut"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cosmic Fog"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Chibi Monster"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 4.21784,
+  "seed": 871003
+}

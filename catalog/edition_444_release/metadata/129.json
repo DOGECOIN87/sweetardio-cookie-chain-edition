@@ -1,0 +1,49 @@
+{
+  "name": "Cookie Chain Edition #129",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/129.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Glazed Doughnut"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Silver"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Smug"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Gorbhouse Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Morsel"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary Chase"
+    }
+  ],
+  "selection_score": 3.132687,
+  "seed": 871003
+}

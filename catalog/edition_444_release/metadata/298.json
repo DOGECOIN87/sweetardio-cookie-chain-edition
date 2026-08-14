@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #298",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/298.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Waffle"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Golden Bubbles"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Beady"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Pepe Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Anime Detective"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.255687,
+  "seed": 871003
+}

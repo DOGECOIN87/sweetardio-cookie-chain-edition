@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #145",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/145.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Cyan Sherbert Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Short the Banks Vault"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Out of Order"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.619281,
+  "seed": 871003
+}

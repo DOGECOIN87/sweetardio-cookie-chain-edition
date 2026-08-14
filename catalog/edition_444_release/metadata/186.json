@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #186",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/186.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Oatmeal Cream Pie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Golden Bubbles"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Beady"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Chibi Monster"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic Chase"
+    }
+  ],
+  "selection_score": 3.498139,
+  "seed": 871003
+}

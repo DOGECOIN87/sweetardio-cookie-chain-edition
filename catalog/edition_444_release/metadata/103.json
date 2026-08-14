@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #103",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/103.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Pink Sherbert Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Fairdevs Night"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Out of Order"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.249114,
+  "seed": 871003
+}

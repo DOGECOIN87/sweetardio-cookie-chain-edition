@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #394",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/394.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Brownie Bite"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Marsel Blue"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Sweetardio"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 1.842418,
+  "seed": 871003
+}

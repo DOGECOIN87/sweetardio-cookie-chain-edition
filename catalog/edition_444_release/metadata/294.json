@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #294",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/294.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Brownie Bite"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Silver"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyan"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Poptart Cat"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 3.661656,
+  "seed": 871003
+}

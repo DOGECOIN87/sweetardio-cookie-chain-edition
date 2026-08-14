@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #183",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/183.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "OG Gummy Bear"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Gorbhouse Treasures"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Beady"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Sweetardio"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 1.810094,
+  "seed": 871003
+}

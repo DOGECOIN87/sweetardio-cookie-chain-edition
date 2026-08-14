@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #381",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/381.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cosmic Fog"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Cookiebox"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.261055,
+  "seed": 871003
+}

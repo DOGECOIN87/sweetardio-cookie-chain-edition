@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #418",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/418.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Cyan Sherbert Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Digital Future Mural"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Anime Detective"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.091374,
+  "seed": 871003
+}

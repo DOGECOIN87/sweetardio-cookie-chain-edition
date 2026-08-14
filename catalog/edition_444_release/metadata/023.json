@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #023",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/023.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "OG Gummy Bear"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Welders Equipment"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Sweetardio"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.418441,
+  "seed": 871003
+}

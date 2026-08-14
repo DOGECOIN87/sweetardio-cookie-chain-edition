@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #067",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/067.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Pink Sherbert Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Emyr Gallery"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clueless"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Poptart Cat"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic Chase"
+    }
+  ],
+  "selection_score": 3.282892,
+  "seed": 871003
+}

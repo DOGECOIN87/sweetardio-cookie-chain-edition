@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #161",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/161.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Gold Waffle"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Simplex Arcade"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cerise"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Gorbhouse Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Armed Hero"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.066189,
+  "seed": 871003
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #160",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/160.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Rice Crispy Treat"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Paisley"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Out of Order"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 4.447268,
+  "seed": 871003
+}

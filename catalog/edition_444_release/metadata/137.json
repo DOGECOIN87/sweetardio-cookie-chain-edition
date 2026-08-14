@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #137",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/137.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Chip Cookie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Black Enamel"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Sweetardio"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.540036,
+  "seed": 871003
+}

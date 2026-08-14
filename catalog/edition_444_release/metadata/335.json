@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #335",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/335.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Churro"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Midnight Bakery"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Alien"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Smug"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Emyr"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.60524,
+  "seed": 871003
+}

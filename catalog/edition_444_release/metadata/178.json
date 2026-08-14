@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #178",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/178.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Ding Dong"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Short the Banks Vault"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Smug"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Morsel"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.308539,
+  "seed": 871003
+}

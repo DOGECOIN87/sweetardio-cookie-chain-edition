@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #010",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/010.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Glazed Doughnut"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookie Vault"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Alien"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Gorbhouse Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Sweetardio"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 1.814307,
+  "seed": 871003
+}

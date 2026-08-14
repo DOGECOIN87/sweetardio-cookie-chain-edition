@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #304",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/304.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Neapolitan Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Gorbhouse Treasures"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Poptart Cat"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.819219,
+  "seed": 871003
+}

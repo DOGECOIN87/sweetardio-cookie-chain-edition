@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #062",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/062.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Marshmallow"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Simplex Arcade"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Pepe Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Out of Order"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 4.364095,
+  "seed": 871003
+}

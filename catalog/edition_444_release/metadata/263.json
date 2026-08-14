@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #263",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/263.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Sandwich Cookie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Gorbhouse Treasures"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Out of Order"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.012654,
+  "seed": 871003
+}

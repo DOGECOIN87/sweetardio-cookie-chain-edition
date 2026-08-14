@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #442",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/442.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Neapolitan Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Picnic Stage"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Shorts Doggo"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary Chase"
+    }
+  ],
+  "selection_score": 2.986202,
+  "seed": 871003
+}

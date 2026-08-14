@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #043",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/043.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Frosted Pop Tart"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Simplex Arcade"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cerise"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Poptart Cat"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 3.032273,
+  "seed": 871003
+}

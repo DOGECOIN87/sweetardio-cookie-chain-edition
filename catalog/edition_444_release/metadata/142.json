@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #142",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/142.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Ding Dong"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Moon Surface"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Crying Tomato"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.539939,
+  "seed": 871003
+}

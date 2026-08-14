@@ -1,0 +1,49 @@
+{
+  "name": "Cookie Chain Edition #264",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/264.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Marshmallow"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Midnight Bakery"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Smug"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Pepe Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Sweetardio"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary Chase"
+    }
+  ],
+  "selection_score": 3.08817,
+  "seed": 871003
+}

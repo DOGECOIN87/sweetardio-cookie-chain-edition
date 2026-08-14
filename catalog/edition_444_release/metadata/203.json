@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #203",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/203.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Nutty Bar"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Simplex Arcade"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clueless"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Emyr"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.834568,
+  "seed": 871003
+}

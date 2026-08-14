@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #306",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/306.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Glazed Doughnut"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cosmic Fog"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Anime Detective"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 3.887467,
+  "seed": 871003
+}

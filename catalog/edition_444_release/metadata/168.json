@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #168",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/168.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Cyan Frosted Pop Tart"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Midnight Bakery"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Chibi Monster"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 3.952921,
+  "seed": 871003
+}

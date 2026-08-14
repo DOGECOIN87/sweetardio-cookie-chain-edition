@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #195",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/195.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Churro"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Golden Bubbles"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cerise"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Armed Hero"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 3.27648,
+  "seed": 871003
+}

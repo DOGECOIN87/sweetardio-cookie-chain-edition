@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #073",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/073.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Silver"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Morsel"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary Chase"
+    }
+  ],
+  "selection_score": 3.260131,
+  "seed": 871003
+}

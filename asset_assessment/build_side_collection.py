@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a curated 100-token Sweetardio side collection.
+"""Build the curated 444-token Cookie Chain Edition collection.
 
 Unlike the rarity-driven main mint, this renders a broad candidate set and
 selects for visual separation, restrained background detail behind the figure,
@@ -45,7 +45,9 @@ CHASE_BACKGROUNDS = {
     "Cookie_Vault.png", "Cookboy_Paisley.png",
 }
 GAME_DEVICE = "Cookboy_Handheld.png"
-GAME_DEVICE_COUNT = 22
+LIMITED_ARM_COUNTS = {
+    GAME_DEVICE: 22,
+}
 
 # Canonical public metadata labels. Asset filenames remain untouched because
 # generator.py uses several of them as compositor keys.
@@ -56,6 +58,18 @@ DISPLAY_NAME_OVERRIDES = {
     "Out_Of_Order": "Out of Order",
     "Short The Banks Vault": "Short the Banks Vault",
     "Short_The_Banks_Vault": "Short the Banks Vault",
+    "Gold_Cookie_Emboss": "Cookboy",
+    "Gold_Cookie_Emboss.png": "Cookboy",
+    "Chocolate_Cookie_Emboss": "Cookboy Chocolate",
+    "Chocolate_Cookie_Emboss.png": "Cookboy Chocolate",
+    "Black_Cookie_Emboss": "Cookboy Black Enamel",
+    "Black_Cookie_Emboss.png": "Cookboy Black Enamel",
+    "Silver_Cookie_Emboss": "Cookboy Silver",
+    "Silver_Cookie_Emboss.png": "Cookboy Silver",
+    "Morsel": "Morsel",
+    "Morsel.png": "Morsel",
+    "Cookiebox": "Cookiebox",
+    "Cookiebox.png": "Cookiebox",
 }
 
 
@@ -209,6 +223,15 @@ def proxy_visual_score(layers, sticker_dir):
     return 4.2 * colour_sep + 2.8 * luma_sep + 1.7 * sticker_sep + busy_score
 
 
+def arm_filename(candidate):
+    """Return the selected arm filename, if this candidate has one."""
+    for layer in candidate["layers"]:
+        filename = os.path.basename(layer["path"])
+        if filename in LIMITED_ARM_COUNTS:
+            return filename
+    return None
+
+
 def choose(candidates, count, stickers):
     base, extra = divmod(count, len(stickers))
     quotas = {name: base + (i < extra) for i, name in enumerate(stickers)}
@@ -219,31 +242,32 @@ def choose(candidates, count, stickers):
     char_cap = math.ceil(count / max(1, len(unique_chars))) + 3
     bg_cap = math.ceil(count / max(1, len(unique_bgs))) + 3
 
-    device_target = GAME_DEVICE_COUNT if count == 444 else 0
-    device_base, device_extra = divmod(device_target, len(stickers))
-    device_quotas = {name: device_base + (i < device_extra)
-                     for i, name in enumerate(stickers)}
+    limited_quotas = {}
+    for arm, target in LIMITED_ARM_COUNTS.items():
+        exact_target = target if count == 444 else 0
+        base, extra = divmod(exact_target, len(stickers))
+        limited_quotas[arm] = {
+            sticker: base + (i < extra) for i, sticker in enumerate(stickers)
+        }
 
     for sticker in stickers:
         pool = sorted((c for c in candidates if c["sticker_file"] == sticker),
                       key=lambda c: c["score"], reverse=True)
-        device_pool = [c for c in pool if any(
-            os.path.basename(layer["path"]) == GAME_DEVICE for layer in c["layers"])]
-        regular_pool = [c for c in pool if c not in device_pool]
         sticker_chosen = 0
-        for candidate in device_pool if device_quotas[sticker] else ():
-            md = candidate["metadata_map"]
-            char, bg = md.get("Character", ""), md.get("Background", "")
-            # Exact chase inventory takes precedence over soft collection-wide
-            # diversity caps. The regular 422 tokens still obey those caps.
-            chosen.append(candidate)
-            char_counts[char] += 1
-            bg_counts[bg] += 1
-            sticker_chosen += 1
-            if sticker_chosen >= device_quotas[sticker]:
-                break
-        if sticker_chosen != device_quotas[sticker]:
-            raise RuntimeError(f"not enough compatible game-device candidates for {sticker}")
+        for arm, per_sticker in limited_quotas.items():
+            arm_quota = per_sticker[sticker]
+            arm_pool = [candidate for candidate in pool if arm_filename(candidate) == arm]
+            for candidate in arm_pool[:arm_quota]:
+                md = candidate["metadata_map"]
+                char, bg = md.get("Character", ""), md.get("Background", "")
+                chosen.append(candidate)
+                char_counts[char] += 1
+                bg_counts[bg] += 1
+                sticker_chosen += 1
+            if sum(arm_filename(candidate) == arm for candidate in chosen
+                   if candidate["sticker_file"] == sticker) != arm_quota:
+                raise RuntimeError(f"not enough compatible {arm} candidates for {sticker}")
+        regular_pool = [candidate for candidate in pool if arm_filename(candidate) is None]
         for candidate in regular_pool:
             md = candidate["metadata_map"]
             char, bg = md.get("Character", ""), md.get("Background", "")
@@ -263,6 +287,8 @@ def choose(candidates, count, stickers):
         used = {c["signature"] for c in chosen}
         for candidate in sorted(candidates, key=lambda c: c["score"], reverse=True):
             if candidate["signature"] in used:
+                continue
+            if arm_filename(candidate) is not None:
                 continue
             if sum(c["sticker_file"] == candidate["sticker_file"] for c in chosen) >= quotas[candidate["sticker_file"]]:
                 continue
@@ -301,11 +327,10 @@ def assign_rarity(chosen, count):
         return bonus + arms + footwear + item["score"]
 
     ranked = sorted(chosen, key=chase_key, reverse=True)
-    # The new held game device is itself a limited chase trait. Ensure all 22
-    # land before the Rare/Core tiers while still letting the four strongest
-    # combinations become Mythics.
+    # Both limited arm traits land before the Rare/Core tiers while still
+    # allowing the four strongest combinations to become Mythics.
     ranked.sort(key=lambda item: (
-        not any(os.path.basename(layer["path"]) == GAME_DEVICE for layer in item["layers"]),
+        arm_filename(item) is None,
         -chase_key(item),
     ))
     cursor = 0
@@ -330,11 +355,10 @@ def validate_selection(chosen, count, rarity_counts):
         raise RuntimeError(
             f"rarity assignment mismatch: {dict(actual_rarities)} != {rarity_counts}")
     if count == 444:
-        device_count = sum(any(os.path.basename(layer["path"]) == GAME_DEVICE
-                               for layer in item["layers"]) for item in chosen)
-        if device_count != GAME_DEVICE_COUNT:
-            raise RuntimeError(
-                f"Cookboy Handheld count is {device_count}, expected {GAME_DEVICE_COUNT}")
+        for arm, expected in LIMITED_ARM_COUNTS.items():
+            actual = sum(arm_filename(item) == arm for item in chosen)
+            if actual != expected:
+                raise RuntimeError(f"{arm} count is {actual}, expected {expected}")
 
 
 def render_job(job):
@@ -411,12 +435,15 @@ def main():
         attempts = 0
         while accepted < args.candidates_per_sticker and attempts < args.candidates_per_sticker * 20:
             attempts += 1
-            # Seed every sticker pool with device candidates so the final chase
-            # allocation can hit its exact count without sacrificing sticker balance.
-            want_device = accepted < max(6, math.ceil(GAME_DEVICE_COUNT / len(stickers)) * 3)
+            # Seed every sticker pool with both limited arm traits so the final
+            # allocation can hit exact counts without sacrificing sticker balance.
+            per_arm_seed = max(6, math.ceil(max(LIMITED_ARM_COUNTS.values()) / len(stickers)) * 3)
+            limited_arms = tuple(LIMITED_ARM_COUNTS)
+            forced_arm = (limited_arms[accepted % len(limited_arms)]
+                          if accepted < len(limited_arms) * per_arm_seed else None)
             layers, character = g.generate_random_combination(
                 force_sticker=sticker,
-                force_arm=GAME_DEVICE if want_device else None,
+                force_arm=forced_arm,
             )
             signature = layer_signature(layers, character)
             if signature in seen:
@@ -445,7 +472,9 @@ def main():
         print("stickers: " + ", ".join(
             f"{clean_display(sticker)}={sum(c['sticker_file'] == sticker for c in chosen)}"
             for sticker in stickers))
-        print(f"Cookboy Handheld={sum(any(os.path.basename(layer['path']) == GAME_DEVICE for layer in item['layers']) for item in chosen)}")
+        print(", ".join(
+            f"{clean_display(arm)}={sum(arm_filename(item) == arm for item in chosen)}"
+            for arm in LIMITED_ARM_COUNTS))
         return
     jobs = []
     prepare_overlay()
@@ -478,8 +507,8 @@ def main():
         attrs.append({"trait_type": "Edition", "value": "Cookie Chain Edition"})
         attrs.append({"trait_type": "Rarity", "value": item["rarity"]})
         token = {
-            "name": f"Sweetardio Cookie Chain #{i:03d}",
-            "description": "One of 444 Sweetardio Cookie Chain Edition collectibles.",
+            "name": f"Cookie Chain Edition #{i:03d}",
+            "description": "One of 444 Cookie Chain Edition collectibles.",
             "image": f"../images/{i:03d}.png",
             "attributes": attrs,
             "selection_score": round(item["score"], 6),
@@ -502,7 +531,7 @@ def main():
             if attr["trait_type"] in trait_counts:
                 trait_counts[attr["trait_type"]][attr["value"]] += 1
     with open(out / "RARITY.md", "w", encoding="utf-8") as handle:
-        handle.write("# Sweetardio Cookie Chain Edition — Rarity\n\n")
+        handle.write("# Cookie Chain Edition — Rarity\n\n")
         handle.write(f"Supply: **{args.count}** · Seed: **{args.seed}** · "
                      "all trait combinations unique.\n\n")
         handle.write("## Exact tiers\n\n")

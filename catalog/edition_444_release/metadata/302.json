@@ -1,0 +1,49 @@
+{
+  "name": "Cookie Chain Edition #302",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/302.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Sandwich Cookie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Emyr Gallery"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Emyr"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic Chase"
+    }
+  ],
+  "selection_score": 3.185499,
+  "seed": 871003
+}

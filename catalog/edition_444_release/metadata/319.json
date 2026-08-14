@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #319",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/319.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Churro"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Digital Future Mural"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyan"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Anime Detective"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.054604,
+  "seed": 871003
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #377",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/377.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Gold Waffle"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Fairdevs Night"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Pepe Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Sweetardio"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.606345,
+  "seed": 871003
+}

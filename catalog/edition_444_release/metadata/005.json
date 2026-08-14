@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #005",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/005.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Fairdevs Night"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Poptart Cat"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.828889,
+  "seed": 871003
+}

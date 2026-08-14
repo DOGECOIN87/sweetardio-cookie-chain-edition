@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #408",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/408.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Brownie Bite"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Silver"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Beady"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Shorts Doggo"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 3.971285,
+  "seed": 871003
+}

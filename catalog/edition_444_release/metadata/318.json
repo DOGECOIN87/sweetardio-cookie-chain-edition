@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #318",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/318.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "OG Pop Tart"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Simplex Arcade"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Poptart Cat"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic Chase"
+    }
+  ],
+  "selection_score": 3.775322,
+  "seed": 871003
+}

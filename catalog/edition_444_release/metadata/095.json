@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #095",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/095.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Cyan Sherbert Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Oxford Blue Fur"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Fang"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Anime Detective"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.570268,
+  "seed": 871003
+}

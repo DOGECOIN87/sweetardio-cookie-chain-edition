@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #177",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/177.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Zebra Cake"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Yatrah Arcade"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Morsel"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.30031,
+  "seed": 871003
+}

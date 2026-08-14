@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #057",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/057.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "S'mores"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Marsel Blue"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Poptart Cat"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.185953,
+  "seed": 871003
+}

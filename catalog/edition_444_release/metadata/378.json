@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #378",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/378.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Zebra Cake"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Digital Future Mural"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clueless"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Cookiebox"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary Chase"
+    }
+  ],
+  "selection_score": 3.352737,
+  "seed": 871003
+}

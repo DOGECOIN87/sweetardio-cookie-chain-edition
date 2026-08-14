@@ -34,16 +34,17 @@ type DropState = {
 const LAMPORTS_PER_COOK = 1_000_000_000
 
 const featuredSweetardios = [
-  { id: '003', name: 'Chocolate Sandwich Cookie', image: '/featured/chocolate-sandwich.png', background: 'Chocolate Cookie Emboss', traits: ['Smug eyes', 'Sad mouth', 'Cookie Monster slippers'] },
+  { id: '003', name: 'Chocolate Sandwich Cookie', image: '/featured/chocolate-sandwich.png', background: 'Cookboy Chocolate', traits: ['Smug eyes', 'Sad mouth', 'Cookie Monster slippers'] },
   { id: '021', name: 'Gold Waffle', image: '/featured/gold-waffle.png', background: 'Oxford Blue Fur', traits: ['Clueless eyes', 'Smirk', 'Gold edition'] },
-  { id: '026', name: 'Zebra Cake', image: '/featured/zebra-cake.png', background: 'Yatrah Arcade', traits: ['Side-eye', 'Smirk', 'Cookboy handheld'] },
-  { id: '034', name: 'OG Gummy Bear', image: '/featured/og-gummy-bear.png', background: 'Digital Future Mural', traits: ['Smug eyes', 'Smirk', 'Cookboy handheld'] },
-  { id: '042', name: 'Cyan Sherbert Ice Cream', image: '/featured/cyan-sherbert.png', background: 'Midnight Bakery', traits: ['Cerise eyes', 'Smoke mouth', 'Cyan edition'] },
+  { id: '026', name: 'Zebra Cake', image: '/featured/zebra-cake.png', background: 'Yatrah Arcade', traits: ['Side-eye', 'Smirk', 'Cookiebox sticker'] },
+  { id: '034', name: 'OG Gummy Bear', image: '/featured/og-gummy-bear.png', background: 'Digital Future Mural', traits: ['Smug eyes', 'Smirk', 'Cookboy Handheld'] },
+  { id: '042', name: 'Cyan Sherbert Ice Cream', image: '/featured/cyan-sherbert.png', background: 'Midnight Bakery', traits: ['Cerise eyes', 'Smoke mouth', 'Morsel sticker'] },
 ] as const
 
 const supplyFacts = [
   ['Network', 'Cookie Chain', 'Native SVM mint'],
-  ['Edition', '444', 'Total Sweetardios'],
+  ['Edition', '444', 'Finalized unique tokens'],
+  ['Traits', 'MORSEL + COOKIEBOX', 'Sticker registry'],
   ['Currency', 'COOK', 'Native settlement'],
 ] as const
 
@@ -241,9 +242,9 @@ function App() {
         <section className="hero wrap" aria-labelledby="hero-title">
           <div className="hero-copy">
             <div className="signal-line"><span>DROP // COOKIE.444</span><i /><span>LIVE STATUS</span></div>
-            <p className="eyebrow">SWEETARDIO SIDE COLLECTION · SERIES 01</p>
+            <p className="eyebrow">SWEETARDIO SIDE COLLECTION · FINALIZED 444</p>
             <h1 id="hero-title"><span>THE</span> <em>COOKIE CHAIN</em> <b>EDITION</b></h1>
-            <p className="hero-description">Four hundred and forty-four Sweetardios, baked for Cookie Chain. Every mint reveals a collectible character card from the official side edition.</p>
+            <p className="hero-description">Four hundred and forty-four unique Sweetardios, baked for Cookie Chain. Every mint reveals a collectible character card from the finalized official side edition.</p>
             <div className="hero-actions">
               <button className="primary-cta" type="button" onClick={focusMint}>ENTER THE MINT <span>↓</span></button>
               <a className="text-link" href="#collection">VIEW THE EDITION <span>→</span></a>
@@ -318,7 +319,7 @@ function App() {
 
         <section className="gallery-wrap wrap" aria-labelledby="gallery-heading">
           <div className="section-marker"><span>02</span><i /><p>CURATED DRAW PREVIEW</p></div>
-          <div className="gallery-heading"><div><h2 id="gallery-heading">A side edition <em>with main-event energy.</em></h2><p>Each Sweetardio takes its cue from the parent collection’s character art, trait language, arcades, vaults, and deep-space backgrounds.</p></div><span>{featuredSweetardios.length} FEATURED DRAWS</span></div>
+          <div className="gallery-heading"><div><h2 id="gallery-heading">A side edition <em>with main-event energy.</em></h2><p>Each Sweetardio is composed from the edition’s own sharp source backgrounds, character art, and finalized trait registry: the Cookboy Handheld arm plus Morsel and Cookiebox sticker traits.</p></div><span>{featuredSweetardios.length} FEATURED DRAWS</span></div>
           <div className="character-grid">
             {featuredSweetardios.map((item, index) => <button className={index === featuredIndex ? 'character-card selected' : 'character-card'} key={item.id} type="button" onClick={() => setFeaturedIndex(index)}><img src={item.image} alt={`Select Sweetardio #${item.id}: ${item.name}`} /><span className="character-no">#{item.id}</span><span className="character-name">{item.name}</span><i aria-hidden="true">VIEW</i></button>)}
           </div>
@@ -327,7 +328,7 @@ function App() {
         <section className="details-section" id="about">
           <div className="wrap details-grid">
             <div className="details-intro"><p className="eyebrow">COOKIE CHAIN / SWEETARDIO</p><h2>Mint small. <em>Collect loud.</em></h2><p>The Cookie Chain Edition is a compact, native-COOK Sweetardio release: 444 character-driven pieces, a guarded mint path, and an edition designed to sit beside the original collection—not apart from it.</p></div>
-            <div className="detail-list"><article><span>01</span><div><h3>Native COOK settlement</h3><p>Mint directly on Cookie Chain with the network’s native currency and standard wallet tooling.</p></div></article><article><span>02</span><div><h3>Guarded collection route</h3><p>The mint interface checks the Candy Machine and configured treasury before any live transaction is enabled.</p></div></article><article><span>03</span><div><h3>Built from the source art</h3><p>Featured previews use the edition’s own rendered character cards and official trait vocabulary.</p></div></article></div>
+            <div className="detail-list"><article><span>01</span><div><h3>Native COOK settlement</h3><p>Mint directly on Cookie Chain with the network’s native currency and standard wallet tooling.</p></div></article><article><span>02</span><div><h3>Guarded collection route</h3><p>The mint interface checks the Candy Machine and configured treasury before any live transaction is enabled.</p></div></article><article><span>03</span><div><h3>Finalized trait registry</h3><p>The limited Cookboy Handheld is the edition’s arm trait. Morsel and Cookiebox are sticker traits, composed from the edition’s sharp source-art pipeline.</p></div></article></div>
           </div>
         </section>
       </main>

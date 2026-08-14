@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #339",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/339.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Cyan Frosted Pop Tart"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Moon Surface"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Morsel"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.329467,
+  "seed": 871003
+}

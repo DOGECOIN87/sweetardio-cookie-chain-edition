@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #386",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/386.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Ding Dong"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Silver"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Beady"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Shorts Doggo"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.357612,
+  "seed": 871003
+}

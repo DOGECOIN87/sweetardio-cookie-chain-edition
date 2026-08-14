@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #018",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/018.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Cyan Frosted Pop Tart"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Fairdevs Night"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Emyr"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary Chase"
+    }
+  ],
+  "selection_score": 3.626735,
+  "seed": 871003
+}

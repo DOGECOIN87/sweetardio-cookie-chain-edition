@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #359",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/359.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "OG Pop Tart"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Yatrah Arcade"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clueless"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Crying Tomato"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.406167,
+  "seed": 871003
+}

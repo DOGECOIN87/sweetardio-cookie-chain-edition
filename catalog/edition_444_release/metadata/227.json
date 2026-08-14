@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #227",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/227.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Twinkie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Yatrah Arcade"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyan"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Shorts Doggo"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.550605,
+  "seed": 871003
+}
