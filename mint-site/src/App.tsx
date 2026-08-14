@@ -34,11 +34,11 @@ type DropState = {
 const LAMPORTS_PER_COOK = 1_000_000_000
 
 const featuredSweetardios = [
-  { id: '003', name: 'Chocolate Sandwich Cookie', image: '/featured/chocolate-sandwich.png', background: 'Cookboy Chocolate', traits: ['Smug eyes', 'Sad mouth', 'Cookie Monster slippers'] },
-  { id: '021', name: 'Gold Waffle', image: '/featured/gold-waffle.png', background: 'Oxford Blue Fur', traits: ['Clueless eyes', 'Smirk', 'Gold edition'] },
-  { id: '026', name: 'Zebra Cake', image: '/featured/zebra-cake.png', background: 'Yatrah Arcade', traits: ['Side-eye', 'Smirk', 'Cookiebox sticker'] },
-  { id: '034', name: 'OG Gummy Bear', image: '/featured/og-gummy-bear.png', background: 'Digital Future Mural', traits: ['Smug eyes', 'Smirk', 'Cookboy Handheld'] },
-  { id: '042', name: 'Cyan Sherbert Ice Cream', image: '/featured/cyan-sherbert.png', background: 'Midnight Bakery', traits: ['Cerise eyes', 'Smoke mouth', 'Morsel sticker'] },
+  { id: '003', name: 'Marshmallow', image: '/featured/003.png', background: 'Simplex Arcade', traits: ['Smug eyes', 'Out of Order sticker', 'Rare'] },
+  { id: '004', name: 'Sugar Doughnut', image: '/featured/004.png', background: 'Picnic Stage', traits: ['Diamond Grill', 'Cookiebox sticker', 'Core'] },
+  { id: '013', name: 'Vanilla Ice Cream', image: '/featured/013.png', background: 'Midnight Bakery', traits: ['Cyborg eyes', 'Morsel sticker', 'Uncommon'] },
+  { id: '067', name: 'Pink Sherbert Ice Cream', image: '/featured/067.png', background: 'Emyr Gallery', traits: ['Cookboy Handheld', 'Mythic Chase', 'Poptart Cat sticker'] },
+  { id: '068', name: 'Waffle', image: '/featured/068.png', background: 'Cookboy', traits: ['Cyborg eyes', 'Shorts Doggo sticker', 'Uncommon'] },
 ] as const
 
 const supplyFacts = [
