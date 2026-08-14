@@ -130,7 +130,7 @@ function App() {
 
       <header className="site-nav">
         <a className="brand-lockup" href="#top" aria-label="Sweetardio Cookie Chain Edition home"><span><b>SWEET</b><em>ARDIO</em></span><small>COOKIE CHAIN EDITION</small></a>
-        <nav aria-label="Primary navigation"><a href="#edition">Edition</a><a href="#mint">Mint</a><a href="#registry">Traits</a></nav>
+        <nav aria-label="Primary navigation"><a href="#edition">Edition</a><a href="#mint">Mint</a></nav>
         <div className="nav-wallet"><span className="network-state"><i /> COOKIE CHAIN</span><WalletMultiButton /></div>
       </header>
 
@@ -140,27 +140,23 @@ function App() {
             <p className="eyebrow"><span /> SWEETARDIO PRESENTS</p>
             <div className="logo-plaque"><img src="/cookie-chain-edition-logo.png" alt="Cookie Chain Edition" /></div>
             <h1 id="hero-title"><span><b>SWEET</b><em>ARDIO</em></span><strong>COOKIE CHAIN</strong></h1>
-            <p className="hero-summary">A 444-piece side edition built from the original Sweetardio character system, released for the Cookie Chain.</p>
-            <div className="hero-actions"><button type="button" className="primary-action" onClick={focusMint}>MINT THE EDITION <span>↓</span></button><a href="#edition" className="text-action">SEE THE DRAW <span>→</span></a></div>
-            <div className="hero-facts" aria-label="Edition facts"><span><b>444</b> UNIQUE TOKENS</span><span><b>{remaining}</b> AVAILABLE</span><span><b>{displayedPrice}</b> COOK</span></div>
+            <p className="hero-summary">A 444-piece side edition built from the original Sweetardio character system for the Cookie Chain.</p>
+            <div className="hero-actions"><button type="button" className="primary-action" onClick={focusMint}>MINT THE EDITION <span>↓</span></button></div>
           </div>
 
           <aside className="hero-feature" aria-label="Featured finalized collection draw">
-            <div className="feature-frame"><img src={featured.image} alt={`Sweetardio #${featured.id}: ${featured.name}`} /><span className="feature-index">#{featured.id}</span><span className="feature-stamp">FINAL RENDER</span></div>
-            <div className="feature-caption"><div><p>CURATED DRAW</p><h2>{featured.name}</h2></div><span>{featured.traits[2]}</span></div>
-            <p className="feature-traits">{featured.background} <i>•</i> {featured.traits[0]} <i>•</i> {featured.traits[1]}</p>
+            <div className="feature-frame"><img src={featured.image} alt={`Sweetardio #${featured.id}: ${featured.name}`} /><span className="feature-index">#{featured.id}</span></div>
+            <div className="feature-caption"><h2>{featured.name}</h2><span>{featured.traits[2]}</span></div>
           </aside>
         </section>
 
-        <section className="release-strip" aria-label="Collection release status"><div className="wrap"><span>FINALIZED COLLECTION</span><i /> <span>FULL-QUALITY SOURCE ART</span><i /> <span>COOKIE CHAIN EDITION</span></div></section>
-
         <section className="content-section wrap" id="edition">
-          <div className="section-intro"><p className="eyebrow"><span /> 01 / THE EDITION</p><h2>Pick a card.<br /><em>Meet the cast.</em></h2><p>Each preview is a direct 1393px finalized render. Select a card to inspect the draw; the selection stays put until you choose another.</p></div>
+          <div className="section-intro"><p className="eyebrow"><span /> 01 / THE EDITION</p><h2>Pick a card.<br /><em>Meet the cast.</em></h2><p>Select a finalized preview. Your selection stays put until you choose another.</p></div>
           <div className="draw-grid" aria-label="Select a finalized collection draw">{featuredSweetardios.map((item, index) => <button type="button" key={item.id} className={index === featuredIndex ? 'draw-card active' : 'draw-card'} onClick={() => setFeaturedIndex(index)} aria-pressed={index === featuredIndex}><img src={item.image} alt={`Select Sweetardio #${item.id}: ${item.name}`} /><span>#{item.id}</span><strong>{item.name}</strong><em>{item.traits[2]}</em></button>)}</div>
         </section>
 
         <section className="mint-section" id="mint" aria-labelledby="mint-heading"><div className="wrap mint-layout">
-          <div className="mint-intro"><p className="eyebrow"><span /> 02 / THE MINT COUNTER</p><h2 id="mint-heading">Step up<br /><em>when it is live.</em></h2><p>The mint terminal verifies the active Candy Guard and treasury destination before it permits a transaction.</p><dl><div><dt>SUPPLY</dt><dd>{supply}</dd></div><div><dt>REMAINING</dt><dd>{remaining}</dd></div><div><dt>STATUS</dt><dd>{mintReady ? 'LIVE' : soldOut ? 'SOLD OUT' : 'STAGED'}</dd></div></dl></div>
+          <div className="mint-intro"><p className="eyebrow"><span /> 02 / THE MINT COUNTER</p><h2 id="mint-heading">Step up<br /><em>when it is live.</em></h2><p>The mint terminal confirms payment safety before a transaction can proceed.</p></div>
           <article className="mint-terminal">
             <div className="terminal-head"><div><p>COOKIE CHAIN MINT</p><strong>{mintReady ? 'MINT TERMINAL LIVE' : soldOut ? 'EDITION SOLD OUT' : 'AWAITING DEPLOYMENT'}</strong></div><span className={mintReady ? 'status-pill live' : 'status-pill'}>{mintReady ? 'READY' : 'SAFE MODE'}</span></div>
             <div className="terminal-controls"><div className="quantity-field"><label htmlFor="mint-qty">MINT QUANTITY</label><div><button type="button" onClick={() => setQty(value => Math.max(1, value - 1))} aria-label="Decrease mint quantity">−</button><output id="mint-qty">{qty}</output><button type="button" onClick={() => setQty(value => Math.min(config.maxPerTx, value + 1))} aria-label="Increase mint quantity">+</button></div><small>MAX {config.maxPerTx} PER TRANSACTION</small></div><div className="price-field"><span>COUNTER TOTAL</span><strong>{qty * displayedPrice} <em>COOK</em></strong><small>{drop.loaded ? 'CANDY GUARD PRICE' : 'TARGET MINT PRICE'}</small></div></div>
@@ -174,7 +170,6 @@ function App() {
           </article>
         </div></section>
 
-        <section className="trait-section wrap" id="registry"><div className="trait-copy"><p className="eyebrow"><span /> 03 / TRAIT REGISTER</p><h2>Clear rules.<br /><em>Clean source art.</em></h2><p>Cookboy Handheld is the limited arm trait. Morsel and Cookiebox are sticker-only traits. The Cookboy emboss background retains its public trait name.</p></div><div className="trait-list"><div><b>STICKERS</b><span>Morsel · Cookiebox</span></div><div><b>ARM TRAIT</b><span>Cookboy Handheld</span></div><div><b>EMBOSS BG</b><span>Cookboy</span></div></div></section>
       </main>
 
       <footer className="site-footer"><div className="wrap"><div className="brand-lockup"><span><b>SWEET</b><em>ARDIO</em></span><small>COOKIE CHAIN EDITION</small></div><p>© SWEETARDIO · 444 PIECE SIDE COLLECTION</p><a href="#top">BACK TO TOP ↑</a></div></footer>

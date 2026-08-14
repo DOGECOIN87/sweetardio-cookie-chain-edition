@@ -20,3 +20,11 @@
 - [x] Rebuild the page structure and styling without altering Candy Machine, Candy Guard, treasury, wallet, or collection safeguards.
 - [x] Validate the redesign at desktop and mobile viewports, including focus states and build output.
 - [x] Commit and push the corrected redesign to `main`.
+
+# Responsive Content Simplification
+
+- [x] Audit page density and capture the current layout at compact mobile, large mobile, tablet, laptop, and wide desktop viewports.
+- [x] Define the essential user-facing information and responsive composition rules for each breakpoint.
+- [x] Remove nonessential copy and repetitive status elements while preserving the mint safety messages required for correct operation.
+- [x] Validate refined layouts at all representative aspect ratios and confirm the production build.
+- [x] Commit and push the responsive simplification to `main`.

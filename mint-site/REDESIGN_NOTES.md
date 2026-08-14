@@ -24,3 +24,7 @@ The technical mint path remains unchanged: wallet connection, Candy Machine retr
 ## Validation Notes
 
 The corrected desktop composition establishes a deliberate left-to-right reading path: collection identity, price and availability, primary mint action, then the featured finalized draw. The mobile capture preserves the same order and keeps the gold plaque, primary action, and 444-token facts visible before the selected artwork.
+
+## Responsive Simplification Audit
+
+The compact mobile layout has a clear primary action, but it still repeats supply, availability, and price that also appear at the mint counter. The tablet breakpoint stacks the featured render beneath the hero copy, creating a less economical first-screen composition than a compact two-column tablet layout would provide. The release strip, detailed featured-trait sentence, and standalone trait register do not help a visitor decide whether or how to mint; they should be removed from the public page.
