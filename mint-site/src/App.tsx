@@ -1,5 +1,5 @@
-// Design: Reference-led Sweetardio.fun neon arcade — Oxford Blue environment, cerise/cyan
-// glow, glass arcade panels, aisle dividers, sugar-dust atmosphere, and full-quality token art.
+// Design: Cookie Chain arcade counter — asymmetric editorial hierarchy, restrained Sweetardio.fun
+// neon, full-quality collection art, and conventional accessible mint controls.
 import { useEffect, useMemo, useState } from 'react'
 import { useConnection, useWallet } from '@solana/wallet-adapter-react'
 import { WalletMultiButton } from '@solana/wallet-adapter-react-ui'
@@ -28,11 +28,6 @@ const featuredSweetardios = [
   { id: '013', name: 'Vanilla Ice Cream', image: '/featured/013.png', background: 'Midnight Bakery', traits: ['Cyborg eyes', 'Morsel sticker', 'Uncommon'] },
   { id: '067', name: 'Pink Sherbert Ice Cream', image: '/featured/067.png', background: 'Emyr Gallery', traits: ['Cookboy Handheld', 'Mythic Chase', 'Poptart Cat sticker'] },
   { id: '068', name: 'Waffle', image: '/featured/068.png', background: 'Cookboy', traits: ['Cyborg eyes', 'Shorts Doggo sticker', 'Uncommon'] },
-] as const
-
-const DUST = [
-  ['7%', '13%', 'cerise'], ['18%', '71%', 'cyan'], ['31%', '23%', 'white'], ['46%', '82%', 'cerise'],
-  ['59%', '17%', 'cyan'], ['72%', '62%', 'white'], ['88%', '28%', 'cerise'], ['94%', '75%', 'cyan'],
 ] as const
 
 function shortAddress(value: string) {
@@ -88,17 +83,11 @@ function App() {
   const supply = drop.itemsLoaded || config.totalSupply
   const minted = drop.itemsRedeemed
   const remaining = Math.max(0, supply - minted)
-  const progress = Math.min(100, supply ? (minted / supply) * 100 : 0)
   const soldOut = minted >= supply
   const displayedPrice = drop.priceCook ?? config.displayPriceCook
   const treasuryMatches = drop.treasury === config.treasury
   const mintReady = drop.loaded && candyMachineConfigured && treasuryConfigured && treasuryMatches && !soldOut
   const featured = featuredSweetardios[featuredIndex]
-
-  useEffect(() => {
-    const id = window.setInterval(() => setFeaturedIndex(current => (current + 1) % featuredSweetardios.length), 6500)
-    return () => window.clearInterval(id)
-  }, [])
 
   async function mintSelected() {
     if (!wallet.connected || !wallet.publicKey || !wallet.wallet?.adapter) { setNotice('Connect a Cookie Chain-compatible wallet first.'); return }
@@ -135,82 +124,60 @@ function App() {
   const focusMint = () => document.getElementById('mint')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
 
   return (
-    <div className="arcade-shell" id="top">
-      <div className="arcade-background" aria-hidden="true" />
-      <div className="arcade-scanlines" aria-hidden="true" />
-      <div className="arcade-grain" aria-hidden="true" />
-      <div className="sugar-dust" aria-hidden="true">{DUST.map(([left, top, color], index) => <i key={index} className={color} style={{ left, top, animationDelay: `${index * -1.7}s` }} />)}</div>
+    <div className="site-shell" id="top">
+      <div className="shop-background" aria-hidden="true" />
+      <div className="site-wash" aria-hidden="true" />
 
-      <header className="arcade-nav">
-        <a className="sweetardio-lockup" href="#top" aria-label="Sweetardio Cookie Chain Edition home"><span><b>SWEET</b><em>ARDIO</em></span><small>COOKIE CHAIN EDITION</small></a>
-        <nav aria-label="Primary navigation"><a href="#edition">The Edition</a><a href="#mint">Mint</a><a href="#registry">Traits</a></nav>
-        <div className="nav-wallet"><span className="arcade-live"><i /> COOKIE CHAIN</span><WalletMultiButton /></div>
+      <header className="site-nav">
+        <a className="brand-lockup" href="#top" aria-label="Sweetardio Cookie Chain Edition home"><span><b>SWEET</b><em>ARDIO</em></span><small>COOKIE CHAIN EDITION</small></a>
+        <nav aria-label="Primary navigation"><a href="#edition">Edition</a><a href="#mint">Mint</a><a href="#registry">Traits</a></nav>
+        <div className="nav-wallet"><span className="network-state"><i /> COOKIE CHAIN</span><WalletMultiButton /></div>
       </header>
 
       <main>
-        <section className="arcade-hero" aria-labelledby="hero-title">
-          <div className="hero-vignette" aria-hidden="true" />
-          <div className="hero-console">
-            <div className="hero-light-bulbs top" aria-hidden="true">{Array.from({ length: 12 }, (_, index) => <i key={index} />)}</div>
-            <div className="hero-light-bulbs bottom" aria-hidden="true">{Array.from({ length: 12 }, (_, index) => <i key={index} />)}</div>
-            <div className="hero-token"><i /> FINALIZED EDITION <span>•</span> 444 UNIQUE MINTS</div>
-            <div className="hero-badge hero-badge-logo"><span className="cookie-orbit">✦</span><img src="/cookie-chain-edition-logo.png" alt="Cookie Chain Edition" /></div>
-            <p className="hero-kicker">SWEETARDIO PRESENTS</p>
+        <section className="hero wrap" aria-labelledby="hero-title">
+          <div className="hero-copy">
+            <p className="eyebrow"><span /> SWEETARDIO PRESENTS</p>
+            <div className="logo-plaque"><img src="/cookie-chain-edition-logo.png" alt="Cookie Chain Edition" /></div>
             <h1 id="hero-title"><span><b>SWEET</b><em>ARDIO</em></span><strong>COOKIE CHAIN</strong></h1>
-            <p className="hero-copy">A sugar-coated side edition, built from the original Sweetardio collection’s character system and released as <b>444</b> unique Cookie Chain collectibles.</p>
-            <p className="hero-direction">FOLLOW THE NEON — WALK UP TO THE MINT</p>
-            <div className="hero-cta-row"><button type="button" className="neon-action cyan" onClick={focusMint}>ENTER MINT <span>↑</span></button><a href="#edition" className="neon-action ghost">EXPLORE EDITION <span>→</span></a></div>
+            <p className="hero-summary">A 444-piece side edition built from the original Sweetardio character system, released for the Cookie Chain.</p>
+            <div className="hero-actions"><button type="button" className="primary-action" onClick={focusMint}>MINT THE EDITION <span>↓</span></button><a href="#edition" className="text-action">SEE THE DRAW <span>→</span></a></div>
+            <div className="hero-facts" aria-label="Edition facts"><span><b>444</b> UNIQUE TOKENS</span><span><b>{remaining}</b> AVAILABLE</span><span><b>{displayedPrice}</b> COOK</span></div>
           </div>
-        </section>
 
-        <section className="ticker-rail" aria-label="Edition highlights"><div className="ticker-track">{Array.from({ length: 2 }, (_, loop) => <div className="ticker-loop" key={loop} aria-hidden={loop === 1}><span>COOKIE CHAIN EDITION</span><i>◆</i><span>444 UNIQUE TOKENS</span><i>◆</i><span>MORSEL + COOKIEBOX STICKERS</span><i>◆</i><span>COOKBOY HANDHELD</span><i>◆</i><span>FULL-QUALITY FINAL RENDERS</span><i>◆</i></div>)}</div></section>
-
-        <section className="arcade-aisle" id="edition"><div><b>01</b><span>THE CURATED WALL</span></div><i /></section>
-
-        <section className="edition-stage wrap">
-          <div className="edition-intro"><p className="arcade-label">OFFICIAL SIDE EDITION</p><h2>Every draw is a <em>full-quality</em> character card.</h2><p>Featured previews are direct 1393px renders from the finalized collection — the same sharp source-art pipeline that defines the mint.</p><dl><div><dt>SUPPLY</dt><dd>{supply}</dd></div><div><dt>REMAINING</dt><dd>{remaining}</dd></div><div><dt>STATUS</dt><dd>{mintReady ? 'LIVE' : 'STAGED'}</dd></div></dl></div>
-          <article className="arcade-card featured-card" aria-label="Featured Cookie Chain Sweetardio">
-            <div className="card-signal"><span>CURATED DRAW</span><b>#{featured.id}</b></div>
-            <div className="featured-art"><img src={featured.image} alt={`Sweetardio #${featured.id}: ${featured.name}`} /><span className="finder tl" /><span className="finder tr" /><span className="finder bl" /><span className="finder br" /></div>
-            <div className="featured-meta"><div><small>SWEETARDIO #{featured.id}</small><h3>{featured.name}</h3></div><strong>{featured.traits[2]}</strong></div>
-            <p className="featured-readout">BG / {featured.background} <span>◆</span> {featured.traits[0]} <span>◆</span> {featured.traits[1]}</p>
-            <div className="draw-switcher" aria-label={`Featured character ${featuredIndex + 1} of ${featuredSweetardios.length}`}><span className="draw-deck-label">DRAW DECK</span><div className="draw-numbers">{featuredSweetardios.map((item, index) => <button type="button" className={index === featuredIndex ? 'active' : ''} key={item.id} onClick={() => setFeaturedIndex(index)} aria-label={`Show Sweetardio #${item.id}`}>{item.id}</button>)}</div><small>DRAW {featuredIndex + 1} / {featuredSweetardios.length}</small></div>
-          </article>
-        </section>
-
-        <section className="arcade-aisle cerise"><div><b>02</b><span>THE MINT COUNTER</span></div><i /></section>
-
-        <section className="mint-bay wrap" id="mint" aria-labelledby="mint-heading">
-          <article className="mint-panel arcade-card">
-            <div className="panel-head"><div><p className="arcade-label">COOKIE CHAIN MINT</p><h2 id="mint-heading">Walk up. <em>Pick your draw.</em></h2></div><span className={mintReady ? 'mint-state live' : 'mint-state'}>{mintReady ? 'MINT LIVE' : soldOut ? 'SOLD OUT' : 'AWAITING DEPLOYMENT'}</span></div>
-            <div className="mint-grid">
-              <div className="mint-control"><label htmlFor="mint-qty">HOW MANY?</label><div className="quantity-control"><button type="button" onClick={() => setQty(value => Math.max(1, value - 1))} aria-label="Decrease mint quantity">−</button><output id="mint-qty">{qty}</output><button type="button" onClick={() => setQty(value => Math.min(config.maxPerTx, value + 1))} aria-label="Increase mint quantity">+</button></div><small>UP TO {config.maxPerTx} PER WALK-UP</small></div>
-              <div className="mint-control price"><label>COUNTER TOTAL</label><strong>{qty * displayedPrice} <em>COOK</em></strong><small>{drop.loaded ? 'CANDY GUARD PRICE' : 'TARGET MINT PRICE'}</small></div>
-            </div>
-            <div className="mint-diagnostics" aria-label="Collection mint diagnostics"><span>COLLECTION METER</span><strong>{minted} <em>/ {supply}</em></strong><div className="meter-track"><i style={{ width: `${progress}%` }} /></div><small>{soldOut ? 'ALL DRAWS REDEEMED' : mintReady ? 'TERMINAL ARMED' : 'TERMINAL STAGED'}</small></div>
-            <div className="mint-action">{!wallet.connected ? <WalletMultiButton className="wide-wallet" /> : <button className="neon-action cyan mint-submit" disabled={minting || !mintReady} onClick={mintSelected}>{soldOut ? 'EDITION SOLD OUT' : minting ? 'MINTING…' : `MINT ${qty} SWEETARDIO${qty > 1 ? 'S' : ''}`} <span>↗</span></button>}<p>Transactions enable only when the active Candy Guard and configured treasury agree.</p></div>
-            {notice && <p className="terminal-notice" role="status">{notice}</p>}
-            {!candyMachineConfigured && <p className="terminal-warning">Deployment mode: set <code>VITE_CANDY_MACHINE</code> after creating the 444-item Candy Machine.</p>}
-            {candyMachineConfigured && !treasuryConfigured && <p className="terminal-warning">Deployment mode: set <code>VITE_TREASURY</code> to the Candy Guard payment destination.</p>}
-            {drop.loaded && treasuryConfigured && !treasuryMatches && <p className="terminal-error">Safety lock: configured treasury differs from the on-chain Candy Guard destination.</p>}
-            {drop.error && candyMachineConfigured && <p className="terminal-error">RPC error: {drop.error}</p>}
-            {lastSignature && <a className="receipt-link" href={`${config.explorer}/tx/${lastSignature}`} target="_blank" rel="noreferrer">VIEW LATEST RECEIPT ↗</a>}
-          </article>
-          <aside className="mint-readout">
-            <article><p>CONNECTED WALLET</p><strong>{wallet.publicKey ? shortAddress(wallet.publicKey.toBase58()) : 'NO WALLET'}</strong><small>{wallet.connected ? 'IDENTITY RECOGNIZED' : 'CONNECT TO STEP UP'}</small></article>
-            <article><p>COOKIE BALANCE</p><strong>{balance == null ? '—' : balance.toFixed(4)} <em>COOK</em></strong><small>NATIVE NETWORK BALANCE</small></article>
-            <article className="collection-check"><p>COLLECTION CHECK</p><strong>{config.candyMachine ? shortAddress(config.candyMachine) : 'PENDING'}</strong><a href={config.explorer} target="_blank" rel="noreferrer">OPEN COOKIESCAN ↗</a></article>
+          <aside className="hero-feature" aria-label="Featured finalized collection draw">
+            <div className="feature-frame"><img src={featured.image} alt={`Sweetardio #${featured.id}: ${featured.name}`} /><span className="feature-index">#{featured.id}</span><span className="feature-stamp">FINAL RENDER</span></div>
+            <div className="feature-caption"><div><p>CURATED DRAW</p><h2>{featured.name}</h2></div><span>{featured.traits[2]}</span></div>
+            <p className="feature-traits">{featured.background} <i>•</i> {featured.traits[0]} <i>•</i> {featured.traits[1]}</p>
           </aside>
         </section>
 
-        <section className="arcade-aisle" id="registry"><div><b>03</b><span>THE TRAIT WALL</span></div><i /></section>
-        <section className="trait-wall wrap">
-          <div className="trait-copy"><p className="arcade-label">FINALIZED REGISTRY</p><h2>Sharp art. <em>Clean rules.</em></h2><p>Cookie Chain uses the original collection’s full-canvas composition system. The Cookboy Handheld remains the limited arm trait; Morsel and Cookiebox are sticker-only traits.</p></div>
-          <div className="feature-strip">{featuredSweetardios.map((item, index) => <button type="button" key={item.id} className={index === featuredIndex ? 'draw-card selected' : 'draw-card'} onClick={() => setFeaturedIndex(index)}><img src={item.image} alt={`Select Sweetardio #${item.id}: ${item.name}`} /><span>#{item.id}</span><b>{item.name}</b><em>{item.traits[1]}</em></button>)}</div>
+        <section className="release-strip" aria-label="Collection release status"><div className="wrap"><span>FINALIZED COLLECTION</span><i /> <span>FULL-QUALITY SOURCE ART</span><i /> <span>COOKIE CHAIN EDITION</span></div></section>
+
+        <section className="content-section wrap" id="edition">
+          <div className="section-intro"><p className="eyebrow"><span /> 01 / THE EDITION</p><h2>Pick a card.<br /><em>Meet the cast.</em></h2><p>Each preview is a direct 1393px finalized render. Select a card to inspect the draw; the selection stays put until you choose another.</p></div>
+          <div className="draw-grid" aria-label="Select a finalized collection draw">{featuredSweetardios.map((item, index) => <button type="button" key={item.id} className={index === featuredIndex ? 'draw-card active' : 'draw-card'} onClick={() => setFeaturedIndex(index)} aria-pressed={index === featuredIndex}><img src={item.image} alt={`Select Sweetardio #${item.id}: ${item.name}`} /><span>#{item.id}</span><strong>{item.name}</strong><em>{item.traits[2]}</em></button>)}</div>
         </section>
+
+        <section className="mint-section" id="mint" aria-labelledby="mint-heading"><div className="wrap mint-layout">
+          <div className="mint-intro"><p className="eyebrow"><span /> 02 / THE MINT COUNTER</p><h2 id="mint-heading">Step up<br /><em>when it is live.</em></h2><p>The mint terminal verifies the active Candy Guard and treasury destination before it permits a transaction.</p><dl><div><dt>SUPPLY</dt><dd>{supply}</dd></div><div><dt>REMAINING</dt><dd>{remaining}</dd></div><div><dt>STATUS</dt><dd>{mintReady ? 'LIVE' : soldOut ? 'SOLD OUT' : 'STAGED'}</dd></div></dl></div>
+          <article className="mint-terminal">
+            <div className="terminal-head"><div><p>COOKIE CHAIN MINT</p><strong>{mintReady ? 'MINT TERMINAL LIVE' : soldOut ? 'EDITION SOLD OUT' : 'AWAITING DEPLOYMENT'}</strong></div><span className={mintReady ? 'status-pill live' : 'status-pill'}>{mintReady ? 'READY' : 'SAFE MODE'}</span></div>
+            <div className="terminal-controls"><div className="quantity-field"><label htmlFor="mint-qty">MINT QUANTITY</label><div><button type="button" onClick={() => setQty(value => Math.max(1, value - 1))} aria-label="Decrease mint quantity">−</button><output id="mint-qty">{qty}</output><button type="button" onClick={() => setQty(value => Math.min(config.maxPerTx, value + 1))} aria-label="Increase mint quantity">+</button></div><small>MAX {config.maxPerTx} PER TRANSACTION</small></div><div className="price-field"><span>COUNTER TOTAL</span><strong>{qty * displayedPrice} <em>COOK</em></strong><small>{drop.loaded ? 'CANDY GUARD PRICE' : 'TARGET MINT PRICE'}</small></div></div>
+            <div className="terminal-action">{!wallet.connected ? <WalletMultiButton className="wide-wallet" /> : <button className="primary-action terminal-button" disabled={minting || !mintReady} onClick={mintSelected}>{soldOut ? 'EDITION SOLD OUT' : minting ? 'MINTING…' : `MINT ${qty} SWEETARDIO${qty > 1 ? 'S' : ''}`} <span>↗</span></button>}<p>Transactions activate only when the on-chain payment destination matches the configured treasury.</p></div>
+            {notice && <p className="terminal-message success" role="status">{notice}</p>}
+            {!candyMachineConfigured && <p className="terminal-message">Deployment mode: configure <code>VITE_CANDY_MACHINE</code> after creating the 444-item Candy Machine.</p>}
+            {candyMachineConfigured && !treasuryConfigured && <p className="terminal-message">Deployment mode: configure <code>VITE_TREASURY</code> to the Candy Guard payment destination.</p>}
+            {drop.loaded && treasuryConfigured && !treasuryMatches && <p className="terminal-message error">Safety lock: configured treasury differs from the on-chain Candy Guard destination.</p>}
+            {drop.error && candyMachineConfigured && <p className="terminal-message error">RPC error: {drop.error}</p>}
+            {lastSignature && <a className="receipt-link" href={`${config.explorer}/tx/${lastSignature}`} target="_blank" rel="noreferrer">VIEW LATEST RECEIPT ↗</a>}
+          </article>
+        </div></section>
+
+        <section className="trait-section wrap" id="registry"><div className="trait-copy"><p className="eyebrow"><span /> 03 / TRAIT REGISTER</p><h2>Clear rules.<br /><em>Clean source art.</em></h2><p>Cookboy Handheld is the limited arm trait. Morsel and Cookiebox are sticker-only traits. The Cookboy emboss background retains its public trait name.</p></div><div className="trait-list"><div><b>STICKERS</b><span>Morsel · Cookiebox</span></div><div><b>ARM TRAIT</b><span>Cookboy Handheld</span></div><div><b>EMBOSS BG</b><span>Cookboy</span></div></div></section>
       </main>
 
-      <footer className="arcade-footer"><div className="wrap"><div className="sweetardio-lockup"><span><b>SWEET</b><em>ARDIO</em></span><small>COOKIE CHAIN EDITION</small></div><p>© SWEETARDIO · 444 PIECE SIDE COLLECTION · COOKIE CHAIN</p><a href="#top">BACK TO THE COUNTER ↑</a></div></footer>
+      <footer className="site-footer"><div className="wrap"><div className="brand-lockup"><span><b>SWEET</b><em>ARDIO</em></span><small>COOKIE CHAIN EDITION</small></div><p>© SWEETARDIO · 444 PIECE SIDE COLLECTION</p><a href="#top">BACK TO TOP ↑</a></div></footer>
     </div>
   )
 }
