@@ -151,6 +151,8 @@ function App() {
         <section className="arcade-hero" aria-labelledby="hero-title">
           <div className="hero-vignette" aria-hidden="true" />
           <div className="hero-console">
+            <div className="hero-light-bulbs top" aria-hidden="true">{Array.from({ length: 12 }, (_, index) => <i key={index} />)}</div>
+            <div className="hero-light-bulbs bottom" aria-hidden="true">{Array.from({ length: 12 }, (_, index) => <i key={index} />)}</div>
             <div className="hero-token"><i /> FINALIZED EDITION <span>•</span> 444 UNIQUE MINTS</div>
             <div className="hero-badge hero-badge-logo"><span className="cookie-orbit">✦</span><img src="/cookie-chain-edition-logo.png" alt="Cookie Chain Edition" /></div>
             <p className="hero-kicker">SWEETARDIO PRESENTS</p>
@@ -161,7 +163,7 @@ function App() {
           </div>
         </section>
 
-        <section className="ticker-rail" aria-label="Edition highlights"><span>COOKIE CHAIN EDITION</span><i>◆</i><span>444 UNIQUE TOKENS</span><i>◆</i><span>MORSEL + COOKIEBOX STICKERS</span><i>◆</i><span>COOKBOY HANDHELD</span><i>◆</i><span>COOKIE CHAIN EDITION</span></section>
+        <section className="ticker-rail" aria-label="Edition highlights"><div className="ticker-track">{Array.from({ length: 2 }, (_, loop) => <div className="ticker-loop" key={loop} aria-hidden={loop === 1}><span>COOKIE CHAIN EDITION</span><i>◆</i><span>444 UNIQUE TOKENS</span><i>◆</i><span>MORSEL + COOKIEBOX STICKERS</span><i>◆</i><span>COOKBOY HANDHELD</span><i>◆</i><span>FULL-QUALITY FINAL RENDERS</span><i>◆</i></div>)}</div></section>
 
         <section className="arcade-aisle" id="edition"><div><b>01</b><span>THE CURATED WALL</span></div><i /></section>
 
@@ -172,7 +174,7 @@ function App() {
             <div className="featured-art"><img src={featured.image} alt={`Sweetardio #${featured.id}: ${featured.name}`} /><span className="finder tl" /><span className="finder tr" /><span className="finder bl" /><span className="finder br" /></div>
             <div className="featured-meta"><div><small>SWEETARDIO #{featured.id}</small><h3>{featured.name}</h3></div><strong>{featured.traits[2]}</strong></div>
             <p className="featured-readout">BG / {featured.background} <span>◆</span> {featured.traits[0]} <span>◆</span> {featured.traits[1]}</p>
-            <div className="draw-switcher" aria-label={`Featured character ${featuredIndex + 1} of ${featuredSweetardios.length}`}>{featuredSweetardios.map((item, index) => <button type="button" className={index === featuredIndex ? 'active' : ''} key={item.id} onClick={() => setFeaturedIndex(index)} aria-label={`Show Sweetardio #${item.id}`}>{item.id}</button>)}</div>
+            <div className="draw-switcher" aria-label={`Featured character ${featuredIndex + 1} of ${featuredSweetardios.length}`}><span className="draw-deck-label">DRAW DECK</span><div className="draw-numbers">{featuredSweetardios.map((item, index) => <button type="button" className={index === featuredIndex ? 'active' : ''} key={item.id} onClick={() => setFeaturedIndex(index)} aria-label={`Show Sweetardio #${item.id}`}>{item.id}</button>)}</div><small>DRAW {featuredIndex + 1} / {featuredSweetardios.length}</small></div>
           </article>
         </section>
 
@@ -185,6 +187,7 @@ function App() {
               <div className="mint-control"><label htmlFor="mint-qty">HOW MANY?</label><div className="quantity-control"><button type="button" onClick={() => setQty(value => Math.max(1, value - 1))} aria-label="Decrease mint quantity">−</button><output id="mint-qty">{qty}</output><button type="button" onClick={() => setQty(value => Math.min(config.maxPerTx, value + 1))} aria-label="Increase mint quantity">+</button></div><small>UP TO {config.maxPerTx} PER WALK-UP</small></div>
               <div className="mint-control price"><label>COUNTER TOTAL</label><strong>{qty * displayedPrice} <em>COOK</em></strong><small>{drop.loaded ? 'CANDY GUARD PRICE' : 'TARGET MINT PRICE'}</small></div>
             </div>
+            <div className="mint-diagnostics" aria-label="Collection mint diagnostics"><span>COLLECTION METER</span><strong>{minted} <em>/ {supply}</em></strong><div className="meter-track"><i style={{ width: `${progress}%` }} /></div><small>{soldOut ? 'ALL DRAWS REDEEMED' : mintReady ? 'TERMINAL ARMED' : 'TERMINAL STAGED'}</small></div>
             <div className="mint-action">{!wallet.connected ? <WalletMultiButton className="wide-wallet" /> : <button className="neon-action cyan mint-submit" disabled={minting || !mintReady} onClick={mintSelected}>{soldOut ? 'EDITION SOLD OUT' : minting ? 'MINTING…' : `MINT ${qty} SWEETARDIO${qty > 1 ? 'S' : ''}`} <span>↗</span></button>}<p>Transactions enable only when the active Candy Guard and configured treasury agree.</p></div>
             {notice && <p className="terminal-notice" role="status">{notice}</p>}
             {!candyMachineConfigured && <p className="terminal-warning">Deployment mode: set <code>VITE_CANDY_MACHINE</code> after creating the 444-item Candy Machine.</p>}
