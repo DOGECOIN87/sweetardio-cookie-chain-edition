@@ -47,7 +47,7 @@ def parse_args():
     ap.add_argument("--count", type=int, default=50)
     ap.add_argument("--seed", type=int, default=20260813)
     ap.add_argument("--workers", type=int, default=4)
-    ap.add_argument("--backgrounds", default="side_collection/assets/backgroundz_final")
+    ap.add_argument("--backgrounds", default="assets/backgroundz")
     ap.add_argument("--out", default="side_collection/catalog/sample_sheet.png")
     return ap.parse_args()
 

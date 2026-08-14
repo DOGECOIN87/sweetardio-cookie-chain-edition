@@ -83,8 +83,8 @@ def parse_args():
     ap.add_argument("--seed", type=int, default=871003)
     ap.add_argument("--dry-run", action="store_true",
                     help="select and validate the full allocation without rendering")
-    ap.add_argument("--backgrounds", default="assets/backgroundz_final",
-                    help="side-only background directory (never traits/backgroundz)")
+    ap.add_argument("--backgrounds", default="assets/backgroundz",
+                    help="authoritative Cookie Edition background directory (never traits/backgroundz)")
     ap.add_argument("--out", default="output")
     return ap.parse_args()
 
