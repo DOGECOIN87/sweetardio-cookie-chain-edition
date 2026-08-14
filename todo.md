@@ -28,3 +28,11 @@
 - [x] Remove nonessential copy and repetitive status elements while preserving the mint safety messages required for correct operation.
 - [x] Validate refined layouts at all representative aspect ratios and confirm the production build.
 - [x] Commit and push the responsive simplification to `main`.
+
+# Reference-Faithful Replacement Design
+
+- [x] Extract the core visual rules from the original Sweetardio.fun landing page and identify the current page divergences.
+- [x] Define a minimal replacement composition that uses the original visual language rather than a generic neon interpretation.
+- [x] Rebuild the mint presentation while preserving all wallet, Candy Machine, Candy Guard, treasury, and transaction safeguards.
+- [x] Review the replacement at desktop and mobile sizes, then correct visible quality issues.
+- [x] Commit and push the reference-faithful replacement design to `main`.
