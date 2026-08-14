@@ -36,3 +36,11 @@
 - [x] Rebuild the mint presentation while preserving all wallet, Candy Machine, Candy Guard, treasury, and transaction safeguards.
 - [x] Review the replacement at desktop and mobile sizes, then correct visible quality issues.
 - [x] Commit and push the reference-faithful replacement design to `main`.
+
+# Glass Panel Readability Refinement
+
+- [x] Audit the glass-panel typography, contrast, and vertical rhythm at desktop and mobile sizes.
+- [x] Define targeted type-scale, line-height, panel-opacity, and spacing adjustments.
+- [x] Implement the readability refinement without altering wallet or mint behavior.
+- [x] Validate the refined panel on desktop and mobile and confirm the production build.
+- [x] Commit and push the glass-panel readability refinement to `main`.

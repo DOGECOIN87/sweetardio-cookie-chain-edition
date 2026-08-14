@@ -119,9 +119,8 @@ function App() {
           <img className="edition-plaque" src="/cookie-chain-edition-logo.png" alt="Cookie Chain Edition" />
           <p className="hero-chip"><i /> FINALIZED EDITION <span>·</span> 444 UNIQUE TOKENS</p>
           <h1 id="hero-title"><span><b>SWEET</b><em>ARDIO</em></span><strong>COOKIE CHAIN</strong></h1>
-          <p className="hero-description">A 444-piece side edition from the Sweetardio character system, made for the Cookie Chain.</p>
-          <p className="hero-kicker">FOLLOW THE NEON — MINT WHEN READY</p>
-          <button type="button" className="hero-mint" onClick={focusMint}><span>↑</span> MINT NOW <span>↑</span></button>
+          <p className="hero-description">444 Sweetardios, made for the Cookie Chain.</p>
+          <button type="button" className="hero-mint" onClick={focusMint}><span>↑</span> MINT WHEN READY <span>↑</span></button>
         </div></section>
 
         <Aisle number="01" label="THE DRAW" />
