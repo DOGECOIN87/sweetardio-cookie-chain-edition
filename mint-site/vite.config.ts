@@ -15,4 +15,7 @@ export default defineConfig({
     'process.env': '{}',
     'process.browser': 'true',
   },
+  server: {
+    allowedHosts: ['.manus.computer'],
+  },
 })
