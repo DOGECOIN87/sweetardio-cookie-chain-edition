@@ -542,7 +542,6 @@ GORBHOUSE_CHARS = [
     "waffle",
     "glazed_doughnut",
     "chocolate_doughnut",
-    "sugar_doughnut",
     "og_poptart",
     "chocolate_frosted_poptart",
     "cyan_frosted_poptart",
