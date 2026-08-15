@@ -18,4 +18,10 @@ The recreated release was rendered from seed `871003` after the Sugar Doughnut c
 
 All 14 tiles of the 3000×14850 contact sheet were reviewed in order with 12.5% vertical overlap. The complete recreated 444-piece release passed the deterministic validator and the visual review. The full-quality render set is held outside Git at `/home/ubuntu/cookie-chain-edition-444-recreated`; the matching zero-indexed Sugar staging set is held at `/home/ubuntu/cookie-chain-edition-candy-machine-assets`.
 
+## Dapp Logo Sticker Expansion
+
+The baseline release was superseded on 2026-08-15 by a final deterministic render at `/home/ubuntu/cookie-chain-edition-444-dapp-logos`. This release expands the sticker pool from 11 to 33 traits by adding all 22 public project logos listed in the official Cookie Chain Apps Registry. The 22 source logos were reviewed before normalization, then rendered once each in `cookie-chain-dapp-sticker-preview` to verify their actual lower-left token placement. The complete 444-token release passed `validate_cookie_chain_release.py` with the unchanged rarity tiers, 22 Cookboy Handheld occurrences, no Cookie Hands trait, no blocked Sugar Doughnut + Gorbhouse pairing, and a balanced 13-or-14 token count for every sticker.
+
+The current zero-indexed Sugar deployment staging set at `/home/ubuntu/cookie-chain-edition-candy-machine-assets` was rebuilt from this expanded final release.
+
 The review continues in documented top-to-bottom tile order. Any visible defect would require correction and a complete rerender because token numbering and metadata must remain synchronized.

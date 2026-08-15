@@ -16,14 +16,25 @@ EXPECTED_RARITY = {
     "Uncommon": 134,
     "Core": 222,
 }
-EXPECTED_STICKERS = {"Morsel": 40, "Cookiebox": 41}
 CANVAS = (1393, 1393)
+DEFAULT_STICKER_DIR = Path(__file__).resolve().parent.parent / "assets" / "stickerz"
+
+
+def sticker_display_name(path: Path) -> str:
+    """Mirror the public sticker names emitted by the Cookie Chain builder."""
+    overrides = {"Out_Of_Order": "Out of Order"}
+    return overrides.get(path.stem, path.stem.replace("_", " "))
 
 
 def parse_args():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--release", required=True, help="Rendered release directory")
     parser.add_argument("--count", type=int, default=444, help="Expected token count")
+    parser.add_argument(
+        "--sticker-dir",
+        default=str(DEFAULT_STICKER_DIR),
+        help="Directory containing the sticker files expected in the release",
+    )
     return parser.parse_args()
 
 
@@ -32,13 +43,28 @@ def load_token(path: Path) -> dict:
         return json.load(handle)
 
 
+def expected_rarity_counts(count: int) -> Counter:
+    """Match build_side_collection.py tier behavior for production and previews."""
+    if count == sum(EXPECTED_RARITY.values()):
+        return Counter(EXPECTED_RARITY)
+    weights = [(name, amount / 444) for name, amount in EXPECTED_RARITY.items()]
+    counts, used = {}, 0
+    for name, share in weights[:-1]:
+        counts[name] = round(count * share)
+        used += counts[name]
+    counts[weights[-1][0]] = count - used
+    return Counter(counts)
+
+
 def main():
     args = parse_args()
     release = Path(args.release).expanduser().resolve()
     image_dir = release / "images"
     metadata_dir = release / "metadata"
+    sticker_dir = Path(args.sticker_dir).expanduser().resolve()
     image_paths = sorted(image_dir.glob("*.png"))
     metadata_paths = sorted(metadata_dir.glob("*.json"))
+    expected_stickers = {sticker_display_name(path) for path in sticker_dir.glob("*.png")}
 
     report = {
         "release": str(release),
@@ -50,6 +76,7 @@ def main():
         "rarity": {},
         "arms": {},
         "stickers": {},
+        "expected_stickers": sorted(expected_stickers),
         "backgrounds": {},
         "public_trait_signatures": 0,
         "issues": [],
@@ -69,6 +96,8 @@ def main():
     if report["manifest"] != args.count:
         report["issues"].append(
             f"expected manifest with {args.count} tokens, found {report['manifest']}")
+    if not expected_stickers:
+        report["issues"].append(f"no PNG sticker files in {sticker_dir}")
 
     dimensions = Counter()
     for image_path in image_paths:
@@ -122,14 +151,27 @@ def main():
 
     if actual_names != expected_names:
         report["issues"].append("token names are not the exact #001–#444 public sequence")
-    if rarity != Counter(EXPECTED_RARITY):
+    expected_rarity = expected_rarity_counts(args.count)
+    if rarity != expected_rarity:
         report["issues"].append(f"rarity mismatch: {dict(rarity)}")
-    if arms != Counter({"Cookboy Handheld": 22}):
+    expected_arms = Counter({"Cookboy Handheld": 22}) if args.count == 444 else Counter()
+    if arms != expected_arms:
         report["issues"].append(f"arms mismatch: {dict(arms)}")
-    for sticker, expected in EXPECTED_STICKERS.items():
-        if stickers.get(sticker) != expected:
+    if set(stickers) != expected_stickers:
+        missing = sorted(expected_stickers - set(stickers))
+        unexpected = sorted(set(stickers) - expected_stickers)
+        report["issues"].append(
+            f"sticker pool mismatch; missing={missing}, unexpected={unexpected}")
+    if expected_stickers:
+        floor, remainder = divmod(args.count, len(expected_stickers))
+        permitted = {floor, floor + 1} if remainder else {floor}
+        invalid_counts = {
+            name: stickers.get(name, 0) for name in sorted(expected_stickers)
+            if stickers.get(name, 0) not in permitted
+        }
+        if invalid_counts:
             report["issues"].append(
-                f"{sticker} sticker count is {stickers.get(sticker, 0)}, expected {expected}")
+                f"sticker distribution must be {sorted(permitted)} per asset: {invalid_counts}")
     if len(signatures) != args.count:
         report["issues"].append(
             f"expected {args.count} unique public trait signatures, found {len(signatures)}")

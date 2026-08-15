@@ -15,11 +15,11 @@ type DropState = { loaded: boolean; itemsLoaded: number; itemsRedeemed: number; 
 
 const LAMPORTS_PER_COOK = 1_000_000_000
 const featuredSweetardios = [
-  { id: '003', name: 'Marshmallow', image: '/featured/003.png', traits: ['Simplex Arcade', 'Rare'] },
-  { id: '021', name: 'Cyan Frosted Pop Tart', image: '/featured/021.png', traits: ['Yatrah Arcade', 'Core'] },
-  { id: '013', name: 'Vanilla Ice Cream', image: '/featured/013.png', traits: ['Midnight Bakery', 'Uncommon'] },
-  { id: '067', name: 'Pink Sherbert Ice Cream', image: '/featured/067.png', traits: ['Emyr Gallery', 'Mythic Chase'] },
-  { id: '068', name: 'Waffle', image: '/featured/068.png', traits: ['Cookboy', 'Uncommon'] },
+  { id: '003', name: 'Gold Waffle', image: '/featured/003.png', traits: ['GORBOY sticker', 'Core'] },
+  { id: '012', name: 'Zebra Cake', image: '/featured/012.png', traits: ['Cookie MCP sticker', 'Core'] },
+  { id: '017', name: 'Churro', image: '/featured/017.png', traits: ['Nightly Wallet sticker', 'Core'] },
+  { id: '059', name: "S'mores", image: '/featured/059.png', traits: ['CookieScan sticker', 'Uncommon'] },
+  { id: '066', name: 'Waffle', image: '/featured/066.png', traits: ['CookieSwap sticker', 'Legendary Chase'] },
 ] as const
 
 function shortAddress(value: string) { return value.length > 12 ? `${value.slice(0, 5)}…${value.slice(-5)}` : value }

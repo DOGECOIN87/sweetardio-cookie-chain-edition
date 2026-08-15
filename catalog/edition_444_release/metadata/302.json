@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Cyan Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Digital Future Mural"
+      "value": "Fairdevs Night"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Tasty"
     },
     {
       "trait_type": "Arms",
@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookiebox"
+      "value": "Chibi Monster"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Legendary Chase"
     }
   ],
-  "selection_score": 3.352737,
+  "selection_score": 3.148008,
   "seed": 871003
 }

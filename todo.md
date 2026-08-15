@@ -68,3 +68,11 @@
 - [x] Write a simple developer deployment guide covering setup, collection preparation, Candy Machine deployment, mint configuration, and verification.
 - [x] Test the documented local configuration path and preserve safe failure behavior when live addresses are absent.
 - [x] Commit and push the deployment guide and related configuration improvements to `main`.
+
+# Cookie Chain Dapp Logo Stickers
+
+- [x] Inventory the public dapp directory and record each project name, source URL, and logo asset URL.
+- [x] Define a transparent sticker normalization and placement manifest for the approved public logos.
+- [x] Download and prepare the public logos as correctly sized Cookie Chain Edition sticker assets.
+- [x] Integrate the expanded sticker pool into the generator and update metadata/release validation rules.
+- [x] Run a deterministic preview and validation pass, then commit and push the sticker integration to `main`.

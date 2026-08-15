@@ -1,0 +1,29 @@
+{
+  "source": "https://raw.githubusercontent.com/cookiechain/apps/main/apps.json",
+  "retrieved_at": "2026-08-15",
+  "purpose": "Public Cookie Chain dapp logos normalized as Cookie Chain Edition sticker traits.",
+  "entries": [
+    {"slug":"cookie_scan","title":"CookieScan","tag":"Infra","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/cookiescan.png","live":true},
+    {"slug":"hyperlane_bridge","title":"Hyperlane Bridge","tag":"Infra","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/hyperlane.png","live":true},
+    {"slug":"nightly_wallet","title":"Nightly Wallet","tag":"Wallet","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/nightly.png","live":true},
+    {"slug":"defi_llama","title":"DefiLlama","tag":"Infra","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/defillama.png","live":true},
+    {"slug":"bake_your_stake","title":"Bake Your Stake","tag":"Infra","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/bakeyourstake.png","live":true},
+    {"slug":"cookie_swap","title":"CookieSwap","tag":"DeFi","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/cookieswap.png","live":true},
+    {"slug":"candy_shop","title":"Candy Shop","tag":"DeFi","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/candy.png","live":true},
+    {"slug":"metaplex","title":"Metaplex","tag":"Infra","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/metaplex.png","live":true},
+    {"slug":"cookie_quads","title":"Cookie Quads","tag":"Infra","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/quads.png","live":true},
+    {"slug":"cookiebox_liquidity_hub","title":"Cookiebox","tag":"DeFi","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/cookiebox.png","live":true},
+    {"slug":"cookiescan_das_api","title":"CookieScan DAS API","tag":"Infra","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/das.png","live":true},
+    {"slug":"momo_swap","title":"MomoSwap","tag":"DeFi","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/momoswap.png","live":false},
+    {"slug":"morsel_wallet","title":"Morsel Wallet","tag":"Wallet","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/morsel.png","live":false},
+    {"slug":"cook_oven","title":"CookOven","tag":"DeFi","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/cookoven.png","live":true},
+    {"slug":"cook_book","title":"CookBook","tag":"Infra","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/cookBook.png","live":true},
+    {"slug":"cookie_lock","title":"Cookie Lock","tag":"Infra","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/cooklock.png","live":true},
+    {"slug":"cookie_chat","title":"Cookie Chat","tag":"AI","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/cookie-chat.png","live":true},
+    {"slug":"gorboy","title":"GORBOY","tag":"Meme","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/gorboy.png","live":true},
+    {"slug":"sesamians","title":"Sesamians","tag":"NFT","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/sesamians.png","live":true},
+    {"slug":"baked_bazaar","title":"Baked Bazaar","tag":"NFT","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/bakedbazaar.png","live":true},
+    {"slug":"gorweld","title":"GorWeld","tag":"Meme","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/gorweld.png","live":false},
+    {"slug":"cookie_mcp","title":"Cookie MCP","tag":"Infra","logo":"https://raw.githubusercontent.com/cookiechain/apps/main/logos/cookie-mcp.png","live":true}
+  ]
+}

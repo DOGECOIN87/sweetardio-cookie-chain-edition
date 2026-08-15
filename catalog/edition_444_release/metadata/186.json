@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Sandwich Cookie"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "Welders Equipment"
+      "value": "Midnight Bakery"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
-      "value": "Crying Tomato"
+      "value": "Hyperlane Bridge"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.833686,
+  "selection_score": 3.239838,
   "seed": 871003
 }

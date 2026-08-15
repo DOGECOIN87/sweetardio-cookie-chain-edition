@@ -85,7 +85,11 @@ python3 asset_assessment/build_side_collection.py --count 444 --backgrounds path
 
 ## Assets in this repo
 
-- `assets/stickerz/` — the 9 prepared side-collection stickers.
+- `assets/stickerz/` — the 11 original Cookie Chain Edition stickers plus 22
+  normalized public Cookie Chain dapp-logo stickers. Their canonical sources,
+  public names, and normalization policy are recorded in
+  `asset_assessment/cookiechain_dapp_logo_manifest.json` and
+  `asset_assessment/cookiechain_dapp_sticker_policy.md`.
 - `assets/armz/` — the Cookboy handheld game-device held item. It is sized and
   placed to match the production held-item arms, and is held in the character's
   **left** hand — the viewer's right. See `prepare_side_arm.py` for the

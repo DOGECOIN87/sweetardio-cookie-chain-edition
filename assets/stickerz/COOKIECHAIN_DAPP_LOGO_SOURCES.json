@@ -1,0 +1,420 @@
+[
+  {
+    "slug": "cookie_scan",
+    "title": "CookieScan",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/cookiescan.png",
+    "source_sha256": "cef015c3eb5c03a32e04a1d6a03cb8c2af78825b8a5b1989fc2aa362d59bbaba",
+    "output": "CookieScan.png",
+    "art_size": {
+      "width": 193,
+      "height": 200
+    },
+    "position": {
+      "x": 94,
+      "y": 1108
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "hyperlane_bridge",
+    "title": "Hyperlane Bridge",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/hyperlane.png",
+    "source_sha256": "e5bb20ee5d5c129d178c328caece0aa600219c12f6e2020cfb05f7be567eb8c5",
+    "output": "Hyperlane_Bridge.png",
+    "art_size": {
+      "width": 200,
+      "height": 198
+    },
+    "position": {
+      "x": 90,
+      "y": 1110
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "nightly_wallet",
+    "title": "Nightly Wallet",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/nightly.png",
+    "source_sha256": "a86925cea8e69652e30cd1d9d3bb101a4112b96301126796bbe40437ac8809cf",
+    "output": "Nightly_Wallet.png",
+    "art_size": {
+      "width": 200,
+      "height": 200
+    },
+    "position": {
+      "x": 90,
+      "y": 1108
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "defi_llama",
+    "title": "DefiLlama",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/defillama.png",
+    "source_sha256": "690753940cf3b534b8d4402bf82e4dfd8d373e738abda1ef65ae3c167c866650",
+    "output": "DefiLlama.png",
+    "art_size": {
+      "width": 179,
+      "height": 200
+    },
+    "position": {
+      "x": 100,
+      "y": 1108
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "bake_your_stake",
+    "title": "Bake Your Stake",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/bakeyourstake.png",
+    "source_sha256": "f65e18a47da60dcb1a2e74264c881865da32dba6fcebe2048dcc2d0c51dcc33e",
+    "output": "Bake_Your_Stake.png",
+    "art_size": {
+      "width": 200,
+      "height": 196
+    },
+    "position": {
+      "x": 90,
+      "y": 1112
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "cookie_swap",
+    "title": "CookieSwap",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/cookieswap.png",
+    "source_sha256": "e3406910905b09f3f42893f678bddf5aa7c3563fe5e2dde6b5b8048e36825839",
+    "output": "CookieSwap.png",
+    "art_size": {
+      "width": 200,
+      "height": 200
+    },
+    "position": {
+      "x": 90,
+      "y": 1108
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "candy_shop",
+    "title": "Candy Shop",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/candy.png",
+    "source_sha256": "e9ea7e85f5650f64c80c1d86f642de90771726e4082d6bd342c780870ef38fc6",
+    "output": "Candy_Shop.png",
+    "art_size": {
+      "width": 200,
+      "height": 198
+    },
+    "position": {
+      "x": 90,
+      "y": 1110
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "metaplex",
+    "title": "Metaplex",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/metaplex.png",
+    "source_sha256": "bfd5b5808700a2d7be71e36728c6d65af0e76fe82212b2ceadaad3cfb39ab41d",
+    "output": "Metaplex.png",
+    "art_size": {
+      "width": 200,
+      "height": 200
+    },
+    "position": {
+      "x": 90,
+      "y": 1108
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "cookie_quads",
+    "title": "Cookie Quads",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/quads.png",
+    "source_sha256": "58a3522962bf4c37a8590033cdf2714d1cb5e58864b3a721c2518a0663a42ddd",
+    "output": "Cookie_Quads.png",
+    "art_size": {
+      "width": 200,
+      "height": 200
+    },
+    "position": {
+      "x": 90,
+      "y": 1108
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "cookiebox_liquidity_hub",
+    "title": "Cookiebox",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/cookiebox.png",
+    "source_sha256": "d4c41ad71434970f374139cbd222fb2b18d804aedc1567d7f4fa9f3ccdcf8926",
+    "output": "Cookiebox_Liquidity_Hub.png",
+    "art_size": {
+      "width": 189,
+      "height": 200
+    },
+    "position": {
+      "x": 96,
+      "y": 1108
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "cookiescan_das_api",
+    "title": "CookieScan DAS API",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/das.png",
+    "source_sha256": "4bac7bc9b3969ea2b4b0fb94cd6a5dbee974a1c2ce95832119a0773f052dfc57",
+    "output": "CookieScan_DAS_API.png",
+    "art_size": {
+      "width": 200,
+      "height": 200
+    },
+    "position": {
+      "x": 90,
+      "y": 1108
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "momo_swap",
+    "title": "MomoSwap",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/momoswap.png",
+    "source_sha256": "0c7820476b2dbd3fd4ad1e450a19223f1090fd53b893885ee2bc359f3ff654d1",
+    "output": "MomoSwap.png",
+    "art_size": {
+      "width": 185,
+      "height": 200
+    },
+    "position": {
+      "x": 98,
+      "y": 1108
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "morsel_wallet",
+    "title": "Morsel Wallet",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/morsel.png",
+    "source_sha256": "8d65f1b9e6857ee6b56fb8bf1e9891f96acdb461be3bb00b6de4aa74ad0c7199",
+    "output": "Morsel_Wallet.png",
+    "art_size": {
+      "width": 167,
+      "height": 200
+    },
+    "position": {
+      "x": 106,
+      "y": 1108
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "cook_oven",
+    "title": "CookOven",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/cookoven.png",
+    "source_sha256": "5695fba362d485ea42513f8ba330266a16b8123c191fe8f97da63cd95d83093c",
+    "output": "CookOven.png",
+    "art_size": {
+      "width": 200,
+      "height": 38
+    },
+    "position": {
+      "x": 90,
+      "y": 1270
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "cook_book",
+    "title": "CookBook",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/cookBook.png",
+    "source_sha256": "8d72ad130fefac2fc24c2ac7fc04a2f80e089d5129ecc53ef1a9d024bd1c9a07",
+    "output": "CookBook.png",
+    "art_size": {
+      "width": 200,
+      "height": 94
+    },
+    "position": {
+      "x": 90,
+      "y": 1214
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "cookie_lock",
+    "title": "Cookie Lock",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/cooklock.png",
+    "source_sha256": "51c4361a2dc06e397ce58b602dc446a8d864f8f16ebaa9aaa97ba4af7a84179d",
+    "output": "Cookie_Lock.png",
+    "art_size": {
+      "width": 200,
+      "height": 57
+    },
+    "position": {
+      "x": 90,
+      "y": 1251
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "cookie_chat",
+    "title": "Cookie Chat",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/cookie-chat.png",
+    "source_sha256": "2e592308b89e26c1a3cbb74d0f854e0d7f15deb70107e3bd8930f7b19aa25e2c",
+    "output": "Cookie_Chat.png",
+    "art_size": {
+      "width": 200,
+      "height": 182
+    },
+    "position": {
+      "x": 90,
+      "y": 1126
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "gorboy",
+    "title": "GORBOY",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/gorboy.png",
+    "source_sha256": "0e2fdc05af5a4cab4c029fdb73a642e6f2adb5d4a8364fa9a9426dbfa727cbf6",
+    "output": "GORBOY.png",
+    "art_size": {
+      "width": 200,
+      "height": 200
+    },
+    "position": {
+      "x": 90,
+      "y": 1108
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "sesamians",
+    "title": "Sesamians",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/sesamians.png",
+    "source_sha256": "2b7d81d51be319182276dbfa0965495c20b8aefad49e11e2f6b3cd20dd1b45aa",
+    "output": "Sesamians.png",
+    "art_size": {
+      "width": 200,
+      "height": 200
+    },
+    "position": {
+      "x": 90,
+      "y": 1108
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "baked_bazaar",
+    "title": "Baked Bazaar",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/bakedbazaar.png",
+    "source_sha256": "4f5de4a07f4d6c67a9898694113cefff661ecee96b5a98ca0469bfdaa11ba329",
+    "output": "Baked_Bazaar.png",
+    "art_size": {
+      "width": 200,
+      "height": 200
+    },
+    "position": {
+      "x": 90,
+      "y": 1108
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "gorweld",
+    "title": "GorWeld",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/gorweld.png",
+    "source_sha256": "73fe1ab60c39afa177c47c77a6c1217a7b3c1d43f31b7f0901e487fedb8b49bb",
+    "output": "GorWeld.png",
+    "art_size": {
+      "width": 200,
+      "height": 200
+    },
+    "position": {
+      "x": 90,
+      "y": 1108
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  },
+  {
+    "slug": "cookie_mcp",
+    "title": "Cookie MCP",
+    "source_url": "https://raw.githubusercontent.com/cookiechain/apps/main/logos/cookie-mcp.png",
+    "source_sha256": "0da0d4c7be92191b7d45e423752281ac967f1fa5c2f8683039251c21b2e0e9a5",
+    "output": "Cookie_MCP.png",
+    "art_size": {
+      "width": 200,
+      "height": 196
+    },
+    "position": {
+      "x": 90,
+      "y": 1112
+    },
+    "canvas": {
+      "width": 1393,
+      "height": 1393
+    }
+  }
+]
