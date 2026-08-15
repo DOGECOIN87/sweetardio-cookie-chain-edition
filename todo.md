@@ -83,7 +83,7 @@
 - [x] Install the supplied Nightly artwork and update generator/validation metadata rules.
 - [x] Render and validate a deterministic preview, then regenerate the final 444-token release with the Nightly Legendary trait.
 - [x] Rebuild the Sugar staging set, refresh mint previews, and verify the frontend build against the new final collection.
-- [ ] Commit and push the Nightly Legendary collection update to `main`.
+- [x] Commit and push the Nightly Legendary collection update to `main`.
 
 # Updated Nightly Legendary Source
 
