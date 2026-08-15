@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Neapolitan Ice Cream"
+      "value": "Nutty Bar"
     },
     {
       "trait_type": "Background",
-      "value": "NFTs Aren't Dead"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -21,7 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Arms",
@@ -40,6 +40,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.789082,
+  "selection_score": 2.966444,
   "seed": 871003
 }

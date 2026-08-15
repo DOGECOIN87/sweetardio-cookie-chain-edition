@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "GorWeld Legendary"
+      "value": "Yatrah Arcade"
     },
     {
       "trait_type": "Skin",
@@ -24,10 +24,6 @@
       "value": "Fang"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
-    },
-    {
       "trait_type": "Sticker",
       "value": "Baked Bazaar"
     },
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.320603,
+  "selection_score": 3.132635,
   "seed": 871003
 }

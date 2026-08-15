@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "Ding Dong"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Legendary"
+      "value": "GorWeld Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.455818,
+  "selection_score": 2.528836,
   "seed": 871003
 }

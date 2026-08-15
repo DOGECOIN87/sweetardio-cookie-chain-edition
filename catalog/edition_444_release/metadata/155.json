@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Legendary"
+      "value": "NFTs Aren't Dead"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Arms",
@@ -41,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Mythic Chase"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 3.877093,
+  "selection_score": 4.39124,
   "seed": 871003
 }

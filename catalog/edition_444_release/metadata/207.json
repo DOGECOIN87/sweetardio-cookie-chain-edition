@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Legendary"
+      "value": "Fairdevs Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,7 +17,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
@@ -36,6 +36,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 4.254959,
+  "selection_score": 4.311839,
   "seed": 871003
 }

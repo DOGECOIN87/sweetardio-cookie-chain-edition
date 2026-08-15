@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Frosted Pop Tart"
+      "value": "Nutty Bar"
     },
     {
       "trait_type": "Background",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.282262,
+  "selection_score": 3.327876,
   "seed": 871003
 }

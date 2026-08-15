@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Sarv Legendary"
+      "value": "M Power Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.605069,
+  "selection_score": 3.663201,
   "seed": 871003
 }

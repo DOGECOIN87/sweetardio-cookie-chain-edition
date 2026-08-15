@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Ice Cream"
+      "value": "Ding Dong"
     },
     {
       "trait_type": "Background",
-      "value": "GorWeld Legendary"
+      "value": "Emyr Legendary"
     },
     {
       "trait_type": "Skin",
@@ -21,7 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.630235,
+  "selection_score": 2.70334,
   "seed": 871003
 }

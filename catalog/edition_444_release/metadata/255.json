@@ -13,11 +13,11 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
@@ -25,7 +25,7 @@
     },
     {
       "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Cookie Monster Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.777071,
+  "selection_score": 2.899547,
   "seed": 871003
 }

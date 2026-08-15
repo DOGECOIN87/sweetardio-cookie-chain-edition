@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Yatrah Arcade"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Smirk"
     },
     {
       "trait_type": "Arms",
@@ -40,6 +40,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.356449,
+  "selection_score": 3.172786,
   "seed": 871003
 }

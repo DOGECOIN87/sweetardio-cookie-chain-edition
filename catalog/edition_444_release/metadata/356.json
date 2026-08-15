@@ -9,7 +9,7 @@
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Morsel Legendary"
     },
     {
       "trait_type": "Skin",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.761575,
+  "selection_score": 3.587663,
   "seed": 871003
 }

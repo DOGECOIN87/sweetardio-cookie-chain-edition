@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "Chocolate Sandwich Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "NFTs Aren't Dead"
     },
     {
       "trait_type": "Skin",
@@ -44,6 +44,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.483895,
+  "selection_score": 3.780501,
   "seed": 871003
 }

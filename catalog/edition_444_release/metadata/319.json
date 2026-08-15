@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Zebra Cake"
     },
     {
       "trait_type": "Background",
-      "value": "Morsel Legendary"
+      "value": "Fairdevs Legendary"
     },
     {
       "trait_type": "Skin",
@@ -40,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.581267,
+  "selection_score": 3.507287,
   "seed": 871003
 }

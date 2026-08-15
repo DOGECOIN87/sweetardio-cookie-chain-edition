@@ -19,7 +19,7 @@ const featuredSweetardios = [
   { id: '079', name: 'Marshmallow', image: '/featured/079.png', traits: ['L sticker', 'Mattrick Legendary · Legendary Chase'] },
   { id: '434', name: 'Rice Crispy Treat', image: '/featured/434.png', traits: ['Real as a Doughnut sticker', 'Shubbi Legendary · Legendary Chase'] },
   { id: '268', name: 'Churro', image: '/featured/268.png', traits: ['Baked Bazaar sticker', 'Tenders Legendary · Legendary Chase'] },
-  { id: '155', name: 'Gold Waffle', image: '/featured/155.png', traits: ['Printer arm trait', 'Mythic Chase'] },
+  { id: '155', name: 'Sugar Doughnut', image: '/featured/155.png', traits: ['Printer arm trait', 'NFTs Aren’t Dead · Legendary Chase'] },
 ] as const
 
 function shortAddress(value: string) { return value.length > 12 ? `${value.slice(0, 5)}…${value.slice(-5)}` : value }

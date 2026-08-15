@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Fang"
     },
     {
       "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.844211,
+  "selection_score": 3.48671,
   "seed": 871003
 }

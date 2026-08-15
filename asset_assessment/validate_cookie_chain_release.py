@@ -160,6 +160,11 @@ def main():
         if values.get("Character") == "Sugar Doughnut" and values.get("Footwear") == "Gorbhouse Slippers":
             report["issues"].append(
                 f"{metadata_path.name} contains blocked Sugar Doughnut + Gorbhouse pairing")
+        if values.get("Background") in {
+            "Cosmic Fog", "Oxford Blue Fur", "Golden Bubbles", "Midnight Bakery"
+        }:
+            report["issues"].append(
+                f"{metadata_path.name} contains excluded background {values.get('Background')}")
         if values.get("Background") == NIGHTLY_LEGENDARY_BACKGROUND:
             nightly_tokens.append((metadata_path.name, values))
 

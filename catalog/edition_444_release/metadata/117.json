@@ -5,23 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Gummy Bear"
+      "value": "Sugar Cube"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Legendary"
+      "value": "Morsel Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.814747,
+  "selection_score": 3.366619,
   "seed": 871003
 }

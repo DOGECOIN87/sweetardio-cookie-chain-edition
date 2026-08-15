@@ -145,6 +145,7 @@ BACKGROUND_EXCLUSIONS = frozenset({
     "Cosmic_Fog.png",
     "Oxford_Blue_Fur.png",
     "Golden_Bubbles.png",
+    "Midnight_Bakery.png",
 })
 
 def is_legendary_bg(filename):
@@ -747,6 +748,14 @@ def char_y_adjust(char_name):
     name = char_name.lower()
     hits = [k for k in CHAR_Y_ADJUST if k in name]
     return CHAR_Y_ADJUST[max(hits, key=len)] if hits else 0
+
+# Gorbhouse Slippers are a fixed full-canvas overlay. The full eligible-cast
+# review showed every figure sitting too low against the cans, so every
+# Gorbhouse wearer is raised together relative to the untouched slippers.
+GORBHOUSE_CHARACTER_LIFT = 84
+
+def gorbhouse_character_lift(char_name):
+    return GORBHOUSE_CHARACTER_LIFT if gets_gorbhouse_overlay(char_name) else 0
 
 # Per-character vertical trim (px, +down) for CENTERED characters in their
 # footwear-less position, where the normal CHAR_Y_ADJUST and the +150 drop are
@@ -1622,6 +1631,10 @@ def generate_random_combination(force_bg=None, force_arm="auto",
     apply_offset = not chosen_wat and not no_offset_char
     y_adjust = char_y_adjust(char_name)
     cscale = char_scale(char_name)
+    gorbhouse_lift = gorbhouse_character_lift(char_name) if gets_gorbhouse else 0
+    # Lift only the specified characters relative to the fixed Gorbhouse
+    # slippers. The overlay below receives the equal and opposite compensation.
+    y_adjust -= gorbhouse_lift
     # Baseless/round characters sit centred ONLY when they have nothing under
     # them to stand on: no footwear (apply_offset) and no gorbhouse. With a
     # shoe or trash-can they keep their normal grounded placement.
@@ -1745,7 +1758,8 @@ def generate_random_combination(force_bg=None, force_arm="auto",
         if not os.path.exists(gorbhouse_path):
             gorbhouse_path = os.path.join(TRAITS_DIR, WHAT_ARE_THOSEZ, "Gorbhouse_Overlay.png")
         if os.path.exists(gorbhouse_path):
-            layers.append({"path": gorbhouse_path, "offset": apply_offset, "dy": y_adjust + bg_extra_y})
+            layers.append({"path": gorbhouse_path, "offset": apply_offset,
+                           "dy": y_adjust + bg_extra_y + gorbhouse_lift})
 
     # 10. Armz (after ALL footwear overlays — WAT and gorbhouse — so a held
     # katana/knife reads on top of the footwear; tracks the character's scale)

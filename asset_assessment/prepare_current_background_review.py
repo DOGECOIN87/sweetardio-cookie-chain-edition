@@ -24,7 +24,6 @@ CURATED = [
     (ACTIVE, "Digital_Future_Mural.png", "NFTs Aren’t Dead"),
     (STAGED, "Emyr_Gallery.png", "Emyr Legendary — Replacement"),
     (ACTIVE, "Fairdevs_Night.png", "Fairdevs Legendary"),
-    (ACTIVE, "Golden_Bubbles.png", "Golden Bubbles"),
     (ACTIVE, "Gorbhouse_Treasures.png", "Gorbhouse Treasures"),
     (STAGED, "Legendary_Mattrick.png", "Mattrick Legendary — New"),
     (ACTIVE, "Legendary_Nightly.png", "Nightly Legendary — Reserved 1/1"),
@@ -32,7 +31,6 @@ CURATED = [
     (STAGED, "Legendary_Tenders.png", "Tenders Legendary — New"),
     (ACTIVE, "Liberty_Cookie_Dime.png", "Liberty Cookie Dime"),
     (ACTIVE, "Marsel_Blue.png", "Morsel Legendary"),
-    (ACTIVE, "Midnight_Bakery.png", "Midnight Bakery"),
     (ACTIVE, "Moon_Surface.png", "Moon Surface"),
     (ACTIVE, "Picnic_Stage.png", "Picnic Stage"),
     (ACTIVE, "Short_The_Banks_Vault.png", "Short The Banks Legendary"),
@@ -46,6 +44,7 @@ REMOVED = [
     (ACTIVE, "Cosmic_Fog.png", "Cosmic Fog — Remove"),
     (ACTIVE, "Oxford_Blue_Fur.png", "Oxford Blue Fur — Remove"),
     (ACTIVE, "Golden_Bubbles.png", "Golden Bubbles — Remove"),
+    (ACTIVE, "Midnight_Bakery.png", "Midnight Bakery — Remove"),
 ]
 
 

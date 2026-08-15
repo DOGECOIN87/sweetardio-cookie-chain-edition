@@ -9,7 +9,7 @@
     },
     {
       "trait_type": "Background",
-      "value": "Morsel Legendary"
+      "value": "Cookboy Legendary"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Smoke"
     },
     {
       "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Pepe Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +40,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 4.602643,
+  "selection_score": 4.563616,
   "seed": 871003
 }

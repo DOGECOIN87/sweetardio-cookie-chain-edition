@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Ice Cream"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookie Dough"
+      "value": "NFTs Aren't Dead"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Arms",
@@ -40,6 +40,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.929365,
+  "selection_score": 3.844161,
   "seed": 871003
 }

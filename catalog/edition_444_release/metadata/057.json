@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
@@ -17,7 +17,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.859881,
+  "selection_score": 3.911937,
   "seed": 871003
 }

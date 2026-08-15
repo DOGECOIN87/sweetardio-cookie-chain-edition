@@ -9,7 +9,7 @@
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Moon Surface"
     },
     {
       "trait_type": "Skin",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.856496,
+  "selection_score": 3.733953,
   "seed": 871003
 }

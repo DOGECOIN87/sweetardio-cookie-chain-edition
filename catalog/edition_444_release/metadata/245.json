@@ -9,19 +9,19 @@
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Black Enamel"
+      "value": "M Power Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Tasty"
     },
     {
       "trait_type": "Footwear",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 2.530489,
+  "selection_score": 2.531035,
   "seed": 871003
 }

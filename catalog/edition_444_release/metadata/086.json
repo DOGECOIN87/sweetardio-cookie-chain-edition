@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Short The Banks Legendary"
+      "value": "Fairdevs Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -21,7 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Flat"
     },
     {
       "trait_type": "Footwear",
@@ -40,6 +40,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 4.498965,
+  "selection_score": 4.61749,
   "seed": 871003
 }

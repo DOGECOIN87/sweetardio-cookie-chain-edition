@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
-      "value": "Cookie Dough"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
@@ -17,7 +17,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.95984,
+  "selection_score": 4.118653,
   "seed": 871003
 }

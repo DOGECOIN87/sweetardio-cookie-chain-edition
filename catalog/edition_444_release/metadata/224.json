@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Sandwich Cookie"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
       "value": "Smoke"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.101168,
+  "selection_score": 2.473626,
   "seed": 871003
 }
