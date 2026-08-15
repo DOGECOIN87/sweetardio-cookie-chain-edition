@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "Zebra Cake"
     },
     {
       "trait_type": "Background",
-      "value": "Welders Equipment"
+      "value": "Midnight Bakery"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
@@ -25,7 +25,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "Poptart Cat"
+      "value": "Emyr"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.864424,
+  "selection_score": 3.001073,
   "seed": 871003
 }

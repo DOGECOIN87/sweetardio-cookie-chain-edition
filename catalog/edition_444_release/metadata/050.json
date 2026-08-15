@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "S'mores"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Black Enamel"
+      "value": "Marsel Blue"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
       "value": "Diamond Grill"
     },
     {
+      "trait_type": "Footwear",
+      "value": "Cookie Monster Slippers"
+    },
+    {
       "trait_type": "Sticker",
-      "value": "Sweetardio"
+      "value": "Crying Tomato"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.634199,
+  "selection_score": 3.536598,
   "seed": 871003
 }

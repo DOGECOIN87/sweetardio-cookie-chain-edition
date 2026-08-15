@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Churro"
+      "value": "Zebra Cake"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Fairdevs Night"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "Morsel"
+      "value": "Chibi Monster"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.877289,
+  "selection_score": 3.365825,
   "seed": 871003
 }

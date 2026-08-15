@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "S'mores"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Emyr Gallery"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,15 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Morsel"
+      "value": "CookieScan DAS API"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.482718,
+  "selection_score": 4.909507,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Glazed Doughnut"
+      "value": "Chocolate Chip Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Gorbhouse Treasures"
+      "value": "Digital Future Mural"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
       "value": "Diamond Grill"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
-    },
-    {
       "trait_type": "Sticker",
-      "value": "DefiLlama"
+      "value": "Cookie Quads"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.260059,
+  "selection_score": 4.628582,
   "seed": 871003
 }

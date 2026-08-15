@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Neapolitan Ice Cream"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Short the Banks Vault"
+      "value": "Digital Future Mural"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
       "value": "Diamond Grill"
     },
     {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
+    },
+    {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "DefiLlama"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 3.140973,
+  "selection_score": 3.578342,
   "seed": 871003
 }

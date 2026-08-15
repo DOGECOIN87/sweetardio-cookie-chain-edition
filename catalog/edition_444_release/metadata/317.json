@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Marshmallow"
+      "value": "Sugar Cube"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Gallery"
+      "value": "Cosmic Fog"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan"
+      "value": "Candy Shop"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.823166,
+  "selection_score": 3.739835,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Pink Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Cookie Vault"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "DefiLlama"
+      "value": "CookieScan DAS API"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.420657,
+  "selection_score": 3.788653,
   "seed": 871003
 }

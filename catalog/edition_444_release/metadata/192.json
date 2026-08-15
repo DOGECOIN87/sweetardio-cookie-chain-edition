@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Doughnut"
+      "value": "Churro"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Cosmic Fog"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Flat"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieSwap"
+      "value": "Anime Detective"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.647763,
+  "selection_score": 3.449287,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Doughnut"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Cookboy Paisley"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
       "value": "Diamond Grill"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
-    },
-    {
       "trait_type": "Sticker",
-      "value": "Emyr"
+      "value": "Cookie Lock"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.111466,
+  "selection_score": 3.70589,
   "seed": 871003
 }

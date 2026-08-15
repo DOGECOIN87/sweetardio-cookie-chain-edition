@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Cosmic Fog"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie MCP"
+      "value": "Anime Detective"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.497429,
+  "selection_score": 4.511661,
   "seed": 871003
 }

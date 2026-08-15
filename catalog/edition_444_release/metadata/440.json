@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Cookboy"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -24,8 +24,12 @@
       "value": "Smoke"
     },
     {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
+    },
+    {
       "trait_type": "Sticker",
-      "value": "Cookie Chat"
+      "value": "Poptart Cat"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.381682,
+  "selection_score": 1.97616,
   "seed": 871003
 }

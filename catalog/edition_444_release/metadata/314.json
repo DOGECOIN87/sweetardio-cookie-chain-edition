@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "Chocolate Sandwich Cookie"
     },
     {
       "trait_type": "Background",
@@ -13,19 +13,19 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Lock"
+      "value": "Armed Hero"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.951834,
+  "selection_score": 3.625248,
   "seed": 871003
 }

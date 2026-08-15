@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Night"
+      "value": "Cookboy Black Enamel"
     },
     {
       "trait_type": "Skin",
@@ -24,12 +24,8 @@
       "value": "Awkward Smile"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
-    },
-    {
       "trait_type": "Sticker",
-      "value": "GorWeld"
+      "value": "Emyr"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.920487,
+  "selection_score": 3.588089,
   "seed": 871003
 }

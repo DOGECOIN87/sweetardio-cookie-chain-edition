@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Fairdevs Night"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieSwap"
+      "value": "Morsel"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.288644,
+  "selection_score": 3.194424,
   "seed": 871003
 }

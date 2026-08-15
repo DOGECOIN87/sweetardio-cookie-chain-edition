@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Digital Future Mural"
+      "value": "Picnic Stage"
     },
     {
       "trait_type": "Skin",
@@ -21,15 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Pepe Slippers"
+      "value": "Flat"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie MCP"
+      "value": "Nightly Wallet"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.338038,
+  "selection_score": 3.26412,
   "seed": 871003
 }

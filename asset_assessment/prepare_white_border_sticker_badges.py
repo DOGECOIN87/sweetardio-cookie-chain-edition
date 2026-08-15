@@ -20,6 +20,20 @@ BADGE_Y = 1108
 OXFORD = (7, 15, 52, 255)
 WHITE = (255, 255, 255, 255)
 
+# This is the curated, active Cookie Chain Edition pool. Source art stays in
+# the archive for provenance, but these outputs must never be reintroduced to
+# assets/stickerz during a badge rebuild. Cookiebox and Morsel are the approved
+# legacy representatives of their duplicate-brand pairs.
+EXCLUDED_OUTPUTS = frozenset({
+    "Bake_Your_Stake.png",
+    "Cookiebox_Liquidity_Hub.png",
+    "Hyperlane_Bridge.png",
+    "Metaplex.png",
+    "Morsel_Wallet.png",
+    "Sesamians.png",
+    "Sweetardio.png",
+})
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description=__doc__)
@@ -64,6 +78,11 @@ def entry_for(source: Path, output: str, origin: str) -> dict:
     }
 
 
+def is_active_output(output: str) -> bool:
+    """Return whether a generated badge belongs in the curated active pool."""
+    return output not in EXCLUDED_OUTPUTS
+
+
 def main():
     args = parse_args()
     legacy_dir = Path(args.legacy_dir).expanduser().resolve()
@@ -78,6 +97,8 @@ def main():
     expected = set()
     for source in sorted(legacy_dir.glob("*.png")):
         target = out / source.name
+        if not is_active_output(target.name):
+            continue
         make_badge(source).save(target, optimize=True)
         records.append(entry_for(source, target.name, "legacy Cookie Chain sticker overlay"))
         expected.add(target.name)
@@ -90,10 +111,15 @@ def main():
         source = dapp_dir / receipt["file"]
         output = OUTPUTS[slug]
         target = out / output
+        if not is_active_output(target.name):
+            continue
         make_badge(source).save(target, optimize=True)
         records.append(entry_for(source, target.name, "official Cookie Chain Apps Registry logo"))
         expected.add(target.name)
         print(f"badged dapp {target.name}")
+    actual = {path.name for path in out.glob("*.png")}
+    for stale_name in sorted(actual & EXCLUDED_OUTPUTS):
+        (out / stale_name).unlink()
     actual = {path.name for path in out.glob("*.png")}
     stale = actual - expected
     if stale:
@@ -101,7 +127,7 @@ def main():
     (out / "COOKIECHAIN_STICKER_BADGE_SOURCES.json").write_text(
         json.dumps(records, indent=2) + "\n", encoding="utf-8"
     )
-    print(f"prepared {len(records)} white-bordered square sticker badges -> {out}")
+    print(f"prepared {len(records)} curated white-bordered square sticker badges -> {out}")
 
 
 if __name__ == "__main__":

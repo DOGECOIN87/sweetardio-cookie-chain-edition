@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Short the Banks Vault"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
       "value": "Awkward Smile"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
-    },
-    {
       "trait_type": "Sticker",
-      "value": "GORBOY"
+      "value": "Cookie Lock"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.558076,
+  "selection_score": 3.228732,
   "seed": 871003
 }

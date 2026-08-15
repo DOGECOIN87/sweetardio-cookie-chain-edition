@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Cosmic Fog"
+      "value": "Oxford Blue Fur"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
       "value": "Smoke"
     },
     {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
+    },
+    {
       "trait_type": "Sticker",
-      "value": "Anime Detective"
+      "value": "Emyr"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 4.511661,
+  "selection_score": 3.272165,
   "seed": 871003
 }

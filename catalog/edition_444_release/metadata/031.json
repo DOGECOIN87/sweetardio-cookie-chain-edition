@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Gummy Bear"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Emyr Gallery"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
       "value": "Awkward Smile"
     },
     {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
       "trait_type": "Sticker",
-      "value": "CookBook"
+      "value": "Baked Bazaar"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.336081,
+  "selection_score": 3.64009,
   "seed": 871003
 }

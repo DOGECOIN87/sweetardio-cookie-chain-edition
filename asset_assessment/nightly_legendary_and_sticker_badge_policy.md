@@ -12,6 +12,6 @@ The supplied `file_0000000046f081fd962fe9210c620f09.png` file is installed uncha
 
 ## White-Bordered Square Sticker Badges
 
-All 33 sticker traits, including the original 11 and the 22 public dapp-logo stickers, use the same deterministic badge treatment. Each badge is a **200×200px square** with a **8px solid white border**, a dark Oxford Blue reading surface, and centered source artwork fitted inside a 160px inner area. The square badge is placed in the existing lower-left anchor at x=90, y=1108 on the 1393×1393 transparent sticker canvas.
+All **26 active sticker traits** use the same deterministic badge treatment. Each badge is a **200×200px square** with a **8px solid white border**, a dark Oxford Blue reading surface, and centered source artwork fitted inside a 160px inner area. The square badge is placed in the existing lower-left anchor at x=90, y=1108 on the 1393×1393 transparent sticker canvas.
 
-This treatment adds a consistent border and square silhouette without redrawing, recoloring, or otherwise altering the original logo/sticker artwork. The same source archive is used every time the badge set is regenerated, preventing compound framing on repeated builds.
+This treatment adds a consistent border and square silhouette without redrawing, recoloring, or otherwise altering the original logo/sticker artwork. The same source archive is used every time the badge set is regenerated, preventing compound framing on repeated builds. The badge builder excludes the retired **Bake Your Stake**, **Cookiebox Liquidity Hub**, **Hyperlane Bridge**, **Metaplex**, **Morsel Wallet**, **Sesamians**, and **Sweetardio** outputs before writing the active pool.

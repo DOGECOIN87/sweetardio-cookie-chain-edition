@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Churro"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Gorbhouse Treasures"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Flat"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Quads"
+      "value": "Morsel"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.650397,
+  "selection_score": 2.164299,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Emyr Gallery"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookiebox"
+      "value": "CookBook"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.976504,
+  "selection_score": 4.033226,
   "seed": 871003
 }

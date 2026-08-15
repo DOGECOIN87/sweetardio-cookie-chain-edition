@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Ding Dong"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Digital Future Mural"
+      "value": "Midnight Bakery"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -25,11 +25,11 @@
     },
     {
       "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Cookie Monster Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan"
+      "value": "Anime Detective"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.950826,
+  "selection_score": 3.806223,
   "seed": 871003
 }

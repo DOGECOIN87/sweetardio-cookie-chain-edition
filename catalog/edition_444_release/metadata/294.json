@@ -9,27 +9,23 @@
     },
     {
       "trait_type": "Background",
-      "value": "Digital Future Mural"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
       "value": "Flat"
     },
     {
-      "trait_type": "Arms",
-      "value": "Cookboy Handheld"
-    },
-    {
       "trait_type": "Sticker",
-      "value": "Cookie Quads"
+      "value": "Cookie Chat"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.795952,
+  "selection_score": 3.673305,
   "seed": 871003
 }

@@ -9,7 +9,7 @@
     },
     {
       "trait_type": "Background",
-      "value": "Digital Future Mural"
+      "value": "Yatrah Arcade"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie MCP"
+      "value": "Out of Order"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.449578,
+  "selection_score": 2.625416,
   "seed": 871003
 }

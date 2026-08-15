@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Cookboy Paisley"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Pepe Slippers"
+      "value": "Flat"
     },
     {
       "trait_type": "Sticker",
-      "value": "Sesamians"
+      "value": "CookieScan DAS API"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 2.838076,
+  "selection_score": 3.923118,
   "seed": 871003
 }

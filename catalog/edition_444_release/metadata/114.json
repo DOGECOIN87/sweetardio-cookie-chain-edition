@@ -5,31 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Chocolate Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Night"
+      "value": "Cookboy"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Alien"
     },
     {
-      "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "trait_type": "Eyes",
+      "value": "Beady"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
+      "trait_type": "Mouth",
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
-      "value": "Nightly Wallet"
+      "value": "GorWeld"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.651221,
+  "selection_score": 2.364375,
   "seed": 871003
 }

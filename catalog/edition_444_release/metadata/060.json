@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Glazed Doughnut"
+      "value": "Nutty Bar"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Simplex Arcade"
     },
     {
       "trait_type": "Skin",
@@ -21,15 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "Crying Tomato"
+      "value": "Anime Detective"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.756881,
+  "selection_score": 3.485023,
   "seed": 871003
 }

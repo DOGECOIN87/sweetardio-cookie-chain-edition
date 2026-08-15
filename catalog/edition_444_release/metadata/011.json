@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Oatmeal Cream Pie"
+      "value": "Cyan Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
@@ -21,19 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Flat"
     },
     {
       "trait_type": "Sticker",
-      "value": "DefiLlama"
+      "value": "CookBook"
     },
     {
       "trait_type": "Edition",
@@ -41,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Mythic Chase"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.418831,
+  "selection_score": 3.379198,
   "seed": 871003
 }

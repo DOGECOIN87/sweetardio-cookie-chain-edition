@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
@@ -13,7 +13,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -21,7 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Smirk"
     },
     {
       "trait_type": "Arms",
@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieSwap"
+      "value": "Cookiebox"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Legendary Chase"
     }
   ],
-  "selection_score": 3.237127,
+  "selection_score": 3.210058,
   "seed": 871003
 }

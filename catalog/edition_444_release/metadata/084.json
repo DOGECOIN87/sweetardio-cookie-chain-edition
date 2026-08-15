@@ -9,7 +9,7 @@
     },
     {
       "trait_type": "Background",
-      "value": "Golden Bubbles"
+      "value": "Cookboy"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "Baked Bazaar"
+      "value": "GorWeld"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.452685,
+  "selection_score": 3.063358,
   "seed": 871003
 }

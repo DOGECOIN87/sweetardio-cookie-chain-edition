@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "Nutty Bar"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Gallery"
+      "value": "Simplex Arcade"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Flat"
     },
     {
       "trait_type": "Sticker",
-      "value": "Candy Shop"
+      "value": "Cookiebox"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 4.107258,
+  "selection_score": 2.798028,
   "seed": 871003
 }

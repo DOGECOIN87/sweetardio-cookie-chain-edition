@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Ding Dong"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Paisley"
+      "value": "Emyr Gallery"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -21,15 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "Armed Hero"
+      "value": "CookieSwap"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.872543,
+  "selection_score": 3.631877,
   "seed": 871003
 }

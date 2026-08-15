@@ -15,11 +15,11 @@ type DropState = { loaded: boolean; itemsLoaded: number; itemsRedeemed: number; 
 
 const LAMPORTS_PER_COOK = 1_000_000_000
 const featuredSweetardios = [
-  { id: '001', name: 'Sugar Doughnut', image: '/featured/001.png', traits: ['Nightly Wallet sticker', 'Legendary Chase'] },
-  { id: '003', name: 'Gold Waffle', image: '/featured/003.png', traits: ['GORBOY sticker', 'Core'] },
-  { id: '012', name: 'Waffle', image: '/featured/012.png', traits: ['Cookie MCP sticker', 'Rare'] },
-  { id: '059', name: 'Pink Sherbert Ice Cream', image: '/featured/059.png', traits: ['CookieScan sticker', 'Rare'] },
-  { id: '066', name: 'Brownie Bite', image: '/featured/066.png', traits: ['CookieScan DAS API sticker', 'Uncommon'] },
+  { id: '152', name: 'Chocolate Doughnut', image: '/featured/152.png', traits: ['Nightly Wallet sticker', 'Legendary Chase'] },
+  { id: '003', name: 'OG Gummy Bear', image: '/featured/003.png', traits: ['Out of Order sticker', 'Core'] },
+  { id: '012', name: 'Waffle', image: '/featured/012.png', traits: ['Nightly Wallet sticker', 'Core'] },
+  { id: '059', name: 'Rice Crispy Treat', image: '/featured/059.png', traits: ['Crying Tomato sticker', 'Core'] },
+  { id: '066', name: 'Vanilla Ice Cream', image: '/featured/066.png', traits: ['Candy Shop sticker', 'Core'] },
 ] as const
 
 function shortAddress(value: string) { return value.length > 12 ? `${value.slice(0, 5)}…${value.slice(-5)}` : value }

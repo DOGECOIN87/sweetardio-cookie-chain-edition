@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Marshmallow"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Cosmic Fog"
+      "value": "Cookie Vault"
     },
     {
       "trait_type": "Skin",
@@ -17,7 +17,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
@@ -25,11 +25,11 @@
     },
     {
       "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Bunny Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Baked Bazaar"
+      "value": "Poptart Cat"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.196896,
+  "selection_score": 2.237846,
   "seed": 871003
 }

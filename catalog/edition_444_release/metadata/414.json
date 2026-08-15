@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Nutty Bar"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Yatrah Arcade"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
       "value": "Smirk"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
-    },
-    {
       "trait_type": "Sticker",
-      "value": "Cookie Chat"
+      "value": "Morsel"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.452514,
+  "selection_score": 2.48862,
   "seed": 871003
 }

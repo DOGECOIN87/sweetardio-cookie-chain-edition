@@ -130,36 +130,10 @@
     }
   },
   {
-    "output": "Sweetardio.png",
-    "source": "/home/ubuntu/sweetardio-cookie-chain-edition/assets/catalog_uploads/cookie_chain_legacy_sticker_overlays/Sweetardio.png",
-    "origin": "legacy Cookie Chain sticker overlay",
-    "source_sha256": "dfa17a3c7c3c4eb6eec8adbaa9424e777c9a47a856b23bc5ad051b7f08dba26b",
-    "badge": {
-      "width": 200,
-      "height": 200,
-      "border": 8,
-      "x": 90,
-      "y": 1108
-    }
-  },
-  {
     "output": "CookieScan.png",
     "source": "/home/ubuntu/sweetardio-cookie-chain-edition/assets/catalog_uploads/cookiechain_dapp_logos/cookie_scan.png",
     "origin": "official Cookie Chain Apps Registry logo",
     "source_sha256": "cef015c3eb5c03a32e04a1d6a03cb8c2af78825b8a5b1989fc2aa362d59bbaba",
-    "badge": {
-      "width": 200,
-      "height": 200,
-      "border": 8,
-      "x": 90,
-      "y": 1108
-    }
-  },
-  {
-    "output": "Hyperlane_Bridge.png",
-    "source": "/home/ubuntu/sweetardio-cookie-chain-edition/assets/catalog_uploads/cookiechain_dapp_logos/hyperlane_bridge.png",
-    "origin": "official Cookie Chain Apps Registry logo",
-    "source_sha256": "e5bb20ee5d5c129d178c328caece0aa600219c12f6e2020cfb05f7be567eb8c5",
     "badge": {
       "width": 200,
       "height": 200,
@@ -195,19 +169,6 @@
     }
   },
   {
-    "output": "Bake_Your_Stake.png",
-    "source": "/home/ubuntu/sweetardio-cookie-chain-edition/assets/catalog_uploads/cookiechain_dapp_logos/bake_your_stake.png",
-    "origin": "official Cookie Chain Apps Registry logo",
-    "source_sha256": "f65e18a47da60dcb1a2e74264c881865da32dba6fcebe2048dcc2d0c51dcc33e",
-    "badge": {
-      "width": 200,
-      "height": 200,
-      "border": 8,
-      "x": 90,
-      "y": 1108
-    }
-  },
-  {
     "output": "CookieSwap.png",
     "source": "/home/ubuntu/sweetardio-cookie-chain-edition/assets/catalog_uploads/cookiechain_dapp_logos/cookie_swap.png",
     "origin": "official Cookie Chain Apps Registry logo",
@@ -234,36 +195,10 @@
     }
   },
   {
-    "output": "Metaplex.png",
-    "source": "/home/ubuntu/sweetardio-cookie-chain-edition/assets/catalog_uploads/cookiechain_dapp_logos/metaplex.png",
-    "origin": "official Cookie Chain Apps Registry logo",
-    "source_sha256": "bfd5b5808700a2d7be71e36728c6d65af0e76fe82212b2ceadaad3cfb39ab41d",
-    "badge": {
-      "width": 200,
-      "height": 200,
-      "border": 8,
-      "x": 90,
-      "y": 1108
-    }
-  },
-  {
     "output": "Cookie_Quads.png",
     "source": "/home/ubuntu/sweetardio-cookie-chain-edition/assets/catalog_uploads/cookiechain_dapp_logos/cookie_quads.png",
     "origin": "official Cookie Chain Apps Registry logo",
     "source_sha256": "58a3522962bf4c37a8590033cdf2714d1cb5e58864b3a721c2518a0663a42ddd",
-    "badge": {
-      "width": 200,
-      "height": 200,
-      "border": 8,
-      "x": 90,
-      "y": 1108
-    }
-  },
-  {
-    "output": "Cookiebox_Liquidity_Hub.png",
-    "source": "/home/ubuntu/sweetardio-cookie-chain-edition/assets/catalog_uploads/cookiechain_dapp_logos/cookiebox_liquidity_hub.png",
-    "origin": "official Cookie Chain Apps Registry logo",
-    "source_sha256": "d4c41ad71434970f374139cbd222fb2b18d804aedc1567d7f4fa9f3ccdcf8926",
     "badge": {
       "width": 200,
       "height": 200,
@@ -290,19 +225,6 @@
     "source": "/home/ubuntu/sweetardio-cookie-chain-edition/assets/catalog_uploads/cookiechain_dapp_logos/momo_swap.png",
     "origin": "official Cookie Chain Apps Registry logo",
     "source_sha256": "0c7820476b2dbd3fd4ad1e450a19223f1090fd53b893885ee2bc359f3ff654d1",
-    "badge": {
-      "width": 200,
-      "height": 200,
-      "border": 8,
-      "x": 90,
-      "y": 1108
-    }
-  },
-  {
-    "output": "Morsel_Wallet.png",
-    "source": "/home/ubuntu/sweetardio-cookie-chain-edition/assets/catalog_uploads/cookiechain_dapp_logos/morsel_wallet.png",
-    "origin": "official Cookie Chain Apps Registry logo",
-    "source_sha256": "8d65f1b9e6857ee6b56fb8bf1e9891f96acdb461be3bb00b6de4aa74ad0c7199",
     "badge": {
       "width": 200,
       "height": 200,
@@ -368,19 +290,6 @@
     "source": "/home/ubuntu/sweetardio-cookie-chain-edition/assets/catalog_uploads/cookiechain_dapp_logos/gorboy.png",
     "origin": "official Cookie Chain Apps Registry logo",
     "source_sha256": "0e2fdc05af5a4cab4c029fdb73a642e6f2adb5d4a8364fa9a9426dbfa727cbf6",
-    "badge": {
-      "width": 200,
-      "height": 200,
-      "border": 8,
-      "x": 90,
-      "y": 1108
-    }
-  },
-  {
-    "output": "Sesamians.png",
-    "source": "/home/ubuntu/sweetardio-cookie-chain-edition/assets/catalog_uploads/cookiechain_dapp_logos/sesamians.png",
-    "origin": "official Cookie Chain Apps Registry logo",
-    "source_sha256": "2b7d81d51be319182276dbfa0965495c20b8aefad49e11e2f6b3cd20dd1b45aa",
     "badge": {
       "width": 200,
       "height": 200,

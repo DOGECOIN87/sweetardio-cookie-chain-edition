@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Ding Dong"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Gallery"
+      "value": "Cookboy Paisley"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Alien"
     },
     {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Smoke"
     },
     {
       "trait_type": "Footwear",
@@ -40,6 +40,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.618004,
+  "selection_score": 3.872543,
   "seed": 871003
 }

@@ -9,19 +9,19 @@
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Midnight Bakery"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Smoke"
     },
     {
       "trait_type": "Footwear",
@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieSwap"
+      "value": "Anime Detective"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.228827,
+  "selection_score": 4.41685,
   "seed": 871003
 }

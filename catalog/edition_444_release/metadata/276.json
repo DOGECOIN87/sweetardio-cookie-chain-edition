@@ -5,31 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Doughnut"
+      "value": "Chocolate Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Welders Equipment"
+      "value": "Yatrah Arcade"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
       "value": "Smoke"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
-    },
-    {
       "trait_type": "Sticker",
-      "value": "Poptart Cat"
+      "value": "GorWeld"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.041899,
+  "selection_score": 2.596766,
   "seed": 871003
 }

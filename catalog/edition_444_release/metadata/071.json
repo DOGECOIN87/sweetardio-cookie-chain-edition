@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Oxford Blue Fur"
     },
     {
       "trait_type": "Skin",
@@ -21,15 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookiebox"
+      "value": "Emyr"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.482894,
+  "selection_score": 3.27191,
   "seed": 871003
 }

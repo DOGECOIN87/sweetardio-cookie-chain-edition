@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Chocolate Sandwich Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Short the Banks Vault"
+      "value": "Golden Bubbles"
     },
     {
       "trait_type": "Skin",
@@ -21,15 +21,15 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Fang"
     },
     {
       "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Pepe Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Lock"
+      "value": "CookieSwap"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.289579,
+  "selection_score": 3.779799,
   "seed": 871003
 }

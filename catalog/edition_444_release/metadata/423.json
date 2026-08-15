@@ -9,23 +9,23 @@
     },
     {
       "trait_type": "Background",
-      "value": "Welders Equipment"
+      "value": "Gorbhouse Treasures"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "Sweetardio"
+      "value": "Shorts Doggo"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.96937,
+  "selection_score": 2.908012,
   "seed": 871003
 }

@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy"
+      "value": "Cosmic Fog"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "Out of Order"
+      "value": "Baked Bazaar"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.741436,
+  "selection_score": 4.174849,
   "seed": 871003
 }

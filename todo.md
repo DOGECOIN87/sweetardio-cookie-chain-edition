@@ -94,3 +94,9 @@
 - [x] Define the shared white-border width, square-badge footprint, and transparent-canvas placement for every existing and dapp-logo sticker.
 - [x] Update the sticker preparation workflow so all 33 stickers use the same white-bordered square badge treatment.
 - [x] Confirm the standardized sticker badges remain legible in deterministic token previews and the regenerated release.
+
+# Sticker Pool Curation
+
+- [x] Remove the explicitly rejected sticker traits and resolve the remaining duplicate-brand entries.
+- [x] Rebuild the curated badge pool, regenerate the deterministic 444-token release, and validate metadata distribution.
+- [x] Refresh Sugar staging, catalog assets, mint previews, and the frontend build, then push the curated release to `main`.

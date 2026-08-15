@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Gorbhouse Treasures"
     },
     {
       "trait_type": "Skin",
@@ -24,8 +24,12 @@
       "value": "Diamond Grill"
     },
     {
+      "trait_type": "Footwear",
+      "value": "Gorbhouse Slippers"
+    },
+    {
       "trait_type": "Sticker",
-      "value": "Bake Your Stake"
+      "value": "GORBOY"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.891575,
+  "selection_score": 3.286715,
   "seed": 871003
 }
