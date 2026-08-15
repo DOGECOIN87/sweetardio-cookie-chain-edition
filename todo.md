@@ -119,4 +119,8 @@
 
 # Original-Style Sticker Restoration
 
-- [ ] Restore the curated active stickers to the original Sweetardio Collection’s individual silhouettes and placement treatment, regenerate and validate all 444 tokens, refresh staging and previews, then push the synchronized release to `main`.
+- [x] Restore the curated active stickers to the original Sweetardio Collection’s individual silhouettes and placement treatment, regenerate and validate all 444 tokens, refresh staging and previews, then push the synchronized release to `main`.
+
+# Expanded Collection Preview
+
+- [x] Add at least 50 visually curated yet broadly representative finalized token renders to the managed mint carousel, preserve the Nightly Legendary lead feature, and verify the responsive scrolling interaction.
