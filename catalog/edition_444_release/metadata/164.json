@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Oatmeal Cream Pie"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Gallery"
+      "value": "NFTs Aren't Dead"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Sad"
     },
     {
       "trait_type": "Footwear",
@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "CookOven"
+      "value": "Candy Shop"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.377443,
+  "selection_score": 3.337335,
   "seed": 871003
 }

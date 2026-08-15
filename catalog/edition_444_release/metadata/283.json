@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Cosmic Fog"
+      "value": "NFTs Aren't Dead"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
@@ -24,8 +24,16 @@
       "value": "Tasty"
     },
     {
+      "trait_type": "Footwear",
+      "value": "Gorbhouse Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Printer"
+    },
+    {
       "trait_type": "Sticker",
-      "value": "Anime Detective"
+      "value": "Cookiebox"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +41,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.914936,
+  "selection_score": 3.114203,
   "seed": 871003
 }

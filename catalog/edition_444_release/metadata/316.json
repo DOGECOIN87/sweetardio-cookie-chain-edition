@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Paisley"
+      "value": "Fairdevs Legendary"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookBook"
+      "value": "Cookie MCP"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 4.35147,
+  "selection_score": 3.904219,
   "seed": 871003
 }

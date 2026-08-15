@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Pink Sherbert Ice Cream"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "GorWeld Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Out of Order"
+      "value": "MomoSwap"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 2.979441,
+  "selection_score": 3.343208,
   "seed": 871003
 }

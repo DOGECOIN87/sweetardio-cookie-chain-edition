@@ -9,23 +9,23 @@
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Black Enamel"
+      "value": "GorWeld Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookOven"
+      "value": "Morsel"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.562846,
+  "selection_score": 2.426321,
   "seed": 871003
 }

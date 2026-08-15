@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookOven"
+      "value": "CookieSwap"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.383782,
+  "selection_score": 3.952931,
   "seed": 871003
 }

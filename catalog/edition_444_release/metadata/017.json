@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Cyan Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Paisley"
+      "value": "Fairdevs Legendary"
     },
     {
       "trait_type": "Skin",
@@ -25,7 +25,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieSwap"
+      "value": "CookieScan"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.617302,
+  "selection_score": 3.848398,
   "seed": 871003
 }

@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Ice Cream"
+      "value": "Cyan Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Lock"
+      "value": "Emyr"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.747819,
+  "selection_score": 3.248302,
   "seed": 871003
 }

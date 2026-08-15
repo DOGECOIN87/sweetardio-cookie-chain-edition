@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Frosted Pop Tart"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
-      "value": "Golden Bubbles"
+      "value": "Morsel Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Candy Shop"
+      "value": "CookieScan"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.660546,
+  "selection_score": 4.35363,
   "seed": 871003
 }

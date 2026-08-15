@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "Chocolate Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieSwap"
+      "value": "Cookie Quads"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.303891,
+  "selection_score": 3.711587,
   "seed": 871003
 }

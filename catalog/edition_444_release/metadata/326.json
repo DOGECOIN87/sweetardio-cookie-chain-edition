@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Nutty Bar"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Morsel Legendary"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookBook"
+      "value": "Cookie MCP"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.721149,
+  "selection_score": 4.528622,
   "seed": 871003
 }

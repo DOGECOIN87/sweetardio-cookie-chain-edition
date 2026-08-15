@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Nutty Bar"
+      "value": "Cyan Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Midnight Bakery"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,15 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Printer"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookiebox"
+      "value": "Shorts Doggo"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 2.912148,
+  "selection_score": 4.005503,
   "seed": 871003
 }

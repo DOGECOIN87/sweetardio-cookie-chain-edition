@@ -5,31 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Oatmeal Cream Pie"
+      "value": "Pink Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Welders Equipment"
+      "value": "Sarv Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Tasty"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "trait_type": "Arms",
+      "value": "Printer"
     },
     {
       "trait_type": "Sticker",
-      "value": "Shorts Doggo"
+      "value": "MomoSwap"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.957326,
+  "selection_score": 3.78441,
   "seed": 871003
 }

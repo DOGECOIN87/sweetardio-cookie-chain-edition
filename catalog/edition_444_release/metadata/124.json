@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Vanilla Ice Cream"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Digital Future Mural"
+      "value": "Cookboy Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,7 +17,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
@@ -25,7 +25,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan DAS API"
+      "value": "L"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.480176,
+  "selection_score": 3.74276,
   "seed": 871003
 }

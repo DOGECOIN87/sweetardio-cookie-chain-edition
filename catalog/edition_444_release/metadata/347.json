@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Oatmeal Cream Pie"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Gorbhouse Treasures"
+      "value": "Cookboy Black Enamel"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Pepe Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Poptart Cat"
+      "value": "Cookiebox"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.237319,
+  "selection_score": 3.198396,
   "seed": 871003
 }

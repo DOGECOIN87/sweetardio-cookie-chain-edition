@@ -41,15 +41,24 @@ RARITY_COUNTS = {
 }
 CHASE_BACKGROUNDS = {
     "Emyr_Gallery.png", "Gold_Cookie_Emboss.png",
-    "Short_The_Banks_Vault.png", "Golden_Bubbles.png", "Simplex_Arcade.png",
-    "Cookie_Vault.png", "Cookboy_Paisley.png",
+    "Short_The_Banks_Vault.png", "Simplex_Arcade.png", "Cookie_Vault.png",
+    "Cookboy_Paisley.png", "Welders_Equipment.png", "Fairdevs_Night.png",
+    "Marsel_Blue.png",
 }
 GAME_DEVICE = "Cookboy_Handheld.png"
+PRINTER_ARM = "Printer.png"
 NIGHTLY_LEGENDARY_BACKGROUND = "Legendary_Nightly.png"
 NIGHTLY_LEGENDARY_STICKER = "Nightly_Wallet.png"
 NIGHTLY_LEGENDARY_COUNT = 1
+SPECIAL_LEGENDARY_BACKGROUNDS = (
+    "Legendary_Nightly.png",
+    "Legendary_Mattrick.png",
+    "Legendary_Shubbi.png",
+    "Legendary_Tenders.png",
+)
 LIMITED_ARM_COUNTS = {
     GAME_DEVICE: 22,
+    PRINTER_ARM: 22,
 }
 
 # Canonical public metadata labels. Asset filenames remain untouched because
@@ -62,7 +71,7 @@ DISPLAY_NAME_OVERRIDES = {
     "Short The Banks Vault": "Short the Banks Vault",
     "Short_The_Banks_Vault": "Short the Banks Vault",
     "Gold_Cookie_Emboss": "Cookboy",
-    "Gold_Cookie_Emboss.png": "Cookboy",
+    "Gold_Cookie_Emboss.png": "Cookboy Gold",
     "Chocolate_Cookie_Emboss": "Cookboy Chocolate",
     "Chocolate_Cookie_Emboss.png": "Cookboy Chocolate",
     "Black_Cookie_Emboss": "Cookboy Black Enamel",
@@ -75,6 +84,38 @@ DISPLAY_NAME_OVERRIDES = {
     "Cookiebox.png": "Cookiebox",
     "Legendary_Nightly": "Nightly Legendary",
     "Legendary_Nightly.png": "Nightly Legendary",
+    "Legendary_Mattrick": "Mattrick Legendary",
+    "Legendary_Mattrick.png": "Mattrick Legendary",
+    "Legendary_Shubbi": "Shubbi Legendary",
+    "Legendary_Shubbi.png": "Shubbi Legendary",
+    "Legendary_Tenders": "Tenders Legendary",
+    "Legendary_Tenders.png": "Tenders Legendary",
+    "Black_Cookie_Emboss": "Cookboy Black Enamel",
+    "Black_Cookie_Emboss.png": "Cookboy Black Enamel",
+    "Chocolate_Cookie_Emboss": "Cookboy Chocolate",
+    "Chocolate_Cookie_Emboss.png": "Cookboy Chocolate",
+    "Cookboy_Paisley": "Sarv Legendary",
+    "Cookboy_Paisley.png": "Sarv Legendary",
+    "Cookie_Vault": "M Power Legendary",
+    "Cookie_Vault.png": "M Power Legendary",
+    "Cookie_Dough": "Cookie Dough",
+    "Cookie_Dough.png": "Cookie Dough",
+    "Digital_Future_Mural": "NFTs Aren't Dead",
+    "Digital_Future_Mural.png": "NFTs Aren't Dead",
+    "Emyr_Gallery": "Emyr Legendary",
+    "Emyr_Gallery.png": "Emyr Legendary",
+    "Fairdevs_Night": "Fairdevs Legendary",
+    "Fairdevs_Night.png": "Fairdevs Legendary",
+    "Marsel_Blue": "Morsel Legendary",
+    "Marsel_Blue.png": "Morsel Legendary",
+    "Short_The_Banks_Vault": "Short The Banks Legendary",
+    "Short_The_Banks_Vault.png": "Short The Banks Legendary",
+    "Simplex_Arcade": "Cookboy Legendary",
+    "Simplex_Arcade.png": "Cookboy Legendary",
+    "Welders_Equipment": "GorWeld Legendary",
+    "Welders_Equipment.png": "GorWeld Legendary",
+    "Printer": "Printer",
+    "Printer.png": "Printer",
     # Public Cookie Chain Apps Registry logo stickers.
     "CookieScan": "CookieScan",
     "Hyperlane_Bridge": "Hyperlane Bridge",
@@ -93,11 +134,17 @@ DISPLAY_NAME_OVERRIDES = {
     "CookBook": "CookBook",
     "Cookie_Lock": "Cookie Lock",
     "Cookie_Chat": "Cookie Chat",
-    "GORBOY": "GORBOY",
+    "GORBOY": "Cookboy",
     "Sesamians": "Sesamians",
     "Baked_Bazaar": "Baked Bazaar",
     "GorWeld": "GorWeld",
     "Cookie_MCP": "Cookie MCP",
+    "Anime_Detective": "L",
+    "Anime Detective": "L",
+    "Armed_Hero": "Real as a Doughnut",
+    "Armed Hero": "Real as a Doughnut",
+    "Poptart_Cat": "Nyancat",
+    "Poptart Cat": "Nyancat",
 }
 
 
@@ -270,15 +317,17 @@ def choose(candidates, count, stickers):
     char_cap = math.ceil(count / max(1, len(unique_chars))) + 3
     bg_cap = math.ceil(count / max(1, len(unique_bgs))) + 3
 
-    nightly_candidates = [candidate for candidate in candidates if candidate.get("nightly_legendary")]
     if count == 444:
-        if len(nightly_candidates) < NIGHTLY_LEGENDARY_COUNT:
-            raise RuntimeError("missing Nightly Legendary candidate")
-        nightly = max(nightly_candidates, key=lambda candidate: candidate["score"])
-        chosen.append(nightly)
-        md = nightly["metadata_map"]
-        char_counts[md.get("Character", "")] += 1
-        bg_counts[md.get("Background", "")] += 1
+        for background in SPECIAL_LEGENDARY_BACKGROUNDS:
+            pool = [candidate for candidate in candidates
+                    if candidate.get("special_legendary_background") == background]
+            if not pool:
+                raise RuntimeError(f"missing {background} legendary candidate")
+            item = max(pool, key=lambda candidate: candidate["score"])
+            chosen.append(item)
+            md = item["metadata_map"]
+            char_counts[md.get("Character", "")] += 1
+            bg_counts[md.get("Background", "")] += 1
 
     limited_quotas = {}
     for arm, target in LIMITED_ARM_COUNTS.items():
@@ -322,6 +371,22 @@ def choose(candidates, count, stickers):
             selected_signatures.add(candidate["signature"])
             if sticker_chosen >= quotas[sticker]:
                 break
+        # The initial cap protects overall variety. If its final few slots would
+        # leave a sticker under quota, fill from its still-unique non-arm pool
+        # before failing; exact approved sticker and arm counts take priority.
+        if sticker_chosen < quotas[sticker]:
+            for candidate in regular_pool:
+                if candidate["signature"] in selected_signatures:
+                    continue
+                md = candidate["metadata_map"]
+                char, bg = md.get("Character", ""), md.get("Background", "")
+                chosen.append(candidate)
+                char_counts[char] += 1
+                bg_counts[bg] += 1
+                sticker_chosen += 1
+                selected_signatures.add(candidate["signature"])
+                if sticker_chosen >= quotas[sticker]:
+                    break
         if sticker_chosen != quotas[sticker]:
             raise RuntimeError(f"not enough unique candidates for {sticker}")
 
@@ -382,20 +447,22 @@ def assign_rarity(chosen, count):
             item["rarity"] = tier
         cursor += amount
     if count == 444:
-        nightly = [item for item in chosen if item.get("nightly_legendary")]
-        if len(nightly) != NIGHTLY_LEGENDARY_COUNT:
-            raise RuntimeError(f"expected {NIGHTLY_LEGENDARY_COUNT} Nightly Legendary token, found {len(nightly)}")
-        nightly_item = nightly[0]
-        if nightly_item["rarity"] != "Legendary Chase":
+        special_items = [item for item in chosen if item.get("special_legendary_background")]
+        if len(special_items) != len(SPECIAL_LEGENDARY_BACKGROUNDS):
+            raise RuntimeError("approved special legendary allocation is incomplete")
+        for special in special_items:
+            if special["rarity"] == "Legendary Chase":
+                continue
             swap = next(
                 (item for item in ranked
-                 if item["rarity"] == "Legendary Chase" and not item.get("nightly_legendary")),
+                 if item["rarity"] == "Legendary Chase"
+                 and not item.get("special_legendary_background")),
                 None,
             )
             if swap is None:
-                raise RuntimeError("no Legendary Chase slot available for Nightly Legendary")
-            swap["rarity"] = nightly_item["rarity"]
-            nightly_item["rarity"] = "Legendary Chase"
+                raise RuntimeError("no Legendary Chase slot available for special legendary background")
+            swap["rarity"] = special["rarity"]
+            special["rarity"] = "Legendary Chase"
     # Mint numbering is shuffled so chase tokens cannot be guessed by number.
     random.shuffle(chosen)
     return counts
@@ -425,6 +492,10 @@ def validate_selection(chosen, count, rarity_counts):
             raise RuntimeError("Nightly Legendary allocation has the wrong background")
         if nightly_item["sticker_file"] != NIGHTLY_LEGENDARY_STICKER:
             raise RuntimeError("Nightly Legendary allocation has the wrong sticker")
+        special_backgrounds = {item.get("special_legendary_background") for item in chosen
+                               if item.get("special_legendary_background")}
+        if special_backgrounds != set(SPECIAL_LEGENDARY_BACKGROUNDS):
+            raise RuntimeError("special legendary backgrounds do not match the approved set")
 
 
 def render_job(job):
@@ -496,6 +567,13 @@ def main():
     seen = set()
     total = len(stickers) * args.candidates_per_sticker
     made = 0
+    special_background_for_sticker = {
+        NIGHTLY_LEGENDARY_STICKER: NIGHTLY_LEGENDARY_BACKGROUND,
+    }
+    non_nightly_stickers = [name for name in stickers if name != NIGHTLY_LEGENDARY_STICKER]
+    for sticker, background in zip(non_nightly_stickers,
+                                   ("Legendary_Mattrick.png", "Legendary_Shubbi.png", "Legendary_Tenders.png")):
+        special_background_for_sticker[sticker] = background
     for sticker in stickers:
         accepted = 0
         attempts = 0
@@ -507,16 +585,16 @@ def main():
             limited_arms = tuple(LIMITED_ARM_COUNTS)
             forced_arm = (limited_arms[accepted % len(limited_arms)]
                           if accepted < len(limited_arms) * per_arm_seed else None)
-            nightly_legendary = (
-                args.count == 444
-                and sticker == NIGHTLY_LEGENDARY_STICKER
-                and accepted == 0
+            special_background = (
+                special_background_for_sticker.get(sticker)
+                if args.count == 444 and accepted == 0 else None
             )
+            nightly_legendary = special_background == NIGHTLY_LEGENDARY_BACKGROUND
             layers, character = g.generate_random_combination(
-                force_bg=(str(background_dir), NIGHTLY_LEGENDARY_BACKGROUND)
-                if nightly_legendary else None,
+                force_bg=(str(background_dir), special_background)
+                if special_background else None,
                 force_sticker=sticker,
-                force_arm=None if nightly_legendary else forced_arm,
+                force_arm=None if special_background else forced_arm,
             )
             signature = layer_signature(layers, character)
             if signature in seen:
@@ -529,6 +607,7 @@ def main():
                 "signature": signature, "sticker_file": sticker,
                 "metadata": metadata, "metadata_map": metadata_dict(metadata),
                 "score": score, "nightly_legendary": nightly_legendary,
+                "special_legendary_background": special_background,
             })
             accepted += 1
             made += 1

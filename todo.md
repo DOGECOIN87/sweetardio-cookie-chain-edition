@@ -124,3 +124,35 @@
 # Expanded Collection Preview
 
 - [x] Add at least 50 visually curated yet broadly representative finalized token renders to the managed mint carousel, preserve the Nightly Legendary lead feature, and verify the responsive scrolling interaction.
+
+# Original-Style White Outline Review
+
+- [ ] Create a non-destructive review sheet of all 26 native-silhouette stickers with the proposed original-style white outline, and wait for user approval before regenerating the collection.
+- [ ] Revise the review-only proposal: enlarge CookBook and CookOven; rename Anime Detective to L, Armed Hero to Real as a Doughnut, and Poptart Cat to Nyancat; remove GorWeld, DefiLlama, Crying Tomato, and CookieScan DAS API; and circle every remaining non-Nightly square logo before requesting approval.
+
+# Background Review Before Regeneration
+
+- [ ] Prepare a non-destructive review sheet of every available Cookie Chain Edition background and wait for user approval before applying the approved sticker proposal or regenerating the collection.
+- [ ] Record the pending metadata-only background renames: Simplex Arcade → Cookboy Legendary; Welders Equipment → GorWeld Legendary; Short The Banks Vault → Short The Banks Legendary; Morsel → Morsel Legendary; Cookie Vault → M Power Legendary; Fairdevs Night → Fairdevs Legendary; Emyr Gallery → Emyr Legendary; Paisley → Sarv Legendary.
+- [ ] Exclude Cosmic Fog, Oxford Blue Fur, and Gold backgrounds from the post-approval random background pool, preserving their source artwork until regeneration is authorized.
+- [ ] Replace the planned Emyr Legendary artwork with the supplied `art_matt(13).png` source while retaining the Emyr Legendary metadata name.
+- [ ] Add the supplied `art_mattrick_001(27).png` as a new full-canvas background named Cookie Dough.
+- [ ] Add the supplied transparent `art_mattrick_001(3).png` as a PrintR arms trait, preserving its silhouette and verifying the trait placement against the base character before regeneration.
+- [ ] Revise the PrintR arms trait for review by reducing its intrinsic scale and moving it lower relative to the character; re-render a representative placement sheet before final approval.
+- [ ] Replace the rejected PrintR review placement with a substantially smaller, hand-anchored treatment that fits each character silhouette instead of functioning as a lower-body overlay.
+- [ ] Use the exact compact `art_11(29).png` PrintR source for the next arms-trait review and prohibit the trait on all gummy-bear characters.
+- [ ] Remove only the black curved arm from the compact PrintR artwork while preserving the printer, white-gloved hands, flying notes, transparency, and native placement for review.
+- [ ] Supersede prior PrintR review edits with the latest owner-supplied `art_11(30).png` compact source, preserving its exact native placement and the prohibition on gummy-bear characters.
+- [ ] Remove the remaining stray pixels from the PrintR trait and restore a compact in-character scale and placement in the next review-only render.
+- [ ] Restore the complete owner-supplied PrintR artwork before retrying cleanup; remove only detached artifact pixels and never cut into the printer, gloves, or flying notes.
+- [ ] Remove the confirmed pair of detached black smudges immediately to the left of the PrintR trait while leaving all connected artwork intact.
+- [ ] Identify the exact rendered coordinates of the two still-visible detached PrintR smudges before retrying cleanup; the prior coordinate mask was incorrect.
+- [ ] Inspect a magnified review of the PrintR source to identify the two marks that remain after component cleanup, then erase only those locations.
+- [ ] Raise the approved cleaned compact PrintR arms trait slightly in the review-only render while preserving its size and complete artwork.
+- [x] Render the approved cleaned and slightly raised PrintR trait across every character except all gummy-bear variants, then provide the complete review sheet before regeneration.
+- [x] Use Printer as the final public metadata name for the approved compact arms trait and keep the trait excluded from every gummy-bear character.
+- [x] Prepare a current comprehensive background sheet that includes active assets, pending replacements, and all newly supplied background additions for owner review.
+- [x] Restore Cookboy Gold to the proposed pool, exclude Golden Bubbles, and rename Digital Future Mural to NFTs Aren’t Dead in the pending metadata plan and review sheet.
+- [x] Apply the owner-approved 22-sticker treatment, Printer arms trait, finalized background pool, metadata names, and exclusions; regenerate and validate the 444-token release.
+- [ ] Add the supplied `Legendary_Just_Aliens(2).png`, `layer-Legendary_Shubbi.png`, and `composite-export(25).png` as full-canvas backgrounds named Mattrick Legendary, Shubbi Legendary, and Tenders Legendary, respectively.
+- [ ] Obtain explicit user approval of the complete curated background set before modifying assets, metadata mappings, validation rules, or rendering the final 444-token release.

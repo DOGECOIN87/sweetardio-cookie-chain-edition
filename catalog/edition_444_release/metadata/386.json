@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Zebra Cake"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Black Enamel"
+      "value": "Moon Surface"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Gorbhouse Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Out of Order"
+      "value": "Cookie Lock"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.076989,
+  "selection_score": 3.221187,
   "seed": 871003
 }

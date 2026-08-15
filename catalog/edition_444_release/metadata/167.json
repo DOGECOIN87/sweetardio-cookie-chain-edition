@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Chocolate Sandwich Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "M Power Legendary"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,15 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Cookie Monster Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Nightly Wallet"
+      "value": "MomoSwap"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.408655,
+  "selection_score": 2.899547,
   "seed": 871003
 }

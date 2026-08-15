@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Sad"
     },
     {
       "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Gorbhouse Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Chat"
+      "value": "Cookie Lock"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.586527,
+  "selection_score": 3.832348,
   "seed": 871003
 }

@@ -9,23 +9,23 @@
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Lock"
+      "value": "Out of Order"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.282042,
+  "selection_score": 2.033418,
   "seed": 871003
 }

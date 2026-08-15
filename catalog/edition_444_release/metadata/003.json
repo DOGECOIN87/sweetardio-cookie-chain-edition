@@ -5,31 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Ding Dong"
+      "value": "Zebra Cake"
     },
     {
       "trait_type": "Background",
-      "value": "Gorbhouse Treasures"
+      "value": "Fairdevs Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Sad"
     },
     {
       "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Out of Order"
+      "value": "Cookie MCP"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 2.163224,
+  "selection_score": 3.507287,
   "seed": 871003
 }

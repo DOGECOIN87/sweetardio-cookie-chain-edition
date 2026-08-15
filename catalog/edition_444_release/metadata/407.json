@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "S'mores"
+      "value": "Ding Dong"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Moon Surface"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Smoke"
     },
     {
       "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Bunny Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookBook"
+      "value": "Cookie Quads"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.007555,
+  "selection_score": 4.156036,
   "seed": 871003
 }

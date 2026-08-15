@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "Candy Shop"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.900261,
+  "selection_score": 3.334453,
   "seed": 871003
 }

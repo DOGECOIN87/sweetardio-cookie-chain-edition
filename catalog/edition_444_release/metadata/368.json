@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "Chocolate Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Night"
+      "value": "Picnic Stage"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Fang"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "GORBOY"
+      "value": "Cookie Quads"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.988864,
+  "selection_score": 3.944647,
   "seed": 871003
 }

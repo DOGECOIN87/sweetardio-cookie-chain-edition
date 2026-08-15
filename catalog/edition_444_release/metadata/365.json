@@ -5,31 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Ding Dong"
+      "value": "Sugar Cube"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Paisley"
+      "value": "M Power Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Bunny Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Armed Hero"
+      "value": "Chibi Monster"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.867406,
+  "selection_score": 3.364715,
   "seed": 871003
 }

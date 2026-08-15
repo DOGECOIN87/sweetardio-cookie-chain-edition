@@ -9,23 +9,27 @@
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy"
+      "value": "Cookboy Black Enamel"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Printer"
     },
     {
       "trait_type": "Sticker",
-      "value": "GORBOY"
+      "value": "Out of Order"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 2.968805,
+  "selection_score": 3.601055,
   "seed": 871003
 }

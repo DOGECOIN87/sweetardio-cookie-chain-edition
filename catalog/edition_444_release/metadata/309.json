@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Pink Sherbert Ice Cream"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Cookie Vault"
+      "value": "M Power Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "Cookiebox"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.749303,
+  "selection_score": 2.822232,
   "seed": 871003
 }

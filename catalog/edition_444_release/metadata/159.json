@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Gallery"
+      "value": "Gorbhouse Treasures"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookBook"
+      "value": "Cookie Lock"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Core"
     }
   ],
-  "selection_score": 4.608796,
+  "selection_score": 3.585294,
   "seed": 871003
 }

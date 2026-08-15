@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Gorbhouse Treasures"
     },
     {
       "trait_type": "Skin",
@@ -21,15 +21,15 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Sad"
     },
     {
       "trait_type": "Footwear",
-      "value": "Pepe Slippers"
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Emyr"
+      "value": "Nyancat"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.5353,
+  "selection_score": 2.846897,
   "seed": 871003
 }

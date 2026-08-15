@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Sandwich Cookie"
+      "value": "Nutty Bar"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Chocolate"
+      "value": "Midnight Bakery"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
-      "value": "Shorts Doggo"
+      "value": "L"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 1.862774,
+  "selection_score": 3.295725,
   "seed": 871003
 }

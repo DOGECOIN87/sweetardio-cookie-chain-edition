@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Gorbhouse Treasures"
+      "value": "Short The Banks Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
       "value": "Diamond Grill"
     },
     {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
+    },
+    {
       "trait_type": "Sticker",
-      "value": "Cookie Lock"
+      "value": "Candy Shop"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.775811,
+  "selection_score": 3.683829,
   "seed": 871003
 }

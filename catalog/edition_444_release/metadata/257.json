@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Oatmeal Cream Pie"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Golden Bubbles"
+      "value": "M Power Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,23 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Tasty"
     },
     {
       "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "GORBOY"
+      "value": "Cookie MCP"
     },
     {
       "trait_type": "Edition",
@@ -41,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Mythic Chase"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.669892,
+  "selection_score": 3.25988,
   "seed": 871003
 }

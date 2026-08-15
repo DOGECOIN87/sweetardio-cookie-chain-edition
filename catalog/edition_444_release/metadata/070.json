@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Cosmic Fog"
+      "value": "Sarv Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
-      "value": "Anime Detective"
+      "value": "Baked Bazaar"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.465608,
+  "selection_score": 3.494807,
   "seed": 871003
 }

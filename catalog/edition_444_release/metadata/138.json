@@ -5,31 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Glazed Doughnut"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Gorbhouse Treasures"
+      "value": "Cookboy Black Enamel"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "GORBOY"
+      "value": "Cookie MCP"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.421717,
+  "selection_score": 3.594208,
   "seed": 871003
 }

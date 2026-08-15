@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Ice Cream"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "Golden Bubbles"
+      "value": "Yatrah Arcade"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "DefiLlama"
+      "value": "Candy Shop"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Core"
     }
   ],
-  "selection_score": 4.287771,
+  "selection_score": 3.602015,
   "seed": 871003
 }

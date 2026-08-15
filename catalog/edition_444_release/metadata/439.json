@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Oxford Blue Fur"
+      "value": "GorWeld Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Tasty"
     },
     {
       "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
+      "value": "Pepe Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieSwap"
+      "value": "MomoSwap"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.62644,
+  "selection_score": 2.681803,
   "seed": 871003
 }

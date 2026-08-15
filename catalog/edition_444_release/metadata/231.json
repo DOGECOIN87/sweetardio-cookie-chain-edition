@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Short the Banks Vault"
+      "value": "Midnight Bakery"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Lock"
+      "value": "CookBook"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.483981,
+  "selection_score": 3.848502,
   "seed": 871003
 }

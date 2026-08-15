@@ -5,19 +5,19 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Ding Dong"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Night"
+      "value": "Short The Banks Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "DefiLlama"
+      "value": "CookieScan"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.507872,
+  "selection_score": 3.681079,
   "seed": 871003
 }

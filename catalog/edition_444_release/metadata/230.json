@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "Chocolate Chip Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Gallery"
+      "value": "Gorbhouse Treasures"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Pepe Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan"
+      "value": "Nightly Wallet"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Core"
     }
   ],
-  "selection_score": 4.441754,
+  "selection_score": 2.703517,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Ding Dong"
+      "value": "Zebra Cake"
     },
     {
       "trait_type": "Background",
-      "value": "Short the Banks Vault"
+      "value": "NFTs Aren't Dead"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "GORBOY"
+      "value": "Nyancat"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.879807,
+  "selection_score": 4.299548,
   "seed": 871003
 }

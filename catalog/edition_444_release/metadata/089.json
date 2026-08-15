@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "S'mores"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Short The Banks Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Cookie Monster Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "DefiLlama"
+      "value": "MomoSwap"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.863602,
+  "selection_score": 2.695564,
   "seed": 871003
 }

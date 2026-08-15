@@ -9,23 +9,27 @@
     },
     {
       "trait_type": "Background",
-      "value": "Cosmic Fog"
+      "value": "NFTs Aren't Dead"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Pepe Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Armed Hero"
+      "value": "Chibi Monster"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.818962,
+  "selection_score": 3.550201,
   "seed": 871003
 }

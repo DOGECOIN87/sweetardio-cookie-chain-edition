@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Pink Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Paisley"
+      "value": "Yatrah Arcade"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Smoke"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "trait_type": "Arms",
+      "value": "Printer"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookBook"
+      "value": "Candy Shop"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 4.934461,
+  "selection_score": 3.42505,
   "seed": 871003
 }

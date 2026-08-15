@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "Zebra Cake"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Night"
+      "value": "Yatrah Arcade"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
-      "value": "Morsel"
+      "value": "Cookie MCP"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.456596,
+  "selection_score": 3.261611,
   "seed": 871003
 }

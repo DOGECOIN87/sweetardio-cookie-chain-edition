@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Chocolate Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Golden Bubbles"
+      "value": "Cookboy"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
-      "value": "Armed Hero"
+      "value": "Morsel"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.694129,
+  "selection_score": 2.473429,
   "seed": 871003
 }

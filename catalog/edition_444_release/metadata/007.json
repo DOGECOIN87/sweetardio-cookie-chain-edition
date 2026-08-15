@@ -9,23 +9,23 @@
     },
     {
       "trait_type": "Background",
-      "value": "Cookie Vault"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
-      "value": "Poptart Cat"
+      "value": "Emyr"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.11444,
+  "selection_score": 4.054722,
   "seed": 871003
 }

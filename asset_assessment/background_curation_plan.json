@@ -1,0 +1,87 @@
+{
+  "edition": "Cookie Chain Edition",
+  "approval": "owner authorized final generation after review",
+  "background_pool": {
+    "excluded_files": [
+      "Cosmic_Fog.png",
+      "Oxford_Blue_Fur.png",
+      "Golden_Bubbles.png"
+    ],
+    "metadata_names": {
+      "Black_Cookie_Emboss.png": "Cookboy Black Enamel",
+      "Chocolate_Cookie_Emboss.png": "Cookboy Chocolate",
+      "Gold_Cookie_Emboss.png": "Cookboy Gold",
+      "Cookboy_Paisley.png": "Sarv Legendary",
+      "Cookie_Vault.png": "M Power Legendary",
+      "Cookie_Dough.png": "Cookie Dough",
+      "Digital_Future_Mural.png": "NFTs Aren't Dead",
+      "Emyr_Gallery.png": "Emyr Legendary",
+      "Fairdevs_Night.png": "Fairdevs Legendary",
+      "Marsel_Blue.png": "Morsel Legendary",
+      "Short_The_Banks_Vault.png": "Short The Banks Legendary",
+      "Simplex_Arcade.png": "Cookboy Legendary",
+      "Welders_Equipment.png": "GorWeld Legendary"
+    },
+    "one_of_one_legendary_backgrounds": [
+      "Legendary_Nightly.png",
+      "Legendary_Mattrick.png",
+      "Legendary_Shubbi.png",
+      "Legendary_Tenders.png"
+    ],
+    "nightly_pairing": {
+      "background": "Legendary_Nightly.png",
+      "sticker": "Nightly_Wallet.png",
+      "rarity": "Legendary Chase",
+      "count": 1
+    }
+  },
+  "sticker_pool": {
+    "active_count": 22,
+    "removed_files": [
+      "Bake_Your_Stake.png",
+      "Cookiebox_Liquidity_Hub.png",
+      "Hyperlane_Bridge.png",
+      "Metaplex.png",
+      "Morsel_Wallet.png",
+      "Sesamians.png",
+      "Sweetardio.png",
+      "Crying_Tomato.png",
+      "CookieScan_DAS_API.png",
+      "DefiLlama.png",
+      "GorWeld.png"
+    ],
+    "renames": {
+      "Anime_Detective.png": "L",
+      "Armed_Hero.png": "Real as a Doughnut",
+      "GORBOY.png": "Cookboy",
+      "Poptart_Cat.png": "Nyancat"
+    },
+    "treatment": {
+      "white_silhouette_outline_px": 6,
+      "scale_overrides": {
+        "CookBook.png": 1.18,
+        "CookOven.png": 1.18
+      },
+      "circular_logo_files": [
+        "Baked_Bazaar.png",
+        "CookieScan.png",
+        "CookieSwap.png",
+        "Cookie_Quads.png",
+        "GORBOY.png"
+      ],
+      "square_exception": "Nightly_Wallet.png"
+    }
+  },
+  "arms": {
+    "Printer.png": {
+      "metadata_name": "Printer",
+      "allocation_count": 22,
+      "global_vertical_offset_px": -18,
+      "excluded_character_pattern": "gummy_bear"
+    },
+    "Cookboy_Handheld.png": {
+      "metadata_name": "Cookboy Handheld",
+      "allocation_count": 22
+    }
+  }
+}

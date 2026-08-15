@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Neapolitan Ice Cream"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Digital Future Mural"
+      "value": "M Power Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieSwap"
+      "value": "Chibi Monster"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.895955,
+  "selection_score": 3.412623,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Night"
+      "value": "Sarv Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
       "value": "Diamond Grill"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Pepe Slippers"
-    },
-    {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "CookieSwap"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 2.992727,
+  "selection_score": 3.494231,
   "seed": 871003
 }

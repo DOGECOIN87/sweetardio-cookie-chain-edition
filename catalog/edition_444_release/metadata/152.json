@@ -5,31 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Doughnut"
+      "value": "Sugar Cube"
     },
     {
       "trait_type": "Background",
-      "value": "Nightly Legendary"
+      "value": "NFTs Aren't Dead"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Tasty"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "trait_type": "Arms",
+      "value": "Printer"
     },
     {
       "trait_type": "Sticker",
-      "value": "Nightly Wallet"
+      "value": "Cookie MCP"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Rare"
     }
   ],
-  "selection_score": 2.756628,
+  "selection_score": 3.87383,
   "seed": 871003
 }

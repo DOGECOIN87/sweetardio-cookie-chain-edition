@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Churro"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Picnic Stage"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
-      "value": "DefiLlama"
+      "value": "Cookie Lock"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.549349,
+  "selection_score": 3.741345,
   "seed": 871003
 }

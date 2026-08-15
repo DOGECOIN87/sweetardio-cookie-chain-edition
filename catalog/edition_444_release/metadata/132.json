@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Ice Cream"
+      "value": "Sugar Cube"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Picnic Stage"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "Crying Tomato"
+      "value": "Real as a Doughnut"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.340547,
+  "selection_score": 3.338491,
   "seed": 871003
 }

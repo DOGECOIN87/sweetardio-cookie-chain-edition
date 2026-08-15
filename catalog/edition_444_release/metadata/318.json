@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "Crying Tomato"
+      "value": "Cookie Quads"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.390436,
+  "selection_score": 3.667322,
   "seed": 871003
 }

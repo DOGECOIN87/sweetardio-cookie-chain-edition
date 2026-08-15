@@ -5,31 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Glazed Doughnut"
+      "value": "Sugar Cube"
     },
     {
       "trait_type": "Background",
-      "value": "Golden Bubbles"
+      "value": "Fairdevs Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Anime Detective"
+      "value": "Shorts Doggo"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.765612,
+  "selection_score": 4.262893,
   "seed": 871003
 }

@@ -9,7 +9,7 @@
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Mattrick Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Sad"
     },
     {
       "trait_type": "Footwear",
-      "value": "Pepe Slippers"
+      "value": "Bunny Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan"
+      "value": "L"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 4.576703,
+  "selection_score": 3.510917,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Digital Future Mural"
+      "value": "Fairdevs Legendary"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Quads"
+      "value": "CookOven"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.868178,
+  "selection_score": 3.705741,
   "seed": 871003
 }

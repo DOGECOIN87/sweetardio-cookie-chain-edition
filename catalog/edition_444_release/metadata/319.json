@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Sugar Cube"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Morsel Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "GorWeld"
+      "value": "Cookie MCP"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.267794,
+  "selection_score": 3.581267,
   "seed": 871003
 }

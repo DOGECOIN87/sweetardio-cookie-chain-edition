@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Digital Future Mural"
+      "value": "Sarv Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "Baked Bazaar"
+      "value": "CookieScan"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.432698,
+  "selection_score": 4.084932,
   "seed": 871003
 }

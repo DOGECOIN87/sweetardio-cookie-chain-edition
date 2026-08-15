@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Marshmallow"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Night"
+      "value": "Sarv Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,23 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Flat"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Lock"
+      "value": "Cookie Chat"
     },
     {
       "trait_type": "Edition",
@@ -41,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.172079,
+  "selection_score": 3.715778,
   "seed": 871003
 }

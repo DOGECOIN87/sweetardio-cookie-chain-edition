@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Nutty Bar"
+      "value": "Neapolitan Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "Real as a Doughnut"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.023559,
+  "selection_score": 3.337363,
   "seed": 871003
 }

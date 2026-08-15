@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Oatmeal Cream Pie"
+      "value": "Neapolitan Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Short the Banks Vault"
+      "value": "M Power Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Pepe Slippers"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
-      "value": "Shorts Doggo"
+      "value": "MomoSwap"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 1.98994,
+  "selection_score": 3.469661,
   "seed": 871003
 }

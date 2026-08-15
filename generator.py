@@ -141,6 +141,11 @@ BACKGROUNDZ_FALLBACK = "backgroundz_originals"
 # Legendary_* plates live in backgroundz but are 1/1-style rares minted via a
 # fixed per-plate quota (build_mint.py), never the normal random pick.
 LEGENDARY_BG_PREFIX = "Legendary_"
+BACKGROUND_EXCLUSIONS = frozenset({
+    "Cosmic_Fog.png",
+    "Oxford_Blue_Fur.png",
+    "Golden_Bubbles.png",
+})
 
 def is_legendary_bg(filename):
     return os.path.basename(filename).startswith(LEGENDARY_BG_PREFIX)
@@ -308,6 +313,22 @@ TRAIT_NAMES = {
         "Emblem.png":                       "Emblem",
         "Store.png":                        "Store",
         "Swolex.png":                       "Swolex",
+        "Black_Cookie_Emboss.png":          "Cookboy Black Enamel",
+        "Chocolate_Cookie_Emboss.png":      "Cookboy Chocolate",
+        "Gold_Cookie_Emboss.png":           "Cookboy Gold",
+        "Cookboy_Paisley.png":              "Sarv Legendary",
+        "Cookie_Vault.png":                 "M Power Legendary",
+        "Cookie_Dough.png":                 "Cookie Dough",
+        "Digital_Future_Mural.png":         "NFTs Aren't Dead",
+        "Emyr_Gallery.png":                 "Emyr Legendary",
+        "Fairdevs_Night.png":               "Fairdevs Legendary",
+        "Marsel_Blue.png":                  "Morsel Legendary",
+        "Short_The_Banks_Vault.png":        "Short The Banks Legendary",
+        "Simplex_Arcade.png":               "Cookboy Legendary",
+        "Welders_Equipment.png":            "GorWeld Legendary",
+        "Legendary_Mattrick.png":           "Mattrick Legendary",
+        "Legendary_Shubbi.png":             "Shubbi Legendary",
+        "Legendary_Tenders.png":            "Tenders Legendary",
     },
     SKINZ: {
         "layer-Skin_Alien (2).png":                 "Alien",
@@ -349,6 +370,7 @@ TRAIT_NAMES = {
         "layer-layer-layer-layer-AR47.png":             "AR47",
         "layer-layer-layer-layer-Military_Brat.png":    "Military Brat",
         "layer-layer-layer-layer-Nerf_Blaster.png":     "Nerf Blaster",
+        "Printer.png":                                  "Printer",
     },
     # Keyed by wat_base_name() result, plus "Gorbhouse" for trash-can slippers.
     WHAT_ARE_THOSEZ: {
@@ -404,11 +426,14 @@ TRAIT_NAMES = {
         "CookBook.png":                     "CookBook",
         "Cookie_Lock.png":                  "Cookie Lock",
         "Cookie_Chat.png":                  "Cookie Chat",
-        "GORBOY.png":                       "GORBOY",
+        "GORBOY.png":                       "Cookboy",
         "Sesamians.png":                    "Sesamians",
-        "Baked_Bazaar.png":                 "Baked Bazaar",
+        "Baked_Bazaar.png":                "Baked Bazaar",
         "GorWeld.png":                      "GorWeld",
         "Cookie_MCP.png":                   "Cookie MCP",
+        "Anime_Detective.png":              "L",
+        "Armed_Hero.png":                   "Real as a Doughnut",
+        "Poptart_Cat.png":                  "Nyancat",
     },
     # 1/1 secret rares (standalone full-canvas artworks, never composited).
     # SECRET_RAREZ has no names block: the tier is retired and its art lives
@@ -604,6 +629,8 @@ ARMZ_CHAR_LOCK = {}
 
 def armz_allowed(arm_file, char_name):
     """Generic armz pair with anyone; locked armz only with their character."""
+    if arm_file == "Printer.png" and "gummy_bear" in char_name.lower():
+        return False
     locks = ARMZ_CHAR_LOCK.get(arm_file)
     return locks is None or any(k in char_name.lower() for k in locks)
 
@@ -971,12 +998,18 @@ ARM_CHAR_ARM_DY = {
     ("ding_dong", "Arms_Cash.png"): 0,
 }
 
+# Approved final Printer alignment: retain the native compact artwork and lift
+# its full canvas by 18px on every eligible non-gummy-bear character.
+ARM_GLOBAL_DY = {
+    "Printer.png": -18,
+}
+
 
 def arm_char_dy(char_name, arm_file):
     """Vertical offset for THIS character holding THIS arm, authored by eye."""
     if (char_name, arm_file) in ARM_CHAR_ARM_DY:
         return ARM_CHAR_ARM_DY[(char_name, arm_file)]
-    return ARM_CHAR_DY.get(char_name, 0)
+    return ARM_CHAR_DY.get(char_name, 0) + ARM_GLOBAL_DY.get(arm_file, 0)
 
 
 ARM_SCALE = {
@@ -1402,7 +1435,8 @@ def generate_random_combination(force_bg=None, force_arm="auto",
         # Legendary_* plates are 1/1-style rares: they appear ONLY via the
         # mint allocator's fixed per-plate quota (force_bg), never in the
         # normal weighted random pick, so their hard caps stay exact.
-        bg_files = [f for f in bg_files if not is_legendary_bg(f)]
+        bg_files = [f for f in bg_files
+                    if not is_legendary_bg(f) and f not in BACKGROUND_EXCLUSIONS]
         if not bg_files:
             raise ValueError("No background assets found")
         # character <-> background pairing. Hard rule: drop plates this

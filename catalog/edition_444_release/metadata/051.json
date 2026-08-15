@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Sugar Cube"
     },
     {
       "trait_type": "Background",
-      "value": "Cookie Vault"
+      "value": "Sarv Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,7 +17,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
@@ -28,12 +28,8 @@
       "value": "Shiba Slippers"
     },
     {
-      "trait_type": "Arms",
-      "value": "Cookboy Handheld"
-    },
-    {
       "trait_type": "Sticker",
-      "value": "Crying Tomato"
+      "value": "CookBook"
     },
     {
       "trait_type": "Edition",
@@ -41,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.076654,
+  "selection_score": 5.157987,
   "seed": 871003
 }

@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Gorbhouse Treasures"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "GORBOY"
+      "value": "Nyancat"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.951312,
+  "selection_score": 3.571727,
   "seed": 871003
 }

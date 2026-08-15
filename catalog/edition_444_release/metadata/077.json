@@ -9,27 +9,23 @@
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Night"
+      "value": "Cookboy Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "Nightly Wallet"
+      "value": "CookBook"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.085297,
+  "selection_score": 3.971366,
   "seed": 871003
 }

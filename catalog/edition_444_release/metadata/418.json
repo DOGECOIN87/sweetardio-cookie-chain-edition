@@ -5,31 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Night"
+      "value": "Gorbhouse Treasures"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Gorbhouse Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "GORBOY"
+      "value": "Nightly Wallet"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.120389,
+  "selection_score": 3.638418,
   "seed": 871003
 }

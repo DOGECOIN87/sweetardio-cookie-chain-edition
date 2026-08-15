@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Churro"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Sarv Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "Candy Shop"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.399247,
+  "selection_score": 4.114163,
   "seed": 871003
 }

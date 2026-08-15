@@ -24,7 +24,13 @@ NIGHTLY_LEGENDARY_STICKER = "Nightly Wallet"
 
 def sticker_display_name(path: Path) -> str:
     """Mirror the public sticker names emitted by the Cookie Chain builder."""
-    overrides = {"Out_Of_Order": "Out of Order"}
+    overrides = {
+        "Out_Of_Order": "Out of Order",
+        "Anime_Detective": "L",
+        "Armed_Hero": "Real as a Doughnut",
+        "GORBOY": "Cookboy",
+        "Poptart_Cat": "Nyancat",
+    }
     return overrides.get(path.stem, path.stem.replace("_", " "))
 
 
@@ -149,6 +155,8 @@ def main():
             report["issues"].append(f"{metadata_path.name} has invalid Edition metadata")
         if values.get("Arms") == "Cookie Hands":
             report["issues"].append(f"{metadata_path.name} contains removed Cookie Hands trait")
+        if values.get("Arms") == "Printer" and "gummy bear" in values.get("Character", "").lower():
+            report["issues"].append(f"{metadata_path.name} assigns Printer to a gummy-bear character")
         if values.get("Character") == "Sugar Doughnut" and values.get("Footwear") == "Gorbhouse Slippers":
             report["issues"].append(
                 f"{metadata_path.name} contains blocked Sugar Doughnut + Gorbhouse pairing")
@@ -160,7 +168,7 @@ def main():
     expected_rarity = expected_rarity_counts(args.count)
     if rarity != expected_rarity:
         report["issues"].append(f"rarity mismatch: {dict(rarity)}")
-    expected_arms = Counter({"Cookboy Handheld": 22}) if args.count == 444 else Counter()
+    expected_arms = Counter({"Cookboy Handheld": 22, "Printer": 22}) if args.count == 444 else Counter()
     if arms != expected_arms:
         report["issues"].append(f"arms mismatch: {dict(arms)}")
     if set(stickers) != expected_stickers:

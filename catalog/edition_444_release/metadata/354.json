@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "S'mores"
+      "value": "Oatmeal Cream Pie"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Emyr Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Flat"
     },
     {
       "trait_type": "Footwear",
@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Quads"
+      "value": "Emyr"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.124853,
+  "selection_score": 2.940866,
   "seed": 871003
 }

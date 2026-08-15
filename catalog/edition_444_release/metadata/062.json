@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Picnic Stage"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie MCP"
+      "value": "Emyr"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.474625,
+  "selection_score": 3.060192,
   "seed": 871003
 }

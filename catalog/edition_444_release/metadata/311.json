@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Nutty Bar"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy"
+      "value": "Morsel Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
-      "value": "Morsel"
+      "value": "CookieScan"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.651133,
+  "selection_score": 3.7022,
   "seed": 871003
 }

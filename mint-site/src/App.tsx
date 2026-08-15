@@ -15,11 +15,11 @@ type DropState = { loaded: boolean; itemsLoaded: number; itemsRedeemed: number; 
 
 const LAMPORTS_PER_COOK = 1_000_000_000
 const featuredSweetardios = [
-  { id: '152', name: 'Chocolate Doughnut', image: '/featured/152.png', traits: ['Nightly Wallet sticker', 'Legendary Chase'] },
-  { id: '003', name: 'OG Gummy Bear', image: '/featured/003.png', traits: ['Out of Order sticker', 'Core'] },
-  { id: '012', name: 'Waffle', image: '/featured/012.png', traits: ['Nightly Wallet sticker', 'Core'] },
-  { id: '059', name: 'Rice Crispy Treat', image: '/featured/059.png', traits: ['Crying Tomato sticker', 'Core'] },
-  { id: '066', name: 'Vanilla Ice Cream', image: '/featured/066.png', traits: ['Candy Shop sticker', 'Core'] },
+  { id: '176', name: 'Zebra Cake', image: '/featured/176.png', traits: ['Nightly Wallet sticker', 'Nightly Legendary · Legendary Chase'] },
+  { id: '079', name: 'Marshmallow', image: '/featured/079.png', traits: ['L sticker', 'Mattrick Legendary · Legendary Chase'] },
+  { id: '434', name: 'Rice Crispy Treat', image: '/featured/434.png', traits: ['Real as a Doughnut sticker', 'Shubbi Legendary · Legendary Chase'] },
+  { id: '268', name: 'Churro', image: '/featured/268.png', traits: ['Baked Bazaar sticker', 'Tenders Legendary · Legendary Chase'] },
+  { id: '155', name: 'Gold Waffle', image: '/featured/155.png', traits: ['Printer arm trait', 'Mythic Chase'] },
 ] as const
 
 function shortAddress(value: string) { return value.length > 12 ? `${value.slice(0, 5)}…${value.slice(-5)}` : value }

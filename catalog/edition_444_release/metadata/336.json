@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "NFTs Aren't Dead"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan"
+      "value": "Real as a Doughnut"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.71632,
+  "selection_score": 3.287514,
   "seed": 871003
 }

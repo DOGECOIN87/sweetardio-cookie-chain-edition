@@ -6,7 +6,7 @@ import hashlib
 import json
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFilter
 
 from prepare_cookiechain_dapp_logo_stickers import OUTPUTS
 
@@ -15,6 +15,16 @@ CANVAS = 1393
 STICKER_CENTER_X = 190
 STICKER_BOTTOM_Y = 1308
 STICKER_MAX_FOOTPRINT = 200
+OUTLINE_RADIUS = 6
+OUTLINE_FILTER_SIZE = OUTLINE_RADIUS * 2 + 1
+SCALE_OVERRIDES = {"CookBook.png": 1.18, "CookOven.png": 1.18}
+CIRCULARIZE = frozenset({
+    "Baked_Bazaar.png",
+    "CookieScan.png",
+    "CookieSwap.png",
+    "Cookie_Quads.png",
+    "GORBOY.png",
+})
 
 # This is the curated, active Cookie Chain Edition pool. Source art stays in
 # the archive for provenance, but these outputs must never be reintroduced to
@@ -28,6 +38,10 @@ EXCLUDED_OUTPUTS = frozenset({
     "Morsel_Wallet.png",
     "Sesamians.png",
     "Sweetardio.png",
+    "Crying_Tomato.png",
+    "CookieScan_DAS_API.png",
+    "DefiLlama.png",
+    "GorWeld.png",
 })
 
 
@@ -76,6 +90,61 @@ def preserve_native_overlay(source: Path) -> Image.Image:
     return image if image.size == (CANVAS, CANVAS) else place_corner_sticker(source)
 
 
+def visible_bounds(image: Image.Image) -> tuple[int, int, int, int]:
+    bbox = image.getchannel("A").getbbox()
+    if bbox is None:
+        raise ValueError("sticker has no visible pixels")
+    return bbox
+
+
+def scale_overlay(image: Image.Image, factor: float) -> Image.Image:
+    """Scale visible art while holding its lower-left overlay location."""
+    bbox = visible_bounds(image)
+    art = image.crop(bbox)
+    art = art.resize((round(art.width * factor), round(art.height * factor)), Image.Resampling.LANCZOS)
+    result = Image.new("RGBA", image.size, (0, 0, 0, 0))
+    result.alpha_composite(art, (round((bbox[0] + bbox[2] - art.width) / 2), bbox[3] - art.height))
+    return result
+
+
+def circularize_overlay(image: Image.Image) -> Image.Image:
+    """Convert an approved square-logo source to a circle without moving it."""
+    bbox = visible_bounds(image)
+    art = image.crop(bbox)
+    side = max(art.width, art.height)
+    square = Image.new("RGBA", (side, side), (0, 0, 0, 0))
+    square.alpha_composite(art, ((side - art.width) // 2, (side - art.height) // 2))
+    mask = Image.new("L", (side, side), 0)
+    ImageDraw.Draw(mask).ellipse((0, 0, side - 1, side - 1), fill=255)
+    clipped = Image.new("RGBA", (side, side), (0, 0, 0, 0))
+    clipped.paste(square, (0, 0), Image.composite(mask, Image.new("L", (side, side), 0), square.getchannel("A")))
+    result = Image.new("RGBA", image.size, (0, 0, 0, 0))
+    result.alpha_composite(clipped, (round((bbox[0] + bbox[2] - side) / 2), bbox[3] - side))
+    return result
+
+
+def add_white_outline(image: Image.Image) -> Image.Image:
+    """Add the approved 6px native-silhouette white contour."""
+    alpha = image.getchannel("A")
+    expanded = alpha.filter(ImageFilter.MaxFilter(OUTLINE_FILTER_SIZE))
+    outline = Image.new("RGBA", image.size, (255, 255, 255, 0))
+    outline.putalpha(expanded)
+    outline.alpha_composite(image)
+    return outline
+
+
+def apply_approved_treatment(output: str, image: Image.Image) -> tuple[Image.Image, str]:
+    """Apply the owner-approved final treatment for an active sticker file."""
+    notes = ["6px white silhouette outline"]
+    if output in CIRCULARIZE:
+        image = circularize_overlay(image)
+        notes.insert(0, "round logo")
+    if output in SCALE_OVERRIDES:
+        image = scale_overlay(image, SCALE_OVERRIDES[output])
+        notes.append("+18%")
+    return add_white_outline(image), " • ".join(notes)
+
+
 def entry_for(source: Path, output: str, origin: str, rendered: Image.Image, mode: str) -> dict:
     bbox = rendered.getchannel("A").getbbox()
     return {
@@ -112,9 +181,9 @@ def main():
         target = out / source.name
         if not is_active_output(target.name):
             continue
-        overlay = preserve_native_overlay(source)
+        overlay, mode = apply_approved_treatment(target.name, preserve_native_overlay(source))
         overlay.save(target, optimize=True)
-        records.append(entry_for(source, target.name, "legacy Cookie Chain sticker overlay", overlay, "preserved native canvas"))
+        records.append(entry_for(source, target.name, "legacy Cookie Chain sticker overlay", overlay, mode))
         expected.add(target.name)
         print(f"restored legacy overlay {target.name}")
     for entry in dapp_manifest.get("entries", []):
@@ -127,9 +196,9 @@ def main():
         target = out / output
         if not is_active_output(target.name):
             continue
-        overlay = place_corner_sticker(source)
+        overlay, mode = apply_approved_treatment(target.name, place_corner_sticker(source))
         overlay.save(target, optimize=True)
-        records.append(entry_for(source, target.name, "official Cookie Chain Apps Registry logo", overlay, "native silhouette corner overlay"))
+        records.append(entry_for(source, target.name, "official Cookie Chain Apps Registry logo", overlay, mode))
         expected.add(target.name)
         print(f"prepared dapp overlay {target.name}")
     actual = {path.name for path in out.glob("*.png")}
@@ -139,6 +208,8 @@ def main():
     stale = actual - expected
     if stale:
         raise SystemExit(f"unexpected sticker PNG files after badge build: {sorted(stale)}")
+    if len(expected) != 22:
+        raise SystemExit(f"expected exactly 22 approved active stickers, found {len(expected)}")
     stale_manifest = out / "COOKIECHAIN_STICKER_BADGE_SOURCES.json"
     if stale_manifest.exists():
         stale_manifest.unlink()

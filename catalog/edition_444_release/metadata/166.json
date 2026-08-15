@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Glazed Doughnut"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Fairdevs Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Footwear",
@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "Poptart Cat"
+      "value": "Emyr"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 2.389407,
+  "selection_score": 2.979875,
   "seed": 871003
 }

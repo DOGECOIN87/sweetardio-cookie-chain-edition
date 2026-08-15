@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Marshmallow"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "M Power Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Tasty"
     },
     {
       "trait_type": "Footwear",
@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan"
+      "value": "Morsel"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.616763,
+  "selection_score": 2.531035,
   "seed": 871003
 }
