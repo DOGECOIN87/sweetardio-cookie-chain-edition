@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Glazed Doughnut"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.329639,
+  "selection_score": 4.727166,
   "seed": 871003
 }

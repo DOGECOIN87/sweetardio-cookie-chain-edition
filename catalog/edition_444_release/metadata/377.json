@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Cyan Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Welders Equipment"
+      "value": "Oxford Blue Fur"
     },
     {
       "trait_type": "Skin",
@@ -21,7 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.988223,
+  "selection_score": 3.838288,
   "seed": 871003
 }

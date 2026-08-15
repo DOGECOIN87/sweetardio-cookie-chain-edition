@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Oxford Blue Fur"
+      "value": "Moon Surface"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.336505,
+  "selection_score": 3.799209,
   "seed": 871003
 }

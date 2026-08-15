@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Pink Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
@@ -13,11 +13,11 @@
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.344487,
+  "selection_score": 1.964682,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Churro"
+      "value": "Nutty Bar"
     },
     {
       "trait_type": "Background",
-      "value": "Cosmic Fog"
+      "value": "Simplex Arcade"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.656235,
+  "selection_score": 3.485023,
   "seed": 871003
 }

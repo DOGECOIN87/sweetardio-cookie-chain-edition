@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Pink Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Paisley"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Lollipop"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
     },
     {
       "trait_type": "Sticker",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 4.535908,
+  "selection_score": 3.076897,
   "seed": 871003
 }

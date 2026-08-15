@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Sandwich Cookie"
+      "value": "Churro"
     },
     {
       "trait_type": "Background",
-      "value": "Short the Banks Vault"
+      "value": "Welders Equipment"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 2.034536,
+  "selection_score": 1.941608,
   "seed": 871003
 }

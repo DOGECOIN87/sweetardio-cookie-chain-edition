@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Midnight Bakery"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.652913,
+  "selection_score": 3.727015,
   "seed": 871003
 }

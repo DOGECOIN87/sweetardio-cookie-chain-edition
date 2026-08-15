@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Paisley"
+      "value": "Cosmic Fog"
     },
     {
       "trait_type": "Skin",
@@ -21,7 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 4.293777,
+  "selection_score": 4.212862,
   "seed": 871003
 }

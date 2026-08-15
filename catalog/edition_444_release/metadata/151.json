@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Churro"
     },
     {
       "trait_type": "Background",
-      "value": "Oxford Blue Fur"
+      "value": "Cosmic Fog"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
+      "value": "Flat"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.625658,
+  "selection_score": 3.449287,
   "seed": 871003
 }

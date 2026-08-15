@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "S'mores"
+      "value": "Cyan Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Oxford Blue Fur"
+      "value": "Marsel Blue"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.051142,
+  "selection_score": 3.973922,
   "seed": 871003
 }

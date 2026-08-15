@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Chocolate Chip Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Paisley"
+      "value": "Digital Future Mural"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.892683,
+  "selection_score": 4.057388,
   "seed": 871003
 }

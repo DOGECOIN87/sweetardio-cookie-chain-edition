@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 4.28849,
+  "selection_score": 4.175136,
   "seed": 871003
 }

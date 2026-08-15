@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
@@ -17,11 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +40,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 4.264719,
+  "selection_score": 4.109365,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "Cookie Vault"
+      "value": "Cookboy Black Enamel"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.014194,
+  "selection_score": 2.634199,
   "seed": 871003
 }

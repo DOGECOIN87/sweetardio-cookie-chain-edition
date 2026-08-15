@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Ding Dong"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Golden Bubbles"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.563506,
+  "selection_score": 3.571016,
   "seed": 871003
 }

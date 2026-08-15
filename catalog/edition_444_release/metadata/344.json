@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Nutty Bar"
+      "value": "Oatmeal Cream Pie"
     },
     {
       "trait_type": "Background",
-      "value": "Golden Bubbles"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 4.177547,
+  "selection_score": 3.60406,
   "seed": 871003
 }

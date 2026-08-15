@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Short the Banks Vault"
+      "value": "Simplex Arcade"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.942503,
+  "selection_score": 3.705885,
   "seed": 871003
 }

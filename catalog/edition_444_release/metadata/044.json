@@ -5,19 +5,19 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Cosmic Fog"
+      "value": "Moon Surface"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.324223,
+  "selection_score": 3.532899,
   "seed": 871003
 }

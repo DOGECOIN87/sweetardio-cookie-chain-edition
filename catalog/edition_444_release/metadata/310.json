@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Chocolate Chip Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Simplex Arcade"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.569663,
+  "selection_score": 3.538792,
   "seed": 871003
 }

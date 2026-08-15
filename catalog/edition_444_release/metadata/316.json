@@ -5,19 +5,19 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Cyan Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Midnight Bakery"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.945591,
+  "selection_score": 3.769069,
   "seed": 871003
 }

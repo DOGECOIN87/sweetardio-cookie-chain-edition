@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Cosmic Fog"
+      "value": "Midnight Bakery"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Smoke"
     },
     {
       "trait_type": "Footwear",
@@ -40,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.465608,
+  "selection_score": 4.41685,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Doughnut"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 2.675376,
+  "selection_score": 2.35475,
   "seed": 871003
 }

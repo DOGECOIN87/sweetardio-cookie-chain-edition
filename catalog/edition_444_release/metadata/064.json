@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Cookboy Paisley"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 4.090625,
+  "selection_score": 4.073382,
   "seed": 871003
 }

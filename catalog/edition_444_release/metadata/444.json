@@ -5,23 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Cookie Vault"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 2.81621,
+  "selection_score": 2.38653,
   "seed": 871003
 }

@@ -9,7 +9,7 @@
     },
     {
       "trait_type": "Background",
-      "value": "Oxford Blue Fur"
+      "value": "Picnic Stage"
     },
     {
       "trait_type": "Skin",
@@ -21,7 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.664535,
+  "selection_score": 3.348558,
   "seed": 871003
 }

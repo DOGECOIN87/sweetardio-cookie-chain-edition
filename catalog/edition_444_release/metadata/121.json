@@ -5,27 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Chocolate Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy"
+      "value": "Short the Banks Vault"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Pepe Slippers"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 2.263609,
+  "selection_score": 1.772827,
   "seed": 871003
 }

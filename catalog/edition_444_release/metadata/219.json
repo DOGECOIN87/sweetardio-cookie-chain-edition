@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.810055,
+  "selection_score": 3.879469,
   "seed": 871003
 }

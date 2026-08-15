@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Yatrah Arcade"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Cookie Monster Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.157418,
+  "selection_score": 3.986419,
   "seed": 871003
 }

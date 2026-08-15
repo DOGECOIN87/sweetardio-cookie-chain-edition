@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Doughnut"
+      "value": "Pink Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Oxford Blue Fur"
+      "value": "Fairdevs Night"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.152295,
+  "selection_score": 4.12424,
   "seed": 871003
 }

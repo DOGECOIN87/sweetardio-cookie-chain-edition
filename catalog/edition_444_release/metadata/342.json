@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Short the Banks Vault"
+      "value": "Cookboy Black Enamel"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
@@ -21,7 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.033746,
+  "selection_score": 3.263514,
   "seed": 871003
 }

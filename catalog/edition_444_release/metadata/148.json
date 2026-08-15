@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "Ding Dong"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Moon Surface"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.430941,
+  "selection_score": 3.183811,
   "seed": 871003
 }

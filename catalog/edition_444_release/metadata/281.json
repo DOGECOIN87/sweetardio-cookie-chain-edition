@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Oxford Blue Fur"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.446186,
+  "selection_score": 3.620323,
   "seed": 871003
 }

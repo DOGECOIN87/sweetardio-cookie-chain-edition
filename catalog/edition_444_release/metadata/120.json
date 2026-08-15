@@ -9,23 +9,19 @@
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Welders Equipment"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
       "value": "Smoke"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.302178,
+  "selection_score": 2.059877,
   "seed": 871003
 }

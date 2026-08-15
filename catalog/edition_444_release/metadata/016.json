@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Churro"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Moon Surface"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.369372,
+  "selection_score": 4.150076,
   "seed": 871003
 }

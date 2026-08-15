@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Nutty Bar"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Golden Bubbles"
+      "value": "Marsel Blue"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.785198,
+  "selection_score": 3.717491,
   "seed": 871003
 }

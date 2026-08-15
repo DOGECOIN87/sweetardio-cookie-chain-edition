@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Marshmallow"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Digital Future Mural"
+      "value": "Emyr Gallery"
     },
     {
       "trait_type": "Skin",
@@ -21,7 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 4.559825,
+  "selection_score": 4.84,
   "seed": 871003
 }

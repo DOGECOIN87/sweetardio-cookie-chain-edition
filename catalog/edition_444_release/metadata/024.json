@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Digital Future Mural"
+      "value": "Oxford Blue Fur"
     },
     {
       "trait_type": "Skin",
@@ -17,7 +17,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.169176,
+  "selection_score": 4.51153,
   "seed": 871003
 }

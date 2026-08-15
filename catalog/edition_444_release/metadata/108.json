@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Marshmallow"
+      "value": "Sugar Cube"
     },
     {
       "trait_type": "Background",
@@ -17,11 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.177704,
+  "selection_score": 4.25866,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Night"
+      "value": "Marsel Blue"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.506801,
+  "selection_score": 3.21594,
   "seed": 871003
 }

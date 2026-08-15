@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Night"
+      "value": "Marsel Blue"
     },
     {
       "trait_type": "Skin",
@@ -21,15 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
-      "value": "Chibi Monster"
+      "value": "Candy Shop"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.148008,
+  "selection_score": 3.43584,
   "seed": 871003
 }

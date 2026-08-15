@@ -5,23 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Cookboy Paisley"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Fang"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.991389,
+  "selection_score": 3.894911,
   "seed": 871003
 }

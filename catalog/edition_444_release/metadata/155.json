@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Neapolitan Ice Cream"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Cookie Vault"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan DAS API"
+      "value": "CookieScan"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.642682,
+  "selection_score": 3.655939,
   "seed": 871003
 }

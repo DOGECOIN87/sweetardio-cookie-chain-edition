@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Doughnut"
+      "value": "Sugar Cube"
     },
     {
       "trait_type": "Background",
-      "value": "Golden Bubbles"
+      "value": "Short the Banks Vault"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.826181,
+  "selection_score": 3.686332,
   "seed": 871003
 }

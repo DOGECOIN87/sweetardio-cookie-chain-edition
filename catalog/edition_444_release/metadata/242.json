@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Glazed Doughnut"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Moon Surface"
     },
     {
       "trait_type": "Skin",
@@ -21,7 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.643681,
+  "selection_score": 3.445038,
   "seed": 871003
 }

@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Doughnut"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.372759,
+  "selection_score": 2.070216,
   "seed": 871003
 }

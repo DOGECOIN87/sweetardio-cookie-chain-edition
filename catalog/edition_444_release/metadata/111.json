@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "Churro"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Gorbhouse Treasures"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.652727,
+  "selection_score": 3.399114,
   "seed": 871003
 }

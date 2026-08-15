@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Pink Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Cookie Vault"
     },
     {
       "trait_type": "Skin",
@@ -17,7 +17,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
@@ -25,7 +25,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "Morsel Wallet"
+      "value": "Morsel"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.118018,
+  "selection_score": 2.467429,
   "seed": 871003
 }

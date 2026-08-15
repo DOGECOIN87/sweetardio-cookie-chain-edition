@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Emyr Gallery"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -21,7 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.846698,
+  "selection_score": 3.786206,
   "seed": 871003
 }

@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Oatmeal Cream Pie"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 4.262115,
+  "selection_score": 4.085594,
   "seed": 871003
 }

@@ -259,6 +259,7 @@ TRAIT_NAMES = {
         "He_Needs_Some_Milk.png":           "He Needs Some Milk",
         "Im_Not_Sorry.png":                 "I'm Not Sorry",
         "Legendary_Just_Aliens.png":        "Legendary Just Aliens",
+        "Legendary_Nightly.png":            "Nightly Legendary",
         "Legendary_Opengotchi.png":         "Legendary Opengotchi",
         "Legendary_Simplex.png":            "Legendary Simplex",
         "Legendary_Tenders.png":            "Legendary Tenders",

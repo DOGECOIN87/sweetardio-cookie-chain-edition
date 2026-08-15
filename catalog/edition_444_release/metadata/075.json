@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Ice Cream"
+      "value": "Cyan Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Cookboy Black Enamel"
     },
     {
       "trait_type": "Skin",
@@ -21,7 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.541752,
+  "selection_score": 3.152152,
   "seed": 871003
 }

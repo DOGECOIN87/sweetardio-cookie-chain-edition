@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Glazed Doughnut"
+      "value": "Cyan Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Short the Banks Vault"
     },
     {
       "trait_type": "Skin",
@@ -24,10 +24,6 @@
       "value": "Diamond Grill"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
-    },
-    {
       "trait_type": "Sticker",
       "value": "Crying Tomato"
     },
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.980333,
+  "selection_score": 3.921353,
   "seed": 871003
 }

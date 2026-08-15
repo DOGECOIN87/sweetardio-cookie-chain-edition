@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Chocolate Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Paisley"
+      "value": "Digital Future Mural"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 4.190006,
+  "selection_score": 4.138514,
   "seed": 871003
 }

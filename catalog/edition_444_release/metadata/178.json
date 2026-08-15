@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Doughnut"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Welders Equipment"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.293511,
+  "selection_score": 1.953587,
   "seed": 871003
 }

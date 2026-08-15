@@ -5,19 +5,19 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Emyr Gallery"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.927437,
+  "selection_score": 3.823166,
   "seed": 871003
 }

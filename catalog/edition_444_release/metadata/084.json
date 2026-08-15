@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "Chocolate Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Golden Bubbles"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
@@ -21,7 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Flat"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.465187,
+  "selection_score": 3.452685,
   "seed": 871003
 }

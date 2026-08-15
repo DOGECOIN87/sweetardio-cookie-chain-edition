@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "Sugar Cube"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Oxford Blue Fur"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.291653,
+  "selection_score": 3.290153,
   "seed": 871003
 }

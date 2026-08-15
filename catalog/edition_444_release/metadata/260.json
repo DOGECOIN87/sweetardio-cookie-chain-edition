@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Emyr Gallery"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.652021,
+  "selection_score": 3.652975,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Chocolate Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Oxford Blue Fur"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.482648,
+  "selection_score": 3.647763,
   "seed": 871003
 }

@@ -9,7 +9,7 @@
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Cosmic Fog"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Flat"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.651677,
+  "selection_score": 3.464596,
   "seed": 871003
 }

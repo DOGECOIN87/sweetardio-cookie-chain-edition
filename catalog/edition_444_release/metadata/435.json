@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "Sugar Cube"
     },
     {
       "trait_type": "Background",
-      "value": "Oxford Blue Fur"
+      "value": "Picnic Stage"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.235819,
+  "selection_score": 3.90269,
   "seed": 871003
 }

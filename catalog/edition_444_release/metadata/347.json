@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Gummy Bear"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Yatrah Arcade"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.741762,
+  "selection_score": 3.7612,
   "seed": 871003
 }

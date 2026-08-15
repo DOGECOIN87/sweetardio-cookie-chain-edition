@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Oxford Blue Fur"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.048589,
+  "selection_score": 3.866357,
   "seed": 871003
 }

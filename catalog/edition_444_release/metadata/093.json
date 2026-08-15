@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Oxford Blue Fur"
     },
     {
       "trait_type": "Skin",
@@ -21,7 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.298567,
+  "selection_score": 3.052008,
   "seed": 871003
 }

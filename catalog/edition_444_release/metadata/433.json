@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Glazed Doughnut"
+      "value": "Churro"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Marsel Blue"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.257818,
+  "selection_score": 3.02077,
   "seed": 871003
 }

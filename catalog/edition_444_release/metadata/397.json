@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Chocolate Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
@@ -22,10 +22,6 @@
     {
       "trait_type": "Mouth",
       "value": "Smirk"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.874987,
+  "selection_score": 3.811648,
   "seed": 871003
 }

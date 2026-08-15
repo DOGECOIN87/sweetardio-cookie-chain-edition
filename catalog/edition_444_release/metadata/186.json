@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "S'mores"
+      "value": "Neapolitan Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Fairdevs Night"
     },
     {
       "trait_type": "Skin",
@@ -17,7 +17,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.239838,
+  "selection_score": 2.851467,
   "seed": 871003
 }

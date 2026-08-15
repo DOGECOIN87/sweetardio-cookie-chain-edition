@@ -76,3 +76,21 @@
 - [x] Download and prepare the public logos as correctly sized Cookie Chain Edition sticker assets.
 - [x] Integrate the expanded sticker pool into the generator and update metadata/release validation rules.
 - [x] Run a deterministic preview and validation pass, then commit and push the sticker integration to `main`.
+
+# Nightly Legendary Background
+
+- [x] Define the dedicated Nightly Legendary background policy and exact allocation rule within the 18 Legendary Chase tokens.
+- [x] Install the supplied Nightly artwork and update generator/validation metadata rules.
+- [x] Render and validate a deterministic preview, then regenerate the final 444-token release with the Nightly Legendary trait.
+- [x] Rebuild the Sugar staging set, refresh mint previews, and verify the frontend build against the new final collection.
+- [ ] Commit and push the Nightly Legendary collection update to `main`.
+
+# Updated Nightly Legendary Source
+
+- [x] Replace the previously staged Nightly background with `file_0000000046f081fd962fe9210c620f09.png` before final regeneration.
+
+# White-Bordered Square Sticker Badges
+
+- [x] Define the shared white-border width, square-badge footprint, and transparent-canvas placement for every existing and dapp-logo sticker.
+- [x] Update the sticker preparation workflow so all 33 stickers use the same white-bordered square badge treatment.
+- [x] Confirm the standardized sticker badges remain legible in deterministic token previews and the regenerated release.

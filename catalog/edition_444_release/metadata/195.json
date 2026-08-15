@@ -5,27 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Glazed Doughnut"
+      "value": "Cyan Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Oxford Blue Fur"
+      "value": "Emyr Gallery"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.820526,
+  "selection_score": 3.706744,
   "seed": 871003
 }

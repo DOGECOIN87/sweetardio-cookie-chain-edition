@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "Neapolitan Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Paisley"
+      "value": "Golden Bubbles"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Flat"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookBook"
+      "value": "Chibi Monster"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.456392,
+  "selection_score": 3.413568,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "S'mores"
+      "value": "Nutty Bar"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Black Enamel"
+      "value": "Cookboy"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 2.851322,
+  "selection_score": 2.40972,
   "seed": 871003
 }

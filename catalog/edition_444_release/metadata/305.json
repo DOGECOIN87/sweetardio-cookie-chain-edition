@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Cosmic Fog"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.991372,
+  "selection_score": 3.970756,
   "seed": 871003
 }

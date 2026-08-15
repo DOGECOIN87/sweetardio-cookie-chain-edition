@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Marshmallow"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Oxford Blue Fur"
+      "value": "Nightly Legendary"
     },
     {
       "trait_type": "Skin",
@@ -21,19 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Pepe Slippers"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
-      "value": "Anime Detective"
+      "value": "Nightly Wallet"
     },
     {
       "trait_type": "Edition",
@@ -44,6 +36,6 @@
       "value": "Legendary Chase"
     }
   ],
-  "selection_score": 3.895333,
+  "selection_score": 4.004506,
   "seed": 871003
 }

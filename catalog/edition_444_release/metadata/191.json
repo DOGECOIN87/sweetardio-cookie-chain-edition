@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Sugar Cube"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Yatrah Arcade"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.932821,
+  "selection_score": 2.775732,
   "seed": 871003
 }

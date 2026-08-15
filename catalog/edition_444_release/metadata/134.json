@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Midnight Bakery"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.1038,
+  "selection_score": 3.893416,
   "seed": 871003
 }

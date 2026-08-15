@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Nutty Bar"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Digital Future Mural"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
@@ -21,7 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.190822,
+  "selection_score": 3.995772,
   "seed": 871003
 }

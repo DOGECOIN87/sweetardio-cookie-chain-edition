@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Cyan Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Oxford Blue Fur"
+      "value": "Simplex Arcade"
     },
     {
       "trait_type": "Skin",
@@ -17,7 +17,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.715712,
+  "selection_score": 3.680216,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Vanilla Ice Cream"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Black Enamel"
+      "value": "Simplex Arcade"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Fang"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.667628,
+  "selection_score": 3.471433,
   "seed": 871003
 }

@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Gummy Bear"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
@@ -17,11 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 4.022377,
+  "selection_score": 3.237127,
   "seed": 871003
 }

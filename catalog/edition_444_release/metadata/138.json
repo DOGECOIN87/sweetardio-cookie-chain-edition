@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Neapolitan Ice Cream"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy"
+      "value": "Short the Banks Vault"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.946221,
+  "selection_score": 3.100121,
   "seed": 871003
 }

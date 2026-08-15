@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Oxford Blue Fur"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
       "value": "Diamond Grill"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 4.334528,
+  "selection_score": 4.269044,
   "seed": 871003
 }

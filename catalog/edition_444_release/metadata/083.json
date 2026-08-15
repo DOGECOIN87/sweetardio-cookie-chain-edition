@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "Pink Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.050059,
+  "selection_score": 3.894657,
   "seed": 871003
 }

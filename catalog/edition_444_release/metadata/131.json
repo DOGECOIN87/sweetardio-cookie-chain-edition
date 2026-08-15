@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Sandwich Cookie"
+      "value": "Churro"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Midnight Bakery"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie MCP"
+      "value": "Cookie Lock"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.577521,
+  "selection_score": 3.108069,
   "seed": 871003
 }

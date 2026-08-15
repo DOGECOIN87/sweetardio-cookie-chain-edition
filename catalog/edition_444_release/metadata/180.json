@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Churro"
+      "value": "Cyan Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Marsel Blue"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.367037,
+  "selection_score": 3.131544,
   "seed": 871003
 }

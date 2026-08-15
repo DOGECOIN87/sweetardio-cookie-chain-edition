@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "S'mores"
+      "value": "Neapolitan Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Short the Banks Vault"
+      "value": "Welders Equipment"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 2.743165,
+  "selection_score": 2.397125,
   "seed": 871003
 }

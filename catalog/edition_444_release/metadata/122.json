@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Vanilla Ice Cream"
+      "value": "Chocolate Chip Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.929206,
+  "selection_score": 3.508292,
   "seed": 871003
 }

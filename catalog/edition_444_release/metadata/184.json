@@ -5,27 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Cyan Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Night"
+      "value": "Gorbhouse Treasures"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.248622,
+  "selection_score": 3.245713,
   "seed": 871003
 }

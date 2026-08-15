@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Gorbhouse Treasures"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
       "value": "Diamond Grill"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.813939,
+  "selection_score": 3.541676,
   "seed": 871003
 }

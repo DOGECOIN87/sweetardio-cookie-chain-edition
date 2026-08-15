@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "Zebra Cake"
     },
     {
       "trait_type": "Background",
@@ -13,7 +13,7 @@
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
@@ -21,7 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.437851,
+  "selection_score": 3.447281,
   "seed": 871003
 }

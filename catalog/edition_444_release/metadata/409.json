@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Sandwich Cookie"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
@@ -13,15 +13,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.627035,
+  "selection_score": 3.692342,
   "seed": 871003
 }

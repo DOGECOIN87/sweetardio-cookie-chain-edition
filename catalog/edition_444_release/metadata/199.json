@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Ice Cream"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.073619,
+  "selection_score": 1.961748,
   "seed": 871003
 }

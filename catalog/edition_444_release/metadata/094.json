@@ -5,23 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Vanilla Ice Cream"
+      "value": "Chocolate Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Gallery"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 4.875166,
+  "selection_score": 3.277932,
   "seed": 871003
 }

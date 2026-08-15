@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Gallery"
+      "value": "Cookboy Paisley"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.519182,
+  "selection_score": 3.550615,
   "seed": 871003
 }

@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Gallery"
+      "value": "Short the Banks Vault"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.62862,
+  "selection_score": 3.252317,
   "seed": 871003
 }

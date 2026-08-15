@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Marshmallow"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Gallery"
+      "value": "Cookboy Paisley"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Flat"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 4.01029,
+  "selection_score": 3.865308,
   "seed": 871003
 }

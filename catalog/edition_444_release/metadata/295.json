@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Ding Dong"
+      "value": "Chocolate Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Welders Equipment"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
@@ -17,7 +17,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.595702,
+  "selection_score": 2.30819,
   "seed": 871003
 }

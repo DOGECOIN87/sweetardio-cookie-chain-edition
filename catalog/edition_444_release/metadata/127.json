@@ -9,11 +9,11 @@
     },
     {
       "trait_type": "Background",
-      "value": "Digital Future Mural"
+      "value": "Picnic Stage"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -22,6 +22,10 @@
     {
       "trait_type": "Mouth",
       "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 4.785207,
+  "selection_score": 3.462209,
   "seed": 871003
 }

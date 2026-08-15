@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Chocolate Sandwich Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Gorbhouse Treasures"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.8684,
+  "selection_score": 3.725531,
   "seed": 871003
 }

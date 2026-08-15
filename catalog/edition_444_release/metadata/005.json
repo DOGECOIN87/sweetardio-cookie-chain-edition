@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Marsel Blue"
     },
     {
       "trait_type": "Skin",
@@ -21,7 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Cookie Monster Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.006398,
+  "selection_score": 2.731456,
   "seed": 871003
 }

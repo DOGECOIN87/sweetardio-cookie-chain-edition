@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "Cyan Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy"
+      "value": "Simplex Arcade"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.442817,
+  "selection_score": 3.311347,
   "seed": 871003
 }

@@ -9,19 +9,19 @@
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Fairdevs Night"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.899062,
+  "selection_score": 2.447135,
   "seed": 871003
 }

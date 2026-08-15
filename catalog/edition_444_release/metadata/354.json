@@ -5,23 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "Oatmeal Cream Pie"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Emyr Gallery"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.676595,
+  "selection_score": 3.256172,
   "seed": 871003
 }

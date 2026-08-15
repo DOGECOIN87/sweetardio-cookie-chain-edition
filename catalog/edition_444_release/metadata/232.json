@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Cyan Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Paisley"
+      "value": "Digital Future Mural"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.858036,
+  "selection_score": 3.986796,
   "seed": 871003
 }

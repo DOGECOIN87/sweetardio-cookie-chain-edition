@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Short the Banks Vault"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 2.471152,
+  "selection_score": 2.224481,
   "seed": 871003
 }

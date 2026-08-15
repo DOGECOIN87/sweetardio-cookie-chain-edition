@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
@@ -13,15 +13,15 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.69416,
+  "selection_score": 3.760107,
   "seed": 871003
 }

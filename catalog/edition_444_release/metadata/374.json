@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Digital Future Mural"
+      "value": "Cosmic Fog"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Flat"
     },
     {
       "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.374369,
+  "selection_score": 4.244101,
   "seed": 871003
 }

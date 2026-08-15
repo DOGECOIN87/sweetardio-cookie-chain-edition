@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Cyan Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Cosmic Fog"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.294062,
+  "selection_score": 3.397678,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Churro"
+      "value": "Ding Dong"
     },
     {
       "trait_type": "Background",
-      "value": "Gorbhouse Treasures"
+      "value": "Short the Banks Vault"
     },
     {
       "trait_type": "Skin",
@@ -17,7 +17,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 2.443431,
+  "selection_score": 2.121802,
   "seed": 871003
 }

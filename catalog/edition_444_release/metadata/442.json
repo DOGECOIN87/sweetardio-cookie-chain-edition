@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Doughnut"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Emyr Gallery"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.805305,
+  "selection_score": 3.688765,
   "seed": 871003
 }

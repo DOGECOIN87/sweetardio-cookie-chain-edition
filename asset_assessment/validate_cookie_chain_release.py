@@ -18,6 +18,8 @@ EXPECTED_RARITY = {
 }
 CANVAS = (1393, 1393)
 DEFAULT_STICKER_DIR = Path(__file__).resolve().parent.parent / "assets" / "stickerz"
+NIGHTLY_LEGENDARY_BACKGROUND = "Nightly Legendary"
+NIGHTLY_LEGENDARY_STICKER = "Nightly Wallet"
 
 
 def sticker_display_name(path: Path) -> str:
@@ -78,6 +80,7 @@ def main():
         "stickers": {},
         "expected_stickers": sorted(expected_stickers),
         "backgrounds": {},
+        "nightly_legendary_count": 0,
         "public_trait_signatures": 0,
         "issues": [],
     }
@@ -116,6 +119,7 @@ def main():
     signatures = set()
     expected_names = {f"Cookie Chain Edition #{number:03d}" for number in range(1, args.count + 1)}
     actual_names = set()
+    nightly_tokens = []
     for index, metadata_path in enumerate(metadata_paths, 1):
         token = load_token(metadata_path)
         actual_names.add(token.get("name"))
@@ -148,6 +152,8 @@ def main():
         if values.get("Character") == "Sugar Doughnut" and values.get("Footwear") == "Gorbhouse Slippers":
             report["issues"].append(
                 f"{metadata_path.name} contains blocked Sugar Doughnut + Gorbhouse pairing")
+        if values.get("Background") == NIGHTLY_LEGENDARY_BACKGROUND:
+            nightly_tokens.append((metadata_path.name, values))
 
     if actual_names != expected_names:
         report["issues"].append("token names are not the exact #001–#444 public sequence")
@@ -175,11 +181,20 @@ def main():
     if len(signatures) != args.count:
         report["issues"].append(
             f"expected {args.count} unique public trait signatures, found {len(signatures)}")
+    if args.count == 444:
+        if len(nightly_tokens) != 1:
+            report["issues"].append(
+                f"expected exactly one {NIGHTLY_LEGENDARY_BACKGROUND} background, found {len(nightly_tokens)}")
+        elif nightly_tokens[0][1].get("Rarity") != "Legendary Chase":
+            report["issues"].append("Nightly Legendary token must be Legendary Chase")
+        elif nightly_tokens[0][1].get("Sticker") != NIGHTLY_LEGENDARY_STICKER:
+            report["issues"].append("Nightly Legendary token must carry the Nightly Wallet sticker")
 
     report["rarity"] = dict(rarity)
     report["arms"] = dict(arms)
     report["stickers"] = dict(stickers)
     report["backgrounds"] = dict(backgrounds)
+    report["nightly_legendary_count"] = len(nightly_tokens)
     report["public_trait_signatures"] = len(signatures)
     report_path = release / "VALIDATION.json"
     with report_path.open("w", encoding="utf-8") as handle:

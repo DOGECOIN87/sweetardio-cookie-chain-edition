@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Neapolitan Ice Cream"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Fairdevs Night"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 2.983688,
+  "selection_score": 2.90358,
   "seed": 871003
 }

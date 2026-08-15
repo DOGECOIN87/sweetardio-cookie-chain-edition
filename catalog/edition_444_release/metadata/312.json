@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Cookboy Paisley"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.628277,
+  "selection_score": 3.561583,
   "seed": 871003
 }

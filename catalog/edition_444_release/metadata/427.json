@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Doughnut"
+      "value": "Chocolate Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Black Enamel"
+      "value": "Welders Equipment"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.251162,
+  "selection_score": 2.033717,
   "seed": 871003
 }

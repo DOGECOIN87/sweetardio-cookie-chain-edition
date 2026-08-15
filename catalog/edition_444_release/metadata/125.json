@@ -5,27 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "Neapolitan Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Oxford Blue Fur"
+      "value": "Digital Future Mural"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
       "value": "Awkward Smile"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.547028,
+  "selection_score": 4.601387,
   "seed": 871003
 }

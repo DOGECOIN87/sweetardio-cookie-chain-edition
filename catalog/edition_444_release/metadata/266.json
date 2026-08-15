@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Marshmallow"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Cookboy Paisley"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Flat"
     },
     {
       "trait_type": "Footwear",
-      "value": "Pepe Slippers"
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +40,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.908532,
+  "selection_score": 3.795985,
   "seed": 871003
 }

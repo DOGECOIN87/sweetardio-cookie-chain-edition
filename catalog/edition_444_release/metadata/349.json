@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Short the Banks Vault"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 2.892107,
+  "selection_score": 2.563072,
   "seed": 871003
 }

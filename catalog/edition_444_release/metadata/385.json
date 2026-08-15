@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Oxford Blue Fur"
     },
     {
       "trait_type": "Skin",
@@ -21,7 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.3638,
+  "selection_score": 3.138127,
   "seed": 871003
 }

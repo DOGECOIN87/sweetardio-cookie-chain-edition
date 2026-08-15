@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Oatmeal Cream Pie"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Paisley"
+      "value": "Emyr Gallery"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +40,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 4.205365,
+  "selection_score": 4.08299,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "S'mores"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Oxford Blue Fur"
     },
     {
       "trait_type": "Skin",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.529433,
+  "selection_score": 3.379488,
   "seed": 871003
 }

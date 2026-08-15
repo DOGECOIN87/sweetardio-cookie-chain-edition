@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Cookboy Black Enamel"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
@@ -21,7 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Footwear",
@@ -40,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.63544,
+  "selection_score": 3.25933,
   "seed": 871003
 }

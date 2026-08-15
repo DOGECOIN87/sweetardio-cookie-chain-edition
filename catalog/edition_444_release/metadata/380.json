@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Picnic Stage"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Cookie Monster Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.005317,
+  "selection_score": 3.865922,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "Chocolate Chip Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Golden Bubbles"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Flat"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Lock"
+      "value": "Cookie Chat"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.2183,
+  "selection_score": 3.219186,
   "seed": 871003
 }

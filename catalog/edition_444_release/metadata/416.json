@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "S'mores"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Gorbhouse Treasures"
+      "value": "Fairdevs Night"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.068699,
+  "selection_score": 2.735508,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Cosmic Fog"
+      "value": "Emyr Gallery"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Footwear",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 4.01474,
+  "selection_score": 4.09464,
   "seed": 871003
 }

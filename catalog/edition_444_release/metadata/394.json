@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Sandwich Cookie"
+      "value": "Chocolate Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Yatrah Arcade"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.052212,
+  "selection_score": 2.547472,
   "seed": 871003
 }

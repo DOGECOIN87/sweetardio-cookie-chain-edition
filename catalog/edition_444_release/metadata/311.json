@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Gorbhouse Treasures"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.728389,
+  "selection_score": 3.513357,
   "seed": 871003
 }

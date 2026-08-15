@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Night"
+      "value": "Yatrah Arcade"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
-      "value": "Hyperlane Bridge"
+      "value": "GorWeld"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 4.320126,
+  "selection_score": 2.765489,
   "seed": 871003
 }

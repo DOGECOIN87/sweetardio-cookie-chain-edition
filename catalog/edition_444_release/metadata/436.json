@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Vanilla Ice Cream"
+      "value": "Pink Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Oxford Blue Fur"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.306615,
+  "selection_score": 3.34209,
   "seed": 871003
 }

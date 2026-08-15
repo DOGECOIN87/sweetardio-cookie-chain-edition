@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Churro"
     },
     {
       "trait_type": "Background",
@@ -13,15 +13,19 @@
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 4.523328,
+  "selection_score": 3.202216,
   "seed": 871003
 }

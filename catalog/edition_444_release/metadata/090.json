@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Neapolitan Ice Cream"
+      "value": "Pink Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Cookboy Black Enamel"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.389589,
+  "selection_score": 3.0172,
   "seed": 871003
 }

@@ -5,23 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Welders Equipment"
+      "value": "Golden Bubbles"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
       "value": "Tasty"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Gorbhouse Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.406257,
+  "selection_score": 3.351764,
   "seed": 871003
 }

@@ -5,23 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Neapolitan Ice Cream"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Oxford Blue Fur"
+      "value": "Digital Future Mural"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Pepe Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.364823,
+  "selection_score": 3.338038,
   "seed": 871003
 }

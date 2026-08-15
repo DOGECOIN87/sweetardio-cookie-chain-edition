@@ -5,27 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Oatmeal Cream Pie"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Black Enamel"
+      "value": "Cookboy"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.534363,
+  "selection_score": 3.09988,
   "seed": 871003
 }

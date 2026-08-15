@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Short the Banks Vault"
+      "value": "Cookboy"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.713961,
+  "selection_score": 2.477015,
   "seed": 871003
 }

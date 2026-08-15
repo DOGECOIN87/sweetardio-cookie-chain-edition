@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Nutty Bar"
+      "value": "Chocolate Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookie Vault"
+      "value": "Cookboy"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
@@ -21,7 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.420348,
+  "selection_score": 2.177755,
   "seed": 871003
 }

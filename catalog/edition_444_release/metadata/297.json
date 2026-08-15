@@ -5,23 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Nutty Bar"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Midnight Bakery"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Cookie Monster Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.096243,
+  "selection_score": 3.059361,
   "seed": 871003
 }

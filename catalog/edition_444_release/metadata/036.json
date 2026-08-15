@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Frosted Pop Tart"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Welders Equipment"
+      "value": "Short the Banks Vault"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 2.480034,
+  "selection_score": 2.256041,
   "seed": 871003
 }

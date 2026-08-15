@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Frosted Pop Tart"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Golden Bubbles"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.417835,
+  "selection_score": 3.176455,
   "seed": 871003
 }

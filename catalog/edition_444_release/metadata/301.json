@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Frosted Pop Tart"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Digital Future Mural"
+      "value": "Cookboy Paisley"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 4.333021,
+  "selection_score": 4.15098,
   "seed": 871003
 }

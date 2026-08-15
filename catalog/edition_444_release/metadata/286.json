@@ -5,27 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "S'mores"
+      "value": "Zebra Cake"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Midnight Bakery"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.404882,
+  "selection_score": 3.347529,
   "seed": 871003
 }

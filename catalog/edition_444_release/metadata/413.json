@@ -5,31 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Cyan Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cosmic Fog"
+      "value": "Emyr Gallery"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
-      "value": "Bake Your Stake"
+      "value": "Armed Hero"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.662304,
+  "selection_score": 3.26625,
   "seed": 871003
 }

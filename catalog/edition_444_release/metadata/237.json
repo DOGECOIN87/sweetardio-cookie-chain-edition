@@ -5,31 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Churro"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
-      "value": "Cosmic Fog"
+      "value": "Simplex Arcade"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
-      "value": "Candy Shop"
+      "value": "Baked Bazaar"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.408742,
+  "selection_score": 3.447017,
   "seed": 871003
 }

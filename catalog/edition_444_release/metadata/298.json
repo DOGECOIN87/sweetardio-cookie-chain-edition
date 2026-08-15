@@ -5,23 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Chocolate Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Digital Future Mural"
+      "value": "Golden Bubbles"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
       "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 4.476093,
+  "selection_score": 3.195211,
   "seed": 871003
 }

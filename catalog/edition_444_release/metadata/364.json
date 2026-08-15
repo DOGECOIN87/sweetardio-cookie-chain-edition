@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Churro"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Fairdevs Night"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -21,11 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.751512,
+  "selection_score": 2.833561,
   "seed": 871003
 }

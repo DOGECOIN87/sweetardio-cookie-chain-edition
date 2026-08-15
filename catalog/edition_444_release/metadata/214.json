@@ -5,19 +5,19 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Chocolate Sandwich Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.427099,
+  "selection_score": 3.538245,
   "seed": 871003
 }

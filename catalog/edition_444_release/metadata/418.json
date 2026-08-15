@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Marshmallow"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "Cookie Vault"
+      "value": "Fairdevs Night"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
       "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.846046,
+  "selection_score": 3.667459,
   "seed": 871003
 }

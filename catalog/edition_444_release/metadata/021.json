@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Nutty Bar"
+      "value": "Chocolate Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Welders Equipment"
+      "value": "Cookie Vault"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 2.645761,
+  "selection_score": 2.290035,
   "seed": 871003
 }

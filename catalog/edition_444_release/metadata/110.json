@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Vanilla Ice Cream"
+      "value": "Cyan Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Simplex Arcade"
+      "value": "Fairdevs Night"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
@@ -21,7 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 4.032722,
+  "selection_score": 2.553187,
   "seed": 871003
 }

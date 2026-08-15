@@ -5,23 +5,23 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "Chocolate Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Midnight Bakery"
+      "value": "Golden Bubbles"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.819144,
+  "selection_score": 3.752738,
   "seed": 871003
 }

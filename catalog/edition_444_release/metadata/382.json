@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "Pink Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Gorbhouse Treasures"
+      "value": "Yatrah Arcade"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "Metaplex"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.521176,
+  "selection_score": 2.373248,
   "seed": 871003
 }

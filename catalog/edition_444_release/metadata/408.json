@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Vanilla Ice Cream"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.427593,
+  "selection_score": 4.365318,
   "seed": 871003
 }
