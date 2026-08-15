@@ -108,3 +108,7 @@
 # Complete-Square Preview Frames
 
 - [x] Make the featured draw and carousel thumbnail frames preserve every full 1:1 token render without cropping, make “Cookie Chain Edition” explicit in the preview copy, match the subtitle span to the Sweetardio wordmark, and add a slow staggered repeating Cookie Chain Edition logo pattern behind the interface, then verify the managed preview.
+
+# Official Top Logo and Sharing
+
+- [x] Replace the top navigation text lockup with the official Cookie Chain Edition logo, verify the managed preview, and prepare the user-controlled publish path for a shareable URL.

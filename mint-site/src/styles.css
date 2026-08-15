@@ -37,3 +37,7 @@
 .draw-selector button { aspect-ratio:1 / 1; }
 .draw-selector img { height:100%; object-fit:contain; }
 @media (prefers-reduced-motion:reduce) { .scene::before { animation:none; } }
+
+.site-nav .nav-edition-logo { display:block; line-height:0; }
+.site-nav .nav-edition-logo img { display:block; width:clamp(162px,18vw,224px); height:auto; filter:drop-shadow(0 6px 12px rgba(247,178,30,.2)); }
+@media (max-width:620px) { .site-nav .nav-edition-logo img { width:156px; } }

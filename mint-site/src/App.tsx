@@ -111,7 +111,7 @@ function App() {
   return (
     <div className="scene" id="top">
       <div className="scene-image" aria-hidden="true" /><div className="scene-tint" aria-hidden="true" />
-      <header className="site-nav"><a className="brand-lockup" href="#top" aria-label="Sweetardio Cookie Chain Edition home"><span><b>SWEET</b><em>ARDIO</em></span><small>COOKIE CHAIN EDITION</small></a><nav aria-label="Primary navigation"><a href="#draw">Draw</a><a href="#mint">Mint</a></nav><div className="nav-wallet"><span className="network-state"><i /> COOKIE CHAIN EDITION</span><WalletMultiButton /></div></header>
+      <header className="site-nav"><a className="brand-lockup nav-edition-logo" href="#top" aria-label="Cookie Chain Edition home"><img src="/cookie-chain-edition-logo.png" alt="Cookie Chain Edition" /></a><nav aria-label="Primary navigation"><a href="#draw">Draw</a><a href="#mint">Mint</a></nav><div className="nav-wallet"><span className="network-state"><i /> COOKIE CHAIN EDITION</span><WalletMultiButton /></div></header>
 
       <main>
         <section className="hero-stage" aria-labelledby="hero-title"><div className="hero-panel">
