@@ -112,3 +112,11 @@
 # Official Top Logo and Sharing
 
 - [x] Replace the top navigation text lockup with the official Cookie Chain Edition logo, verify the managed preview, and prepare the user-controlled publish path for a shareable URL.
+
+# Mint Action Feedback
+
+- [ ] Add a smooth hover and press effect to the mint action plus an accessible loading animation during transaction processing, then validate the safe mint flow and managed preview.
+
+# Original-Style Sticker Restoration
+
+- [ ] Restore the curated active stickers to the original Sweetardio Collection’s individual silhouettes and placement treatment, regenerate and validate all 444 tokens, refresh staging and previews, then push the synchronized release to `main`.

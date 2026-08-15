@@ -1,6 +1,6 @@
 # Curated Cookie Chain Edition Sticker Pool
 
-The active collection pool contains **26** standardized square badges. Each active sticker is generated only by `prepare_white_border_sticker_badges.py`, which makes the curation rule reproducible rather than depending on a manual asset deletion.
+The active collection pool contains **26** original-style sticker overlays. Each active sticker is generated only by `prepare_cookiechain_sticker_overlays.py`, which preserves the original Sweetardio Collection behavior rather than depending on manual asset deletion.
 
 | Retired output | Curation decision |
 | --- | --- |
@@ -12,4 +12,4 @@ The active collection pool contains **26** standardized square badges. Each acti
 | `Sesamians.png` | Removed at the collection owner’s direction. |
 | `Sweetardio.png` | Removed as the old Sweetardio logo at the collection owner’s direction. |
 
-The original files remain in source archives only for auditability. They are not active traits, are not emitted by the badge builder, do not appear in the release metadata, and cannot be selected by the 444-token allocator.
+The ten retained legacy stickers are already-authored 1393×1393 transparent overlays and are preserved unchanged. The sixteen retained Cookie Chain dapp logos are cropped only to their visible alpha, fitted within the original 200px lower-left footprint (center x=190, bottom y=1308), and composited without a border, square panel, fill, or redrawn geometry. The retired files remain in source archives only for auditability. They are not active traits, do not appear in the release metadata, and cannot be selected by the 444-token allocator.

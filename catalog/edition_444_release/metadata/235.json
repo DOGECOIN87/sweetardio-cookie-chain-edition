@@ -9,15 +9,15 @@
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Gallery"
+      "value": "Simplex Arcade"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
@@ -36,6 +36,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.665974,
+  "selection_score": 3.674589,
   "seed": 871003
 }

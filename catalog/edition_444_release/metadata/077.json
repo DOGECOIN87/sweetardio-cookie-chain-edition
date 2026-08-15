@@ -9,7 +9,7 @@
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Fairdevs Night"
     },
     {
       "trait_type": "Skin",
@@ -21,7 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Fang"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.983976,
+  "selection_score": 3.085297,
   "seed": 871003
 }

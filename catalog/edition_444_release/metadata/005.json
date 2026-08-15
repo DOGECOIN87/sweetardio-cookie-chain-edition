@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Oatmeal Cream Pie"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
-      "value": "Short the Banks Vault"
+      "value": "Welders Equipment"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
       "value": "Fang"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Pepe Slippers"
     },
     {
       "trait_type": "Sticker",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 1.957493,
+  "selection_score": 2.015913,
   "seed": 871003
 }

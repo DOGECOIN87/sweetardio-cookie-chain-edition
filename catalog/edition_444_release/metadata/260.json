@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Golden Bubbles"
+      "value": "Midnight Bakery"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Sad"
     },
     {
       "trait_type": "Arms",
@@ -40,6 +40,6 @@
       "value": "Legendary Chase"
     }
   ],
-  "selection_score": 3.099647,
+  "selection_score": 3.019563,
   "seed": 871003
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Nutty Bar"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Marsel Blue"
+      "value": "Picnic Stage"
     },
     {
       "trait_type": "Skin",
@@ -24,6 +24,10 @@
       "value": "Diamond Grill"
     },
     {
+      "trait_type": "Footwear",
+      "value": "Cookie Monster Slippers"
+    },
+    {
       "trait_type": "Sticker",
       "value": "Cookiebox"
     },
@@ -36,6 +40,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.282255,
+  "selection_score": 3.284153,
   "seed": 871003
 }

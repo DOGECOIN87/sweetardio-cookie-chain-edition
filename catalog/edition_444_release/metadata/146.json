@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Golden Bubbles"
+      "value": "Digital Future Mural"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Tasty"
     },
     {
       "trait_type": "Arms",
@@ -40,6 +40,6 @@
       "value": "Legendary Chase"
     }
   ],
-  "selection_score": 3.121614,
+  "selection_score": 3.461603,
   "seed": 871003
 }

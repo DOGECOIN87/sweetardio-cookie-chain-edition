@@ -1,17 +1,30 @@
-# Cookie Chain Edition — Final 444 Release Manifest
+# Cookie Chain Edition — Final 444-Token Release
 
-This directory records the validated **444-piece Cookie Chain Edition** metadata release generated with seed `871003` from the repository’s authoritative `assets/backgroundz` pool.
+This catalog is the deterministic final release for the Cookie Chain Edition. It is rendered from seed `871003` and contains the committed metadata, manifest, rarity report, and validation output for the synchronized 444-token set.
 
-The emitted metadata uses the public token naming format `Cookie Chain Edition #001` through `Cookie Chain Edition #444`. The exact rarity allocation is **4 Mythic Chase**, **18 Legendary Chase**, **66 Rare**, **134 Uncommon**, and **222 Core**.
+| Release rule | Final behavior |
+| --- | --- |
+| Token count | 444 unique 1393×1393 RGBA images and metadata records |
+| Rarity tiers | 4 Mythic Chase, 18 Legendary Chase, 66 Rare, 134 Uncommon, and 222 Core |
+| Background metadata | The embossed background is named **Cookboy** |
+| Arms | **Cookboy Handheld** appears exactly 22 times; Cookie Hands is absent |
+| Sticker pool | 26 curated original-style transparent overlays, balanced at 17–18 uses each |
+| Nightly Legendary | Exactly one Legendary Chase token, paired with Nightly Wallet |
 
-> **Trait correction:** `Cookie Hands` was deliberately removed before this final build. The only limited arm trait is **Cookboy Handheld**. **Morsel** and **Cookiebox** remain exclusively **Sticker** attributes, alongside 22 normalized public Cookie Chain dapp-logo sticker traits from the official Apps Registry.
+The full rendered image set is intentionally held outside Git at `/home/ubuntu/cookie-chain-edition-444-original-stickers`. The zero-indexed Sugar deployment staging set is held at `/home/ubuntu/cookie-chain-candy-machine/assets`.
 
-The full rendered image payload consists of 444 1393×1393 PNG files and is intentionally kept outside Git because it is approximately 1.5 GB. The committed build inputs, 444 token metadata files, manifest, rarity report, and validation summary allow the image set to be reproduced with:
+To reproduce the release:
 
 ```bash
+python3 asset_assessment/prepare_cookiechain_sticker_overlays.py \
+  --legacy-dir assets/catalog_uploads/cookie_chain_legacy_sticker_overlays \
+  --dapp-source-dir assets/catalog_uploads/cookiechain_dapp_logos \
+  --dapp-manifest asset_assessment/cookiechain_dapp_logo_manifest.json \
+  --out assets/stickerz
+
 python3 asset_assessment/build_side_collection.py \
   --count 444 --seed 871003 --candidates-per-sticker 120 --workers 4 \
   --out /path/to/cookie-chain-edition-444
 ```
 
-The `VALIDATION.json` report confirms 444 images, 444 metadata files, 444 unique public trait signatures, the exact rarity allocation, the **Cookboy** background label, 22 **Cookboy Handheld** arm occurrences, no Cookie Hands arm value, and balanced representation across all 33 sticker traits: 13 or 14 tokens per sticker.
+Run `asset_assessment/validate_cookie_chain_release.py` against the rendered output before any metadata upload or Candy Machine deployment.
