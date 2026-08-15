@@ -1,0 +1,10 @@
+{
+  "selection_count": 50,
+  "unique_ids": 50,
+  "unique_sha256": 50,
+  "perceptual_distance_limit": 6,
+  "id_duplicate_groups": [],
+  "exact_duplicate_groups": [],
+  "perceptual_duplicate_pairs": [],
+  "passed": true
+}

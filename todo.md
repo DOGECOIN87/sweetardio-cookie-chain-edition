@@ -162,3 +162,5 @@
 - [x] Exclude Midnight Bakery from the active random background pool, refresh background review and validation evidence, then regenerate the synchronized collection.
 - [ ] Add the supplied `Legendary_Just_Aliens(2).png`, `layer-Legendary_Shubbi.png`, and `composite-export(25).png` as full-canvas backgrounds named Mattrick Legendary, Shubbi Legendary, and Tenders Legendary, respectively.
 - [ ] Obtain explicit user approval of the complete curated background set before modifying assets, metadata mappings, validation rules, or rendering the final 444-token release.
+- [x] Audit the 50-token mint carousel for exact and perceptual artwork duplicates, replace any repeats with distinct collection renders, and verify every displayed preview is unique before publishing.
+- [x] Add automatic carousel rotation with a concise fade transition, retain manual navigation, pause on direct user interaction, and respect reduced-motion preferences.

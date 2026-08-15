@@ -232,16 +232,6 @@
       "arms": "Cookboy Handheld"
     },
     {
-      "id": "016",
-      "name": "Vanilla Ice Cream",
-      "image": "/manus-storage/token-016_3b431001.png",
-      "rarity": "Rare",
-      "sticker": "CookieScan sticker",
-      "note": "Curated draw",
-      "background": "Cookboy Legendary",
-      "arms": ""
-    },
-    {
       "id": "180",
       "name": "Chocolate Ice Cream",
       "image": "/manus-storage/token-180_003e4079.png",
@@ -260,6 +250,16 @@
       "note": "Curated draw",
       "background": "Gorbhouse Treasures",
       "arms": ""
+    },
+    {
+      "id": "013",
+      "name": "Rice Crispy Treat",
+      "image": "/manus-storage/token-013_413805a9.png",
+      "rarity": "Legendary Chase",
+      "sticker": "CookieScan sticker",
+      "note": "Curated draw",
+      "background": "Fairdevs Legendary",
+      "arms": "Cookboy Handheld"
     },
     {
       "id": "209",
@@ -292,6 +292,16 @@
       "arms": "Printer"
     },
     {
+      "id": "207",
+      "name": "Vanilla Ice Cream",
+      "image": "/manus-storage/token-207_de30a8b9.png",
+      "rarity": "Rare",
+      "sticker": "CookBook sticker",
+      "note": "Curated draw",
+      "background": "Fairdevs Legendary",
+      "arms": ""
+    },
+    {
       "id": "320",
       "name": "Zebra Cake",
       "image": "/manus-storage/token-320_34e394b9.png",
@@ -299,16 +309,6 @@
       "sticker": "CookBook sticker",
       "note": "Curated draw",
       "background": "Cookboy Legendary",
-      "arms": "Cookboy Handheld"
-    },
-    {
-      "id": "013",
-      "name": "Rice Crispy Treat",
-      "image": "/manus-storage/token-013_413805a9.png",
-      "rarity": "Legendary Chase",
-      "sticker": "CookieScan sticker",
-      "note": "Curated draw",
-      "background": "Fairdevs Legendary",
       "arms": "Cookboy Handheld"
     },
     {
@@ -482,23 +482,23 @@
       "arms": ""
     },
     {
-      "id": "157",
-      "name": "Cyan Sherbert Ice Cream",
-      "image": "/manus-storage/token-157_561df14d.png",
+      "id": "425",
+      "name": "Sugar Doughnut",
+      "image": "/manus-storage/token-425_1d979a2e.png",
       "rarity": "Rare",
-      "sticker": "Cookie Chat sticker",
+      "sticker": "CookieScan sticker",
       "note": "Curated draw",
-      "background": "Sarv Legendary",
+      "background": "Cookboy Legendary",
       "arms": ""
     },
     {
-      "id": "207",
-      "name": "Vanilla Ice Cream",
-      "image": "/manus-storage/token-207_de30a8b9.png",
+      "id": "269",
+      "name": "Rice Crispy Treat",
+      "image": "/manus-storage/token-269_17fcde1f.png",
       "rarity": "Rare",
-      "sticker": "CookBook sticker",
+      "sticker": "Cookie Lock sticker",
       "note": "Curated draw",
-      "background": "Fairdevs Legendary",
+      "background": "Morsel Legendary",
       "arms": ""
     }
   ]
