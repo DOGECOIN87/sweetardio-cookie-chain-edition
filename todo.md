@@ -100,3 +100,11 @@
 - [x] Remove the explicitly rejected sticker traits and resolve the remaining duplicate-brand entries.
 - [x] Rebuild the curated badge pool, regenerate the deterministic 444-token release, and validate metadata distribution.
 - [x] Refresh Sugar staging, catalog assets, mint previews, and the frontend build, then push the curated release to `main`.
+
+# User-Accessible Mint Preview
+
+- [x] Replace the unreliable temporary preview link with a stable managed preview route and provide a direct visual fallback.
+
+# Complete-Square Preview Frames
+
+- [x] Make the featured draw and carousel thumbnail frames preserve every full 1:1 token render without cropping, make “Cookie Chain Edition” explicit in the preview copy, match the subtitle span to the Sweetardio wordmark, and add a slow staggered repeating Cookie Chain Edition logo pattern behind the interface, then verify the managed preview.

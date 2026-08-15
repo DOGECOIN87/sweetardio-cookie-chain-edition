@@ -111,27 +111,27 @@ function App() {
   return (
     <div className="scene" id="top">
       <div className="scene-image" aria-hidden="true" /><div className="scene-tint" aria-hidden="true" />
-      <header className="site-nav"><a className="brand-lockup" href="#top" aria-label="Sweetardio Cookie Chain Edition home"><span><b>SWEET</b><em>ARDIO</em></span><small>COOKIE CHAIN EDITION</small></a><nav aria-label="Primary navigation"><a href="#draw">Draw</a><a href="#mint">Mint</a></nav><div className="nav-wallet"><span className="network-state"><i /> COOKIE CHAIN</span><WalletMultiButton /></div></header>
+      <header className="site-nav"><a className="brand-lockup" href="#top" aria-label="Sweetardio Cookie Chain Edition home"><span><b>SWEET</b><em>ARDIO</em></span><small>COOKIE CHAIN EDITION</small></a><nav aria-label="Primary navigation"><a href="#draw">Draw</a><a href="#mint">Mint</a></nav><div className="nav-wallet"><span className="network-state"><i /> COOKIE CHAIN EDITION</span><WalletMultiButton /></div></header>
 
       <main>
         <section className="hero-stage" aria-labelledby="hero-title"><div className="hero-panel">
           <div className="panel-top-line" aria-hidden="true" />
           <img className="edition-plaque" src="/cookie-chain-edition-logo.png" alt="Cookie Chain Edition" />
           <p className="hero-chip"><i /> FINALIZED EDITION <span>·</span> 444 UNIQUE TOKENS</p>
-          <h1 id="hero-title"><span><b>SWEET</b><em>ARDIO</em></span><strong>COOKIE CHAIN</strong></h1>
-          <p className="hero-description">444 Sweetardios, made for the Cookie Chain.</p>
+          <h1 id="hero-title"><span><b>SWEET</b><em>ARDIO</em></span><strong>COOKIE CHAIN EDITION</strong></h1>
+          <p className="hero-description">444 Sweetardios, made for the Cookie Chain Edition.</p>
           <button type="button" className="hero-mint" onClick={focusMint}><span>↑</span> MINT WHEN READY <span>↑</span></button>
         </div></section>
 
         <Aisle number="01" label="THE DRAW" />
         <section className="draw-section wrap" id="draw">
-          <article className="draw-frame"><div className="draw-art"><img src={featured.image} alt={`Sweetardio #${featured.id}: ${featured.name}`} /><span>#{featured.id}</span></div><div className="draw-details"><p>COOKIE CHAIN DRAW</p><h2>{featured.name}</h2><div><b>{featured.traits[1]}</b><span>{featured.traits[0]}</span></div></div></article>
-          <div className="draw-selector" aria-label="Select a finalized collection draw">{featuredSweetardios.map((item, index) => <button type="button" key={item.id} className={index === featuredIndex ? 'active' : ''} onClick={() => setFeaturedIndex(index)} aria-pressed={index === featuredIndex}><img src={item.image} alt={`Select Sweetardio #${item.id}: ${item.name}`} /><span>#{item.id}</span></button>)}</div>
+          <article className="draw-frame"><div className="draw-art"><img src={featured.image} alt={`Cookie Chain Edition #${featured.id}: ${featured.name}`} /><span>#{featured.id}</span></div><div className="draw-details"><p>COOKIE CHAIN EDITION DRAW</p><h2>{featured.name}</h2><div><b>{featured.traits[1]}</b><span>{featured.traits[0]}</span></div></div></article>
+          <div className="draw-selector" aria-label="Select a finalized Cookie Chain Edition draw">{featuredSweetardios.map((item, index) => <button type="button" key={item.id} className={index === featuredIndex ? 'active' : ''} onClick={() => setFeaturedIndex(index)} aria-pressed={index === featuredIndex}><img src={item.image} alt={`Select Cookie Chain Edition #${item.id}: ${item.name}`} /><span>#{item.id}</span></button>)}</div>
         </section>
 
         <Aisle number="02" label="THE MINT" />
         <section className="mint-section wrap" id="mint" aria-labelledby="mint-heading"><div className="mint-copy"><p className="section-label">ON-CHAIN MINT</p><h2 id="mint-heading">STEP UP.<br /><em>MINT CLEAN.</em></h2><p>The terminal protects each transaction by checking the active Candy Guard and configured treasury before minting.</p></div>
-          <article className="mint-terminal"><header><div><p>COOKIE CHAIN MINT</p><strong>{mintReady ? 'MINT TERMINAL LIVE' : soldOut ? 'EDITION SOLD OUT' : 'AWAITING DEPLOYMENT'}</strong></div><span className={mintReady ? 'status live' : 'status'}>{mintReady ? 'READY' : 'SAFE MODE'}</span></header><div className="terminal-controls"><div className="quantity"><label htmlFor="mint-qty">QUANTITY</label><div><button type="button" onClick={() => setQty(value => Math.max(1, value - 1))} aria-label="Decrease mint quantity">−</button><output id="mint-qty">{qty}</output><button type="button" onClick={() => setQty(value => Math.min(config.maxPerTx, value + 1))} aria-label="Increase mint quantity">+</button></div></div><div className="price"><span>PRICE</span><strong>{qty * displayedPrice} <em>COOK</em></strong></div></div><div className="terminal-action">{!wallet.connected ? <WalletMultiButton className="wide-wallet" /> : <button className="hero-mint terminal-button" disabled={minting || !mintReady} onClick={mintSelected}>{soldOut ? 'EDITION SOLD OUT' : minting ? 'MINTING…' : `MINT ${qty} SWEETARDIO${qty > 1 ? 'S' : ''}`} <span>↗</span></button>}<small>MAX {config.maxPerTx} PER TRANSACTION</small></div>
+          <article className="mint-terminal"><header><div><p>COOKIE CHAIN EDITION MINT</p><strong>{mintReady ? 'MINT TERMINAL LIVE' : soldOut ? 'EDITION SOLD OUT' : 'AWAITING DEPLOYMENT'}</strong></div><span className={mintReady ? 'status live' : 'status'}>{mintReady ? 'READY' : 'SAFE MODE'}</span></header><div className="terminal-controls"><div className="quantity"><label htmlFor="mint-qty">QUANTITY</label><div><button type="button" onClick={() => setQty(value => Math.max(1, value - 1))} aria-label="Decrease mint quantity">−</button><output id="mint-qty">{qty}</output><button type="button" onClick={() => setQty(value => Math.min(config.maxPerTx, value + 1))} aria-label="Increase mint quantity">+</button></div></div><div className="price"><span>PRICE</span><strong>{qty * displayedPrice} <em>COOK</em></strong></div></div><div className="terminal-action">{!wallet.connected ? <WalletMultiButton className="wide-wallet" /> : <button className="hero-mint terminal-button" disabled={minting || !mintReady} onClick={mintSelected}>{soldOut ? 'EDITION SOLD OUT' : minting ? 'MINTING…' : `MINT ${qty} SWEETARDIO${qty > 1 ? 'S' : ''}`} <span>↗</span></button>}<small>MAX {config.maxPerTx} PER TRANSACTION</small></div>
           {notice && <p className="terminal-message success" role="status">{notice}</p>}
           {!candyMachineConfigured && <p className="terminal-message">Configure <code>VITE_CANDY_MACHINE</code> after creating the 444-item Candy Machine.</p>}
           {candyMachineConfigured && !treasuryConfigured && <p className="terminal-message">Configure <code>VITE_TREASURY</code> to the Candy Guard payment destination.</p>}
@@ -142,7 +142,7 @@ function App() {
         </section>
       </main>
 
-      <footer className="site-footer"><div className="wrap"><div className="brand-lockup"><span><b>SWEET</b><em>ARDIO</em></span><small>COOKIE CHAIN EDITION</small></div><p>© SWEETARDIO · 444 PIECE SIDE COLLECTION</p><a href="#top">BACK TO TOP ↑</a></div></footer>
+      <footer className="site-footer"><div className="wrap"><div className="brand-lockup"><span><b>SWEET</b><em>ARDIO</em></span><small>COOKIE CHAIN EDITION</small></div><p>© SWEETARDIO · COOKIE CHAIN EDITION · 444 PIECE SIDE COLLECTION</p><a href="#top">BACK TO TOP ↑</a></div></footer>
     </div>
   )
 }
