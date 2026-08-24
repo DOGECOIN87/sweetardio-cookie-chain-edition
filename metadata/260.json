@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #260",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/260.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "OG Pop Tart"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Morsel Legendary"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cerise"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Chibi Monster"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 3.680719,
+  "seed": 871003
+}

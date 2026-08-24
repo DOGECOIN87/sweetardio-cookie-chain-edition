@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #098",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/098.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Cyan Frosted Pop Tart"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Sarv Legendary"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clueless"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "CookBook"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 4.574996,
+  "seed": 871003
+}

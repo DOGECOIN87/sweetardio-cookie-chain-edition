@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #412",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/412.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Emyr Legendary"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Cookboy"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 2.661192,
+  "seed": 871003
+}

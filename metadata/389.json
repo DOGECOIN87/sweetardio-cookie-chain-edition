@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #389",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/389.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Sugar Cube"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Picnic Stage"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clueless"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Cookie Monster Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "L"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.235234,
+  "seed": 871003
+}

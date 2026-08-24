@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #279",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/279.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Doughnut"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Silver"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Smug"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Cookie Lock"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.517771,
+  "seed": 871003
+}

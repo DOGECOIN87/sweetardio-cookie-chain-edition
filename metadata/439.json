@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #439",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/439.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Sandwich Cookie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "M Power Legendary"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Smug"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "MomoSwap"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 2.777071,
+  "seed": 871003
+}

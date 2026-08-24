@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #261",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/261.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Brownie Bite"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Liberty Cookie Dime"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clueless"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "CookieScan"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.717183,
+  "seed": 871003
+}

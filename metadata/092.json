@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #092",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/092.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "S'mores"
+    },
+    {
+      "trait_type": "Background",
+      "value": "NFTs Aren't Dead"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Baked Bazaar"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 4.057475,
+  "seed": 871003
+}

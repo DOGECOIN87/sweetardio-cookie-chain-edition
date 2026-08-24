@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #248",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/248.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Zebra Cake"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Moon Surface"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Beady"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Candy Shop"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.708465,
+  "seed": 871003
+}

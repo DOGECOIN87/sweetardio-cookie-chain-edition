@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #247",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/247.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Sugar Doughnut"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Liberty Cookie Dime"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clueless"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "MomoSwap"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.141293,
+  "seed": 871003
+}

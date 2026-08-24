@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #302",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/302.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Sugar Doughnut"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Short The Banks Legendary"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clueless"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Cookie Quads"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 4.498965,
+  "seed": 871003
+}

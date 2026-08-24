@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #129",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/129.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Cyan Frosted Pop Tart"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Yatrah Arcade"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyan"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "CookOven"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.589781,
+  "seed": 871003
+}

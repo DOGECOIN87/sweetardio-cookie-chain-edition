@@ -1,0 +1,49 @@
+{
+  "name": "Cookie Chain Edition #186",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/186.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Gold Waffle"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookie Dough"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Smug"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Cookie Monster Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Printer"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "CookieScan"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.367933,
+  "seed": 871003
+}

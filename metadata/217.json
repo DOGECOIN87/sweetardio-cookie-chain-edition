@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #217",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/217.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Neapolitan Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookie Dough"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Beady"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Real as a Doughnut"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.194384,
+  "seed": 871003
+}

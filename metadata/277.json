@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #277",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/277.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Pink Sherbert Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Liberty Cookie Dime"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Out of Order"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.82403,
+  "seed": 871003
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #009",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/009.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Twinkie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Picnic Stage"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyan"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "MomoSwap"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.004534,
+  "seed": 871003
+}

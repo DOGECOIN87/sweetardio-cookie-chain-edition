@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #025",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/025.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Vanilla Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Black Enamel"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Morsel"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.135335,
+  "seed": 871003
+}

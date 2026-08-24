@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #203",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/203.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Marshmallow"
+    },
+    {
+      "trait_type": "Background",
+      "value": "GorWeld Legendary"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cerise"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Cookboy"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 3.805279,
+  "seed": 871003
+}

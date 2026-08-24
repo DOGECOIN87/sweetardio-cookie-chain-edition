@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #073",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/073.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Zebra Cake"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Black Enamel"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Chibi Monster"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.331016,
+  "seed": 871003
+}

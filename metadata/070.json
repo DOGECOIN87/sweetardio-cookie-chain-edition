@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #070",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/070.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Twinkie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Morsel Legendary"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Baked Bazaar"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 3.290933,
+  "seed": 871003
+}

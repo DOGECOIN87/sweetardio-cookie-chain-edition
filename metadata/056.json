@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #056",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/056.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Chip Cookie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "M Power Legendary"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Alien"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clueless"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Fang"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Nightly Wallet"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 2.696019,
+  "seed": 871003
+}

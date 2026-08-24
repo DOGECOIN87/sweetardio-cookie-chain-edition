@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #184",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/184.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Gold Waffle"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Sarv Legendary"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Cookie Chat"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 3.697559,
+  "seed": 871003
+}

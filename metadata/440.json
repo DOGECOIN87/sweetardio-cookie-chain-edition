@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #440",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/440.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Chip Cookie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Emyr Legendary"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Shorts Doggo"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.000275,
+  "seed": 871003
+}

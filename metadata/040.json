@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #040",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/040.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Vanilla Ice Cream"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Moon Surface"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Beady"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Cookie Quads"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.907433,
+  "seed": 871003
+}

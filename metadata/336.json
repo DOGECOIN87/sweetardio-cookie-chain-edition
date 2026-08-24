@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #336",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/336.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "OG Gummy Bear"
+    },
+    {
+      "trait_type": "Background",
+      "value": "NFTs Aren't Dead"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Fang"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Real as a Doughnut"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.287514,
+  "seed": 871003
+}

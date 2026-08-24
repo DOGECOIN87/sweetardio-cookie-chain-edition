@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #324",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/324.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "OG Pop Tart"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookboy Legendary"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Printer"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "CookieSwap"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary Chase"
+    }
+  ],
+  "selection_score": 3.721414,
+  "seed": 871003
+}

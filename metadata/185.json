@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #185",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/185.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Oatmeal Cream Pie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookie Dough"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cyan"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Candy Shop"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 3.327072,
+  "seed": 871003
+}

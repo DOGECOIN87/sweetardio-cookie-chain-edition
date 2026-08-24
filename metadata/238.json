@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #238",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/238.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Sugar Cube"
+    },
+    {
+      "trait_type": "Background",
+      "value": "NFTs Aren't Dead"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Alien"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Cerise"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Nyancat"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 4.404155,
+  "seed": 871003
+}

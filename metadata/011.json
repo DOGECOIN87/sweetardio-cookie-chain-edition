@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #011",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/011.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Twinkie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Gorbhouse Treasures"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Alien"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Clueless"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Printer"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Baked Bazaar"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 2.768584,
+  "seed": 871003
+}

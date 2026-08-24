@@ -1,0 +1,41 @@
+{
+  "name": "Cookie Chain Edition #393",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/393.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Chip Cookie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Liberty Cookie Dime"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Beady"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Nightly Wallet"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Core"
+    }
+  ],
+  "selection_score": 2.665144,
+  "seed": 871003
+}

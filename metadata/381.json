@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #381",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/381.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Sugar Doughnut"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Morsel Legendary"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Cookie Monster Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "L"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.895991,
+  "seed": 871003
+}

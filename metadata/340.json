@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #340",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/340.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "OG Gummy Bear"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Cookie Dough"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Alien"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "CookieSwap"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ],
+  "selection_score": 3.952931,
+  "seed": 871003
+}

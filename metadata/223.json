@@ -1,0 +1,45 @@
+{
+  "name": "Cookie Chain Edition #223",
+  "description": "One of 444 Cookie Chain Edition collectibles.",
+  "image": "../images/223.png",
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Chocolate Chip Cookie"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Emyr Legendary"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Googly"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Pepe Slippers"
+    },
+    {
+      "trait_type": "Sticker",
+      "value": "Nyancat"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Cookie Chain Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ],
+  "selection_score": 2.169482,
+  "seed": 871003
+}
