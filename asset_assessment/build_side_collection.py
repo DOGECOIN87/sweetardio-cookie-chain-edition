@@ -543,6 +543,100 @@ def contact_sheet(chosen, out_path):
     sheet.save(out_path, optimize=True)
 
 
+# Trait groups published in the collector-facing rarity table, in the order a
+# collector reads them: what the token is, then what it wears, then its tier.
+RARITY_REPORT_GROUPS = ("Sticker", "Arms", "Background", "Character",
+                        "Footwear", "Skin", "Eyes", "Mouth")
+
+
+def write_rarity_report(path, manifest, rarity_counts, count, seed):
+    """Write the collector-facing rarity table for a finished release.
+
+    The Rarity attribute is a curated tier, not a trait-frequency score, so the
+    report says so plainly and publishes the trait counts a collector needs to
+    compute frequency rarity themselves.
+    """
+    trait_counts = {key: Counter() for key in RARITY_REPORT_GROUPS}
+    token_traits = []
+    for token in manifest:
+        values = {attr["trait_type"]: attr["value"] for attr in token["attributes"]}
+        token_traits.append(values)
+        for group, value in values.items():
+            if group in trait_counts:
+                trait_counts[group][value] += 1
+
+    def pct(n):
+        return f"{100 * n / count:.2f}%"
+
+    lines = ["# Cookie Chain Edition — Rarity", "",
+             f"Supply: **{count}** · Seed: **{seed}** · "
+             "all trait combinations unique.", "",
+             "## Exact tiers", ""]
+    for tier in RARITY_COUNTS:
+        n = rarity_counts.get(tier, 0)
+        lines.append(f"- {tier}: **{n}** ({pct(n)})")
+
+    # The fixed allocation rules — the 1/1 plates, the limited arm quotas — only
+    # apply to the full release. A preview build says so instead of inheriting
+    # claims its own numbers do not support.
+    release = count == sum(RARITY_COUNTS.values())
+    ones = [clean_display(name) for name in SPECIAL_LEGENDARY_BACKGROUNDS] if release else []
+    ones = sorted(name for name in ones if trait_counts["Background"].get(name) == 1)
+
+    lines += ["", "## How tiers are assigned", "",
+              "`Rarity` is a **curated** tier, not a trait-frequency score. Tokens are",
+              "ranked on how well the figure reads against its plate, how cleanly the",
+              "sticker sits, and how restrained the background is, with bonuses for the",
+              "chase plates and the limited arm and footwear traits. The strongest",
+              "combinations become Mythic Chase.", "",
+              "A trait-frequency ranking — the kind rarity tools compute — will therefore",
+              "order the collection differently. Both readings are valid: the tier says",
+              "how strong the piece is, the trait counts below say how scarce its parts",
+              "are. Every count needed for the second reading is published here.", ""]
+    if release:
+        lines += ["These allocation rules are enforced by the builder and fail the release",
+                  "if broken:", "",
+                  f"- The {len(ones)} one-of-one backgrounds are always Legendary Chase.",
+                  "- Every token carrying a limited arm trait is tiered Rare or above.",
+                  "- Mint numbers are shuffled after tiering, so a token's number reveals",
+                  "  nothing about its tier.", ""]
+    else:
+        lines += [f"This is a **{count}-token preview build**, not the release. The fixed",
+                  "one-of-one and limited-arm allocations apply only to the full",
+                  f"{sum(RARITY_COUNTS.values())}-token release, so a single-copy trait below is an",
+                  "artifact of the sample size rather than a designed 1/1.", ""]
+
+    if release:
+        lines += ["## Hard scarcity", "",
+                  "The scarcest things to pull, independent of tier:", ""]
+        for name in ones:
+            token_id = next(i for i, values in enumerate(token_traits, 1)
+                            if values.get("Background") == name)
+            tier = token_traits[token_id - 1].get("Rarity", "")
+            lines.append(f"- **{name}** — 1 of {count} ({pct(1)}), "
+                         f"#{token_id:03d}, {tier}")
+        for name, n in sorted(trait_counts["Arms"].items(), key=lambda x: (-x[1], x[0])):
+            lines.append(f"- **{name}** arm trait — {n} of {count} ({pct(n)})")
+        for name, n in sorted(trait_counts["Footwear"].items(), key=lambda x: (x[1], x[0]))[:1]:
+            lines.append(f"- **{name}** — {n} of {count} ({pct(n)}), the thinnest footwear")
+        for name, n in sorted(trait_counts["Skin"].items(), key=lambda x: (x[1], x[0]))[:1]:
+            lines.append(f"- **{name}** skin — {n} of {count} ({pct(n)}), the thinnest skin")
+
+    for group in RARITY_REPORT_GROUPS:
+        if not trait_counts[group]:
+            continue
+        held = sum(trait_counts[group].values())
+        lines += ["", f"## {group}", ""]
+        if held < count:
+            lines += [f"Held by {held} of {count} tokens ({pct(held)}); "
+                      f"the other {count - held} have no {group.lower()} trait.", ""]
+        for name, n in sorted(trait_counts[group].items(), key=lambda x: (-x[1], x[0])):
+            lines.append(f"- {name}: {n} ({pct(n)})")
+
+    with open(path, "w", encoding="utf-8") as handle:
+        handle.write("\n".join(lines) + "\n")
+
+
 def main():
     args = parse_args()
     if args.count < 1 or args.candidates_per_sticker < 1:
@@ -687,24 +781,8 @@ def main():
         handle.write("\n")
     contact_sheet(chosen, out / "contact_sheet.png")
 
-    trait_counts = {key: Counter() for key in
-                    ("Character", "Background", "Sticker", "Arms", "Rarity")}
-    for token in manifest:
-        for attr in token["attributes"]:
-            if attr["trait_type"] in trait_counts:
-                trait_counts[attr["trait_type"]][attr["value"]] += 1
-    with open(out / "RARITY.md", "w", encoding="utf-8") as handle:
-        handle.write("# Cookie Chain Edition — Rarity\n\n")
-        handle.write(f"Supply: **{args.count}** · Seed: **{args.seed}** · "
-                     "all trait combinations unique.\n\n")
-        handle.write("## Exact tiers\n\n")
-        for tier in RARITY_COUNTS:
-            n = rarity_counts.get(tier, 0)
-            handle.write(f"- {tier}: **{n}** ({100*n/args.count:.2f}%)\n")
-        for group in ("Sticker", "Arms", "Background", "Character"):
-            handle.write(f"\n## {group}\n\n")
-            for name, n in sorted(trait_counts[group].items(), key=lambda x: (-x[1], x[0])):
-                handle.write(f"- {name}: {n} ({100*n/args.count:.2f}%)\n")
+    write_rarity_report(out / "RARITY.md", manifest, rarity_counts,
+                        args.count, args.seed)
 
     print(f"selected {len(chosen)} curated tokens -> {out}")
     print("stickers: " + ", ".join(f"{s}={sum(c['sticker_file'] == s for c in chosen)}" for s in stickers))

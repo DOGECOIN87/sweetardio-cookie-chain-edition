@@ -20,6 +20,14 @@ CANVAS = (1393, 1393)
 DEFAULT_STICKER_DIR = Path(__file__).resolve().parent.parent / "assets" / "stickerz"
 NIGHTLY_LEGENDARY_BACKGROUND = "Nightly Legendary"
 NIGHTLY_LEGENDARY_STICKER = "Nightly Wallet"
+# The approved one-of-one plates, and the tiers a limited arm trait may hold.
+SPECIAL_LEGENDARY_BACKGROUNDS = (
+    "Nightly Legendary",
+    "Mattrick Legendary",
+    "Shubbi Legendary",
+    "Tenders Legendary",
+)
+ARM_TIERS = ("Mythic Chase", "Legendary Chase", "Rare")
 
 
 def sticker_display_name(path: Path) -> str:
@@ -126,6 +134,8 @@ def main():
     expected_names = {f"Cookie Chain Edition #{number:03d}" for number in range(1, args.count + 1)}
     actual_names = set()
     nightly_tokens = []
+    special_tokens = []
+    demoted_arms = []
     for index, metadata_path in enumerate(metadata_paths, 1):
         token = load_token(metadata_path)
         actual_names.add(token.get("name"))
@@ -167,6 +177,10 @@ def main():
                 f"{metadata_path.name} contains excluded background {values.get('Background')}")
         if values.get("Background") == NIGHTLY_LEGENDARY_BACKGROUND:
             nightly_tokens.append((metadata_path.name, values))
+        if values.get("Background") in SPECIAL_LEGENDARY_BACKGROUNDS:
+            special_tokens.append((metadata_path.name, values))
+        if "Arms" in values and values.get("Rarity") not in ARM_TIERS:
+            demoted_arms.append(metadata_path.name)
 
     if actual_names != expected_names:
         report["issues"].append("token names are not the exact #001–#444 public sequence")
@@ -202,12 +216,31 @@ def main():
             report["issues"].append("Nightly Legendary token must be Legendary Chase")
         elif nightly_tokens[0][1].get("Sticker") != NIGHTLY_LEGENDARY_STICKER:
             report["issues"].append("Nightly Legendary token must carry the Nightly Wallet sticker")
+        special_counts = Counter(values["Background"] for _, values in special_tokens)
+        off_supply = {name: special_counts.get(name, 0)
+                      for name in SPECIAL_LEGENDARY_BACKGROUNDS
+                      if special_counts.get(name, 0) != 1}
+        if off_supply:
+            report["issues"].append(
+                f"one-of-one backgrounds must appear exactly once: {off_supply}")
+        off_tier = sorted(name for name, values in special_tokens
+                          if values.get("Rarity") != "Legendary Chase")
+        if off_tier:
+            report["issues"].append(
+                f"one-of-one background tokens must be Legendary Chase: {off_tier}")
+        if demoted_arms:
+            report["issues"].append(
+                f"{len(demoted_arms)} limited-arm tokens are tiered below Rare: "
+                f"{demoted_arms[:5]}")
 
     report["rarity"] = dict(rarity)
     report["arms"] = dict(arms)
     report["stickers"] = dict(stickers)
     report["backgrounds"] = dict(backgrounds)
     report["nightly_legendary_count"] = len(nightly_tokens)
+    report["one_of_one_backgrounds"] = dict(
+        sorted(Counter(values["Background"] for _, values in special_tokens).items()))
+    report["arms_below_rare"] = len(demoted_arms)
     report["public_trait_signatures"] = len(signatures)
     report_path = release / "VALIDATION.json"
     with report_path.open("w", encoding="utf-8") as handle:

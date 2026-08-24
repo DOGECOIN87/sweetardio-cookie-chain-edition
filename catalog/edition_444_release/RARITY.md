@@ -10,6 +10,40 @@ Supply: **444** · Seed: **871003** · all trait combinations unique.
 - Uncommon: **134** (30.18%)
 - Core: **222** (50.00%)
 
+## How tiers are assigned
+
+`Rarity` is a **curated** tier, not a trait-frequency score. Tokens are
+ranked on how well the figure reads against its plate, how cleanly the
+sticker sits, and how restrained the background is, with bonuses for the
+chase plates and the limited arm and footwear traits. The strongest
+combinations become Mythic Chase.
+
+A trait-frequency ranking — the kind rarity tools compute — will therefore
+order the collection differently. Both readings are valid: the tier says
+how strong the piece is, the trait counts below say how scarce its parts
+are. Every count needed for the second reading is published here.
+
+These allocation rules are enforced by the builder and fail the release
+if broken:
+
+- The 4 one-of-one backgrounds are always Legendary Chase.
+- Every token carrying a limited arm trait is tiered Rare or above.
+- Mint numbers are shuffled after tiering, so a token's number reveals
+  nothing about its tier.
+
+## Hard scarcity
+
+The scarcest things to pull, independent of tier:
+
+- **Mattrick Legendary** — 1 of 444 (0.23%), #079, Legendary Chase
+- **Nightly Legendary** — 1 of 444 (0.23%), #176, Legendary Chase
+- **Shubbi Legendary** — 1 of 444 (0.23%), #434, Legendary Chase
+- **Tenders Legendary** — 1 of 444 (0.23%), #268, Legendary Chase
+- **Cookboy Handheld** arm trait — 22 of 444 (4.95%)
+- **Printer** arm trait — 22 of 444 (4.95%)
+- **Pepe Slippers** — 6 of 444 (1.35%), the thinnest footwear
+- **Alien** skin — 37 of 444 (8.33%), the thinnest skin
+
 ## Sticker
 
 - Baked Bazaar: 21 (4.73%)
@@ -36,6 +70,8 @@ Supply: **444** · Seed: **871003** · all trait combinations unique.
 - Shorts Doggo: 20 (4.50%)
 
 ## Arms
+
+Held by 44 of 444 tokens (9.91%); the other 400 have no arms trait.
 
 - Cookboy Handheld: 22 (4.95%)
 - Printer: 22 (4.95%)
@@ -95,3 +131,44 @@ Supply: **444** · Seed: **871003** · all trait combinations unique.
 - S'mores: 11 (2.48%)
 - Chocolate Doughnut: 9 (2.03%)
 - Chocolate Frosted Pop Tart: 8 (1.80%)
+
+## Footwear
+
+Held by 107 of 444 tokens (24.10%); the other 337 have no footwear trait.
+
+- Shiba Slippers: 46 (10.36%)
+- Bunny Slippers: 28 (6.31%)
+- Cookie Monster Slippers: 15 (3.38%)
+- Gorbhouse Slippers: 12 (2.70%)
+- Pepe Slippers: 6 (1.35%)
+
+## Skin
+
+- White: 255 (57.43%)
+- Black: 152 (34.23%)
+- Alien: 37 (8.33%)
+
+## Eyes
+
+- Googly: 72 (16.22%)
+- Clueless: 71 (15.99%)
+- Side Eye: 71 (15.99%)
+- Cyborg: 47 (10.59%)
+- Cerise: 40 (9.01%)
+- Cyan: 32 (7.21%)
+- Smug: 31 (6.98%)
+- Alien: 29 (6.53%)
+- Blue: 27 (6.08%)
+- Beady: 24 (5.41%)
+
+## Mouth
+
+- Diamond Grill: 93 (20.95%)
+- Awkward Smile: 77 (17.34%)
+- Smoke: 54 (12.16%)
+- Tasty: 49 (11.04%)
+- Lollipop: 47 (10.59%)
+- Sad: 39 (8.78%)
+- Flat: 30 (6.76%)
+- Fang: 28 (6.31%)
+- Smirk: 27 (6.08%)

@@ -3,6 +3,7 @@
     "Cookboy Handheld": 22,
     "Printer": 22
   },
+  "arms_below_rare": 0,
   "backgrounds": {
     "Cookboy Black Enamel": 25,
     "Cookboy Chocolate": 13,
@@ -61,6 +62,12 @@
   "manifest": 444,
   "metadata": 444,
   "nightly_legendary_count": 1,
+  "one_of_one_backgrounds": {
+    "Mattrick Legendary": 1,
+    "Nightly Legendary": 1,
+    "Shubbi Legendary": 1,
+    "Tenders Legendary": 1
+  },
   "public_trait_signatures": 444,
   "rarity": {
     "Core": 222,
@@ -69,7 +76,7 @@
     "Rare": 66,
     "Uncommon": 134
   },
-  "release": "/home/ubuntu/cookie-chain-edition-444-gorbhouse-midnight-final",
+  "release": "/home/user/sweetardio-cookie-chain-edition/final_444",
   "stickers": {
     "Baked Bazaar": 21,
     "Candy Shop": 21,
