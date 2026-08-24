@@ -58,7 +58,7 @@ Supply: **444** · Seed: **871003** · all trait combinations unique.
 - M Power Legendary: 23 (5.18%)
 - Morsel Legendary: 23 (5.18%)
 - Gorbhouse Treasures: 21 (4.73%)
-- Cookboy: 19 (4.28%)
+- Cookboy Gold: 19 (4.28%)
 - Emyr Legendary: 15 (3.38%)
 - Cookboy Chocolate: 13 (2.93%)
 - Mattrick Legendary: 1 (0.23%)

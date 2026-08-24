@@ -4,7 +4,7 @@ Every generated token uses the public name format `Cookie Chain Edition #001` th
 
 | Trait type | Public values or policy |
 | --- | --- |
-| Background | `Gold_Cookie_Emboss.png` is displayed as **Cookboy**. Its colour-family companions are displayed as **Cookboy Chocolate**, **Cookboy Black Enamel**, and **Cookboy Silver**. Other backgrounds use their readable asset names. |
+| Background | `Gold_Cookie_Emboss.png` is displayed as **Cookboy Gold**. Its colour-family companions are displayed as **Cookboy Chocolate**, **Cookboy Black Enamel**, and **Cookboy Silver**. Other backgrounds use their readable asset names. |
 | Arms | **Cookboy Handheld** is the limited arm trait. |
 | Sticker | The two supplied stickers are named exactly **Morsel** and **Cookiebox**. |
 | Edition | Always **Cookie Chain Edition**. |

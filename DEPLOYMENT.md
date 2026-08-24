@@ -35,7 +35,7 @@ Use a separate funded authority wallet for the launch. The wallet needs enough c
 
 ## 3. Recreate the Final 444-Piece Release
 
-The authoritative release uses seed `871003`, 22 Cookie Chain backgrounds, the Cookboy Handheld as the only arm trait, and Morsel/Cookiebox as sticker-only traits. It must produce exactly **4 Mythic Chase**, **18 Legendary Chase**, **66 Rare**, **134 Uncommon**, and **222 Core** tokens.
+The authoritative release uses seed `871003`, 23 Cookie Chain backgrounds (four of them 1/1 `Legendary_*` plates), the Cookboy Handheld and Printer arm traits at 22 uses each, and Morsel/Cookiebox as sticker-only traits. It must produce exactly **4 Mythic Chase**, **18 Legendary Chase**, **66 Rare**, **134 Uncommon**, and **222 Core** tokens, with every arm-bearing token tiered Rare or above.
 
 ```bash
 cd sweetardio-cookie-chain-edition

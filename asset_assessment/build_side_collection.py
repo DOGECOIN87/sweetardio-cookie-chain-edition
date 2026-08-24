@@ -70,7 +70,7 @@ DISPLAY_NAME_OVERRIDES = {
     "Out_Of_Order": "Out of Order",
     "Short The Banks Vault": "Short the Banks Vault",
     "Short_The_Banks_Vault": "Short the Banks Vault",
-    "Gold_Cookie_Emboss": "Cookboy",
+    "Gold_Cookie_Emboss": "Cookboy Gold",
     "Gold_Cookie_Emboss.png": "Cookboy Gold",
     "Chocolate_Cookie_Emboss": "Cookboy Chocolate",
     "Chocolate_Cookie_Emboss.png": "Cookboy Chocolate",
@@ -441,28 +441,28 @@ def assign_rarity(chosen, count):
         arm_filename(item) is None,
         -chase_key(item),
     ))
-    cursor = 0
-    for tier, amount in counts.items():
-        for item in ranked[cursor:cursor + amount]:
-            item["rarity"] = tier
-        cursor += amount
+    # The four approved 1/1 backgrounds always mint as Legendary Chase. Their
+    # slots are reserved before anything else is tiered, so promoting them
+    # cannot push a limited-arm token down into Uncommon or Core.
+    reserved = {}
+    remaining = ranked
     if count == 444:
-        special_items = [item for item in chosen if item.get("special_legendary_background")]
+        special_items = [item for item in ranked if item.get("special_legendary_background")]
         if len(special_items) != len(SPECIAL_LEGENDARY_BACKGROUNDS):
             raise RuntimeError("approved special legendary allocation is incomplete")
+        if len(special_items) > counts["Legendary Chase"]:
+            raise RuntimeError("not enough Legendary Chase slots for the approved 1/1 backgrounds")
         for special in special_items:
-            if special["rarity"] == "Legendary Chase":
-                continue
-            swap = next(
-                (item for item in ranked
-                 if item["rarity"] == "Legendary Chase"
-                 and not item.get("special_legendary_background")),
-                None,
-            )
-            if swap is None:
-                raise RuntimeError("no Legendary Chase slot available for special legendary background")
-            swap["rarity"] = special["rarity"]
             special["rarity"] = "Legendary Chase"
+        reserved["Legendary Chase"] = len(special_items)
+        remaining = [item for item in ranked
+                     if not item.get("special_legendary_background")]
+    cursor = 0
+    for tier, amount in counts.items():
+        amount -= reserved.get(tier, 0)
+        for item in remaining[cursor:cursor + amount]:
+            item["rarity"] = tier
+        cursor += amount
     # Mint numbering is shuffled so chase tokens cannot be guessed by number.
     random.shuffle(chosen)
     return counts
@@ -496,6 +496,17 @@ def validate_selection(chosen, count, rarity_counts):
                                if item.get("special_legendary_background")}
         if special_backgrounds != set(SPECIAL_LEGENDARY_BACKGROUNDS):
             raise RuntimeError("special legendary backgrounds do not match the approved set")
+        off_tier = [item for item in chosen
+                    if item.get("special_legendary_background")
+                    and item["rarity"] != "Legendary Chase"]
+        if off_tier:
+            raise RuntimeError("a 1/1 legendary background was not tiered as Legendary Chase")
+        demoted_arms = [item for item in chosen
+                        if arm_filename(item) is not None
+                        and item["rarity"] in ("Uncommon", "Core")]
+        if demoted_arms:
+            raise RuntimeError(
+                f"{len(demoted_arms)} limited-arm tokens fell below the Rare tier")
 
 
 def render_job(job):
