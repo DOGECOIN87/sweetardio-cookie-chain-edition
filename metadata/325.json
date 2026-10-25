@@ -5,27 +5,35 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Ding Dong"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Legendary"
+      "value": "Moon Surface"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Military Brat"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookOven"
+      "value": "Cookie Quads"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +41,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Common"
     }
-  ],
-  "selection_score": 4.192964,
-  "seed": 871003
+  ]
 }

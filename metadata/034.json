@@ -9,11 +9,11 @@
     },
     {
       "trait_type": "Background",
-      "value": "Gorbhouse Treasures"
+      "value": "Cookboy Black Enamel"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -21,11 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookboy"
+      "value": "Out of Order"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
-  ],
-  "selection_score": 3.157182,
-  "seed": 871003
+  ]
 }

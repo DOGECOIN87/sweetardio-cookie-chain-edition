@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Pink Sherbert Ice Cream"
+      "value": "Zebra Cake"
     },
     {
       "trait_type": "Background",
-      "value": "Sarv Legendary"
+      "value": "NFTs Aren't Dead"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -21,15 +21,19 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Fang"
     },
     {
       "trait_type": "Arms",
-      "value": "Printer"
+      "value": "Military Brat"
     },
     {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "L"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Fog"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +41,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Mythic Chase"
+      "value": "Uncommon"
     }
-  ],
-  "selection_score": 3.78441,
-  "seed": 871003
+  ]
 }

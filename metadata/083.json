@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "Churro"
     },
     {
       "trait_type": "Background",
-      "value": "Morsel Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Fang"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "trait_type": "Arms",
+      "value": "Cash"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Lock"
+      "value": "Baked Bazaar"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Common"
     }
-  ],
-  "selection_score": 3.753012,
-  "seed": 871003
+  ]
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
-      "value": "Chibi Monster"
+      "value": "Candy Shop"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Common"
     }
-  ],
-  "selection_score": 3.22701,
-  "seed": 871003
+  ]
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "M Power Legendary"
+      "value": "Shubbi"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Smoke"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "trait_type": "Arms",
+      "value": "Katana"
     },
     {
       "trait_type": "Sticker",
-      "value": "Chibi Monster"
+      "value": "CookBook"
     },
     {
       "trait_type": "Edition",
@@ -39,7 +39,5 @@
       "trait_type": "Rarity",
       "value": "Uncommon"
     }
-  ],
-  "selection_score": 3.316478,
-  "seed": 871003
+  ]
 }

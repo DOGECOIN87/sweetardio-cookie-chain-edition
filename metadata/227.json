@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Vanilla Ice Cream"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,15 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "Baked Bazaar"
+      "value": "Candy Shop"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Snow"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Common"
     }
-  ],
-  "selection_score": 3.132635,
-  "seed": 871003
+  ]
 }

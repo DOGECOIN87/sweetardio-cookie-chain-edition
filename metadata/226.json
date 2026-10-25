@@ -9,27 +9,27 @@
     },
     {
       "trait_type": "Background",
-      "value": "Liberty Cookie Dime"
+      "value": "Moon Surface"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Fang"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
+      "trait_type": "Arms",
+      "value": "Nerf Blaster"
     },
     {
       "trait_type": "Sticker",
-      "value": "Nyancat"
+      "value": "Chibi Monster"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Common"
     }
-  ],
-  "selection_score": 2.250319,
-  "seed": 871003
+  ]
 }

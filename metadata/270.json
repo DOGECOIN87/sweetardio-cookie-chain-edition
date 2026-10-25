@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Frosted Pop Tart"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
@@ -13,19 +13,27 @@
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cash"
     },
     {
       "trait_type": "Sticker",
-      "value": "Emyr"
+      "value": "CookieScan"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +41,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
-  ],
-  "selection_score": 3.02352,
-  "seed": 871003
+  ]
 }

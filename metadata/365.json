@@ -5,31 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "M Power Legendary"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
       "value": "Diamond Grill"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
-    },
-    {
       "trait_type": "Sticker",
-      "value": "Chibi Monster"
+      "value": "CookOven"
     },
     {
       "trait_type": "Edition",
@@ -39,7 +35,5 @@
       "trait_type": "Rarity",
       "value": "Uncommon"
     }
-  ],
-  "selection_score": 3.364715,
-  "seed": 871003
+  ]
 }

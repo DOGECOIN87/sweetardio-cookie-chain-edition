@@ -9,27 +9,27 @@
     },
     {
       "trait_type": "Background",
-      "value": "Morsel Legendary"
+      "value": "Tenders"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Fang"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
+      "trait_type": "Arms",
+      "value": "Katana"
     },
     {
       "trait_type": "Sticker",
-      "value": "L"
+      "value": "CookieSwap"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
-  ],
-  "selection_score": 3.895991,
-  "seed": 871003
+  ]
 }

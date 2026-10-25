@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "Ding Dong"
     },
     {
       "trait_type": "Background",
-      "value": "Gorbhouse Treasures"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -24,8 +24,20 @@
       "value": "Diamond Grill"
     },
     {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Nerf Blaster"
+    },
+    {
       "trait_type": "Sticker",
-      "value": "Nyancat"
+      "value": "Chibi Monster"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Fog"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +45,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Common"
     }
-  ],
-  "selection_score": 3.47147,
-  "seed": 871003
+  ]
 }

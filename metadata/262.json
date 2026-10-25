@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Ice Cream"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Gold"
+      "value": "Tenders"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "Nightly Wallet"
+      "value": "Cookie Chat"
     },
     {
       "trait_type": "Edition",
@@ -35,7 +35,5 @@
       "trait_type": "Rarity",
       "value": "Uncommon"
     }
-  ],
-  "selection_score": 2.637026,
-  "seed": 871003
+  ]
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Oatmeal Cream Pie"
     },
     {
       "trait_type": "Background",
-      "value": "Gorbhouse Treasures"
+      "value": "Moon Surface"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Flat"
     },
     {
       "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Katana"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Lock"
+      "value": "Out of Order"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Fog"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +41,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Common"
     }
-  ],
-  "selection_score": 3.076734,
-  "seed": 871003
+  ]
 }

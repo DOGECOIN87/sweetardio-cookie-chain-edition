@@ -5,27 +5,35 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Nightly Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Fang"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Gorbhouse Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "AK-15"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieSwap"
+      "value": "Nightly Wallet"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +41,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Legendary"
     }
-  ],
-  "selection_score": 3.239717,
-  "seed": 871003
+  ]
 }

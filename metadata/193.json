@@ -5,31 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Gold"
+      "value": "Shubbi"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookboy"
+      "value": "Cookie Lock"
     },
     {
       "trait_type": "Edition",
@@ -39,7 +35,5 @@
       "trait_type": "Rarity",
       "value": "Uncommon"
     }
-  ],
-  "selection_score": 2.699384,
-  "seed": 871003
+  ]
 }

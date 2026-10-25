@@ -5,31 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "Chocolate Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Gorbhouse Treasures"
+      "value": "Cookboy Arcade"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Printer"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "Baked Bazaar"
+      "value": "Real as a Doughnut"
     },
     {
       "trait_type": "Edition",
@@ -39,7 +35,5 @@
       "trait_type": "Rarity",
       "value": "Rare"
     }
-  ],
-  "selection_score": 2.768584,
-  "seed": 871003
+  ]
 }

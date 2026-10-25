@@ -5,31 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "Short The Banks Legendary"
+      "value": "NFTs Aren't Dead"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Flat"
     },
     {
       "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "AR-47"
     },
     {
       "trait_type": "Sticker",
-      "value": "Morsel"
+      "value": "Shorts Doggo"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Mythic Chase"
+      "value": "Uncommon"
     }
-  ],
-  "selection_score": 3.989792,
-  "seed": 871003
+  ]
 }

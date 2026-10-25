@@ -5,27 +5,35 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Marshmallow"
+      "value": "Oatmeal Cream Pie"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Closedgotchi"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Katana"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Quads"
+      "value": "L"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Tornado"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +41,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
-  ],
-  "selection_score": 4.263097,
-  "seed": 871003
+  ]
 }

@@ -5,31 +5,35 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Doughnut"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Tenders"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Cash"
     },
     {
       "trait_type": "Sticker",
-      "value": "Real as a Doughnut"
+      "value": "CookBook"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +41,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
-  ],
-  "selection_score": 2.789641,
-  "seed": 871003
+  ]
 }

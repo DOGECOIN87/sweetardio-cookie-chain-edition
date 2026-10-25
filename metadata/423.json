@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "GorWeld"
     },
     {
       "trait_type": "Skin",
@@ -21,15 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Printer"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
-      "value": "Emyr"
+      "value": "Candy Shop"
     },
     {
       "trait_type": "Edition",
@@ -39,7 +35,5 @@
       "trait_type": "Rarity",
       "value": "Rare"
     }
-  ],
-  "selection_score": 3.172786,
-  "seed": 871003
+  ]
 }

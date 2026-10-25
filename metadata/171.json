@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Cookie Dough"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Fang"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
+      "trait_type": "Arms",
+      "value": "Cash"
     },
     {
       "trait_type": "Sticker",
-      "value": "Chibi Monster"
+      "value": "Baked Bazaar"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
-  ],
-  "selection_score": 3.390074,
-  "seed": 871003
+  ]
 }

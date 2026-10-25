@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Oatmeal Cream Pie"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Morsel Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -21,19 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Printer"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "Chibi Monster"
+      "value": "CookieScan"
     },
     {
       "trait_type": "Edition",
@@ -41,9 +33,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Common"
     }
-  ],
-  "selection_score": 3.051366,
-  "seed": 871003
+  ]
 }

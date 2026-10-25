@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Legendary"
+      "value": "M Power"
     },
     {
       "trait_type": "Skin",
@@ -17,23 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Pepe Slippers"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookBook"
+      "value": "Cookie Chat"
     },
     {
       "trait_type": "Edition",
@@ -41,9 +33,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Rare"
     }
-  ],
-  "selection_score": 3.262589,
-  "seed": 871003
+  ]
 }

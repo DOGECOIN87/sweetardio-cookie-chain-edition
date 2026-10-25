@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Legendary"
+      "value": "Emyr"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,19 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Fang"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Gorbhouse Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Military Brat"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookBook"
+      "value": "Cookie Quads"
     },
     {
       "trait_type": "Edition",
@@ -35,7 +43,5 @@
       "trait_type": "Rarity",
       "value": "Rare"
     }
-  ],
-  "selection_score": 4.254959,
-  "seed": 871003
+  ]
 }

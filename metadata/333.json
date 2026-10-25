@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Flat"
     },
     {
       "trait_type": "Arms",
@@ -33,7 +29,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "Candy Shop"
+      "value": "Cookie Lock"
     },
     {
       "trait_type": "Edition",
@@ -41,9 +37,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Common"
     }
-  ],
-  "selection_score": 3.219684,
-  "seed": 871003
+  ]
 }

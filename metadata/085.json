@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Sandwich Cookie"
+      "value": "Neapolitan Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "NFTs Aren't Dead"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -17,23 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Printer"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookBook"
+      "value": "Real as a Doughnut"
     },
     {
       "trait_type": "Edition",
@@ -41,9 +33,7 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Common"
     }
-  ],
-  "selection_score": 3.780501,
-  "seed": 871003
+  ]
 }

@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Morsel Legendary"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -24,8 +24,12 @@
       "value": "Awkward Smile"
     },
     {
+      "trait_type": "Arms",
+      "value": "Nerf Blaster"
+    },
+    {
       "trait_type": "Sticker",
-      "value": "Baked Bazaar"
+      "value": "MomoSwap"
     },
     {
       "trait_type": "Edition",
@@ -35,7 +39,5 @@
       "trait_type": "Rarity",
       "value": "Uncommon"
     }
-  ],
-  "selection_score": 3.290933,
-  "seed": 871003
+  ]
 }

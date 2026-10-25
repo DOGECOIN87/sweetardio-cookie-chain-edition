@@ -5,31 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Glazed Doughnut"
+      "value": "Oatmeal Cream Pie"
     },
     {
       "trait_type": "Background",
-      "value": "GorWeld Legendary"
+      "value": "Shubbi"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Alien"
     },
     {
+      "trait_type": "Eyes",
+      "value": "Cerise"
+    },
+    {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Fang"
     },
     {
       "trait_type": "Footwear",
-      "value": "Pepe Slippers"
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "Nyancat"
     },
     {
       "trait_type": "Edition",
@@ -39,7 +39,5 @@
       "trait_type": "Rarity",
       "value": "Uncommon"
     }
-  ],
-  "selection_score": 2.681803,
-  "seed": 871003
+  ]
 }
