@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Nutty Bar"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Nightly Wallet"
+      "value": "Nyancat"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.057111,
-  "seed": 871003
+  "selection_score": 2.40912,
+  "seed": 871004
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieSwap"
+      "value": "Baked Bazaar"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 4.118653,
-  "seed": 871003
+  "selection_score": 2.75876,
+  "seed": 871004
 }

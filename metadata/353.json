@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "NFTs Aren't Dead"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Chibi Monster"
+      "value": "Cookie MCP"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 4.549202,
-  "seed": 871003
+  "selection_score": 2.6562,
+  "seed": 871004
 }

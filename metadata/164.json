@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Oatmeal Cream Pie"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -17,7 +17,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
@@ -25,7 +25,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "Candy Shop"
+      "value": "Nyancat"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.307711,
-  "seed": 871003
+  "selection_score": 1.63802,
+  "seed": 871004
 }

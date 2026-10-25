@@ -2,26 +2,27 @@
   "name": "Cookie Chain Edition #085",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/085.png",
+  "animation_url": "../animations/085.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Sandwich Cookie"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "NFTs Aren't Dead"
+      "value": "Starfield"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Tasty"
     },
     {
       "trait_type": "Footwear",
@@ -29,11 +30,11 @@
     },
     {
       "trait_type": "Arms",
-      "value": "Printer"
+      "value": "Katana"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookBook"
+      "value": "Chibi Monster"
     },
     {
       "trait_type": "Edition",
@@ -41,9 +42,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 3.780501,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/085.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/085.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.55237,
+  "seed": 871004
 }

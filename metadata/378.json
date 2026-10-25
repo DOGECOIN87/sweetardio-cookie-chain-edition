@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
-      "value": "Sarv Legendary"
+      "value": "Picnic Stage"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookBook"
+      "value": "Emyr"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 4.141508,
-  "seed": 871003
+  "selection_score": 1.62782,
+  "seed": 871004
 }

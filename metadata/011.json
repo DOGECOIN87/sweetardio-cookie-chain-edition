@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Gorbhouse Treasures"
+      "value": "Mattrick Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
       "value": "Sad"
     },
     {
-      "trait_type": "Arms",
-      "value": "Printer"
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Baked Bazaar"
+      "value": "Candy Shop"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 2.768584,
-  "seed": 871003
+  "selection_score": 2.43446,
+  "seed": 871004
 }

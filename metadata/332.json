@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Neapolitan Ice Cream"
+      "value": "Chocolate Chip Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "NFTs Aren't Dead"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Lock"
+      "value": "Cookiebox"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.714306,
-  "seed": 871003
+  "selection_score": 2.00284,
+  "seed": 871004
 }

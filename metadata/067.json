@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #067",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/067.png",
+  "animation_url": "../animations/067.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "S'mores"
+      "value": "Chocolate Chip Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Chocolate"
+      "value": "Mattrick Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
-      "value": "Out of Order"
+      "value": "Cookie Lock"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Blizzard"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 2.053907,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/067.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/067.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 1.84312,
+  "seed": 871004
 }

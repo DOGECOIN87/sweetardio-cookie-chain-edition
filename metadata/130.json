@@ -2,22 +2,23 @@
   "name": "Cookie Chain Edition #130",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/130.png",
+  "animation_url": "../animations/130.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Cookboy Gold"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
@@ -25,7 +26,11 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "Real as a Doughnut"
+      "value": "Out of Order"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Snow"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.13862,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/130.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/130.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.26023,
+  "seed": 871004
 }

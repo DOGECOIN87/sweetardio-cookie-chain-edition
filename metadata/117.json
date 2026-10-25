@@ -5,31 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Churro"
     },
     {
       "trait_type": "Background",
-      "value": "Morsel Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Fang"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "trait_type": "Arms",
+      "value": "Nerf Blaster"
     },
     {
       "trait_type": "Sticker",
-      "value": "Emyr"
+      "value": "Nyancat"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.366619,
-  "seed": 871003
+  "selection_score": 2.22957,
+  "seed": 871004
 }

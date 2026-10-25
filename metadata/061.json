@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Morsel Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Military Brat"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookiebox"
+      "value": "Cookie Chat"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.178552,
-  "seed": 871003
+  "selection_score": 2.87495,
+  "seed": 871004
 }

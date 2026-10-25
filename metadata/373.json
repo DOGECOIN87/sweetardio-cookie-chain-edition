@@ -9,7 +9,7 @@
     },
     {
       "trait_type": "Background",
-      "value": "Sarv Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Chat"
+      "value": "Nyancat"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Core"
     }
   ],
-  "selection_score": 4.669816,
-  "seed": 871003
+  "selection_score": 2.17897,
+  "seed": 871004
 }

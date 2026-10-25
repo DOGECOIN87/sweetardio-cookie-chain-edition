@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Nerf Blaster"
     },
     {
       "trait_type": "Sticker",
-      "value": "Chibi Monster"
+      "value": "MomoSwap"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.74565,
-  "seed": 871003
+  "selection_score": 1.76448,
+  "seed": 871004
 }

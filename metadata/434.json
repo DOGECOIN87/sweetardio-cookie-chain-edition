@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "Cyan Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Shubbi Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "Real as a Doughnut"
+      "value": "Shorts Doggo"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Core"
     }
   ],
-  "selection_score": 2.502486,
-  "seed": 871003
+  "selection_score": 2.27114,
+  "seed": 871004
 }

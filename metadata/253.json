@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Doughnut"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
@@ -13,23 +13,27 @@
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Smirk"
     },
     {
       "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Cookie Monster Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Katana"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Quads"
+      "value": "Real as a Doughnut"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +41,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.944647,
-  "seed": 871003
+  "selection_score": 1.69638,
+  "seed": 871004
 }

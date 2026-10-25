@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #045",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/045.png",
+  "animation_url": "../animations/045.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Frosted Pop Tart"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Shubbi Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieSwap"
+      "value": "Real as a Doughnut"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Storm"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.211932,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/045.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/045.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.41016,
+  "seed": 871004
 }

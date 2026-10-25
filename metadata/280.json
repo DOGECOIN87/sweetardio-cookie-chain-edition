@@ -5,31 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Neapolitan Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "Nightly Wallet"
+      "value": "CookOven"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 2.53103,
-  "seed": 871003
+  "selection_score": 1.88608,
+  "seed": 871004
 }

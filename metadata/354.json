@@ -5,31 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Chocolate"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "Emyr"
+      "value": "Nightly Wallet"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.655837,
-  "seed": 871003
+  "selection_score": 2.75876,
+  "seed": 871004
 }

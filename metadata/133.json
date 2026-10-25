@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "Oatmeal Cream Pie"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -21,11 +21,15 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Pepe Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Candy Shop"
+      "value": "Nightly Wallet"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.718793,
-  "seed": 871003
+  "selection_score": 1.34197,
+  "seed": 871004
 }

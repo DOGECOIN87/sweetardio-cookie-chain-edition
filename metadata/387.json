@@ -5,31 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Ding Dong"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Shubbi Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookboy"
+      "value": "Real as a Doughnut"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.80647,
-  "seed": 871003
+  "selection_score": 2.05491,
+  "seed": 871004
 }

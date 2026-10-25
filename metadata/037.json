@@ -2,34 +2,35 @@
   "name": "Cookie Chain Edition #037",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/037.png",
+  "animation_url": "../animations/037.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Ding Dong"
     },
     {
       "trait_type": "Background",
-      "value": "NFTs Aren't Dead"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
-    },
-    {
-      "trait_type": "Eyes",
       "value": "Alien"
     },
     {
-      "trait_type": "Mouth",
-      "value": "Lollipop"
+      "trait_type": "Eyes",
+      "value": "Side Eye"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "trait_type": "Mouth",
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "Real as a Doughnut"
+      "value": "Out of Order"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Flooded"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 4.018902,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/037.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/037.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 0.61757,
+  "seed": 871004
 }

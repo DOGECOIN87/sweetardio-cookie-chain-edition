@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Sandwich Cookie"
+      "value": "Nutty Bar"
     },
     {
       "trait_type": "Background",
-      "value": "Short The Banks Legendary"
+      "value": "Picnic Stage"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Katana"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie MCP"
+      "value": "Cookboy"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.072144,
-  "seed": 871003
+  "selection_score": 1.305,
+  "seed": 871004
 }

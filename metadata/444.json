@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Gummy Bear"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Legendary"
+      "value": "Opengotchi Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Nerf Blaster"
     },
     {
       "trait_type": "Sticker",
-      "value": "Candy Shop"
+      "value": "Baked Bazaar"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.403972,
-  "seed": 871003
+  "selection_score": 2.45833,
+  "seed": 871004
 }

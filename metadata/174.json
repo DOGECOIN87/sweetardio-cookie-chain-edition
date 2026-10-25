@@ -2,30 +2,39 @@
   "name": "Cookie Chain Edition #174",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/174.png",
+  "animation_url": "../animations/174.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Nutty Bar"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "Gorbhouse Treasures"
+      "value": "Moon Surface"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
       "value": "Sad"
     },
     {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
       "trait_type": "Sticker",
-      "value": "Out of Order"
+      "value": "CookOven"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Storm"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +42,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 1.82134,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/174.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/174.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.45505,
+  "seed": 871004
 }

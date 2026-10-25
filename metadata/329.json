@@ -2,34 +2,35 @@
   "name": "Cookie Chain Edition #329",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/329.png",
+  "animation_url": "../animations/329.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Sandwich Cookie"
+      "value": "Cyan Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Pepe Slippers"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookboy"
+      "value": "Nightly Wallet"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Fog"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 4.083717,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/329.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/329.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 1.79317,
+  "seed": 871004
 }

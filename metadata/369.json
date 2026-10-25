@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Ice Cream"
+      "value": "Zebra Cake"
     },
     {
       "trait_type": "Background",
-      "value": "NFTs Aren't Dead"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -25,7 +25,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "Chibi Monster"
+      "value": "Emyr"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.263522,
-  "seed": 871003
+  "selection_score": 1.24684,
+  "seed": 871004
 }

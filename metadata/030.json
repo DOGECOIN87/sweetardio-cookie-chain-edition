@@ -2,18 +2,19 @@
   "name": "Cookie Chain Edition #030",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/030.png",
+  "animation_url": "../animations/030.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Nutty Bar"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -21,11 +22,15 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Flat"
     },
     {
       "trait_type": "Sticker",
-      "value": "L"
+      "value": "CookBook"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Snow"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.286304,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/030.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/030.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 0.74714,
+  "seed": 871004
 }

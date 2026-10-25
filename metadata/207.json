@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Vanilla Ice Cream"
+      "value": "Oatmeal Cream Pie"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
       "value": "Diamond Grill"
     },
     {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
       "trait_type": "Sticker",
-      "value": "CookBook"
+      "value": "Chibi Monster"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 4.311839,
-  "seed": 871003
+  "selection_score": 1.37067,
+  "seed": 871004
 }

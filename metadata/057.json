@@ -2,30 +2,35 @@
   "name": "Cookie Chain Edition #057",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/057.png",
+  "animation_url": "../animations/057.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Sugar Cube"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Legendary"
+      "value": "Shubbi Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Flat"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookBook"
+      "value": "Candy Shop"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Blizzard"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.911937,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/057.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/057.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.13521,
+  "seed": 871004
 }

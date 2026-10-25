@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #064",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/064.png",
+  "animation_url": "../animations/064.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +18,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
       "value": "Diamond Grill"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "trait_type": "Arms",
+      "value": "Cash"
     },
     {
       "trait_type": "Sticker",
-      "value": "Shorts Doggo"
+      "value": "Morsel"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Snow"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +45,19 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.911666,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/064.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/064.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.44472,
+  "seed": 871004
 }

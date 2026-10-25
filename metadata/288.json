@@ -5,31 +5,35 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "Chocolate Sandwich Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
     },
     {
       "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Cyan Saber"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookiebox"
+      "value": "Morsel"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +44,6 @@
       "value": "Legendary Chase"
     }
   ],
-  "selection_score": 3.212463,
-  "seed": 871003
+  "selection_score": -0.02518,
+  "seed": 871004
 }

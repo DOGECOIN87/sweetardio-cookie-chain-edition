@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #379",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/379.png",
+  "animation_url": "../animations/379.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "M Power Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -21,15 +22,19 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Flat"
     },
     {
       "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Military Brat"
     },
     {
       "trait_type": "Sticker",
-      "value": "Chibi Monster"
+      "value": "Cookiebox"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Rain"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +42,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Rare"
     }
   ],
-  "selection_score": 2.603973,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/379.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/379.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.51918,
+  "seed": 871004
 }

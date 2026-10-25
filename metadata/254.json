@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Zebra Cake"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Black Enamel"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
@@ -25,7 +25,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "Morsel"
+      "value": "Shorts Doggo"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.445005,
-  "seed": 871003
+  "selection_score": 1.36009,
+  "seed": 871004
 }

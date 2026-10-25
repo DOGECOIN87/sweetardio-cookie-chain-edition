@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Ice Cream"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Shubbi Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,7 +17,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
@@ -25,7 +25,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie MCP"
+      "value": "Shorts Doggo"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.634361,
-  "seed": 871003
+  "selection_score": 2.16183,
+  "seed": 871004
 }

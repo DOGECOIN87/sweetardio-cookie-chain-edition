@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #152",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/152.png",
+  "animation_url": "../animations/152.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Morsel Legendary"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Printer"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie MCP"
+      "value": "Cookboy"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Snow"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.210283,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/152.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/152.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.54776,
+  "seed": 871004
 }

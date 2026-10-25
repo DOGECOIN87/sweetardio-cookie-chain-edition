@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #395",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/395.png",
+  "animation_url": "../animations/395.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Opengotchi Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookiebox"
+      "value": "Chibi Monster"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Rain"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 2.71428,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/395.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/395.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.29615,
+  "seed": 871004
 }

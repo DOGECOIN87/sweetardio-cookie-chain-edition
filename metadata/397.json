@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #397",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/397.png",
+  "animation_url": "../animations/397.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Starfield"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Gorbhouse Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan"
+      "value": "Nyancat"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 4.447812,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/397.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/397.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.69595,
+  "seed": 871004
 }

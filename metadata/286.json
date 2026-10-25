@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Chat"
+      "value": "Real as a Doughnut"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Core"
     }
   ],
-  "selection_score": 4.199561,
-  "seed": 871003
+  "selection_score": 2.38263,
+  "seed": 871004
 }

@@ -5,31 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Pink Sherbert Ice Cream"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Emyr Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Printer"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
-      "value": "Candy Shop"
+      "value": "MomoSwap"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.42505,
-  "seed": 871003
+  "selection_score": 2.04012,
+  "seed": 871004
 }

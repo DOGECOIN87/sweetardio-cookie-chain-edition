@@ -2,30 +2,39 @@
   "name": "Cookie Chain Edition #009",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/009.png",
+  "animation_url": "../animations/009.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Nerf Blaster"
     },
     {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "Cookie MCP"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Fog"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +42,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.004534,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/009.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/009.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.50023,
+  "seed": 871004
 }

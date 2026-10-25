@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cash"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan"
+      "value": "Real as a Doughnut"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 4.409573,
-  "seed": 871003
+  "selection_score": 2.22644,
+  "seed": 871004
 }

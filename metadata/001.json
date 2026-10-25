@@ -2,34 +2,35 @@
   "name": "Cookie Chain Edition #001",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/001.png",
+  "animation_url": "../animations/001.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Oatmeal Cream Pie"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
-      "value": "Emyr"
+      "value": "CookieScan"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Flooded"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 2.714058,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/001.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/001.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.48989,
+  "seed": 871004
 }

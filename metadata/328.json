@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Doughnut"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
-      "value": "Cookie Dough"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -21,11 +21,19 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Katana"
     },
     {
       "trait_type": "Sticker",
-      "value": "Baked Bazaar"
+      "value": "Morsel"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +41,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.191757,
-  "seed": 871003
+  "selection_score": 0.36204,
+  "seed": 871004
 }

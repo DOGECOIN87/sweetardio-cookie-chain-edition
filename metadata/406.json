@@ -2,38 +2,31 @@
   "name": "Cookie Chain Edition #406",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/406.png",
+  "animation_url": "../animations/406.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Oatmeal Cream Pie"
+      "value": "Zebra Cake"
     },
     {
       "trait_type": "Background",
-      "value": "Morsel Legendary"
+      "value": "Starfield"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Alien"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Printer"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
-      "value": "Chibi Monster"
+      "value": "Cookie MCP"
     },
     {
       "trait_type": "Edition",
@@ -41,9 +34,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.051366,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/406.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/406.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.52077,
+  "seed": 871004
 }

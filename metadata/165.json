@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Gold"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Lollipop"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Nerf Blaster"
     },
     {
       "trait_type": "Sticker",
-      "value": "Nightly Wallet"
+      "value": "Shorts Doggo"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.423025,
-  "seed": 871003
+  "selection_score": 1.91736,
+  "seed": 871004
 }

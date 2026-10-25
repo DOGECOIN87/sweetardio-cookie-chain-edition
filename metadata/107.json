@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Pink Sherbert Ice Cream"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Legendary"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "Nyancat"
+      "value": "Cookiebox"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 2.356555,
-  "seed": 871003
+  "selection_score": 2.67434,
+  "seed": 871004
 }

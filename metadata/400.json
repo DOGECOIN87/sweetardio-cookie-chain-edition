@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #400",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/400.png",
+  "animation_url": "../animations/400.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Legendary"
+      "value": "M Power Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
-      "value": "Nightly Wallet"
+      "value": "Nyancat"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Flooded"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 2.398041,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/400.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/400.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 1.90298,
+  "seed": 871004
 }

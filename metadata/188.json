@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Cyan Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "L"
+      "value": "CookieScan"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.255389,
-  "seed": 871003
+  "selection_score": 2.32469,
+  "seed": 871004
 }

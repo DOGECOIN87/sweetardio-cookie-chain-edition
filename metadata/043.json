@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #043",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/043.png",
+  "animation_url": "../animations/043.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Churro"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Gold"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -25,7 +26,11 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "Out of Order"
+      "value": "MomoSwap"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Rain"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +41,19 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.425019,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/043.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/043.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.35475,
+  "seed": 871004
 }

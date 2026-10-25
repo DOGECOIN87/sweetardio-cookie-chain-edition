@@ -2,18 +2,19 @@
   "name": "Cookie Chain Edition #385",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/385.png",
+  "animation_url": "../animations/385.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Cyan Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
@@ -21,11 +22,15 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie MCP"
+      "value": "Baked Bazaar"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Storm"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.70909,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/385.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/385.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.40947,
+  "seed": 871004
 }

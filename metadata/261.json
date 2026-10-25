@@ -5,7 +5,7 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "Chocolate Ice Cream"
     },
     {
       "trait_type": "Background",
@@ -21,15 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan"
+      "value": "Cookie MCP"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.717183,
-  "seed": 871003
+  "selection_score": 1.6415,
+  "seed": 871004
 }

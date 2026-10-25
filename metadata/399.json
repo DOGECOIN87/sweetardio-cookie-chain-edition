@@ -2,18 +2,19 @@
   "name": "Cookie Chain Edition #399",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/399.png",
+  "animation_url": "../animations/399.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "M Power Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
@@ -25,7 +26,11 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookboy"
+      "value": "Nyancat"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Blizzard"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +41,19 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.80413,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/399.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/399.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 1.71902,
+  "seed": 871004
 }

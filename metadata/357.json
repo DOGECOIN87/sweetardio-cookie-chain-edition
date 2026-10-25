@@ -2,34 +2,35 @@
   "name": "Cookie Chain Edition #357",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/357.png",
+  "animation_url": "../animations/357.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Ice Cream"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "NFTs Aren't Dead"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
-    },
-    {
-      "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
-      "value": "Shorts Doggo"
+      "value": "Emyr"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Fog"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.617478,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/357.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/357.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 1.96149,
+  "seed": 871004
 }

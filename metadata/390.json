@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "Oatmeal Cream Pie"
     },
     {
       "trait_type": "Background",
-      "value": "Morsel Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Chat"
+      "value": "Emyr"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.431837,
-  "seed": 871003
+  "selection_score": 1.3462,
+  "seed": 871004
 }

@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Cookboy Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Cookboy Handheld"
     },
     {
       "trait_type": "Sticker",
@@ -33,9 +41,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 3.361101,
-  "seed": 871003
+  "selection_score": 1.6118,
+  "seed": 871004
 }

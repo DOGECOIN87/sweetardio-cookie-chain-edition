@@ -5,31 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "M Power Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Diamond Grill"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "trait_type": "Arms",
+      "value": "AR-47"
     },
     {
       "trait_type": "Sticker",
-      "value": "Morsel"
+      "value": "Nightly Wallet"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 2.531035,
-  "seed": 871003
+  "selection_score": 2.33796,
+  "seed": 871004
 }

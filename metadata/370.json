@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Gold Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Legendary"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
-      "value": "L"
+      "value": "Nightly Wallet"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.407041,
-  "seed": 871003
+  "selection_score": 2.6949,
+  "seed": 871004
 }

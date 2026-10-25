@@ -2,30 +2,35 @@
   "name": "Cookie Chain Edition #072",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/072.png",
+  "animation_url": "../animations/072.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Nutty Bar"
     },
     {
       "trait_type": "Background",
-      "value": "Liberty Cookie Dime"
+      "value": "Morsel Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "Nyancat"
+      "value": "Morsel"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Fog"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.419518,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/072.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/072.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 1.48847,
+  "seed": 871004
 }

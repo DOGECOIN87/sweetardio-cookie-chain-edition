@@ -2,30 +2,35 @@
   "name": "Cookie Chain Edition #017",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/017.png",
+  "animation_url": "../animations/017.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Short The Banks Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan"
+      "value": "Cookiebox"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Flooded"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +41,19 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.77909,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/017.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/017.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.55258,
+  "seed": 871004
 }

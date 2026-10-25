@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Gummy Bear"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Short The Banks Legendary"
+      "value": "M Power Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "Emyr"
+      "value": "Cookie Chat"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.713498,
-  "seed": 871003
+  "selection_score": 2.82026,
+  "seed": 871004
 }

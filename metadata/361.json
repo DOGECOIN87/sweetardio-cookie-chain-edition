@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Ding Dong"
+      "value": "Chocolate Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Cookie Dough"
+      "value": "Short The Banks Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Printer"
     },
     {
       "trait_type": "Sticker",
-      "value": "L"
+      "value": "Cookie MCP"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 4.042047,
-  "seed": 871003
+  "selection_score": 2.17047,
+  "seed": 871004
 }

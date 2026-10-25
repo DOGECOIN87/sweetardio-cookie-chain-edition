@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #054",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/054.png",
+  "animation_url": "../animations/054.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Ding Dong"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Sarv Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "Real as a Doughnut"
+      "value": "Cookiebox"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Tornado"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +41,19 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 4.065599,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/054.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/054.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.57057,
+  "seed": 871004
 }

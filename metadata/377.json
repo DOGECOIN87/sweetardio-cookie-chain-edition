@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Oatmeal Cream Pie"
+      "value": "Pink Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Legendary"
+      "value": "Cookboy Black Enamel"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
       "value": "Smirk"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
-    },
-    {
       "trait_type": "Sticker",
-      "value": "Shorts Doggo"
+      "value": "Baked Bazaar"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 1.933292,
-  "seed": 871003
+  "selection_score": 2.56724,
+  "seed": 871004
 }

@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Pink Sherbert Ice Cream"
+      "value": "Nutty Bar"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -21,11 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie MCP"
+      "value": "Cookboy"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.223768,
-  "seed": 871003
+  "selection_score": 0.87061,
+  "seed": 871004
 }

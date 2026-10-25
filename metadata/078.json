@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Churro"
+      "value": "Zebra Cake"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Gold"
+      "value": "Nightly Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookboy"
+      "value": "Nightly Wallet"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.942057,
-  "seed": 871003
+  "selection_score": 2.54678,
+  "seed": 871004
 }

@@ -9,7 +9,7 @@
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Legendary"
+      "value": "Fairdevs Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookBook"
+      "value": "Real as a Doughnut"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 4.254959,
-  "seed": 871003
+  "selection_score": 2.72546,
+  "seed": 871004
 }

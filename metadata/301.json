@@ -5,19 +5,19 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Chocolate Chip Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Liberty Cookie Dime"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
@@ -25,11 +25,11 @@
     },
     {
       "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Cookie Monster Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Emyr"
+      "value": "Cookie Chat"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.48671,
-  "seed": 871003
+  "selection_score": 1.56174,
+  "seed": 871004
 }

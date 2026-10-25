@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "S'mores"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Sarv Legendary"
+      "value": "Cookboy Gold"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieSwap"
+      "value": "Cookie Chat"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.128849,
-  "seed": 871003
+  "selection_score": 2.15582,
+  "seed": 871004
 }

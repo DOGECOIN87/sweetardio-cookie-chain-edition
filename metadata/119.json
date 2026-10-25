@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #119",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/119.png",
+  "animation_url": "../animations/119.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "Waffle"
     },
     {
       "trait_type": "Background",
-      "value": "Short The Banks Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieSwap"
+      "value": "CookBook"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Storm"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +41,19 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.175991,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/119.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/119.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.72049,
+  "seed": 871004
 }

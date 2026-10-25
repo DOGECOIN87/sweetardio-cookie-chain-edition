@@ -5,31 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Doughnut"
+      "value": "Cyan Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Chocolate"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "Shorts Doggo"
+      "value": "Cookie Lock"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 1.504169,
-  "seed": 871003
+  "selection_score": 2.29489,
+  "seed": 871004
 }

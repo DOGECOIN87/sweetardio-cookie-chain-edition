@@ -9,7 +9,7 @@
     },
     {
       "trait_type": "Background",
-      "value": "M Power Legendary"
+      "value": "Sarv Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Lollipop"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
+      "trait_type": "Arms",
+      "value": "Nerf Blaster"
     },
     {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "Morsel"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 2.899547,
-  "seed": 871003
+  "selection_score": 1.13592,
+  "seed": 871004
 }

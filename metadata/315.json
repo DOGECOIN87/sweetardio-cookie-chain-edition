@@ -5,31 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Waffle"
+      "value": "Chocolate Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Legendary"
+      "value": "NFTs Aren't Dead"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Lock"
+      "value": "Cookie Quads"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.632327,
-  "seed": 871003
+  "selection_score": 2.40331,
+  "seed": 871004
 }

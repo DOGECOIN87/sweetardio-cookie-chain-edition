@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Marshmallow"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Mattrick Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Lollipop"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "trait_type": "Arms",
+      "value": "Nerf Blaster"
     },
     {
       "trait_type": "Sticker",
-      "value": "Chibi Monster"
+      "value": "Emyr"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.696352,
-  "seed": 871003
+  "selection_score": 2.09234,
+  "seed": 871004
 }

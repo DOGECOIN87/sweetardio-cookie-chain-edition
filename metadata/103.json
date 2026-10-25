@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Chocolate Chip Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Sarv Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Chat"
+      "value": "CookieSwap"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Core"
     }
   ],
-  "selection_score": 4.094677,
-  "seed": 871003
+  "selection_score": 1.24533,
+  "seed": 871004
 }

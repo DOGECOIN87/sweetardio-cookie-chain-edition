@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Pink Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "M Power Legendary"
+      "value": "Cookboy Gold"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
-      "value": "Chibi Monster"
+      "value": "Shorts Doggo"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.412623,
-  "seed": 871003
+  "selection_score": 1.7991,
+  "seed": 871004
 }

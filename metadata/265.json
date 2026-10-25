@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #265",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/265.png",
+  "animation_url": "../animations/265.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Sandwich Cookie"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Starfield"
     },
     {
       "trait_type": "Skin",
@@ -17,11 +18,11 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
@@ -36,6 +37,19 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.431482,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/265.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/265.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.5733,
+  "seed": 871004
 }

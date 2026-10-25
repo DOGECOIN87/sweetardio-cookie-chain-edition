@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Liberty Cookie Dime"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Lock"
+      "value": "Emyr"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.438502,
-  "seed": 871003
+  "selection_score": 1.08386,
+  "seed": 871004
 }

@@ -2,10 +2,11 @@
   "name": "Cookie Chain Edition #016",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/016.png",
+  "animation_url": "../animations/016.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Vanilla Ice Cream"
+      "value": "Chocolate Ice Cream"
     },
     {
       "trait_type": "Background",
@@ -25,7 +26,11 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan"
+      "value": "Real as a Doughnut"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Flooded"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +41,19 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 4.687806,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/016.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/016.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.28448,
+  "seed": 871004
 }

@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "GorWeld Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Baked Bazaar"
+      "value": "CookOven"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.034468,
-  "seed": 871003
+  "selection_score": 2.31407,
+  "seed": 871004
 }

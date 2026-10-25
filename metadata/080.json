@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #080",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/080.png",
+  "animation_url": "../animations/080.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Marshmallow"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "Morsel Legendary"
+      "value": "M Power Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "Chibi Monster"
+      "value": "CookBook"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Flooded"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +41,19 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.660811,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/080.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/080.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.37092,
+  "seed": 871004
 }

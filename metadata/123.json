@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #123",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/123.png",
+  "animation_url": "../animations/123.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Gummy Bear"
+      "value": "Neapolitan Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan"
+      "value": "Candy Shop"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Tornado"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.648421,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/123.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/123.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.02939,
+  "seed": 871004
 }

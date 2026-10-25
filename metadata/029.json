@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #029",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/029.png",
+  "animation_url": "../animations/029.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "Cyan Sherbert Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
       "value": "Awkward Smile"
     },
     {
-      "trait_type": "Arms",
-      "value": "Printer"
+      "trait_type": "Sticker",
+      "value": "Morsel"
     },
     {
-      "trait_type": "Sticker",
-      "value": "Nyancat"
+      "trait_type": "Weather",
+      "value": "Fog"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Legendary Chase"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.40951,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/029.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/029.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.29489,
+  "seed": 871004
 }

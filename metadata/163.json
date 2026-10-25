@@ -9,23 +9,23 @@
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Black Enamel"
+      "value": "NFTs Aren't Dead"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookboy"
+      "value": "Nyancat"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.491713,
-  "seed": 871003
+  "selection_score": 2.14583,
+  "seed": 871004
 }

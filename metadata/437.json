@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Vanilla Ice Cream"
+      "value": "Churro"
     },
     {
       "trait_type": "Background",
-      "value": "Sarv Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "AK-15"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan"
+      "value": "Cookie Lock"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 4.105301,
-  "seed": 871003
+  "selection_score": 2.5897,
+  "seed": 871004
 }

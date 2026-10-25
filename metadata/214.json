@@ -5,31 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Ding Dong"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
       "value": "Smoke"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Bunny Slippers"
-    },
-    {
       "trait_type": "Sticker",
-      "value": "Cookie Quads"
+      "value": "L"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 4.156036,
-  "seed": 871003
+  "selection_score": 2.03,
+  "seed": 871004
 }

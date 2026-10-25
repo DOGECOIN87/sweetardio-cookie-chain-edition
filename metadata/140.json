@@ -9,7 +9,7 @@
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookOven"
+      "value": "Cookiebox"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.705741,
-  "seed": 871003
+  "selection_score": 2.00195,
+  "seed": 871004
 }

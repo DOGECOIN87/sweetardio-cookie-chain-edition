@@ -9,23 +9,27 @@
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Military Brat"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan"
+      "value": "Out of Order"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 4.233143,
-  "seed": 871003
+  "selection_score": 2.45881,
+  "seed": 871004
 }

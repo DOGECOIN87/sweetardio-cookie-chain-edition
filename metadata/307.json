@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Morsel Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
-      "value": "Chibi Monster"
+      "value": "Cookie Chat"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.471389,
-  "seed": 871003
+  "selection_score": 2.54251,
+  "seed": 871004
 }

@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #047",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/047.png",
+  "animation_url": "../animations/047.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Twinkie"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Lock"
+      "value": "Nyancat"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Blizzard"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 4.186681,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/047.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/047.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.24434,
+  "seed": 871004
 }

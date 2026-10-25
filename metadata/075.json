@@ -9,11 +9,11 @@
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Yatrah Arcade"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
@@ -21,11 +21,11 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
-      "value": "Real as a Doughnut"
+      "value": "Cookboy"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.454045,
-  "seed": 871003
+  "selection_score": 2.38788,
+  "seed": 871004
 }

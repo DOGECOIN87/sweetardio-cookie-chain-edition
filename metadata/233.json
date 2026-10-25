@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "M Power Legendary"
+      "value": "GorWeld Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
-      "value": "Out of Order"
+      "value": "CookBook"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.964312,
-  "seed": 871003
+  "selection_score": 2.39556,
+  "seed": 871004
 }

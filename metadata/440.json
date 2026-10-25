@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "Chocolate Sandwich Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Legendary"
+      "value": "Cookboy Silver"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Cookie Monster Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Blue Saber"
     },
     {
       "trait_type": "Sticker",
-      "value": "Shorts Doggo"
+      "value": "CookieSwap"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +41,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 2.000275,
-  "seed": 871003
+  "selection_score": 0.17473,
+  "seed": 871004
 }

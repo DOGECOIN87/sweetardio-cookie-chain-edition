@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #052",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/052.png",
+  "animation_url": "../animations/052.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Ding Dong"
     },
     {
       "trait_type": "Background",
-      "value": "Short The Banks Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +18,27 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Footwear",
-      "value": "Cookie Monster Slippers"
+      "value": "Shiba Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Nerf Blaster"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookOven"
+      "value": "Chibi Monster"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Fog"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +49,19 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.873494,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/052.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/052.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 0.89597,
+  "seed": 871004
 }

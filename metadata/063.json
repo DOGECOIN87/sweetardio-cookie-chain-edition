@@ -5,31 +5,35 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Chocolate Sandwich Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Short The Banks Legendary"
+      "value": "NFTs Aren't Dead"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Footwear",
       "value": "Cookie Monster Slippers"
     },
     {
+      "trait_type": "Arms",
+      "value": "AK-15"
+    },
+    {
       "trait_type": "Sticker",
-      "value": "L"
+      "value": "CookOven"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +41,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 3.458007,
-  "seed": 871003
+  "selection_score": 1.03492,
+  "seed": 871004
 }

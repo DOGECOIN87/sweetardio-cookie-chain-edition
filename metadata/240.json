@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #240",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/240.png",
+  "animation_url": "../animations/240.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Chocolate Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "M Power Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +22,23 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Gorbhouse Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Dual Uzis"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookOven"
+      "value": "Cookiebox"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Flooded"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +46,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 3.663201,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/240.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/240.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 1.053,
+  "seed": 871004
 }

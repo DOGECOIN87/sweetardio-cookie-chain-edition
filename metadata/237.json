@@ -2,30 +2,35 @@
   "name": "Cookie Chain Edition #237",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/237.png",
+  "animation_url": "../animations/237.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Nutty Bar"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Cookie Dough"
+      "value": "Picnic Stage"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie MCP"
+      "value": "Morsel"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Fog"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.608727,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/237.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/237.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.59241,
+  "seed": 871004
 }

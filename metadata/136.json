@@ -2,30 +2,35 @@
   "name": "Cookie Chain Edition #136",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/136.png",
+  "animation_url": "../animations/136.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Short The Banks Legendary"
+      "value": "Cookboy Gold"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
       "value": "Cookiebox"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Blizzard"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.022153,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/136.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/136.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 1.56015,
+  "seed": 871004
 }

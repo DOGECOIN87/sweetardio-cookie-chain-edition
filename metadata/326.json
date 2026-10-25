@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Marshmallow"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Morsel Legendary"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie MCP"
+      "value": "Chibi Monster"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Core"
     }
   ],
-  "selection_score": 4.528622,
-  "seed": 871003
+  "selection_score": 2.00614,
+  "seed": 871004
 }

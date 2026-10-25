@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Gummy Bear"
+      "value": "Sugar Cube"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Tasty"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookOven"
+      "value": "CookieScan"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 4.033121,
-  "seed": 871003
+  "selection_score": 2.22364,
+  "seed": 871004
 }

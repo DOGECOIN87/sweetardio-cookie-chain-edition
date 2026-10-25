@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Churro"
+      "value": "S'mores"
     },
     {
       "trait_type": "Background",
-      "value": "NFTs Aren't Dead"
+      "value": "Shubbi Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Sad"
     },
     {
       "trait_type": "Sticker",
-      "value": "L"
+      "value": "Candy Shop"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.196215,
-  "seed": 871003
+  "selection_score": 2.08691,
+  "seed": 871004
 }

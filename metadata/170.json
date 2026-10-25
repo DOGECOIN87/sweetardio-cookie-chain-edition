@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Gummy Bear"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "GorWeld Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "AK-15"
     },
     {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "Baked Bazaar"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.243671,
-  "seed": 871003
+  "selection_score": 2.67476,
+  "seed": 871004
 }

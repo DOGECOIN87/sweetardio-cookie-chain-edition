@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Nutty Bar"
+      "value": "Cyan Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Cookie Dough"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Cyborg"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Printer"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookiebox"
+      "value": "Baked Bazaar"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 4.352113,
-  "seed": 871003
+  "selection_score": 1.7616,
+  "seed": 871004
 }

@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #169",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/169.png",
+  "animation_url": "../animations/169.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Vanilla Ice Cream"
+      "value": "Chocolate Chip Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "NFTs Aren't Dead"
+      "value": "Cookboy Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +18,27 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Bunny Slippers"
     },
     {
       "trait_type": "Arms",
-      "value": "Cookboy Handheld"
+      "value": "Printer"
     },
     {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "Cookie MCP"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Rain"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +46,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 3.844161,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/169.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/169.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.18008,
+  "seed": 871004
 }

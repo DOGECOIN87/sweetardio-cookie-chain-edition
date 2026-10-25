@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #040",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/040.png",
+  "animation_url": "../animations/040.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Vanilla Ice Cream"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Emyr Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Cyan"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Quads"
+      "value": "Candy Shop"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Storm"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.907433,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/040.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/040.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.62307,
+  "seed": 871004
 }

@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #128",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/128.png",
+  "animation_url": "../animations/128.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Neapolitan Ice Cream"
+      "value": "OG Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
-      "value": "Out of Order"
+      "value": "Morsel"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Blizzard"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 2.049786,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/128.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/128.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.61507,
+  "seed": 871004
 }

@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #178",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/178.png",
+  "animation_url": "../animations/178.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Marshmallow"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookOven"
+      "value": "Candy Shop"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Rain"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 4.493126,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/178.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/178.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.41436,
+  "seed": 871004
 }

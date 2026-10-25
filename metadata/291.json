@@ -2,30 +2,35 @@
   "name": "Cookie Chain Edition #291",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/291.png",
+  "animation_url": "../animations/291.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "Rice Crispy Treat"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Smoke"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie MCP"
+      "value": "Cookie Quads"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Snow"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.261611,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/291.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/291.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.48775,
+  "seed": 871004
 }

@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #227",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/227.png",
+  "animation_url": "../animations/227.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Vanilla Ice Cream"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Yatrah Arcade"
+      "value": "Nightly Legendary"
     },
     {
       "trait_type": "Skin",
@@ -24,8 +25,20 @@
       "value": "Fang"
     },
     {
+      "trait_type": "Footwear",
+      "value": "Gorbhouse Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "AK-15"
+    },
+    {
       "trait_type": "Sticker",
-      "value": "Baked Bazaar"
+      "value": "Nightly Wallet"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Flooded"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +46,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 3.132635,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/227.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/227.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.06694,
+  "seed": 871004
 }

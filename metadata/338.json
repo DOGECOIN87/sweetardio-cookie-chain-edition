@@ -2,30 +2,11 @@
   "name": "Cookie Chain Edition #338",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/338.png",
+  "animation_url": "../animations/338.mp4",
   "attributes": [
     {
-      "trait_type": "Character",
-      "value": "Ding Dong"
-    },
-    {
-      "trait_type": "Background",
-      "value": "M Power Legendary"
-    },
-    {
-      "trait_type": "Skin",
-      "value": "White"
-    },
-    {
-      "trait_type": "Eyes",
-      "value": "Clueless"
-    },
-    {
-      "trait_type": "Mouth",
-      "value": "Awkward Smile"
-    },
-    {
-      "trait_type": "Sticker",
-      "value": "Nightly Wallet"
+      "trait_type": "1/1",
+      "value": "Cookboy Blue Raspberry"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +14,21 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Mythic Chase"
     }
   ],
-  "selection_score": 3.159833,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/338.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/338.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "seed": 871004
 }

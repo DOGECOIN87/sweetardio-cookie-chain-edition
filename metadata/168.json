@@ -5,31 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "Chocolate Chip Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "NFTs Aren't Dead"
+      "value": "Cookboy Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Tasty"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "trait_type": "Arms",
+      "value": "Nerf Blaster"
     },
     {
       "trait_type": "Sticker",
-      "value": "Candy Shop"
+      "value": "Baked Bazaar"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.337335,
-  "seed": 871003
+  "selection_score": 2.34235,
+  "seed": 871004
 }

@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Emyr Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "L"
+      "value": "Morsel"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.733953,
-  "seed": 871003
+  "selection_score": 2.06062,
+  "seed": 871004
 }

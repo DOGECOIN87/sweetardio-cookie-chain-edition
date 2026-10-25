@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Churro"
+      "value": "Chocolate Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Chocolate"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Printer"
     },
     {
       "trait_type": "Sticker",
-      "value": "Shorts Doggo"
+      "value": "Cookie Lock"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 1.477045,
-  "seed": 871003
+  "selection_score": 2.14012,
+  "seed": 871004
 }

@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Legendary"
+      "value": "Moon Surface"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "AR-47"
     },
     {
       "trait_type": "Sticker",
-      "value": "Nyancat"
+      "value": "Real as a Doughnut"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.515329,
-  "seed": 871003
+  "selection_score": 2.60825,
+  "seed": 871004
 }

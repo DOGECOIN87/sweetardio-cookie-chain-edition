@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Ice Cream"
+      "value": "Churro"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Gold"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Beady"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Flat"
     },
     {
       "trait_type": "Sticker",
-      "value": "Nightly Wallet"
+      "value": "Chibi Monster"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.637026,
-  "seed": 871003
+  "selection_score": 1.8335,
+  "seed": 871004
 }

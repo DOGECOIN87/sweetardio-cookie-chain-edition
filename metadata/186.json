@@ -5,19 +5,19 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
-      "value": "Cookie Dough"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
@@ -29,11 +29,11 @@
     },
     {
       "trait_type": "Arms",
-      "value": "Printer"
+      "value": "AR-47"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan"
+      "value": "Emyr"
     },
     {
       "trait_type": "Edition",
@@ -44,6 +44,6 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.367933,
-  "seed": 871003
+  "selection_score": 1.13305,
+  "seed": 871004
 }

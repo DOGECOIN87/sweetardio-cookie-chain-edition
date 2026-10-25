@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Oatmeal Cream Pie"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Cookie Dough"
+      "value": "Mattrick Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "L"
+      "value": "Cookie Quads"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.548275,
-  "seed": 871003
+  "selection_score": 2.37278,
+  "seed": 871004
 }

@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #282",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/282.png",
+  "animation_url": "../animations/282.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "Chocolate Chip Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Silver"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieSwap"
+      "value": "Cookie Quads"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Rain"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +41,19 @@
       "value": "Core"
     }
   ],
-  "selection_score": 3.244477,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/282.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/282.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 1.24845,
+  "seed": 871004
 }

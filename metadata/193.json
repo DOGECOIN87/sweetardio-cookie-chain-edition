@@ -5,31 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Ding Dong"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Gold"
+      "value": "Picnic Stage"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
       "value": "Sad"
     },
     {
-      "trait_type": "Footwear",
-      "value": "Gorbhouse Slippers"
+      "trait_type": "Arms",
+      "value": "Printer"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookboy"
+      "value": "Candy Shop"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 2.699384,
-  "seed": 871003
+  "selection_score": 0.98098,
+  "seed": 871004
 }

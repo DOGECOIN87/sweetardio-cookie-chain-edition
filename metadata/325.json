@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Churro"
     },
     {
       "trait_type": "Background",
-      "value": "Fairdevs Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "Alien"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookOven"
+      "value": "Shorts Doggo"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Rare"
+      "value": "Core"
     }
   ],
-  "selection_score": 4.192964,
-  "seed": 871003
+  "selection_score": 2.12075,
+  "seed": 871004
 }

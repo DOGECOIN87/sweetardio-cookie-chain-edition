@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #049",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/049.png",
+  "animation_url": "../animations/049.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Oatmeal Cream Pie"
+      "value": "Cyan Frosted Pop Tart"
     },
     {
       "trait_type": "Background",
-      "value": "Emyr Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "Out of Order"
+      "value": "CookBook"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Storm"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 1.924818,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/049.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/049.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 1.85913,
+  "seed": 871004
 }

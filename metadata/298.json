@@ -5,27 +5,35 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Doughnut"
+      "value": "Chocolate Chip Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "M Power Legendary"
+      "value": "Cookboy Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Clueless"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smirk"
+      "value": "Tasty"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Shiba Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "AR-47"
     },
     {
       "trait_type": "Sticker",
-      "value": "Morsel"
+      "value": "L"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +41,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 2.224648,
-  "seed": 871003
+  "selection_score": 2.28788,
+  "seed": 871004
 }

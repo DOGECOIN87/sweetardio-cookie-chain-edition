@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #184",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/184.png",
+  "animation_url": "../animations/184.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Gold Waffle"
+      "value": "Marshmallow"
     },
     {
       "trait_type": "Background",
-      "value": "Sarv Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +18,23 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Awkward Smile"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Printer"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Chat"
+      "value": "Morsel"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Fog"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +42,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.697559,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/184.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/184.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.35039,
+  "seed": 871004
 }

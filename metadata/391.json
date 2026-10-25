@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Brownie Bite"
+      "value": "Glazed Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Liberty Cookie Dime"
+      "value": "Tenders Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Smirk"
     },
     {
       "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Gorbhouse Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookboy"
+      "value": "Nightly Wallet"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 2.938136,
-  "seed": 871003
+  "selection_score": 1.77283,
+  "seed": 871004
 }

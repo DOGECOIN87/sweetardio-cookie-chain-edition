@@ -5,31 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Zebra Cake"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Short The Banks Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Chat"
+      "value": "Nyancat"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +33,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.508819,
-  "seed": 871003
+  "selection_score": 2.1143,
+  "seed": 871004
 }

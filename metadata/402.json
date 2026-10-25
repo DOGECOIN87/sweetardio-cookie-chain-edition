@@ -2,34 +2,39 @@
   "name": "Cookie Chain Edition #402",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/402.png",
+  "animation_url": "../animations/402.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Glazed Doughnut"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Smirk"
     },
     {
       "trait_type": "Arms",
-      "value": "Printer"
+      "value": "Nerf Blaster"
     },
     {
       "trait_type": "Sticker",
-      "value": "Morsel"
+      "value": "MomoSwap"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Fog"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +45,19 @@
       "value": "Rare"
     }
   ],
-  "selection_score": 3.342635,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/402.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/402.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 1.81551,
+  "seed": 871004
 }

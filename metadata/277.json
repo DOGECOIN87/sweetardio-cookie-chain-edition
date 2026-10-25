@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Pink Sherbert Ice Cream"
+      "value": "Twinkie"
     },
     {
       "trait_type": "Background",
-      "value": "Liberty Cookie Dime"
+      "value": "Fairdevs Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "AK-15"
     },
     {
       "trait_type": "Sticker",
-      "value": "Out of Order"
+      "value": "MomoSwap"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 2.82403,
-  "seed": 871003
+  "selection_score": 2.74913,
+  "seed": 871004
 }

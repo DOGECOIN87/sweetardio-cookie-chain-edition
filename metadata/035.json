@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Brownie Bite"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
@@ -21,11 +21,19 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
+      "value": "Diamond Grill"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Cookie Monster Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Nerf Blaster"
     },
     {
       "trait_type": "Sticker",
-      "value": "Baked Bazaar"
+      "value": "Nyancat"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +41,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.078458,
-  "seed": 871003
+  "selection_score": 0.98606,
+  "seed": 871004
 }

@@ -2,30 +2,35 @@
   "name": "Cookie Chain Edition #256",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/256.png",
+  "animation_url": "../animations/256.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Ding Dong"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Gold"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "Out of Order"
+      "value": "Baked Bazaar"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Storm"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.399255,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/256.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/256.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 1.92924,
+  "seed": 871004
 }

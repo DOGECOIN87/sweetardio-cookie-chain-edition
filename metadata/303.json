@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #303",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/303.png",
+  "animation_url": "../animations/303.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Sandwich Cookie"
+      "value": "Vanilla Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "Moon Surface"
+      "value": "Cookboy Black Enamel"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Lollipop"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Shiba Slippers"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookieScan"
+      "value": "Cookie Quads"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Snow"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.72733,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/303.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/303.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.40834,
+  "seed": 871004
 }

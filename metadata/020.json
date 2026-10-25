@@ -5,27 +5,27 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Sherbert Ice Cream"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Sarv Legendary"
+      "value": "GorWeld Legendary"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Cerise"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Awkward Smile"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Chat"
+      "value": "Nyancat"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.552308,
-  "seed": 871003
+  "selection_score": 1.98018,
+  "seed": 871004
 }

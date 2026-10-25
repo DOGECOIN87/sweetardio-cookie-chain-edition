@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #141",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/141.png",
+  "animation_url": "../animations/141.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Glazed Doughnut"
+      "value": "Chocolate Ice Cream"
     },
     {
       "trait_type": "Background",
-      "value": "GorWeld Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -17,19 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Alien"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
-    },
-    {
-      "trait_type": "Footwear",
-      "value": "Pepe Slippers"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "Cookiebox"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Fog"
     },
     {
       "trait_type": "Edition",
@@ -40,6 +41,19 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 2.681803,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/141.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/141.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 1.66912,
+  "seed": 871004
 }

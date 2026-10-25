@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #053",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/053.png",
+  "animation_url": "../animations/053.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Neapolitan Ice Cream"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "M Power Legendary"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
@@ -21,11 +22,15 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Smoke"
+      "value": "Fang"
     },
     {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "Cookie Quads"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Rain"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Core"
     }
   ],
-  "selection_score": 3.469661,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/053.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/053.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 1.90262,
+  "seed": 871004
 }

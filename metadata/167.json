@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Ice Cream"
+      "value": "Zebra Cake"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Gold"
+      "value": "GorWeld Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,15 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Cerise"
+      "value": "Side Eye"
     },
     {
       "trait_type": "Mouth",
-      "value": "Fang"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "CookieScan"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.125085,
-  "seed": 871003
+  "selection_score": 2.11512,
+  "seed": 871004
 }

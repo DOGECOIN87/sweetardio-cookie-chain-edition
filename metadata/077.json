@@ -2,30 +2,43 @@
   "name": "Cookie Chain Edition #077",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/077.png",
+  "animation_url": "../animations/077.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Glazed Doughnut"
+      "value": "Chocolate Chip Cookie"
     },
     {
       "trait_type": "Background",
-      "value": "Cookboy Legendary"
+      "value": "Picnic Stage"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Black"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyan"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Fang"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Pepe Slippers"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Nerf Blaster"
     },
     {
       "trait_type": "Sticker",
-      "value": "CookBook"
+      "value": "Morsel"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Rain"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +46,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Legendary Chase"
     }
   ],
-  "selection_score": 3.971366,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/077.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/077.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.35187,
+  "seed": 871004
 }

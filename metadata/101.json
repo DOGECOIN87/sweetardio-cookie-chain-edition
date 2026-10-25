@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Rice Crispy Treat"
+      "value": "Chocolate Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Sarv Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Awkward Smile"
+      "value": "Flat"
+    },
+    {
+      "trait_type": "Footwear",
+      "value": "Gorbhouse Slippers"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Chat"
+      "value": "CookBook"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +40,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.382258,
-  "seed": 871003
+  "selection_score": 0.35174,
+  "seed": 871004
 }

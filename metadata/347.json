@@ -2,10 +2,11 @@
   "name": "Cookie Chain Edition #347",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/347.png",
+  "animation_url": "../animations/347.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Vanilla Ice Cream"
+      "value": "Zebra Cake"
     },
     {
       "trait_type": "Background",
@@ -17,15 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Smug"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Smirk"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookiebox"
+      "value": "MomoSwap"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Blizzard"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +38,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.042562,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/347.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/347.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.57722,
+  "seed": 871004
 }

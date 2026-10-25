@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Cyan Frosted Pop Tart"
+      "value": "Nutty Bar"
     },
     {
       "trait_type": "Background",
-      "value": "Liberty Cookie Dime"
+      "value": "Cookboy Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +17,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Googly"
+      "value": "Blue"
     },
     {
       "trait_type": "Mouth",
-      "value": "Tasty"
+      "value": "Fang"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Printer"
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Chat"
+      "value": "Out of Order"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.411383,
-  "seed": 871003
+  "selection_score": 1.78166,
+  "seed": 871004
 }

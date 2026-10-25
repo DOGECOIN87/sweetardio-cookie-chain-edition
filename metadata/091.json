@@ -5,11 +5,11 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "OG Pop Tart"
+      "value": "Sugar Cube"
     },
     {
       "trait_type": "Background",
-      "value": "Morsel Legendary"
+      "value": "Shubbi Legendary"
     },
     {
       "trait_type": "Skin",
@@ -17,7 +17,7 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Side Eye"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
@@ -25,7 +25,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "Candy Shop"
+      "value": "MomoSwap"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +36,6 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.378734,
-  "seed": 871003
+  "selection_score": 2.07921,
+  "seed": 871004
 }

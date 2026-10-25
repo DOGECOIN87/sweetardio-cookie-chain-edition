@@ -5,15 +5,15 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Chip Cookie"
+      "value": "Ding Dong"
     },
     {
       "trait_type": "Background",
-      "value": "Picnic Stage"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
@@ -21,7 +21,7 @@
     },
     {
       "trait_type": "Mouth",
-      "value": "Sad"
+      "value": "Diamond Grill"
     },
     {
       "trait_type": "Footwear",
@@ -29,7 +29,7 @@
     },
     {
       "trait_type": "Sticker",
-      "value": "Cookie Chat"
+      "value": "Candy Shop"
     },
     {
       "trait_type": "Edition",
@@ -37,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Uncommon"
     }
   ],
-  "selection_score": 3.392312,
-  "seed": 871003
+  "selection_score": 0.79888,
+  "seed": 871004
 }

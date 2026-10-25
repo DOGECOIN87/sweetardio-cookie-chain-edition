@@ -5,27 +5,31 @@
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Sugar Cube"
+      "value": "Sugar Doughnut"
     },
     {
       "trait_type": "Background",
-      "value": "Short The Banks Legendary"
+      "value": "Cookboy Chocolate"
     },
     {
       "trait_type": "Skin",
-      "value": "White"
+      "value": "Alien"
     },
     {
       "trait_type": "Eyes",
-      "value": "Blue"
+      "value": "Googly"
     },
     {
       "trait_type": "Mouth",
       "value": "Diamond Grill"
     },
     {
+      "trait_type": "Arms",
+      "value": "Printer"
+    },
+    {
       "trait_type": "Sticker",
-      "value": "Real as a Doughnut"
+      "value": "Cookie MCP"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +37,9 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Uncommon"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.404965,
-  "seed": 871003
+  "selection_score": 1.88217,
+  "seed": 871004
 }

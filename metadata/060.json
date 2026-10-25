@@ -2,30 +2,39 @@
   "name": "Cookie Chain Edition #060",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/060.png",
+  "animation_url": "../animations/060.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Chocolate Doughnut"
+      "value": "OG Gummy Bear"
     },
     {
       "trait_type": "Background",
-      "value": "Cookie Dough"
+      "value": "Liberty Cookie Dime"
     },
     {
       "trait_type": "Skin",
-      "value": "Black"
+      "value": "White"
     },
     {
       "trait_type": "Eyes",
-      "value": "Cyborg"
+      "value": "Beady"
     },
     {
       "trait_type": "Mouth",
-      "value": "Flat"
+      "value": "Smoke"
+    },
+    {
+      "trait_type": "Arms",
+      "value": "Nerf Blaster"
     },
     {
       "trait_type": "Sticker",
-      "value": "Chibi Monster"
+      "value": "CookBook"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Blizzard"
     },
     {
       "trait_type": "Edition",
@@ -33,9 +42,22 @@
     },
     {
       "trait_type": "Rarity",
-      "value": "Core"
+      "value": "Rare"
     }
   ],
-  "selection_score": 3.606844,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/060.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/060.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 2.02472,
+  "seed": 871004
 }

@@ -2,14 +2,15 @@
   "name": "Cookie Chain Edition #259",
   "description": "One of 444 Cookie Chain Edition collectibles.",
   "image": "../images/259.png",
+  "animation_url": "../animations/259.mp4",
   "attributes": [
     {
       "trait_type": "Character",
-      "value": "Vanilla Ice Cream"
+      "value": "Churro"
     },
     {
       "trait_type": "Background",
-      "value": "GorWeld Legendary"
+      "value": "Cookie Dough"
     },
     {
       "trait_type": "Skin",
@@ -17,15 +18,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Smug"
+      "value": "Clueless"
     },
     {
       "trait_type": "Mouth",
-      "value": "Diamond Grill"
+      "value": "Lollipop"
     },
     {
       "trait_type": "Sticker",
-      "value": "MomoSwap"
+      "value": "Nightly Wallet"
+    },
+    {
+      "trait_type": "Weather",
+      "value": "Flooded"
     },
     {
       "trait_type": "Edition",
@@ -36,6 +41,19 @@
       "value": "Uncommon"
     }
   ],
-  "selection_score": 3.407604,
-  "seed": 871003
+  "properties": {
+    "files": [
+      {
+        "uri": "../images/259.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "../animations/259.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  },
+  "selection_score": 1.997,
+  "seed": 871004
 }
