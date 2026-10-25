@@ -1,7 +1,7 @@
 # Building the 444 from the Rarity Board
 
 The Rarity Board's **Save configuration** button gives you a script to paste
-into a terminal. It clones this branch, writes the board's settings to
+into a terminal. It clones the `main` branch, writes the board's settings to
 `scripts/board.json`, and then:
 
 1. `scripts/build_cookie_chain.py plan --reuse --board scripts/board.json --free sticker,arm,mouth`
@@ -23,5 +23,6 @@ be absolute: they change directory into `compositor/` at startup.
 | `compositor/` | the Sweetardio compositor and figure art, vendored from DOGECOIN87/Sweetardio_Collection |
 | `plan.json` | the last selection made (re-written by step 1) |
 
-`images/` and `metadata/` at the top level are the earlier release and are not
-touched by the build.
+`images/` and `metadata/` at the top level are the finished collection, built
+from the Rarity Board's current settings. A build you run yourself goes to
+`output/` instead (git ignores it), so it can never overwrite them by accident.
